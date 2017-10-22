@@ -10,7 +10,7 @@ console.log(text.substring(5)); // "is a string"
 console.log(text.substring(12)); // "ring"
 ```
 
-Build a function that takes a string as an argument and make it console log the string in an "echoed" way like this (given the input "hello"
+Build a function that takes a string as an argument and make it console log the string in an "echoed" way like this (given the input "hello")
 
 ```
 // hello
@@ -46,8 +46,9 @@ Or "græskar"
 ## Step 2: **FreeCodeCamp challenges:**
 
 ### Step 2a Exercises (10 hours)
+(The most important exercises are highlighted in bold)
 - [Comment your JavaScript Code](https://www.freecodecamp.org/challenges/comment-your-javascript-code)
-- Declare JavaScript Variables
+- **Declare JavaScript Variables**
 - Storing Values with the Assignment Operator
 - Initializing Variables with the Assignment Operator
 - Understanding Uninitialized Variables
@@ -77,7 +78,7 @@ Or "græskar"
 - Appending Variables to Strings
 - Find the Length of a String
 - Use Bracket Notation to Find the First Character in a String
-- Understand String Immutability
+- **Understand String Immutability**
 - Use Bracket Notation to Find the Nth Character in a String
 - Use Bracket Notation to Find the Last Character in a String
 - Use Bracket Notation to Find the Nth-to-Last Character in a String
@@ -86,26 +87,26 @@ Or "græskar"
 - Nest one Array within Another Array
 - Access Array Data with Indexes
 - Modify Array Data With Indexes
-- Access Multi-Dimensional Arrays With Indexes
+- **Access Multi-Dimensional Arrays With Indexes**
 - Manipulate Arrays With push()
 - Manipulate Arrays With pop()
 - Manipulate Arrays With shift()
 - Manipulate Arrays With unshift()
 - Shopping List
-- Write Reusable JavaScript with Functions
+- **Write Reusable JavaScript with Functions**
 - Passing Values to Functions with Arguments
 - Global Scope and Functions
 - Local Scope and Functions
-- Global vs. Local Scope in Functions
+- **Global vs. Local Scope in Functions**
 - Return a Value from a Function with Return
 - Assignment with a Returned Value
 - Stand in Line
 - Understanding Boolean Values
-- Use Conditional Logic with If Statements
+- **Use Conditional Logic with If Statements**
 - Comparison with the Equality Operator
 - Comparison with the Strict Equality Operator
 - Comparison with the Inequality Operator
-- Comparison with the Strict Inequality Operator
+- **Comparison with the Strict Inequality Operator**
 - Comparison with the Greater Than Operator
 - Comparison with the Greater Than Or Equal To Operator
 - Comparison with the Less Than Operator
@@ -120,7 +121,7 @@ Or "græskar"
 - Selecting from many options with Switch Statements
 - Adding a default option in Switch statements
 - Multiple Identical Options in Switch Statements
-- Replacing If Else Chains with Switch
+- **Replacing If Else Chains with Switch**
 - Returning Boolean Values from Functions
 - Return Early Pattern for Functions
 - Counting Cards
@@ -133,7 +134,7 @@ Or "græskar"
 - Delete Properties from a JavaScript Object
 - Using Objects for Lookups
 - Testing Objects for Properties
-- Manipulating Complex Objects
+- **Manipulating Complex Objects**
 - Accessing Nested Objects
 - Accessing Nested Arrays
 - Iterate with JavaScript For Loops
