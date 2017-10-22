@@ -1,170 +1,72 @@
-## Step 1: Echo a string - warm up exercise (1 hour)
+## Homework Week 3
 
-Go read the [javascript documentation on Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring) about the substring method and how to apply it to strings.
+>[Here](/Week3/README.md) you find the readings you have to complete before the fourth lecture.
 
-Here is a quick example to get you started:
-```
-let text = "This is a string";
-console.log(text.substring(2)); // "is is a string"
-console.log(text.substring(5)); // "is a string"
-console.log(text.substring(12)); // "ring"
-```
+## Step 0 review:
+- Go through the review of [the first week](/Week1/REVIEW.md) (Work in progress, update this week :wrench:)
+- Go through the review of [the second week](/Week2/REVIEW.md) (work in progress, update this week :nut_and_bolt:)
+- Go through the review of [the third week](/Week3/REVIEW.md) 
 
-Build a function that takes a string as an argument and make it console log the string in an "echoed" way like this (given the input "hello")
+## Step 1: Implement feedback
 
-```
-// hello
-// ello
-// llo
-// lo
-// o
-```
+Your fellow students have provided you with feedback in Trello. Your teachers have provided you with feedback in issues in Github. 
 
-Given another string ("pizza")
+- Implement both feedback from Trello and Github.
+- Check on one of your fellow students code and issues and see if her or she implemented their feedback correctly. If there are some things that can be improved make an issue suggesting further improvements. If you think that the feedback has been implemented correctly create a issue saying something like: "nice work you can clear your issues".
 
-```
-// pizza
-// izza
-// zza
-// za
-// a
-```
-
-Or "græskar"
-
-```
-// græskar
-// ræskar
-// æskar
-// skar
-// kar
-// ar
-// r
-```
-
-
-## Step 2: **FreeCodeCamp challenges:**
-
-### Step 2a Exercises (10 hours)
-(The most important exercises are highlighted in bold)
-- [Comment your JavaScript Code](https://www.freecodecamp.org/challenges/comment-your-javascript-code)
-- **Declare JavaScript Variables**
-- Storing Values with the Assignment Operator
-- Initializing Variables with the Assignment Operator
-- Understanding Uninitialized Variables
-- Understanding Case Sensitivity in Variables
-- Add Two Numbers with JavaScript
-- Subtract One Number from Another with JavaScript
-- Multiply Two Numbers with JavaScript
-- Divide One Number by Another with JavaScript
-- Increment a Number with JavaScript
-- Decrement a Number with JavaScript
-- Create Decimal Numbers with JavaScript
-- Multiply Two Decimals with JavaScript
-- Divide one Decimal by Another with JavaScript
-- Finding a Remainder in JavaScript
-- Compound Assignment With Augmented Addition
-- Compound Assignment With Augmented Subtraction
-- Compound Assignment With Augmented Multiplication
-- Compound Assignment With Augmented Division
-- Convert Celsius to Fahrenheit
-- Declare String Variables
-- Escaping Literal Quotes in Strings
-- Quoting Strings with Single Quotes
-- Escape Sequences in Strings
-- Concatenating Strings with Plus Operator
-- Concatenating Strings with the Plus Equals Operator
-- Constructing Strings with Variables
-- Appending Variables to Strings
-- Find the Length of a String
-- Use Bracket Notation to Find the First Character in a String
-- **Understand String Immutability**
-- Use Bracket Notation to Find the Nth Character in a String
-- Use Bracket Notation to Find the Last Character in a String
-- Use Bracket Notation to Find the Nth-to-Last Character in a String
-- Word Blanks
-- Store Multiple Values in one Variable using JavaScript Arrays
-- Nest one Array within Another Array
-- Access Array Data with Indexes
-- Modify Array Data With Indexes
-- **Access Multi-Dimensional Arrays With Indexes**
-- Manipulate Arrays With push()
-- Manipulate Arrays With pop()
-- Manipulate Arrays With shift()
-- Manipulate Arrays With unshift()
-- Shopping List
-- **Write Reusable JavaScript with Functions**
-- Passing Values to Functions with Arguments
-- Global Scope and Functions
-- Local Scope and Functions
-- **Global vs. Local Scope in Functions**
-- Return a Value from a Function with Return
-- Assignment with a Returned Value
-- Stand in Line
-- Understanding Boolean Values
-- **Use Conditional Logic with If Statements**
-- Comparison with the Equality Operator
-- Comparison with the Strict Equality Operator
-- Comparison with the Inequality Operator
-- **Comparison with the Strict Inequality Operator**
-- Comparison with the Greater Than Operator
-- Comparison with the Greater Than Or Equal To Operator
-- Comparison with the Less Than Operator
-- Comparison with the Less Than Or Equal To Operator
-- Comparisons with the Logical And Operator
-- Comparisons with the Logical Or Operator
-- Introducing Else Statements
-- Introducing Else If Statements
-- Logical Order in If Else Statements
-- Chaining If Else Statements
-- Golf Code
-- Selecting from many options with Switch Statements
-- Adding a default option in Switch statements
-- Multiple Identical Options in Switch Statements
-- **Replacing If Else Chains with Switch**
-- Returning Boolean Values from Functions
-- Return Early Pattern for Functions
-- Counting Cards
-- Build JavaScript Objects
-- Accessing Objects Properties with the Dot Operator
-- Accessing Objects Properties with Bracket Notation
-- Accessing Objects Properties with Variables
-- Updating Object Properties
-- Add New Properties to a JavaScript Object
-- Delete Properties from a JavaScript Object
-- Using Objects for Lookups
-- Testing Objects for Properties
-- **Manipulating Complex Objects**
-- Accessing Nested Objects
-- Accessing Nested Arrays
-- Iterate with JavaScript For Loops
-- Iterate Odd Numbers With a For Loop
-- Count Backwards With a For Loop
-- Iterate Through an Array with a For Loop
-- Nesting For Loops
-- Iterate with JavaScript While Loops
-- Profile Lookup
-- Generate Random Fractions with JavaScript
-- Generate Random Whole Numbers with JavaScript
-- Generate Random Whole Numbers within a Range
-- Sift through Text with Regular Expressions
-- Find Numbers with Regular Expressions
-- Find Whitespace with Regular Expressions
-- Invert Regular Expression Matches with JavaScript
-
-### Step 2b challenges (15 hours)
-Under the 'Basic Algorithm Scripting'-section complete the following challenges:
-- [Get Set for our Algorithm Challenges](https://www.freecodecamp.org/challenges/get-set-for-our-algorithm-challenges)
-- Reverse a String
-- Check for Palindromes
-- Find the Longest Word in a String
-- Title Case a Sentence
-- Return Largest Numbers in Arrays
-- Confirm the Ending
-
-## Step 3: Reorganize your Github (2 hours)
+## Step 2: Reorganize your Github 
 
 Your Github should contain two repositories called hyf-javascript1 and hyf-commandline . Inside the JavaScript repository you should have three folders, called week1, week2, and week3 (or something similar). Inside these folders you should have the different assignments (a file per exercises). Ty and find proper names for the exercises that reflect somehow what is going on in the code. Avoid using spaces in your file names, this makes it harder to "run" you files. Also make sure that all your JavaScript files have a .js extension.
+
+## Step 3: Custom DOM manipulation challenge :mortar_board:
+
+1. Open a new js file and start by declaring an array that contains 10 strings. These strings should be of book titles you have read (or made up) and be lowercase without spaces or special characters so that you can use these later as Id's. (Example: Harry Potter's - The Chamber of Secrets -> `harry_potter_chamber_secrets`). 
+
+2. Create a basic html file called index.html and use it to load the js file, confirm the console.log show the array. (This is for debugging and making sure everything is in order. Delete it later when you're done :))
+
+3. Make a function (or functions) that generate a `ul` with `li` elements for each book ID in the array using a for loop. 
+
+4. Make an object containing information for each book. Each item (object) in this object should have the book ID you thought up in point 1 as a key, and it should have at least the following fields: title, language and author. 
+
+5. Now change the function you used to display the book ID's in a list to take the actual information about the book from the object and display that. Make sure you choose the right html elements for each piece of info, for instance, a heading for the title.
+
+6. Beautify your html page with css, add sources and alts to each of the images.
+ 
+7. Download book covers for each book, construct a new Object which has as keys the bookId's again, and as value the path to the image source (e.g. `{"harry_potter_blabla": "./img/harry_potter_blabla.jpg", ...}`). Now loop over these entries (_hint: `Object.keys(objectName)` gives you an array containing the keys_). Then write a function which places an image at the corresponding `li` element. Remember that Objects are not ordered, so you cannot guarantee that the first key is the first `li` element. (_Hint: you could give each `li` item an `id` tag by modifying the function you made before_)
+
+```
+How to hand in your homework:
+• Upload your homework in your "hyf-javascript1" Github repository. Make sure to create a new folder "week3" first. 
+• Upload your homework files inside the week3 folder and write a description for this “commit”.
+• Your hyf-javascript1/week3 should now contain an index.html, main.css and a script.js file (and the images folder)
+• Place the link to your repository folder in Trello.
+```
+
+## Step 4: **FreeCodeCamp challenges:**
+
+- https://www.freecodecamp.com/challenges/declare-javascript-objects-as-variables
+- https://www.freecodecamp.com/challenges/make-instances-of-objects-with-a-constructor-function
+- https://www.freecodecamp.com/challenges/make-unique-objects-by-passing-parameters-to-our-constructor
+- https://www.freecodecamp.com/challenges/make-object-properties-private
+
+
+And just for fun ... https://www.freecodecamp.com/challenges/sum-all-numbers-in-a-range
+
+### :boom: Bonus homework :boom:
+the Bonus homework for this week (for those of you want an extra challenge) do the following:
+
+- Sign up on codewars.com
+- In you account setting under “clan” write “Hack Your Future” 
+- Go do the challenges in the following playlist: https://www.codewars.com/collections/fun-fun-fundamentals
+
+Codewars is really a lot of fun, and you can compete against each other who has the most points :trollface:
+it’s a great way to really practice JavaScript a lot in various problems.
+
+Please note, there are various challenges all sorted on difficultly called KIU. Kiu 8 is the easiest, Kiu 1 is the hardest, we expect you to do challenges around level 8, 7 maybe.
+
+enjoy!
+
+:star: Additional resources and review: [here](/Week3/REVIEW.md) (work in progress):star:
 
 
 
