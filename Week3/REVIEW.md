@@ -2,202 +2,203 @@
 
 ```
 This review covers:
-• More CLI
-• Scope, closures and 'this'
 • Array Manipulations 
 • Basic DOM manipulations
-• Code commenting
 ```
 
-## More CLI
-Check out the CLI review here: https://github.com/HackYourFuture/CommandLine/blob/master/Lecture-2.md
+## Arrays
 
-## Scope, closures and 'this'
-Scope, closure and 'this' are about *context*. 
-
-This post explains things really well: [Recommended read by Todd Motto on Scope](https://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/)
-
-In this review we won't go over how JavaScript implements scope. We would just be rewriting the above post by Todd Motto.
-
-Instead, let's focus on a couple of important **words** that are used in explaining scope. Understanding the JavaScript side of things can be difficult if we don't fully understand these words. 
-
-### How to think about context?
-Consider the following sentences: 
-> Eyad is a great cook. *He* loves to make ravioli.
-
-> Gijs is a great cook. *He* loves to make ravioli. 
-
-In both cases, the second sentence is the exact same. However, the word *he* refers to a completely different person. He is defined by the context.
-
-A second example:
-> *He* loves to make ravioli.
-
-Now, when this sentence is written down without *he* being defined in the context, the sentence doesn't make any sense. 
-
-### Context in programming:
-A JavaScript example: 
-```js
-function myFunction() {
-	const a = 'ravioli'
-	console.log(a)
-}
-```
+Lets create a new array and print it out
 
 ```js
-function myFunction() {
-	console.log(a)
-}
+const firstArray = ['milk', 'sugar', 'butter', 'flour', 'eggs'];
+
+console.log(firstArray);
+
+// get the last element of the array using array index
+// Remember the index starts at 0.
+const lastElementHardCoded = firstArray[4];
+
+// This is smarter as we can add elements to the firstArray 
+// and still get the right last element
+const lastElement = firstArray[firstArray.length - 1];
 ```
 
-In both cases, `console.log(a)` is the exact same. However, the context defines the value of a and whether it is defined at all. 
 
-### The Scope of the Context 
-Let's first look at a definition of `scope`
-> (1) the extent of the area or subject matter that something deals with or to which it is relevant.
-> (2) the opportunity or possibility to do or deal with something.
+## Adding and removing elements from array
 
-So in words more applicable to our situation scope means:
-> code that is within the reach of our code. 
+We can add and remove elements from an array in 4 ways:
 
-Consider two completely different JavaScript files
-```js
-// aFile.js
-const a = 10
-```
+Push: Adds a new element to the back of the array
+Pop: Removes an element from the back of the array
+Unshift: Adds a new element to the front of the array
+Shift: Removes a new element from the front of the array
 
-```js
-// anotherFile.js
-console.log(a)
-```
-
-When we run these files separately, the `console.log(a)` statement in anotherFile.js of course cannot reach `var a = 10`. Why? It is beyond the scope of our context. When we run a file in JavaScript, the program creates a new top-level context we call the global scope.
-
-From now on, we'll call 'scoped context' simply 'scope'.
-
-### Creating Scope within a Program
-Just like two programs have an completely different scope, we can also create different scopes within a program. We do the same in our language:
-> Eyad is a great cook. *He* loves to make ravioli. Gijs is great at finding the best ingredients. *He* has a real nose for it.
-
-At school one learns that *he* will refer to the last masculine subject introduced to the text. There are rules constraining this. In programming we rely a lot on context, and the rules are more strict than in natural language.
-
-There are *five different ways* we can create a new context in JavaScript:
-- The global context (as we already saw)
-- The simple function context 
-- The object construction context 
-- The object method context
-- The event listener context
-
-More info on this [in this great post](https://zellwk.com/blog/this/)
-
-## Array Manipulation
-[MDN on Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-As we know by now, arrays are collections of values. 
-
-As we will see, there are often many ways to achieve the same thing when working arrays. Over time, you will add different techniques to your mental toolbox to achieve the result you want quickly. 
-
-The basics. 
-
-- How do we create an array?
-- How do we add items to an array?
-- How do we change items of an array?
-- How do we remove items from an array?
-- How do we know the length of an array?
-- How do we iterate over an array?
-
-
-### How do we create an array?
-An array can be created multiple ways 
-
-From scratch: 
-```js
-const a = [] // result: []
-const b = ['item1', 'item2'] // result: ['item1', 'item2']
-const c = new Array() // result: []
-const d = new Array('item 1', 'item2') // result: ['item1', 'item2']
-const e = new Array(20) // result: [ <20 empty items> ]
-const f = new Array(20, 21) // result: [20, 21]
-// Note that `e` and `f` are a beautiful example of how weird and unexpected JavaScript can be. You will probably use `a` most often.
-```
-
-From value (as an example, many ways to create an array from another value):
-```js
-const a = 'hello world' // result: 'hello world'
-const b = a.split(' ') // result:  ['hello', 'world' ]
-```
-
-### Array length
-Every array has as a 'static' property `length`. Meaning that we can easily get the amount of items in an array.
-```js
-const f = ['hi','there']
-console.log(f.length) // 2
-```
-
-### Array index
-We can access array elements through the position of the element in the array. This is called an index. Indices (plural of index) are 0-based, meaning that the first item's index is 0, the second element is 1.
+Remember the rule: Shifting changes the first element of the array (it works in the front of the array). pop and push works in the back of the array. And the word push is longer than pop, so it makes the array longer. The same with shift and unshift. 
 
 ```js
-const x = ['first', 'second', 'third']
-console.log(x[0]) // 'first'
+// lets keep using firstArray:
 
-x[3] = 'fourth'
+firstArray.push('pizza');
+console.log(firstArray) // logs: ['milk', 'sugar', 'butter', 'flour', 'eggs', 'pizza']
+
+firstArray.pop();
+console.log(firstArray) // logs: ['milk', 'sugar', 'butter', 'flour', 'eggs']
+
+firstArray.unshift('bagel');
+console.log(firstArray) // logs: ['bagel', 'milk', 'sugar', 'butter', 'flour', 'eggs']
+
+firstArray.shift();
+console.log(firstArray) // logs: ['milk', 'sugar', 'butter', 'flour', 'eggs']
+
 ```
 
-Note that arrays can have empty values. This should be avoided usually to prevent unexpected behaviour. 
+
+
+## Array methods filter, map and sort
+
+### Filter
+
+The filter function works on arrays and it filters out elements in our array. 
+It takes a function as input. This function is called on every element in the array. Just like forEach. If this function we create returns true the element is saved in the, if we return false the element is filtered out.
+
+
 ```js
-x[10] = 'eleventh'
-console.log(x) // [ 'first',  'second',  'third',  'fourth',  <6 empty items>,  'eleventh' ]
+// lets first create an array of three cars
+
+const cars = [
+    {
+        make: 'Volvo',
+        speed: 45,
+        color: 'lightYellow',
+    },
+    {
+        make: 'BMW',
+        speed: 87,
+        color: 'lightBlue',
+    },
+    {
+        make: 'Fiat',
+        speed: 78,
+        color: 'lightCyan',
+    }
+];
+
+// Lets get only cars with a speed larger than 60
+const fastCars = cars.filter(function(car) {
+    // This function is called for every car in the cars array
+    if (car.speed > 60) {
+        // save the car
+        return true;
+    } else if (car.speed <= 60) {
+        // filter out the cars that are slower than 60
+        return false;
+    }
+});
+
+console.log(fastCars); // logs the BMW and the Fiat
 ```
 
-Next to the index, we have a wide range of tools to manipulate arrays.
-
-### Array methods
-These  methods are essential. 
-
-**Extremely important is to remember to always ask these two questions**:
-• What is the return value of this method?
-• What does this method do to the original array it is used on?
-
-**Adding items**
-• [`.push()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push) Add item to end of array
-• [`.unshift()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift) Add item to beginning of array
-
-**Removing items**
-• [`.shift()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push) Remove first element from array
-• [`.pop()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop) Remove last element from array
-• [`.splice()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) Remove a specific element from array using index
-
-**Useful iterators over arrays**
-• [`.map()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)  creates a new array with the results of calling a provided function on every element in the calling array.
-• [`.filter()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) creates a new array with all elements that pass the test implemented by the provided function.
-• [`.sort()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) sorts the elements of an array in place and returns the array
 
 
-## Basic DOM manipulations
-Using JavaScript we can access and manipulate the Document Object Model (DOM). We access the DOM through a global object called `document`. 
+### Map
 
-HTML 
+The map function works on arrays. It maps (think transform) the elements of an array. Or from MDN: "The map() method creates a new array with the results of calling a provided function on every element in the calling array."
+
+
+```js
+// lets use the same cars array
+
+// Lets transfrom it from an array of car objects to an array of car colors
+const carColors = cars.map(function(car) {
+    return car.color;
+});
+
+console.log(carColors); // ['lightYellow', 'lightBlue', 'lightCyan']
+
+const carSpeeds = cars.map(function(car) {
+    return car.speed;
+});
+
+console.log(carSpeeds); // [45, 87, 78]
+```
+
+
+### Sort
+
+The sort function works on arrays. It sorts the elements of the array.
+To see details see here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+
+```js
+// lets use the same cars array
+
+// Lets sort the cars after speed ascending
+const sortedCars = cars.sort(function(a, b) {
+    return a.speed - b.speed;
+});
+
+console.log(sortedCars); // it will return an array with the BMW object first, then the fiat and then the volvo
+```
+
+
+## Further useful array functions
+
+IndexOf finds the index of an element in the array
+Slice creates a subset of an array
+Reverse reverses an array
+
+```js
+const firstArray = ['milk', 'sugar', 'butter', 'flour', 'eggs'];
+
+console.log(firstArray.indexOf('sugar')); // 1
+
+console.log(firstArray.slice(0, 2)); // ['milk', 'sugar']
+
+console.log(firstArray.reverse()); // [, 'eggs', 'flour', 'butter' ,'sugar', 'milk']
+```
+
+
+## HTML interaction
+
+Interacting with the HTML DOM is done through the document object in the browser. With the document object we can get html elements and change them.
+
+
+For the next js part we use this html.
+
 ```html
-<body>
-	<div id="hello"></div>
-</body>
+<html>
+    <body>
+        <h1>
+            Javascript week 3
+        </h1>
+        <div class="queue"></div>
+        <div id="test-id"></div>
+        <script src="js/review.js"></script>
+    </body>
+</html>
 ```
 
-A common method to access the DOM is by giving a HTML element an ID, and then using the `document` method `getElementById()`
 
 ```js
-const x = document.getElementById('hello')
-```
+// use the querySelector to select elements just like in css
+const testIdElement = document.querySelector('#test-id');
+console.log(testIdElement); // logs the html element with id "test-id"
 
-Now we have stored a *reference* of how that HTML element is accessed through the DOM object. We can use this to manipulate the element.
+// Change the inner html of the test-id element
+testIdElement.innerHTML = 'test';
+// Change the background-color of the test-id element. Inline css changes is done via the style attribute on the element
+testIdElement.style.backgroundColor = 'blue';
 
-```js
-x.innerHTML = 'hello'
-```
 
-We can also create elements
-```js
-const a = document.createElement('li')
-x.appendChild(a)
+// It is also possible to create html elements
+// Create a div element
+const div = document.createElement('div');
+// Change its inner html
+div.innerHTML = 'We created this div!!!';
+
+// Lest append it to the div with the class queue
+const queueDiv = document.querySelector('.queue');
+queueDiv.appendChild(div);
 ```
 
 
