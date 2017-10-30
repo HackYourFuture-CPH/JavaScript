@@ -2,23 +2,30 @@
 
 >[Here](/Week3/README.md) you find the readings you have to complete before the fourth lecture.
 
-## Step 0 review:
-- Go through the review of [the first week](/Week1/REVIEW.md) (Work in progress, update this week :wrench:)
-- Go through the review of [the second week](/Week2/REVIEW.md) (work in progress, update this week :nut_and_bolt:)
-- Go through the review of [the third week](/Week3/REVIEW.md) 
+## Step 1: Lets get real comfortable with map, filter and sort.
 
-## Step 1: Implement feedback
+As we have done before use the carGenerator function to generate 10 cars.
 
-Your fellow students have provided you with feedback in Trello. Your teachers have provided you with feedback in issues in Github. 
+Create the following arrays:
 
-- Implement both feedback from Trello and Github.
-- Check on one of your fellow students code and issues and see if her or she implemented their feedback correctly. If there are some things that can be improved make an issue suggesting further improvements. If you think that the feedback has been implemented correctly create a issue saying something like: "nice work you can clear your issues".
+1.1: Cars with speeds between 30 and 60
+1.2: Car makes of the cars that are not lightyellow, so the array is going to look like this: ['BMW', 'Fiat'] etc
+1.3: Cars sorted descending (fast first) where the color is lightgreen and the speed is lower than 80. Now get the index of the first BMW
+1.4: Lets change the cars array so it can be read by a danish person. Return an array of objects where the key in the object called speed is called fart (danish for speed), the make is called maerke and the color is called farve. The out put will look kind of like this:
 
-## Step 2: Reorganize your Github 
+```js
+[
+    {
+        maerke: 'Volvo',
+        fart: 45,
+        farve: 'lightYellow',
+    }
+];
+```
 
-Your Github should contain two repositories called hyf-javascript1 and hyf-commandline . Inside the JavaScript repository you should have three folders, called week1, week2, and week3 (or something similar). Inside these folders you should have the different assignments (a file per exercises). Ty and find proper names for the exercises that reflect somehow what is going on in the code. Avoid using spaces in your file names, this makes it harder to "run" you files. Also make sure that all your JavaScript files have a .js extension.
 
-## Step 3: Custom DOM manipulation challenge :mortar_board:
+
+## Step 2: Custom DOM manipulation challenge :mortar_board:
 
 1. Open a new js file and start by declaring an array that contains 10 strings. These strings should be of book titles you have read (or made up) and be lowercase without spaces or special characters so that you can use these later as Id's. (Example: Harry Potter's - The Chamber of Secrets -> `harry_potter_chamber_secrets`). 
 
