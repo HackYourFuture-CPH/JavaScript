@@ -4,6 +4,7 @@
 This review covers:
 • Array Manipulations 
 • Basic DOM manipulations
+• Code commenting
 ```
 
 ## Arrays
