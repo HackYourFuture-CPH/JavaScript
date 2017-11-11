@@ -9,7 +9,7 @@ Give yourself (or your neighbour) a little tap on the shoulder, you've made it t
 Let's practice working with Objects and Arrays. Go to FreeCodeCamp and complete all challenges under "Object Oriented and Functional Programming" and the _first four challenges_ under "Basic Algorithm Scripting", up until 'Find the longest word in a string.'
 
 ## Step 2: Custom challenge 
-1. Go to https://api.github.com/orgs/HackYourFuture/repos, you will see a list of the repositories our HYF organization has (yes it's a lot of JSON).
+1. Go to https://api.github.com/orgs/HackYourFuture/repos?per_page=500, you will see a list of the repositories our HYF organization has (yes it's a lot of JSON).
 2. You can copy the JSON and put it in a string at the top of your `.js` file. Print the name of the 3rd repository in the array to the console.
 3. Make a `<ul>` with a `<li>` for each repository name (just like you did with the books in the previous assignment).
 4. It should only display the modules that are actually being used in the curriculum at the moment, you of course know which those are, but if you need a reminder you can find them in our [curriculum overview](https://github.com/HackYourFuture/curriculum).
