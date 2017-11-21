@@ -1,37 +1,20 @@
 /* Exercise 1
 
-What does these two functions log out:
+What does this function log out:
 
 */
 
-function returnString() {
-    let hello = '';
 
-    setTimeout(function() {
-        hello = 'hello';
-    }, 1000);
-
+function returnStringOld() {
+    let hello = 'hello world';
+    
+    for (let i =0;i<5;i++){
+        hello = hello + "," + i;
+    }
     return hello;
 }
 
-console.log(returnString());
-
-
-function returnStringCallback(callback) {
-    setTimeout(function() {
-        callback('hello');
-    }, 1000);
-}
-
-
-var returnString = returnStringCallback(
-    function(helloString) {
-        return helloString;
-    }
-);
-
-
-console.log(returnString);
+console.log(returnStringOld());  // what logged
 
 
 

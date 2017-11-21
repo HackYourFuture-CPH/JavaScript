@@ -52,6 +52,9 @@ console.log('First log');
 
 setTimeout(function() {
     console.log("In timeout");
+    setTimeout(function() {
+        console.log("In timeout");
+    }, 5000);
 }, 5000);
 
 console.log('Second log');
@@ -126,6 +129,11 @@ function getAjaxData(url, callback) {
     request.send();
 }
 
+
+
+getAjaxData('github.com/repos', function(data) {
+    console.log(data);
+});
 
 // Do exercise 1
 
