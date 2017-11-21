@@ -52,9 +52,6 @@ console.log('First log');
 
 setTimeout(function() {
     console.log("In timeout");
-    setTimeout(function() {
-        console.log("In timeout");
-    }, 5000);
 }, 5000);
 
 console.log('Second log');
@@ -131,7 +128,7 @@ function getAjaxData(url, callback) {
 
 
 
-getAjaxData('github.com/repos', function(data) {
+getAjaxData('http://api.open-notify.org/astros.json', function(data) {
     console.log(data);
 });
 
