@@ -127,6 +127,11 @@ function getAjaxData(url, callback) {
 }
 
 
+
+getAjaxData('http://api.open-notify.org/astros.json', function(data) {
+    console.log(data);
+});
+
 // Do exercise 1
 
 
