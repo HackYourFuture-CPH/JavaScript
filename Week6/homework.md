@@ -4,7 +4,7 @@
 
 ### Step 1: Feedback
 
-Give feedback on `step 3` of `week 5` to one of your fellow students (do this by creating issues in Github). 
+Give feedback on `step 3` of `week 5` to one of your fellow students (do this by creating issues in Github).
 
 ### Step 2: Fix issues and API
 
@@ -36,7 +36,7 @@ Cool we are back where we left of.
 https://api.github.com/repos/HackYourFuture/CommandLine
 ```
 
-7) Make a function which takes a single argument. The function should make an XHR request to `https://api.github.com/repos/HackYourFuture/[SearchTerm]` where the search term will be the argument. This argument will be the input the user has given you, so make sure that when the user clicks the button you call this function with the argument. 
+7) Make a function which takes a single argument. The function should make an XHR request to `https://api.github.com/search/repositories?q=user:HackYourFuture+[SearchTerm]` where the search term will be the argument. This argument will be the input the user has given you, so make sure that when the user clicks the button you call this function with the argument.
 
 8) Make all the repositories link their own page in Github. Use the value of the key: `name` to make this work (hint: Github urls always look like this https://api.github.com/repos/HackYourFuture/[repositoryName] where [repositoryName] would be replaced by the actual `name` of the repository, for example `CommandLine`). Make sure the link opens in a new tab.
 
@@ -44,7 +44,6 @@ https://api.github.com/repos/HackYourFuture/CommandLine
 
 So Github has this really nice documentation :octocat: :
 Check these out for example
-https://developer.github.com/v3/repos/collaborators/
 https://developer.github.com/v3/repos/commits/
 
 9) Extend your page with an input element. This is so the user will be able to type in text.
@@ -56,8 +55,8 @@ https://developer.github.com/v3/repos/commits/
   - So write a function called `makeRequest` which accepts (at least) the following parameters: `url` and `callback`.
   - Make sure your `callback` is called when the request errors or when it sends a response (look at the documentation)
   - Your `callback` functions should accept two parameters so it can handle both errors: `err` and `response`.
-  So based on your users actions (input, hovering, clicking) you want to call `makeRequest` with a different `url` and supply it with a function that handles both errors (display an error message to the user for example) and responses (render it correctly, as described below). 
- - Make your functions small and reusable (modular)! That means create separate functions to handle certain steps. 
+  So based on your users actions (input, hovering, clicking) you want to call `makeRequest` with a different `url` and supply it with a function that handles both errors (display an error message to the user for example) and responses (render it correctly, as described below).
+ - Make your functions small and reusable (modular)! That means create separate functions to handle certain steps.
 
 11) GO WILD
 
@@ -65,7 +64,7 @@ Again, check out the Github API documentation to see what kind of magic stuff yo
 
 The assignment is to implement something extra that is not in the assignment :scream: (nice and vague right?)
 
-So for example, we have teams in our organization. You can find out who are in there and make a call to 'https://api.github.com/users/' + userInput (where userInput is a string typed into a search field by a user). You can show the users name, avatar image (not the link to the image!) and the number of public repos they have. Or you could make an API call to 'https://api.github.com/users/user/repos' to find out the public repo's they have. Or you can show how many people starred a specific repository. 
+So for example, we have teams in our organization. You can find out who are in there and make a call to 'https://api.github.com/users/' + userInput (where userInput is a string typed into a search field by a user). You can show the users name, avatar image (not the link to the image!) and the number of public repos they have. Or you could make an API call to 'https://api.github.com/users/user/repos' to find out the public repo's they have. Or you can show how many people starred a specific repository.
 
 Anyway, endless fun and possibilities. Need inspiration, check out the Github API documentation. Oh and please make it look nice (hint: use the stuff you learned in HTML/CSS)!
 
@@ -94,7 +93,7 @@ __Bonus__: Write a function takes this array `['a', 'b', 'c', 'd', 'a', 'e', 'f'
 
 ```
 How to hand in your homework:
-• Upload your homework in your "hyf-javascript2" Github repository. Make sure to create a new folder "week3" first. 
+• Upload your homework in your "hyf-javascript2" Github repository. Make sure to create a new folder "week3" first.
 • Upload your homework files inside the week3 folder and write a description for this “commit”.
 • Your hyf-javascript2/week3 should now contain an index.html, main.css and a script.js file (and the images folder)
 • Place the link to your repository folder in Trello.
