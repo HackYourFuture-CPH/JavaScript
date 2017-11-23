@@ -14,8 +14,8 @@ Here you can find course content and homework for the JavaScript 1,2 and 3 modul
 |2.2|• Advanced data types [contd...]||[Homework Week 2-2](/Week2-2/MAKEME.md)|[Review](https://gist.github.com/zkwsk/c8962010556e0cafd641357a7dd0cf56)|
 |3.|• [CLI](https://github.com/HackYourFuture/CommandLine) session with Unmesh :balloon: <br>• Closures <br>• Scope <br>• Array Manipulations <br>• Basic DOM manipulations [img src, innerHTML]<br>• Code commenting|[Reading Week 3](/Week3)|[Homework Week 3](/Week3/MAKEME.md)|[Review](/Week3/REVIEW.md)|
 |4.|• JSON<br>• Code debugging using the browser<br>• Functions + JSON/Arrays<br>• Code flow (order of execution) <br>• (capturing user input) <br>• Structuring code files|[Reading Week 4](/Week4)|[JS](/Week4/homework.md)|[Review](/Week4/review.md)|
-|5.|• First Git Session with Unmesh :smiling_imp:<br>• Events<br>• Callbacks <br>• XHTTP Requests <br>• API calls|[Reading Week 5](/Week5)|[Homework Week 5](/Week5/MAKEME.md)|Review|
-|6.|• Second Git Session :see_no_evil:<br> • Async VS Sync<br>• Polling<br>• Structure for a basic SPA<br> TEST :boom:|[Reading Week 6](/Week6)|[Homework Week 6](/Week6/homework.md)|Review|
+|5.|• First Git Session with Unmesh :smiling_imp:<br>• Events<br>• Callbacks <br>• XHTTP Requests <br>• API calls|[Reading Week 5](/Week5)|[Homework Week 5](/Week5/homework.md)|Review|
+|6.|• Second Git Session :see_no_evil:<br> • Async VS Sync<br>• Scope<br>• Api's 2 TEST :boom:|[Reading Week 6](/Week6)|[Homework Week 6](/Week6/homework.md)|[Review](/Week5/review.md)|
 |7.|• Third Git Session (Git Workflow :muscle:)<br>• Map, reduce, filter <br> • Arrow functions|[Reading Week 7](/Week7)|[Homework Week 7](/Week7/MAKEME.md)|Review|
 |8.|• (re)writing data structures (in JSON)<br> • Closures <br>• Promises <br>|[Reading Week 8](/Week8/README.md)|[Homework Week 8](/Week8/MAKEME.md)|Review|
 |9.| • Object Literals (and other patterns)<br>TEST :boom:|[Reading Week 9](/Week9/README.md)|[Homework Week 9](/Week9/MAKEME.md)|[Review](/Week9/REVIEW.md)|
