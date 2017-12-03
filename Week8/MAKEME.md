@@ -9,7 +9,7 @@
 We have an array with the numbers from 1 to 1000. Now we are interested in all numbers in that array which are divisible by 3. And then divisible by 10. And then by 21. We have implemented that using for loops:
 
 ```js
-let arr = []
+  let arr = [];
    for( let i=1; i<=1000;i++){
        arr.push(i);
    }
@@ -17,34 +17,34 @@ let arr = []
 
    // here the solution using loops starts
    const x = 3;
-   let divisbleBy3 = []
+   let divisbleBy3 = [];
    for(let i=0;i<arr.length;i++){
        if(arr[i]%x===0){
            divisbleBy3.push(arr[i]);
        }
    }
-   console.log("Numbers divisible by 3: ",divisbleBy3)
-   console.log("Amount of numbers divisible by 3: ",divisbleBy3.length)
+   console.log("Numbers divisible by 3: ",divisbleBy3);
+   console.log("Amount of numbers divisible by 3: ",divisbleBy3.length);
 
    const y = 10;
-   let divisbleBy10 = []
+   let divisbleBy10 = [];
    for(let i=0;i<arr.length;i++){
        if(arr[i]%y===0){
            divisbleBy10.push(arr[i]);
        }
    }
-   console.log("Numbers divisible by 10: ",divisbleBy10)
-   console.log("Amount of numbers divisible by 10: ",divisbleBy10.length)
+   console.log("Numbers divisible by 10: ",divisbleBy10);
+   console.log("Amount of numbers divisible by 10: ",divisbleBy10.length);
 
    const z = 21;
-   let divisbleBy21 = []
+   let divisbleBy21 = [];
    for(let i=0;i<arr.length;i++){
        if(arr[i]%z===0){
            divisbleBy21.push(arr[i]);
        }
    }
-   console.log("Numbers divisible by 21: ",divisbleBy21)
-   console.log("Amount of numbers divisible by 21: ",divisbleBy21.length)
+   console.log("Numbers divisible by 21: ",divisbleBy21);
+   console.log("Amount of numbers divisible by 21: ",divisbleBy21.length);
 ```
 
 Your task is now, to implement a closure (a function factory), that generates functions which allow us to determine all numbers that are divisible by "WHAT EVER NUMBER".
@@ -52,7 +52,7 @@ Your task is now, to implement a closure (a function factory), that generates fu
 >Hint: Use `map`, `filter` and `reduce`. Think about the sizes of your arrays and then choose whether you need `map`, `filter` or `reduce`
 
 ```js
-    let arr = []
+    let arr = [];
     for( let i=1; i<=1000;i++){
         arr.push(i);
     }
