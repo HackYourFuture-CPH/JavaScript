@@ -3,25 +3,26 @@ This week you will work on finishing your application so it's actually useful!!
 
 >[Here](/Week8/README.md) you find the readings you have to complete before the ninth lecture.
 
-## Step 1: Feedback step 4 and 6 week 7
+## Step 1: Closure
 
-Give feedback on the SPA (Github API) and git branching homework of one of you fellow students. Please provide the feedback in an issue.
+>Revise before attempting: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 
-## Step 2: FINISH ALL YOUR JAVASCRIPT HOMEWORK
+`Rasmus, your challenge here.`
 
-:point_up:
+## Step 2: Continuing with data loading, processing and rendering
 
-## Step 3: Pair programming promises challenge
+>Revise before attempting: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 
->TODO
+Using [the movies json file from the previous exercise](https://gist.github.com/evanc/17f1ade674aa0d8066e0a33be923fe17/raw/b3b6cd9c96e5ca59bf7610c4c17da420bcaea0ae/movies.json) as the source, extend your appliation to do the following:
 
-_BONUS_ : Code Kata Race
+1. Give each movie a `tag`: Excellent (>=8.5), Very Good (>=8), Good (<8) based on the ratings.
+1. Render all the movies as a list (similar to how you were presenting Github repositories in the homework before).
+1. Add a input field, and a button to perform search. Use `.filter` method on arrays to filter on the titles.
+1. Add 4 radio buttons for each tag + All tag (All, Excellent, Very Good, Good) and filter the movies based on the tag selected.
+1. Display only the movies in the list which match the two filter criterion above.
+1. Display the average rating of the movies being filtered and displayed.
 
-- [Codewars](https://www.codewars.com/collections/hyf-homework-number-2)
-- If you need to refresh your memory on es6 classes: [es6-classes-in-depth](https://ponyfoo.com/articles/es6-classes-in-depth)
-- Also read this article on scopes & closures: [explaining-javascript-scope-and-closures](https://robertnyman.com/2008/10/09/explaining-javascript-scope-and-closures/)
+Remember to use the following to help with your code:
 
->Upload your homework in your "hyf-javascript3" Github repository. Make sure to create a new folder "week2" first. 
-Upload your homework files inside the week2 folder and write a description for this “commit”.
-Your hyf-javascript3/week2 should now contain all your homework files.
-Place the link to your repository folder in Trello.
+1. Promises to simplify data loading, [covered in this lecture](./classwork/new-ajax.js).
+1. Filter, map, reduce functions + Arrow functions, [covered in last lecture](../Week7/classwork/demonstration.js).
