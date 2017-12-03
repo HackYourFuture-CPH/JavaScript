@@ -1,5 +1,4 @@
 # Homework Week 8
-This week you will work on finishing your application so it's actually useful!!
 
 >[Here](/Week8/README.md) you find the readings you have to complete before the ninth lecture.
 
@@ -7,7 +6,7 @@ This week you will work on finishing your application so it's actually useful!!
 
 >Revise before attempting: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 
-We have an array with the numbers from 1 to 1000. Now we are interested in all numbers in that array which are divisible by 3. And then divisible by 10. And then by 21. We have implemented that using a for loops:
+We have an array with the numbers from 1 to 1000. Now we are interested in all numbers in that array which are divisible by 3. And then divisible by 10. And then by 21. We have implemented that using for loops:
 
 ```js
 let arr = []
@@ -48,7 +47,7 @@ let arr = []
    console.log("Amount of numbers divisible by 21: ",divisbleBy21.length)
 ```
 
-Your task is now, to implement a closure (a function factory), that generates functions which allow us to determine all numbers that are visible by "WHAT EVER NUMBER".
+Your task is now, to implement a closure (a function factory), that generates functions which allow us to determine all numbers that are divisible by "WHAT EVER NUMBER".
 
 >Hint: Use `map`, `filter` and `reduce`. Think about the sizes of your arrays and then choose whether you need `map`, `filter` or `reduce`
 
