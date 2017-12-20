@@ -1,12 +1,20 @@
-# Homework Week 9
+# Homework Week 10
 
 > Make:
 
 ## Building on the classwork
 
-The classword is available in [this folder](./classwork/).
+The classword is available in [this folder](./classwork/). I have extended it to show you the use of constructors to better achieve what we did in class. Take a look carefully so you can do the following:
 
-1. 
+1. Add a method to load `posts` for a user object. For example from: https://jsonplaceholder.typicode.com/users/1/posts.
+1. Look at the constructor `Todo`. Can you also make the `user` object into a constructor `User` and use that instead in the example?
+1. Create a constructor `Post` to handle the `posts` that you loaded.
+1. Add a method in the `Post` constructor to load `comments` for a post. For example from: https://jsonplaceholder.typicode.com/posts/1/comments.
+1. Create a constructor `Comment` to handle the `comments` that you loaded in the previous step.
+1. Can you now wire it together so you:
+    1. Create a `User`.
+    1. Load `Post`(s) for this `User`.
+    1. Load `Comment`(s) for the 1st `Post`.
 
 ## Holiday Homework :tada:
 
