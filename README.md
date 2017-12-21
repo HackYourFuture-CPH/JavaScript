@@ -18,7 +18,8 @@ Here you can find course content and homework for the JavaScript 1,2 and 3 modul
 |6.|• Second Git Session :see_no_evil:<br> • Async VS Sync<br>• Scope<br>• Api's 2 TEST :boom:|[Reading Week 6](/Week6)|[Homework Week 6](/Week6/homework.md)|[Review](/Week5/review.md)|
 |7.|• Third Git Session (Git Workflow :muscle:)<br>• Map, reduce, filter <br> • Arrow functions|[Reading Week 7](/Week7)|[Homework Week 7](/Week7/MAKEME.md)|Review|
 |8.|• (re)writing data structures (in JSON)<br> • Closures <br>• Promises <br>|[Reading Week 8](/Week8/README.md)|[Homework Week 8](/Week8/MAKEME.md)|Review|
-|9.| • Object Literals (and other patterns)<br>TEST :boom:|[Reading Week 9](/Week9/README.md)|[Homework Week 9](/Week9/MAKEME.md)|[Review](/Week9/REVIEW.md)|
+|9.| • Object Literals (and other patterns)||[Homework Week 9](/Week9/MAKEME.md)|[Review](/Week9/REVIEW.md)|
+|10.| • Object Literals and Promise contd.|[Reading Week 10](/Week10/README.md)|[Homework Week 10](/Week10/MAKEME.md)||
 
 
 __Kind note:__
