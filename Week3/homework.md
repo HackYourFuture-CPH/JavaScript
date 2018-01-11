@@ -47,8 +47,3 @@ it’s a great way to really practice JavaScript a lot in various problems.
 Please note, there are various challenges all sorted on difficultly called KIU. Kiu 8 is the easiest, Kiu 1 is the hardest, we expect you to do challenges around level 8, 7 maybe.
 
 enjoy!
-
-:star: Additional resources and review: [here](/Week3/REVIEW.md) (work in progress):star:
-
-
-
