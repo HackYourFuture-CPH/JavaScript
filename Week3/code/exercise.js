@@ -34,3 +34,17 @@ function second() {
 
 firstFunction(second)
 
+
+/* Exercise 3 */
+
+/*
+
+Create an array of strings with your favorite dishes.
+
+With js create and insert an ul into the dom. 
+
+Now loop through each element of the favorite dishes array, you create an li element and set the text to the favorite dish.
+
+Then append the li element to the ul element.
+
+*/
