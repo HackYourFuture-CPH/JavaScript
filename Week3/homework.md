@@ -1,31 +1,6 @@
 ## Homework Week 3
 
->[Here](/Week3/README.md) you find the readings you have to complete before the fourth lecture.
-
-## Step 1: Lets get real comfortable with map, filter and sort.
-
-As we have done before use the carGenerator function to generate 10 cars.
-
-Create the following arrays:
-
-1.1: Cars with speeds between 30 and 60
-1.2: Car makes of the cars that are not lightyellow, so the array is going to look like this: ['BMW', 'Fiat'] etc
-1.3: Cars sorted descending (fast first) where the color is lightgreen and the speed is lower than 80. Now get the index of the first BMW
-1.4: Lets change the cars array so it can be read by a danish person. Return an array of objects where the key in the object called speed is called fart (danish for speed), the make is called maerke and the color is called farve. The out put will look kind of like this:
-
-```js
-[
-    {
-        maerke: 'Volvo',
-        fart: 45,
-        farve: 'lightYellow',
-    }
-];
-```
-
-
-
-## Step 2: Custom DOM manipulation challenge :mortar_board:
+## Step 1: Custom DOM manipulation challenge :mortar_board:
 
 1. Open a new js file and start by declaring an array that contains 10 strings. These strings should be of book titles you have read (or made up) and be lowercase without spaces or special characters so that you can use these later as Id's. (Example: Harry Potter's - The Chamber of Secrets -> `harry_potter_chamber_secrets`). 
 
@@ -46,10 +21,10 @@ How to hand in your homework:
 • Upload your homework in your "hyf-javascript1" Github repository. Make sure to create a new folder "week3" first. 
 • Upload your homework files inside the week3 folder and write a description for this “commit”.
 • Your hyf-javascript1/week3 should now contain an index.html, main.css and a script.js file (and the images folder)
-• Place the link to your repository folder in Trello.
+• Send the link on the slack channel
 ```
 
-## Step 4: **FreeCodeCamp challenges:**
+## Step 2: **FreeCodeCamp challenges:**
 
 - https://www.freecodecamp.com/challenges/declare-javascript-objects-as-variables
 - https://www.freecodecamp.com/challenges/make-instances-of-objects-with-a-constructor-function
@@ -72,8 +47,3 @@ it’s a great way to really practice JavaScript a lot in various problems.
 Please note, there are various challenges all sorted on difficultly called KIU. Kiu 8 is the easiest, Kiu 1 is the hardest, we expect you to do challenges around level 8, 7 maybe.
 
 enjoy!
-
-:star: Additional resources and review: [here](/Week3/REVIEW.md) (work in progress):star:
-
-
-
