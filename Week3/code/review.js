@@ -1,141 +1,153 @@
-```
-This review covers:
-• Array Manipulations 
-• Basic DOM manipulations
-```
+/*
+• Functions
+• Code flow (order of execution) 
+• Basic DOM manipulations [img src, innerHTML]
+• Code commenting
+• Code debugging using the browser
+• Beautifying your code
+*/
 
 
-/* Arrays */
+/* 
 
+Code debugging 
 
+In this class we will be using the chrome developer tools to run our javascript in. 
 
-
-const firstArray = ['milk', 'sugar', 'butter', 'flour', 'eggs'];
-
-console.log(firstArray);
-
-console.log(firstArray.indexOf('sugar'));
-
-console.log(firstArray.slice(0,3));
-
-console.log(firstArray.reverse());
+*/
 
 
 
-
-/**
- * Get random integer between two numbers, found here: https://stackoverflow.com/a/7228322
- * @param {integer} min - The min number
- * @param {integer} max - The max number
- * @returns {Number} Random number between min and max
- */
-function randomIntFromInterval(min, max) {
-    return Math.floor(Math.random() * (max - min + 1) + min);
-}
+/* Functions */
 
 
-/**
- * Get an array with car objects with random color and speed
- * @param {integer} numberOfCars - The number of cars 
- * @returns {array} Array containing the car objects
- */
-function generateCars(numberOfCars) {
-    const cars = [];
+// Lets first make a really simple function that logs out the word cake a specific number of times. This is called a named function
 
-    const carMakes = ['Honda', 'BMW','Fiat','Skoda','Volvo'];
-    const carColors = ['lightgrey', 'lightcyan','lightyellow','lightgreen','lightcoral','lightpink'];
-    
-    for (let i = 0; i < numberOfCars; i++) {
-        const car = {};
-        const randomMakeIndex = randomIntFromInterval(0, carMakes.length - 1);
-        const randomColorIndex = randomIntFromInterval(0, carColors.length - 1);
-
-        car.make = carMakes[randomMakeIndex];
-        car.color = carColors[randomColorIndex];
-        car.speed = randomIntFromInterval(0, 100);
-
-        cars.push(car);
+function cakeLogger(numberOfCakes) {
+    let cakeString = '';
+    for (let i = 0; i < numberOfCakes; i++) {
+        cakeString += 'cake ';
     }
 
-    return cars;
+    return cakeString;
 }
 
-/* Arrays: map */
+cakeLogger(10);
 
-const cars = generateCars(7);
+/*
+numberOfCakes is called parameters -> like a machine with dials that are parameters. They act as placeholders
+10 is the function argument
 
+So what exactly happens. numberOfCakes is a placeholder for the integer 10!
 
-console.log(cars);
+Now what is possible in js is to assign a function to a variable, what makes javascript functional programming language
 
-const bmws = cars.filter(function(car) {
-    console.log(car.make);
-    console.log(car.make === 'BMW');
+Lets reassign cakeLogger to a variable
 
-    return car.make === 'BMW';
-});
+*/
 
-console.log(bmws);
+// the variable cakeLoggerVariable referes to an anonomous function
+const cakeLoggerVariable = function(numberOfCakes) {
+    console.log(numberOfCakes);
+    let cakeString = '';
+    for (let i = 0; i < numberOfCakes; i++) {
+        cakeString += 'cake ';
+    }
 
-
-console.log('fast Cars:');
-
-
-const fastCarsFunction = function(car) {
-    console.log(car.speed);
-    console.log(car.speed > 70);
-
-    return car.speed >= 70;
+    return cakeString;
 }
 
-const fastCars = cars.filter(fastCarsFunction);
-console.log(fastCars);
+cakeLoggerVariable(3);
 
+// this function can be passed around and even be called by other functions:
 
+function testFunctionA(functionPlaceholder) {
+    // functionToPass is a parameter (remember placeholder for cakeLogger)
+    const shortCakeString = functionPlaceholder(2);
 
+    console.log(shortCakeString);
 
-const slowCarsFunction = function(car) {
-    return car.speed < 70;
+    // testFunctionB(functionPlaceholder);
 }
 
-const slowCars = cars.filter(slowCarsFunction);
 
-console.log(slowCars);
+testFunctionA(cakeLoggerVariable);
 
-/* Or you can do it like this */
+/*
 
-const slowCars2 = cars.filter(function(car) {
-    return car.speed < 70;
-});
+Go really crazy!!
+function testFunctionB(functionPlaceholder){
+    const longCakeString = functionPlaceholder(10);
+}
+*/
 
-console.log(slowCars2);
+/* Exercise 1 */
 
 
+/*  Code flow (order of execution) */
+/*
 
-console.log('map:');
+Different contexts: Global and execution.
 
-const getCarMake = function(car) {
-    console.log(car.make);
-    return {
-        brand: car.make, 
-        velocity: car.speed
-    };
+Only one global and multiple execution contexts
+
+Global context always at bottom.
+
+
+When js is loaded it enters global scope.
+If a function is called the program enters a new execution context, and pushes that context to the execution stack.This complete stack is called the callstack
+Multiple functions
+When the function is done, pop the context.
+
+
+http://latentflip.com/loupe/
+
+
+Remember these things:
+
+1 Global context.
+Infinite function contexts.
+Each function call creates a new execution context, even a call to itself.
+Execution Context in Detail
+
+In a execution context these things happen:
+
+Creation Stage [when the function is called, but before it executes any code inside]:
+    Create the Scope Chain.
+    Create variables, functions and arguments.
+    Determine the value of "this".
+Activation / Code Execution Stage:
+    Assign values, references to functions and interpret / execute code.
+
+*/
+
+
+function a(x) {
+     // Function a added to the stack
+     b(x);
+     // Function a removed from the stack;
 }
 
-const carMakes = cars.map(getCarMake);
-
-
-
-console.log(cars);
-console.log(carMakes);
-
-
-
-const sortAscending = function(a, b) {
-    return a.speed - b.speed;
+function b(x) {
+      // Function b is added to the stack
+      //throw "Too big";
+      console.log("Value passed is "+ x);
+      // Function b is removed from the stack
 }
 
-const sortedCars = cars.sort(sortAscending);
-console.log(sortedCars);
+// Starting work for the global stack
+a(22);
+// Stopping work for this stack. stack would be empty after this
+
+// Explain the crossing out part
+
+
+/* Do exercise 2 */
+
+
+
+
+
 
 
 
@@ -162,4 +174,33 @@ console.log(div);
 
 console.log(document.querySelector('h1'));
 document.getElementById('queue');
+
+
+
+[1,2].forEach(function(element) {
+    console.log(element);
+});
+
+
+/* Do exercise 3 */
+
+/*
+
+Commenting js, css and html
+
+Now for the hard part: when to comment? When you work for different companies, you will see different styles. Embrace something you like, and then learn to let go. Google on "when to comment code?" and you'll find a big bunch of different opinions. 
+The general concept is, however, that it is there to help make the code more easy to understand. Note, however, that comments can also make code more difficult to understand when not applied properly. 
+
+*/
+
+
+
+/*
+
+Beautifying your code
+http://jsbeautifier.org/
+
+This can be done in the editor aswell. Google for your editors name and the beautify
+
+*/
 
