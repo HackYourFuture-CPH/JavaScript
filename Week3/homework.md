@@ -25,7 +25,7 @@ How to hand in your homework:
 ```
 
 ## Step 2: Call stack and parameters
-
+```js
 const watchFirstEpisode = function() {
   // draw call stack
   console.log('Watch first episode');
@@ -59,7 +59,7 @@ function finishMondayEvening(functionThatIsParameter) {
 // draw call stack
 finishMondayEvening(watchBreakingBad);
 // draw call stack
-
+```
 
 
 ## Step 3: **FreeCodeCamp challenges:**
