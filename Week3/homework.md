@@ -25,6 +25,10 @@ How to hand in your homework:
 ```
 
 ## Step 2: Call stack and parameters
+
+Write down the call stack at every point where i have made this comment: // draw call stack
+Also write down what it logs out. Try and write it down BEFORE you run the code and see if you got it right!
+
 ```js
 const watchFirstEpisode = function() {
   // draw call stack
