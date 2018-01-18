@@ -18,38 +18,11 @@ Let's practice working with Objects and Arrays. Go to FreeCodeCamp and complete 
 
 ## Step 3: Feedback
 
-Give one of you fellow students in Github feedback about their code of step two, create an issue in their repo, telling them what they did great and what they can improve.
-
-<!-- ### :boom: Bonus homework :boom:
-
-Replace this function by a generalised version that takes the name of the property (`propName`) to sort on and a number `order` (allowed values 1 or -1, default value = 1) to indicate respectively ascending or descending sort order:
-
-```
-function sortMovies(movies, propName, order)
-```
-
-Hint: remember from your high school math that:
-
-- `1 x -1 = -1`, and
-- `-1 x -1 = 1`
-
-Ensure that the new function produces the same results as the existing `sortByImdbRating` function when it is called like this:
-
-```js
-movies = sortMovies(movies, 'imdbRating', -1);
-```
-
-Notes:
-
-1. Do not bother to make this work for the `Ratings` property which refers to an object rather than a simple value.
-2. It is not necessary to convert property values containing dates or numbers formatted with embedded commas to facilitate sorting for this challenge (but you're welcome to try). You can leave the value 'as is'. -->
-
-:octocat: 
 ```
 How to hand in your homework:
 • Create a new repository "hyf-javascript2". Also create a new folder "week1" inside this repository. 
-• Upload your homework files inside the week1 folder and write a description for this “commit”.
-• Your hyf-javascript2/week1 should now contain the files of your homework.
-• Place the link to your repository folder in Trello.
+• Upload your homework files inside the week4 folder and write a description for this “commit”.
+• Your hyf-javascript2/week4 should now contain the files of your homework.
+• Post the link on the slack channel
 ```
 
