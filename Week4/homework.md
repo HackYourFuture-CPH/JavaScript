@@ -13,9 +13,11 @@ generateCars(10);
 
 Create the following arrays:
 
-1.1: Cars with speeds between 30 and 60
-1.2: The makes of the cars that are not lightyellow, so the array is going to look like this: ['BMW', 'Fiat'] etc
-1.4: Lets change the cars array so it can be read by a danish person. Return an array of objects where the key in the object called speed is called fart (danish for speed), the make is called maerke and the color is called farve. The output will look kind of like this:
+- 1.1: Cars with speeds between 30 and 60
+
+- 1.2: The makes of the cars that are not lightyellow, so the array is going to look like this: ['BMW', 'Fiat'] etc
+
+- 1.3: Lets change the cars array so it can be read by a danish person. Return an array of objects where the key in the object called speed is called fart (danish for speed), the make is called maerke and the color is called farve. The output will look kind of like this:
 
 ```js
 [
