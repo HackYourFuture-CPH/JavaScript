@@ -23,7 +23,7 @@
 
     rewrite the above program using `map` and `filter` don't forget to use `=>`
 
-2. Using [this json file](https://gist.github.com/evanc/17f1ade674aa0d8066e0a33be923fe17/raw/b3b6cd9c96e5ca59bf7610c4c17da420bcaea0ae/movies.json) as the source, build a function which does the following:
+2. Using [this json file](https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json) as the source, build a function which does the following:
 
     1. Give each movie a `tag`: Good (>=7), Average (4-6), Bad (0-3) based on the ratings.
     1. Calculate the average rating of all the movies.
