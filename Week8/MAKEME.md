@@ -80,7 +80,7 @@ Once you have the factory function above working well for 3, 10 and 21, create a
 
 >Revise before attempting: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 
-Using [the movies json file from the previous exercise](https://gist.github.com/evanc/17f1ade674aa0d8066e0a33be923fe17/raw/b3b6cd9c96e5ca59bf7610c4c17da420bcaea0ae/movies.json) as the source, extend your appliation to do the following:
+Using [the movies json file from the previous exercise](https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json) as the source, extend your appliation to do the following:
 
 1. Give each movie a `tag`: Excellent (>=8.5), Very Good (>=8), Good (<8) based on the ratings.
 1. Render all the movies as a list (similar to how you were presenting Github repositories in the homework before).
