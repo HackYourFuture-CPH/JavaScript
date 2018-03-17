@@ -65,7 +65,6 @@ On freeCodeCamp.com please do the [Basic JavaScript](https://www.freecodecamp.co
 ### How to hand in Homework:
 ```
 steps:
-• Create a Github account
 • Create a new repository (name it something like hyf-javascript1) make sure you select the option: initialize with README
 • inside this repository create a folder "week1"
 • Upload the files you created on your computer inside the week1 folder, write a description for this "commit"
