@@ -1,13 +1,11 @@
 # REVIEW JavaScript Basics week 1
 
-```
 This review covers:
-• some commands thought by Unmesh in class today 
-• Intro JavaScript (What is it, where can you use it for)
-• Variables [var, let, const] 
-• Basic Data types [Strings, Numbers, Arrays] 
-• Operators
-```
+- some commands thought in class today
+- Intro JavaScript (What is it, where can you use it for)
+- Variables [var, let, const]
+- Basic Data types [Strings, Numbers, Arrays]
+- Operators
 
 ## CLI
 ```
