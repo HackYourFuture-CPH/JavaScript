@@ -72,13 +72,13 @@ foo = 4;  // change variable `foo`
 
 All variables have a type. In our example above, the variable `x` is a `number`. JavaScript supports the following types:
 
-* `string`, e.g. "HackYourFuture"
-* `number`, e.g. 5, or 10.6
-* `boolean`, e.g. `true` or `false`
-* `array`\*, e.g. `[1, 2, 3]` or `['what', 'is', 'your', 'name']`
-* `object`, e.g. `{name: 'John', age: 24}`, or the special object `null`
-* `function`, e.g. `function () { return 4; }`
-* `symbol`
+* `String`, e.g. "HackYourFuture"
+* `Number`, e.g. 5
+* `Float`, e.g. 10.6
+* `Boolean`, e.g. `true` or `false`
+* `Array`\*, e.g. `[1, 2, 3]` or `['what', 'is', 'your', 'name']`
+* `Object`, e.g. `{name: 'John', age: 24}`, or the special object `null`
+* `Function`, e.g. `function () { return 4; }`
 
 In addition, a variable may be `undefined`. This is also a special type.
 
