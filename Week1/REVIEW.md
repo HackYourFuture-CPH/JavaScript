@@ -1,13 +1,11 @@
 # REVIEW JavaScript Basics week 1
 
-```
 This review covers:
-• some commands thought by Unmesh in class today 
-• Intro JavaScript (What is it, where can you use it for)
-• Variables [var, let, const] 
-• Basic Data types [Strings, Numbers, Arrays] 
-• Operators
-```
+- some commands thought in class today
+- Intro JavaScript (What is it, where can you use it for)
+- Variables [var, let, const]
+- Basic Data types [Strings, Numbers, Arrays]
+- Operators
 
 ## CLI
 ```
@@ -16,9 +14,6 @@ ls : List files in the directory
 cd : change the directory
 touch: Create an empty file
 echo : display the string
-echo -n : Display the string without newline
-echo “something” > file : Redirect the output of echo and create file
-echo “another thing” >> file : Append the string to the file
 mkdir: make a new directory
 cd ~ : home
 cd - : previous directory
@@ -27,12 +22,6 @@ ls -a : List all files including hidden files
 cd / : change to the root directory
 cat : Concatenate the file line by line and display it on the terminal
 less: Print the big file line by line
-vim <file> : open the editor with <file> {a: to go to the insert mode, <ESC>:wq  to write and quit }
-for var in {START..END}; do <COMMAND1>; <COMMAND2>;..; ; done
-head <file>: display the first 10 lines of file
-tail <file>: display the last 10 lines of file
-head -n <file> : display first n lines of file
-tail -n <file> : display last n lines of file
 man <COMMAND> : Display manual of the COMMAND
 ```
 
@@ -61,7 +50,7 @@ const bar;
 ### let and const
 - read about [let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
 - read about [const](https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Statements/const)
-- [let vs const] (http://wesbos.com/let-vs-const/) 
+- [let vs const] (http://wesbos.com/let-vs-const/)
 
 Here, we say: "declare variable x and initialize it with the integer (number) 5".
 
@@ -83,13 +72,13 @@ foo = 4;  // change variable `foo`
 
 All variables have a type. In our example above, the variable `x` is a `number`. JavaScript supports the following types:
 
-* `string`, e.g. "HackYourFuture"
-* `number`, e.g. 5, or 10.6
-* `boolean`, e.g. `true` or `false`
-* `array`\*, e.g. `[1, 2, 3]` or `['what', 'is', 'your', 'name']`
-* `object`, e.g. `{name: 'John', age: 24}`, or the special object `null`
-* `function`, e.g. `function () { return 4; }`
-* `symbol`
+* `String`, e.g. "HackYourFuture"
+* `Number`, e.g. 5
+* `Float`, e.g. 10.6
+* `Boolean`, e.g. `true` or `false`
+* `Array`\*, e.g. `[1, 2, 3]` or `['what', 'is', 'your', 'name']`
+* `Object`, e.g. `{name: 'John', age: 24}`, or the special object `null`
+* `Function`, e.g. `function () { return 4; }`
 
 In addition, a variable may be `undefined`. This is also a special type.
 
@@ -123,7 +112,7 @@ console.log(typeof x); // -> 'undefined'
 
 ### Typeof
 
-You can use `typeof` to get the type of a certain variable as you have seen in the above section 'Variable types'. As you can see in the following examples it returns the type of data that you have stored in your variable. 
+You can use `typeof` to get the type of a certain variable as you have seen in the above section 'Variable types'. As you can see in the following examples it returns the type of data that you have stored in your variable.
 
 ## Strings
 
@@ -133,7 +122,7 @@ In JavaScript you can store a series of characters inside a variable, you then c
 let foo = '42';
 typeof foo   //-> 'string'
 
-let bar = 'I\'m 99 years old '; 
+let bar = 'I\'m 99 years old ';
 typeof bar   //-> 'string'
 ```
 
@@ -225,7 +214,7 @@ How does this work in practice?
 * Less than operator `<`
 * Less than or equal operator `<=`
 
-```js 
+```js
 4 > 3   // -> true
 3 >= 3  // -> true
 13 < 12 // -> false
@@ -256,7 +245,7 @@ More about [Arithmetic_Operators](https://developer.mozilla.org/en-US/docs/Web/J
 ### Logical operators
 
 * AND `&&`
-* OR `||` 
+* OR `||`
 * NOT `!`
 
 Given that x = 6 and y = 3
@@ -276,5 +265,3 @@ There are compound assignment operators such as +=. The following two assignment
 x += 1;
 x = x + 1;
 ```
-
-

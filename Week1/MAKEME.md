@@ -6,12 +6,7 @@ We covered a bit of command line usage in the first class and got a program runn
 
 ## Before you start with the homework:
 
-1. Watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro) Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though). 
-2. Please watch the following parts of the course, [Programming Foundations Fundamentals](https://www.lynda.com/Programming-Foundations-tutorials/Welcome/83603/90426-4.html) on Lynda.com (if you don't have access to Lynda yet ask Gijs):
-    0. Introduction
-    1. Programming Basics
-    2. Core Programming Syntax 
-    3. Variables and Data Types
+1. Watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro) Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though).
 
 ## Step 1: Command Line
 
@@ -65,12 +60,11 @@ For example:
 
 ### Step 3: **Some freeCodeCamp challenges (10 hours):**
 
-On freeCodeCamp.com please do the [Basic JavaScript](https://www.freecodecamp.com/challenges/learn-how-free-code-camp-works) exercises up and until the __"Shopping List"__ exercise (there are some topics we did not cover but you can do it).
+On freeCodeCamp.com please do the [Basic JavaScript](https://www.freecodecamp.org/map#nested-collapseBasicJavaScript) exercises up and until the __"Shopping List"__ exercise (there are some topics we did not cover but you can do it).
 
 ### How to hand in Homework:
 ```
 steps:
-• Create a Github account
 • Create a new repository (name it something like hyf-javascript1) make sure you select the option: initialize with README
 • inside this repository create a folder "week1"
 • Upload the files you created on your computer inside the week1 folder, write a description for this "commit"
