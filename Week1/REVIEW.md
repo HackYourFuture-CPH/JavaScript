@@ -50,7 +50,7 @@ const bar;
 ### let and const
 - read about [let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
 - read about [const](https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Statements/const)
-- [let vs const] (http://wesbos.com/let-vs-const/) 
+- [let vs const] (http://wesbos.com/let-vs-const/)
 
 Here, we say: "declare variable x and initialize it with the integer (number) 5".
 
@@ -112,7 +112,7 @@ console.log(typeof x); // -> 'undefined'
 
 ### Typeof
 
-You can use `typeof` to get the type of a certain variable as you have seen in the above section 'Variable types'. As you can see in the following examples it returns the type of data that you have stored in your variable. 
+You can use `typeof` to get the type of a certain variable as you have seen in the above section 'Variable types'. As you can see in the following examples it returns the type of data that you have stored in your variable.
 
 ## Strings
 
@@ -122,7 +122,7 @@ In JavaScript you can store a series of characters inside a variable, you then c
 let foo = '42';
 typeof foo   //-> 'string'
 
-let bar = 'I\'m 99 years old '; 
+let bar = 'I\'m 99 years old ';
 typeof bar   //-> 'string'
 ```
 
@@ -214,7 +214,7 @@ How does this work in practice?
 * Less than operator `<`
 * Less than or equal operator `<=`
 
-```js 
+```js
 4 > 3   // -> true
 3 >= 3  // -> true
 13 < 12 // -> false
@@ -245,7 +245,7 @@ More about [Arithmetic_Operators](https://developer.mozilla.org/en-US/docs/Web/J
 ### Logical operators
 
 * AND `&&`
-* OR `||` 
+* OR `||`
 * NOT `!`
 
 Given that x = 6 and y = 3
@@ -265,5 +265,3 @@ There are compound assignment operators such as +=. The following two assignment
 x += 1;
 x = x + 1;
 ```
-
-
