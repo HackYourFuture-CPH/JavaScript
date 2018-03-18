@@ -8,25 +8,7 @@ We covered a bit of command line usage in the first class and got a program runn
 
 1.  Watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro) Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though).
 
-## Step 1: Command Line
-
-1.  Create a `.js` file that prints `Hello` when you run it from the command line. (Hint: `node` is the program that can run your JavaScript files.)
-
-Write commands to do following:
-
-1.  create a directory. Enter a directory. Create an empty file named blank.
-2.  Then write the content `"Hello"` five times to the file greetings.txt.
-    Then copy the file greetings.txt and paste its contents into 1.txt, 2.txt, 3.txt, 4.txt and 5.txt.
-3.  Then write the text "cat" to pets.txt
-    Then append the text "dog" to pets.txt
-    Then append the text "hamster" to pets.txt
-4.  Then write the text "cat" to commands.txt
-    Then append the text "ls" to commands.txt
-    Then append the text "pwd" to commands.txt
-5.  Then find unique strings from these two files pets.txt and commands.txt
-    and store the unique strings in lovelyCommands.txt
-
-## Step 2: JavaScript
+## Step 1: JavaScript
 
 > For all the following exercises create a new .js file. Try to find a proper name for each file or make a small comment about what it does inside for future reference
 
@@ -57,7 +39,12 @@ Write commands to do following:
 * Can you store multiple types in an array? Numbers and strings?
 * Can you compare inifities? (Not in Eyad's world) - does 6/0 == 10/0? How can you test this?
 
-### Step 3: **Some freeCodeCamp challenges (10 hours):**
+## Step 2:
+
+* Create a page that contains jQuery
+* Make something fadeIn and fadeOut when you click on something
+
+## Step 3: **Some freeCodeCamp challenges (10 hours):**
 
 On freeCodeCamp.com please do the [Basic JavaScript](https://www.freecodecamp.org/map#nested-collapseBasicJavaScript) exercises up and until the **"Shopping List"** exercise (there are some topics we did not cover but you can do it).
 
@@ -69,7 +56,7 @@ steps:
 • inside this repository create a folder "week1"
 • Upload the files you created on your computer inside the week1 folder, write a description for this "commit"
 • Your repository should now contain all your homework files. Open the files from the github website to check if this all worked out
-• Post the link to your repository folder in Slack
+• Post the link to the correct Google Form
 ```
 
 ### Hint

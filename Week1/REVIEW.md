@@ -2,37 +2,18 @@
 
 This review covers:
 
-* some commands thought in class today
+* jQuery
 * Intro JavaScript (What is it, where can you use it for)
 * Variables [var, let, const]
 * Basic Data types [Strings, Numbers, Arrays]
 
-## CLI
-
-```
-pwd : present working directory
-ls : List files in the directory
-cd : change the directory
-touch: Create an empty file
-echo : display the string
-mkdir: make a new directory
-cd ~ : home
-cd - : previous directory
-cd .. : parent directory
-ls -a : List all files including hidden files
-cd / : change to the root directory
-cat : Concatenate the file line by line and display it on the terminal
-less: Print the big file line by line
-man <COMMAND> : Display manual of the COMMAND
-```
-
-:star: Highly recommended :star: :take a look at the Command Line [repository](https://github.com/HackYourFuture/CommandLine) and especially review the preparations of the first lecture: https://github.com/HackYourFuture/CommandLine/blob/master/Lecture-1.md
-
-## jQuery
+# jQuery
 
 What is jQuery and why should you use it?
 
 https://www.freecodecamp.org/map#nested-collapsejQuery
+
+# JavaScript fundamentals
 
 ## Variables
 
@@ -57,11 +38,7 @@ const bar;
 
 * read about [let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
 * read about [const](https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Statements/const)
-* # [let vs const](http://wesbos.com/let-vs-const/)
-
-- read about [let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
-- read about [const](https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Statements/const)
-- [let vs const](http://wesbos.com/let-vs-const/)
+* [let vs const](http://wesbos.com/let-vs-const/)
 
 Here, we say: "declare variable x and initialize it with the integer (number) 5".
 
