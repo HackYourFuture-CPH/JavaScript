@@ -1,4 +1,9 @@
-# Reading material for the second lecture:
+# Week 1 of JavaScript 1
+
+* [What we went through in class](./REVIEW.md)
+* [Homework for next time](./MAKEME.md)
+
+## Reading material for the second lecture:
 
 ```
 In week two we will discuss the following topics:
@@ -12,12 +17,12 @@ In week two we will discuss the following topics:
 
 ### Here are resources that we like you to read as a preparation for the coming lecture:
 
-- 'Loops' of [_A Smarter Way To Learn JavaScript_](https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf) : Chapters 18-20
-- 'Functions' of [_A Smarter Way To Learn JavaScript_](https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf) : Chapters 35 - 38
-- Functions ~ http://eloquentjavascript.net/03_functions.html
-- 'Objects' of [_A Smarter Way To Learn JavaScript_](https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf) : Chapters 69 - 75
-- 'Conditions' of [_A Smarter Way To Learn JavaScript_](https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf) : Chapters 10 - 14
-- Program structure ~ http://eloquentjavascript.net/02_program_structure.html
+* 'Loops' of [_A Smarter Way To Learn JavaScript_](https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf) : Chapters 18-20
+* 'Functions' of [_A Smarter Way To Learn JavaScript_](https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf) : Chapters 35 - 38
+* Functions ~ http://eloquentjavascript.net/03_functions.html
+* 'Objects' of [_A Smarter Way To Learn JavaScript_](https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf) : Chapters 69 - 75
+* 'Conditions' of [_A Smarter Way To Learn JavaScript_](https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf) : Chapters 10 - 14
+* Program structure ~ http://eloquentjavascript.net/02_program_structure.html
 
 :star: You can also already go through the [review](/Week2/REVIEW.md) of the upcoming lecture.
 

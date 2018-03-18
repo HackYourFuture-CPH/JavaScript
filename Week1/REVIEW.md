@@ -1,31 +1,19 @@
 # REVIEW JavaScript Basics week 1
 
 This review covers:
-- some commands thought in class today
-- Intro JavaScript (What is it, where can you use it for)
-- Variables [var, let, const]
-- Basic Data types [Strings, Numbers, Arrays]
-- Operators
 
-## CLI
-```
-pwd : present working directory
-ls : List files in the directory
-cd : change the directory
-touch: Create an empty file
-echo : display the string
-mkdir: make a new directory
-cd ~ : home
-cd - : previous directory
-cd .. : parent directory
-ls -a : List all files including hidden files
-cd / : change to the root directory
-cat : Concatenate the file line by line and display it on the terminal
-less: Print the big file line by line
-man <COMMAND> : Display manual of the COMMAND
-```
+* jQuery
+* Intro JavaScript (What is it, where can you use it for)
+* Variables [var, let, const]
+* Basic Data types [Strings, Numbers, Arrays]
 
-:star: Highly recommended :star: :take a look at the Command Line [repository](https://github.com/HackYourFuture/CommandLine) and especially review the preparations of the first lecture: https://github.com/HackYourFuture/CommandLine/blob/master/Lecture-1.md
+# jQuery
+
+What is jQuery and why should you use it?
+
+https://www.freecodecamp.org/map#nested-collapsejQuery
+
+# JavaScript fundamentals
 
 ## Variables
 
@@ -33,9 +21,8 @@ A "variable" is a place where you can store information, such as a string, or a 
 
 > Think of variables names like **labels** on boxes, while the value of the variable are the **contents** of the box - you could change the contents of a box and leave the label intact, the contents of the boxes can have different types, the boxes should have good labels (a box of books being labeled pens would be very confusing),
 >
-![Variables are like boxes](./assets/box.png)
+> ![Variables are like boxes](./assets/box.png)
 > Photo from [Khan Academy](http://cs-blog.khanacademy.org/2013/09/teaching-variables-analogies-and.html)
-
 
 ### Variable declaration
 
@@ -48,14 +35,15 @@ const bar;
 ```
 
 ### let and const
-- read about [let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
-- read about [const](https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Statements/const)
-- [let vs const] (http://wesbos.com/let-vs-const/)
+
+* read about [let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+* read about [const](https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Statements/const)
+* [let vs const](http://wesbos.com/let-vs-const/)
 
 Here, we say: "declare variable x and initialize it with the integer (number) 5".
 
 ```js
-let foo;  // declare variable `foo`
+let foo; // declare variable `foo`
 ```
 
 ```js
@@ -63,10 +51,10 @@ let foo = 6; // declare and assign a variable at the same time
 ```
 
 You can also assign a value to an existing variable:
-```js
-foo = 4;  // change variable `foo`
-```
 
+```js
+foo = 4; // change variable `foo`
+```
 
 ## Variable types
 
@@ -109,7 +97,6 @@ let x;
 console.log(typeof x); // -> 'undefined'
 ```
 
-
 ### Typeof
 
 You can use `typeof` to get the type of a certain variable as you have seen in the above section 'Variable types'. As you can see in the following examples it returns the type of data that you have stored in your variable.
@@ -120,17 +107,16 @@ In JavaScript you can store a series of characters inside a variable, you then c
 
 ```js
 let foo = '42';
-typeof foo   //-> 'string'
-
-let bar = 'I\'m 99 years old ';
-typeof bar   //-> 'string'
+typeof foo; //-> 'string'
 ```
 
 ### String indexes and string properties
+
 The index of a string always starts at 0.
 Strings also have properties, for example `.length` you can use this to find the length of a string.
 
 So for example:
+
 ```js
 let baz = 'Hello World';
 baz[0]; //-> "H"
@@ -139,21 +125,19 @@ baz.length; //-> 11
 
 ### String methods
 
->Todo
+> Todo
 
 ## Numbers
 
 All numbers in JavaScript are considered numbers with or without decimal
 
 ```js
-let quux = 42;    
-typeof quux  //-> 'number'
+let foo = 42;
+typeof foo; //-> 'number'
 
-let quuux = 3.3333;
-typeof quuux //-> 'number'
-
+let bar = 3.3333;
+typeof bar; //-> 'number'
 ```
-
 
 ## Arrays
 
@@ -170,7 +154,7 @@ console.log(arr[0]);
 
 The number `0` is the "index of the first element of array `arr`". Conversely, the element "at index 0 in array `arr` is `'john'`".
 
-Instead of a number, you can also use a variable to access elements in an array, *as long as this variable is a number*:
+Instead of a number, you can also use a variable to access elements in an array, _as long as this variable is a number_:
 
 ```js
 let arr = ['john', 'jane', 'jack'];
@@ -184,11 +168,12 @@ More about [arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 
 ### Comparison operators
 
->Note the two different uses of the equals sign:
-A single equals sign (=) is used to assign a value to a variable.
-A triple equals sign (===) is used to compare two values (see Equality Operators).
+> Note the two different uses of the equals sign:
+> A single equals sign (=) is used to assign a value to a variable.
+> A triple equals sign (===) is used to compare two values (see Equality Operators).
 
 #### Equality operators
+
 * Equality `==`
 * Inequality `!=`
 * Identity / strict equality `===`
@@ -197,28 +182,29 @@ A triple equals sign (===) is used to compare two values (see Equality Operators
 How does this work in practice?
 
 ```js
-1 == 1 // -> true
-7 == '7' // -> true
-1 != 2  // -> true
-5 === 5  // -> true
-9 === '9'  // -> false
-3 !== 3 // -> false
-3 !== '3' // -> true
+1 == 1; // -> true
+7 == '7'; // -> true
+1 != 2; // -> true
+5 === 5; // -> true
+9 === '9'; // -> false
+3 !== 3; // -> false
+3 !== '3'; // -> true
 ```
 
 > why does `7 == '7'` returns true and `9 === '9'` returns false?
 
 #### Relational operators
+
 * Greater than operator `>`
 * Greater than or equal operator `>=`
 * Less than operator `<`
 * Less than or equal operator `<=`
 
 ```js
-4 > 3   // -> true
-3 >= 3  // -> true
-13 < 12 // -> false
-3 <= 4   // -> true
+4 > 3; // -> true
+3 >= 3; // -> true
+13 < 12; // -> false
+3 <= 4; // -> true
 ```
 
 More about [comparison operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
@@ -228,40 +214,16 @@ More about [comparison operators](https://developer.mozilla.org/en-US/docs/Web/J
 * Addition `+`
 * Subtraction `-`
 * Multiplication `*`
-* Division `/`       
-* Remainder (sometimes called modulo) `%`   
-<br>Returns the remainder left over after you've shared the left number out into a number of integer portions equal to the right number.
+* Division `/`
+* Remainder (sometimes called modulo) `%`  
+  <br>Returns the remainder left over after you've shared the left number out into a number of integer portions equal to the right number.
 
 ```js
-8 + 9 // -> 17, adds two numbers together.  
-20 - 12 // -> 8, subtracts the right number from the left.
-3 * 4 // -> 12, multiplies two numbers together.
-10 / 5 // -> 2, divides the left number by the right.   
-8 % 3 /// -> 2, as three goes into 8 twice, leaving 2 left over.
+8 + 9; // -> 17, adds two numbers together.
+20 - 12; // -> 8, subtracts the right number from the left.
+3 * 4; // -> 12, multiplies two numbers together.
+10 / 5; // -> 2, divides the left number by the right.
+8 % 3; /// -> 2, as three goes into 8 twice, leaving 2 left over.
 ```
 
 More about [Arithmetic_Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#.25_.28Modulus.29)
-
-### Logical operators
-
-* AND `&&`
-* OR `||`
-* NOT `!`
-
-Given that x = 6 and y = 3
-```js
-x < 10 && y > 1 // -> true
-x == 5 || y == 5 // -> false
-x !== y // -> true
-```
-
-More about [logical operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
-
-### Operator precedence
-
-There are compound assignment operators such as +=. The following two assignments are equivalent:
-
-```js
-x += 1;
-x = x + 1;
-```
