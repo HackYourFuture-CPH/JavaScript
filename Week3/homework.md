@@ -76,6 +76,26 @@ finishMondayEvening(watchBreakingBad);
 
 And just for fun ... https://www.freecodecamp.com/challenges/sum-all-numbers-in-a-range
 
+## Step 4: **Git-It Exercises**
+Download the Git-It application from this link: https://github.com/jlord/git-it-electron/releases
+
+Find the latest version for your operating system, download and start it like a normal application.
+
+Git-It is a tutorial application that will walk you through setting up Git and Github and performing the most basic steps needed for contributing to a Git repository.
+
+The homework for next time is to complete exercise 1-7. You have probably already performed the first few steps during class but I recommend doing all of the exercises from the beginning. Make sure to keep a close eye on the instructions as they explain very well what to do and how the basics of Git works.
+
+Our expectations from the next class is that you know how to do the following:
+- Create a repository on github.
+- Create a local repository on your computer.
+- Link your local and remote repository.
+- Add file changes to the git staging area.
+- Commit staged changes.
+- Push from the local repository to the remote.
+
+Additionally, the exercises above should teach you how to create branches. We will cover that in class as well, so don't worry if the purpose of doing so is not completely clear, but please try to complete the exercises anyway as we will be using these tools over and over during the course.
+
+
 ### :boom: Bonus homework :boom:
 the Bonus homework for this week (for those of you want an extra challenge) do the following:
 
