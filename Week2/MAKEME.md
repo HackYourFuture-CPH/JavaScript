@@ -45,21 +45,23 @@ if (3 == 3) {
 13. Create a function that takes two objects as parameters and compares them. You will actually need to write two functions — one that compares with `==` and one that compares with `===`. Remember that objects can have objects inside of them so you'll need to find a way to compare every element of every object (types and values). For example: 
 
 ```js
-    var obj1 = {
-        a: 1, 
-        b: 'this is the letter b', 
-        c: { foo: 'what is a foo anyway', 
-             bar: [1,2,3,4]
-        }
-    }
-    
-    var obj2 = {
-        a: '1', 
-        b: 'this is the letter b', 
-        c: { foo: 'what is a foo anyway', 
-             bar: [1,2,3,4]
-        }
-    }
+var obj1 = {
+  a: 1,
+  b: "this is the letter b",
+  c: {
+    foo: "what is a foo anyway",
+    bar: [1, 2, 3, 4]
+  }
+};
+
+var obj2 = {
+  a: "1",
+  b: "this is the letter b",
+  c: {
+    foo: "what is a foo anyway",
+    bar: [1, 2, 3, 4]
+  }
+};
 ```
 
     In our example we'll say that `obj1 == obj2` is `true` and `obj1 === obj2` is `false`. Make sure you can see why before you write any code!
@@ -84,9 +86,9 @@ if (3 == 3) {
 15. Write some code to test two arrays for equality using `==` and `===`. Test the following:
     
 ```js
-    var x = [1,2,3];
-    var y = [1,2,3];
-    var z = y;
+var x = [1, 2, 3];
+var y = [1, 2, 3];
+var z = y;
 ```
 
 What do you think will happen with `x == y`, `x === y` and `z == y` and `z == x`? Prove it!
