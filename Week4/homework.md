@@ -1,6 +1,6 @@
 # Homework Week 4
 
->[Here](/Week4/README.md) you find the readings you have to complete before the fifth lecture.
+>[Here](/Week4/reading.md) you find the readings you have to complete before the fifth lecture.
 
 ## Step 1: Lets get real comfortable with map, filter and sort.
 
