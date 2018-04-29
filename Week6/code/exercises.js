@@ -47,7 +47,7 @@ function getAjaxData(url, callback) {
 
 /* Exercise 2 
 
-1. First get all spaceX launches. Using this api: https://api.spacexdata.com/v1/launches and the function i have created above.
+1. First get all spaceX launches. Using this api: https://api.spacexdata.com/v2/launches and the function i have created above.
 
 2. Then filter the successes. 
 
