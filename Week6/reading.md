@@ -2,7 +2,7 @@
 
 ```
 In week seven we will discuss the following topics:
-• Git Workflow :muscle: 
+• Git Workflow
 • Map, reduce filter
 • Arrow functions
 ```
@@ -13,7 +13,7 @@ Some nice resources about map, filter, reduce
 - :dizzy: [Fun fun functional](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84) :dizzy: Check the first 3-4 videos.
 - Wes Bos' awesome free tutorials. Just make a free account and do Array Cardio #1 [here](https://javascript30.com/)
 
-- Check out this video of Daan to see how we use Git Workflow to hand in Homework (from now on): https://www.youtube.com/watch?v=-o0yomUVVpU&index=2&list=PLVYDhqbgYpYUGxRdtQdYVE5Q8h3bt6SIA
+- Check out this video of Amsterdam mentor Daan to see how we use Git Workflow to hand in Homework: https://www.youtube.com/watch?v=-o0yomUVVpU&index=2&list=PLVYDhqbgYpYUGxRdtQdYVE5Q8h3bt6SIA
 
 _Please go through the material and come to class prepared!_
 
