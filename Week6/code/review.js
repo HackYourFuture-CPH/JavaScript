@@ -128,7 +128,7 @@ function getAjaxData(url, callback) {
 
 
 
-getAjaxData('http://api.open-notify.org/astros.json', function(data) {
+getAjaxData('https://api.open-notify.org/astros.json', function(data) {
     console.log(data);
 });
 
@@ -174,7 +174,7 @@ Lets try and use query strings to create get gifs from the giphy api that limits
 function getGifs(gifSearchQuery) {
     const api_key = '2FuF3E9nyFeXWt3aHIfkxtKTUGn73v0w';
     const query = gifSearchQuery;
-    const giphyUrl = 'http://api.giphy.com/v1/gifs/search?api_key=' + api_key + '&q=' + query;
+    const giphyUrl = 'https://api.giphy.com/v1/gifs/search?api_key=' + api_key + '&q=' + query;
 
     const getGifs = function(gifs) {
         console.log(gifs);
