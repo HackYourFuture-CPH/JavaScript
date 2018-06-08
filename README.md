@@ -1,9 +1,16 @@
-> Please help us improve and share your feedback! If you find better tutorials or links, please share them by opening a Pull Request.
-
-# HackYourJavaScript
-
+> Please help us improve and share your feedback! If you find better tutorials or links, please share them by opening a Pull Request.   
+> 
 > **Kind note:**  
 We expect you to **always** come prepared to the class on Sunday.
+
+# HackYourJavaScript
+<img src='JS.gif' width='500px' align="middle">  
+
+### What is JavaScript?   
+'JavaScript is a programming language that adds interactivity to your website (for example: games, responses when buttons are pressed or data entered in forms, dynamic styling, animation).'   
+Read this intro article on [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+
+This JavaScript course is divided in three modules. Starting from the simple uses and understanding the basics to the more complex features of the language. 
 
 ## Module goals:
 
