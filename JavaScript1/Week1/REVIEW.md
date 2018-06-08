@@ -11,7 +11,7 @@ This review covers:
 
 What is jQuery and why should you use it?
 
-https://www.freecodecamp.org/map#nested-collapsejQuery
+https://learn.freecodecamp.org/front-end-libraries/jquery
 
 # JavaScript fundamentals
 
