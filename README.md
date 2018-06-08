@@ -2,8 +2,10 @@
 > 
 > **Kind note:**  
 We expect you to **always** come prepared to the class on Sunday.
+<h1 align='center'>
+ HackYourJavaScript
+</h1>   
 
-# HackYourJavaScript
 <p align='center'>
 <img src='JS.gif' width='600px'>  
 </p>   
