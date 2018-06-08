@@ -4,9 +4,11 @@
 We expect you to **always** come prepared to the class on Sunday.
 
 # HackYourJavaScript
-<img src='JS.gif' width='500px' align="middle">  
+<p align='center'>
+<img src='JS.gif' width='600px'>  
+</p>   
 
-### What is JavaScript?   
+## What is JavaScript?   
 'JavaScript is a programming language that adds interactivity to your website (for example: games, responses when buttons are pressed or data entered in forms, dynamic styling, animation).'   
 Read this intro article on [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
 
