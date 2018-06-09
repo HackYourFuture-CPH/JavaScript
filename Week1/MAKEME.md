@@ -6,7 +6,14 @@ We covered a bit of command line usage in the first class and got a program runn
 
 ## Before you start with the homework:
 
-1.  Watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro) Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though).
+1.  Watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro) Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though). 
+
+## Step 0 Simple exercise   
+1. Create an Array of names of people in the class and call this variable hYF06.   
+2. Insert all the names of your class. This should be both first name and last name. 
+3. Print all the names
+4. You will then create a random pair from the Array and print the names on the pair.    
+5. You should output the names on index.html. Hint :use Math.random() function
 
 ## Step 1: JavaScript
 
