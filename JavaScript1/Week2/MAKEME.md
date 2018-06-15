@@ -143,7 +143,7 @@ How to hand in your homework:
 • Place the link to your repository folder in Trello.
 ```
 
-:star: Additional resources and review: [here](/Week2/REVIEW.md) (work in progress):star:
+:star: Additional resources and review: [here](/JavaScript1//Week2/REVIEW.md) (work in progress):star:
 
 ## Step 4  
 
