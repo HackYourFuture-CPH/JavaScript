@@ -68,13 +68,12 @@ finishMondayEvening(watchBreakingBad);
 
 ## Step 3: **FreeCodeCamp challenges:**
 
-- https://www.freecodecamp.com/challenges/declare-javascript-objects-as-variables
-- https://www.freecodecamp.com/challenges/make-instances-of-objects-with-a-constructor-function
-- https://www.freecodecamp.com/challenges/make-unique-objects-by-passing-parameters-to-our-constructor
-- https://www.freecodecamp.com/challenges/make-object-properties-private
+- https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/object-oriented-programming/use-a-constructor-to-create-objects
+- https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/object-oriented-programming/extend-constructors-to-receive-arguments
+- https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/object-oriented-programming/use-closure-to-protect-properties-within-an-object-from-being-modified-externally
 
 
-And just for fun ... https://www.freecodecamp.com/challenges/sum-all-numbers-in-a-range
+And just for fun ... https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-numbers-in-a-range
 
 ## Step 4: **Git-It Exercises**
 Download the Git-It application from this link: https://github.com/jlord/git-it-electron/releases
