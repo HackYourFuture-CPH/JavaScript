@@ -5,7 +5,7 @@
 ## Step 1: Lets get real comfortable with map, filter and sort.
 
 Use the carGenerator function to generate 10 cars. The file with the function is here: 
-[https://github.com/HackYourFuture-CPH/JavaScript/blob/master/JavaScript2/Week4/code/carGenerator.js](/Week4/code/carGenerator.js)
+[https://github.com/HackYourFuture-CPH/JavaScript/blob/organizedJSModules/JavaScript2/Week4/code/carGenerator.js](https://github.com/HackYourFuture-CPH/JavaScript/blob/organizedJSModules/JavaScript2/Week4/code/carGenerator.js)
 
 You call it like this: 
 generateCars(10);
