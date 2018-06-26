@@ -185,8 +185,6 @@ const query = 'smile'
 
 const giphyUrl = 'http://api.giphy.com/v1/gifs/search?api_key=' + api_key + '&q=' + query;
 
-const giphyUrl = 'http://api.giphy.com/v1/gifs/search?api_key=' + api_key + '&q=' + query;
-
 // Create new ajax call with the js function called XMLHttpRequest
 
 const giphyReq = new XMLHttpRequest();
