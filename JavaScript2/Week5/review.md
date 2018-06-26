@@ -157,6 +157,7 @@ Show the network tab in chrome and filtering for xhr
 
 
 **API - Application Programming Interface**
+
 What is an interface?
 Programmers can use an api to access complex functionality in a simple way. 
 Electricity socket. You just plug your appliance into the wall and it works.
