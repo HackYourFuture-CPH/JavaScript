@@ -4,7 +4,7 @@ Exercise 1
 Create a index.html file with two buttons. 
 One with the text "Count up" and one with the text "Log in 5 seconds".
 When the button with the text "Count up" is clicked it should first log out 0, then next time it is clicked it should log out 1, etc.
-When the button with the text "Log in 5 seconds" is clicked it should wait 3 seconds and then console log the text
+When the button with the text "Log in 3 seconds" is clicked it should wait 3 seconds and then console log the text
 "Log in 3 seconds"
 */
 
