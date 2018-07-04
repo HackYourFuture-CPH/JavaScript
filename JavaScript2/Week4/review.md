@@ -31,7 +31,8 @@ Add your favorite person to a list of famous people and show them on a HTML page
 
 For code flow, mentors can use following code and show how everything gets executed using this tool - http://latentflip.com/loupe/
 
-```function firstFunction() {
+```
+function firstFunction() {
     for (let i = 0; i < 5; i++) {
         console.log(i);
     }
