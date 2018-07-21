@@ -59,7 +59,7 @@ const api_key = '2FuF3E9nyFeXWt3aHIfkxtKTUGn73v0w';
 const query = 'smile';
 const giphyUrl = 'https://api.giphy.com/v1/gifs/search?api_key=' + api_key + '&q=' + query;
 
-5. set the src of a img to the gif url (look for the images key in the gifs object). 
+5. set the src of an img to the gif url (look for the images key in the gifs object). 
 
 */
 
@@ -73,7 +73,7 @@ const giphyUrl = 'https://api.giphy.com/v1/gifs/search?api_key=' + api_key + '&q
 
 2. Get the number from the input value.
 
-3. Create a ul and add list elements that contains the names of the astronauts from this api: https://api.open-notify.org/astros.json
+3. Create a ul and add list elements that contain the names of the astronauts from this api: http://api.open-notify.org/astros.json
 
 */
 
