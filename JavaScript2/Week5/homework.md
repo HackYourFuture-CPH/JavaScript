@@ -82,7 +82,7 @@ function f2(val) {
 f2(y);
 console.log(y);
 ```
-If you are confused please run the code and then consult the Google for "javaScript pass by value pass by reference"
+If you are confused please run the code and then consult Google for "javaScript pass by value pass by reference"
 
 ### Step 2: Feedback
 Give feedback on step 2 of the homework to one of your fellow classmates.
