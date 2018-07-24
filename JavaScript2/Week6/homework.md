@@ -22,7 +22,7 @@ Make a website that fetches (= to get) data asynchronously.
 
 2) Add a button (e.g. 'click me') that when clicked `console.logs` 'you clicked me!'
 
-3) Create a function that fetches from [The Github API](https://developer.github.com/v3/). For example from [this page] (https://api.github.com/orgs/HackYourFuture/repos). For help on this check this [SO post](https://stackoverflow.com/questions/247483/http-get-request-in-javascript)
+3) Create a function that fetches from [The Github API](https://developer.github.com/v3/). For example from [this page](https://api.github.com/orgs/HackYourFuture-CPH/repos). For help on this check this [SO post](https://stackoverflow.com/questions/247483/http-get-request-in-javascript)
 
 4) Display the data that you get from the Github API on your web page.
 
