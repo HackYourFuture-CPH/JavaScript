@@ -113,8 +113,8 @@ You can see `CommandLine` in the URL. These are called "query parameters" and le
 
 ```
 How to hand in your homework:
-• Create a new repository "hyf-javascript2". Also create a new folder "week2" inside this repository. 
+• Create a new repository "hyf-javascript2". Also create a new folder "week5" inside this repository. 
 • Upload your homework files inside the week4 folder and write a description for this “commit”.
-• Your hyf-javascript2/week4 should now contain the files of your homework.
+• Your hyf-javascript2/week5 should now contain the files of your homework.
 • Post the link on the slack channel and in the Google Form
 ```
