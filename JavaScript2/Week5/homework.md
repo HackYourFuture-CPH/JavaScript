@@ -35,7 +35,7 @@ All share a video or a resource (this can be a drawing, article or a pod cast) t
     THIS IS FAKE CODE 
     function threeFive(startIndex, stopIndex, threeCallback, fiveCallback) {
        // make array 
-       // start at beginning of array and check if you should call threeCallback or fiveCallback or go on to next  
+       // loop through the array. Check if you should call threeCallback and/or fiveCallback.
     }
     threeFive(10, 15, sayThree, sayFive);
 
