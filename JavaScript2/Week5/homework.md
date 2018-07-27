@@ -15,7 +15,7 @@ All share a video or a resource (this can be a drawing, article or a pod cast) t
     }
     setTimeout(doIt, 5000)
     ```
-    If you run the above code it will wait 5 seconds and print `I am done`. Please read something about setTimeout on MDN. The first argument to the `setTimeout` call is the callback (`doIt`)
+    If you run the above code it will wait 5 seconds and print `I am done`. Please read something about setTimeout on MDN. The first argument to the `setTimeout` function is the callback (`doIt`)
 
     You must write a function that takes 4 arguments.
     - A start value 
