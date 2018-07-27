@@ -56,8 +56,8 @@ https://www.freecodecamp.com/challenges/construct-javascript-objects-with-functi
 4. Nested loops 
 https://www.freecodecamp.com/challenges/nesting-for-loops
 
-5. We did some work with arrays - `var arr = [1,2,3]`
-We can also nest arrays inside arrays like this `var arr2d = [[1,2], [3,4], [5,6]]` (for math people you can think of this as a matrix)
+5. We did some work with arrays - `let arr = [1,2,3]`
+We can also nest arrays inside arrays like this `let arr2d = [[1,2], [3,4], [5,6]]` (for math people you can think of this as a matrix)
 How would you print all the items of an array with 3 dimensions? 
 How about with K dimensions? 
 What if you didn't know how deep the array was nested? (You don't have to write code for this but think about it)
@@ -65,7 +65,7 @@ What if you didn't know how deep the array was nested? (You don't have to write 
 6. Here are two functions that look like they do the something similar but they print different results. Please explain what's going on here.
 
 ```js
-var x = 9; 
+let x = 9; 
 function f1(val) { 
     val = val+1; 
     return val;
@@ -74,7 +74,7 @@ f1(x);
 console.log(x);
 
 
-var y = { x: 9 };
+let y = { x: 9 };
 function f2(val) {
     val.x = val.x + 1;
     return val;
