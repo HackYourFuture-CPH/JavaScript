@@ -50,7 +50,7 @@ https://www.freecodecamp.org/challenges/store-multiple-values-in-one-variable-us
 
 ```
 How to hand in your homework:
-• Create a new repository "hyf-javascript2". Also create a new folder "week1" inside this repository. 
+• Create a new repository "hyf-javascript2". Also create a new folder "week4" inside this repository. 
 • Upload your homework files inside the week4 folder and write a description for this “commit”.
 • Your hyf-javascript2/week4 should now contain the files of your homework.
 • Post the link on the slack channel and in the Google Form

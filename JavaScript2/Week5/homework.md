@@ -113,12 +113,8 @@ You can see `CommandLine` in the URL. These are called "query parameters" and le
 
 ```
 How to hand in your homework:
-• Clone your existing "hyf-javascript2" Github repository.
-• Create a new folder "week2" USING THE COMMAND LINE 
-• Save your homework files inside this folder. 
-• When you are done with your homework use add/commit and push to upload your homework. 
-• Write a description for your “commit”.
-• Your hyf-javascript2/week2 should now contain all your homework files.
-Place the link to your repository folder in Trello.
+• Create a new repository "hyf-javascript2". Also create a new folder "week5" inside this repository. 
+• Upload your homework files inside the week4 folder and write a description for this “commit”.
+• Your hyf-javascript2/week5 should now contain the files of your homework.
+• Post the link on the slack channel and in the Google Form
 ```
-

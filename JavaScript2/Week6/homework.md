@@ -93,8 +93,8 @@ __Bonus__: Write a function takes this array `['a', 'b', 'c', 'd', 'a', 'e', 'f'
 
 ```
 How to hand in your homework:
-• Create a new repository "hyf-javascript2". Also create a new folder "week3" inside this repository. 
+• Create a new repository "hyf-javascript2". Also create a new folder "week6" inside this repository. 
 • Upload your homework files inside the week4 folder and write a description for this “commit”.
-• Your hyf-javascript2/week4 should now contain the files of your homework.
+• Your hyf-javascript2/week6 should now contain the files of your homework.
 • Post the link on the slack channel and in the Google Form
 ```
