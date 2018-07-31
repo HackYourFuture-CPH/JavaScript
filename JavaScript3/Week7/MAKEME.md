@@ -25,7 +25,7 @@
 
 2. Using [this json file](https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json) as the source, build a function which does the following:
 
-    1. Give each movie a `tag`: Good (>=7), Average (4-6), Bad (0-3) based on the ratings.
+    1. Give each movie a `tag`: Good (>= 7), Average (>= 4 and < 7), Bad (< 4) based on the ratings.
     1. Calculate the average rating of all the movies.
     1. Count the total number of Good, Average and Bad movies.
     1. Count he number of movies containing the following keywords: `["The", "dog", "who", "is", "not", "a", "man"]`. Can you make sure the search is case insensitive?
