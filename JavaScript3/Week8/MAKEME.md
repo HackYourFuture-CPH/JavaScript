@@ -82,10 +82,10 @@ Once you have the factory function above working well for 3, 10 and 21, create a
 
 Using [the movies json file from the previous exercise](https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json) as the source, extend your appliation to do the following:
 
-1. Give each movie a `tag`: Excellent (>=8.5), Very Good (>=8), Good (<8) based on the ratings.
+1. Give each movie a `tag`: Good (>= 7), Average (>= 4 and < 7), Bad (< 4) based on the ratings.
 1. Render all the movies as a list (similar to how you were presenting Github repositories in the homework before).
 1. Add a input field, and a button to perform search. Use `.filter` method on arrays to filter on the titles.
-1. Add 4 radio buttons for each tag + All tag (All, Excellent, Very Good, Good) and filter the movies based on the tag selected.
+1. Add 4 radio buttons for each tag + All tag (All, Good, Average, Bad) and filter the movies based on the tag selected.
 1. Display only the movies in the list which match the two filter criterion above.
 1. Display the average rating of the movies being filtered and displayed.
 
