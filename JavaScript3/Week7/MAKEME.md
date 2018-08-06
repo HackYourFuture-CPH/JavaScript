@@ -40,11 +40,11 @@ Note: Most of you have not completed the homework from last week, so this task w
 
 ## Step 2: **Some freeCodeCamp challenges:**
 
-1. [Comparisons with the Logical And Operator](https://www.freecodecamp.com/challenges/comparisons-with-the-logical-and-operator)
+1. [Comparisons with the Logical And Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparisons-with-the-logical-and-operator/)
 
-2. [Record Collection](https://www.freecodecamp.com/challenges/record-collection)
+2. [Record Collection](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/record-collection/)
 
-3. [Iterate over Arrays with map](https://www.freecodecamp.com/challenges/iterate-over-arrays-with-map)
+3. [Iterate over Arrays with map](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/functional-programming/use-the-map-method-to-extract-data-from-an-array)
 
 ## To watch before the next lecture:
 
