@@ -1,6 +1,6 @@
 # Homework Week 8
 
->[Here](/Week8/README.md) you find the readings you have to complete before the ninth lecture.
+>[Here](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/JavaScript3/Week8/README.md) you find the readings you have to complete before the ninth lecture.
 
 ## Step 1: Closure
 
