@@ -1,4 +1,4 @@
-# Reading Material for the 10th lecture
+# Reading Material for the 9th lecture
 
 
 - JavaScript : [Closures](http://conceptf1.blogspot.nl/2013/11/javascript-closures.html)
