@@ -1,8 +1,3 @@
-# Week 1 of JavaScript 1
-
-* [What we went through in class](./REVIEW.md)
-* [Homework for next time](./MAKEME.md)
-
 ## Reading material for the second lecture:
 
 ```
