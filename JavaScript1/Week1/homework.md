@@ -4,134 +4,46 @@
 
 1. Watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro) Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though). 
 
-## Step 1: JavaScript
+## Eye Scream - We help where we can
+Lets imagine that we have just started a cool new tech startup called **Eye Scream**. And lets imagine we even have this cool website url: [eye-scream.io](eye-scream.io) Now we are in business!
 
-> For all the following exercises create a new `.js` file. Try to find a proper name for each file or make a small comment about what it does inside for future reference.
+At **Eye Scream** we focus on solving real world problems. We venture into the world to help people, and by helping people, we create a sustainable business.
 
-1. Write a `console.log` statement saying "Hello World!" for each language that you know.
+Cool lets see which problems we can find:
 
-For example:
+### The age calculator
+You are talking to a friend who suddently looks at you and asks: "How old will you be in 2045?" You remember the year you were born and try to do some calculation: Born in 1987 + 3 that 1990. 90 - 40 is 50 + 5 thats 58. I will be 58! Wow that was a pain! Lets fix that by making some code that automatically does this!
 
-```
-Halo, dunia! // Indonesian
-Ciao, mondo! // Italian
-Hola, mundo! // Spanish
-```
+Create two cariables called yearOfBirth and yearFuture. Assign these your own age and a futureYear.
+What type will these two variables be? Now calculate the age and store that in a variable called age. Log this variable out.
 
-2. Consider the following code:
+### The dog age calculator
+Now lets do the same but for a dog! Dogs age can either be measured in dog years or in human years, this we want to take into consideration! 
+Like before lets create three variables but this time we call them dogYearOfBirth, dogYearFuture and dogYear. We add an extra variable called shouldShowResultInDogYears. If it is true we should show the result in dog years, if it is false we should show it in human years. What do we call this type of variable? 
+Try some different numbers for dogYearOfBirth and dogYearFuture and see if the dogYear makes sense.
 
+
+### House price estimator
+Two of your friends are considering buying a house, but cannot figure out what the price should be. Your friends knows the width, the height and the depth of the house and the garden size. Lets help them figure out if they paid too much:
+
+We have made our own formula for calculating the price of a house, it is as follows:
 ```js
-console.log('I'm awesome');
+housePrice = volumeInMeters * 2.5 * 1000 + gardenSizeInM2 * 300
 ```
 
-Copy the code in your `.js` file and run it. You will see that you will get a SyntaxError. Find a solution for this error. Hint: read the error message carefully, it also gives an indication of where the problem is.
+Your friend Peter is considering a house with 8m wide, 10m deep and 10m high. The garden size is 100m2. The house costs 2.500.000.
+Your friend Julia is considering a house with 5m wide, 11m deep and 8m high. The garden size is 70m2. This house costs 1.000.000.
 
-3. Working with variables
-  * Declare a variable `x` and initialize it with an integer, using these exact steps:  
-  * First, _declare_ your variable `x` (do not initialize it yet).  
-  * Add a `console.log` statement that explains in words what _you think_ the value of `x` is, like in this example:  
+Figure out if Peter and Julia is either paying too much or too little.
 
-```js
-  // TODO -> here you initialize your variable
-  console.log('the value of my variable x will be: whateverYouThinkItWillLog');
-```
 
-  * Add a `console.log` statement that logs the value of `x`.  
-  * Now _initialize_ your variable `x` with an integer.  
-  * Next, add a `console.log` statement that explains what _you think_ the value of `x` is.  
-  * Add a `console.log` statement that logs the value of `x`.  
-  Steps to be taken:
+### Startup name generator
+Making a startup name is difficult! Want to know the startup name but also the length because of logo restrictions.
 
-```js
-  // TODO -> here you declare your variable
-  console.log('the value of x will be: whateverYouThinkItWillLog');
-  // TODO -> log the actual value of x
-  // TODO -> here you initialize your variable
-  console.log('the value of x will be: whateverYouThinkItWillLog');
-  // TODO -> log value of x again
-```
+Create two arrays called firstWords, secondWords and thirdWords. The arrays should have 10 elements containing strings of possible startup names. Some examples of first words could be: "Easy", "Awesome", "Corporate". Create a variable called numberOfStartupWords that controls the number of words in the created startup name. This variable can be either 1, 2 or 3. Create a variable called new startupName. Using a random index (you choose) of the arrays and concatenation of strings, create and log the new startup name. 
 
-4. Working with variables
-  * Declare a variable `y` and assign a string to it.  
-  * Write a `console.log` statement in which you explain in words what _you think_ the value of the string is.  
-  * Now `console.log` the variable `y`.  
-  * Now assign a new string to the variable `y`.  
-  * Just like what you did before write a `console.log` statement that explains in words what you think will be logged to the console.  
-  * Now console.log `y` again.  
 
-```js
-  // TODO -> here you declare AND assign your string
-  console.log('the value of my string will be: whateverYouThinkItWillLog');
-  // TODO -> log the actual value of the string to the console
-  // TODO -> assign a new value to your variable x
-  console.log('the value of my string will be: whateverYouThinkItWillLog');
-  // TODO -> log the actual value of the string to the console
-```
 
-5. Working with variables
-  * How do you round the number 7.25, to the nearest integer (i.e., whole number)?  
-  * Declare a variable `z` and assign the number 7.25 to it.  
-  * `console.log` `z`.  
-  * Declare another variable `a` that has the value of `z` but rounded to the nearest integer.  
-  * `console.log` `a`.  
-  * So now we have `z` and `a` find a way to compare the two values and store the highest of the two in a new variable.  
-  * `console.log` the highest value.  
-
-6. Arrays  
-  * Declare an empty array. Make sure that the name you choose indicates 'plurality', because an array is capable of containing more than one element. (See [Naming conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)).  
-  * Write a `console.log` statement that explains in words what you think the value of the array is.  
-  * `console.log` your array.  
-  * Create an array that has your favorite animals inside (see if you can find a good name that exactly describes what this variable will hold).  
-  * Log your array.  
-  * Add a statement that adds Daan's favorite animal ('baby pig') to the *existing array*.  
-  * Log your new array!  
-
-7. More strings<br>
-Let's consider the following string: `let myString = "this is a test"`.  
-  * Add the string to your file and console.log it.  
-  * Find a way to get the length of `myString`.  
-  * `console.log` the length of `myString`.  
-
-8. Write a program that checks the types of two variables and prints out `SAME TYPE` if they are the same type.  
-  * First declare at least four variables and assign them different data types.  
-  * For each variable write a `console.log` statement that logs the value
-  ```js
-  let foo = 3;
-  console.log('The value of my variable foo is: ' + foo);
-  ```
-
-  (Curious to know what a `foo` is? Check [this article](https://en.wikipedia.org/wiki/Metasyntactic_variable) on Wikipedia.)
-
-  * Now write a `console.log` statement wherein you first explain in words what you think the _type_ of your variables is.  
-  * Now use `typeof` to log the actual _type_ of your variables.  
-  * Now compare the types of your different variables with one another.  
-  * Make sure to also show a message when the variables you are comparing are not the same type.  
-
-For example:
-
-```js
-let x = 9;
-let y = 'Hello';
-
-if (...) {
-    console.log('SAME TYPE');
-}
-// TODO -> add a way of giving feedback if your variables don't have the same type
-```
-
-9. Modulo operator
-  * What is logged out
-    ```
-    const x = 7;
-    const newX = x % 3;
-    console.log(newX);
-    ```
-  * Add at least 3 `console.log` statements in which you show that you understand what `%` does.  
-
-10. Variable types 
-  * Can you store multiple types in an array? Numbers and strings? Make an example that illustrates your answer.  
-  * Can you compare infinities? - does 6/0 === 10/0? How can you test this?  
-  * Add `console.log` statements to the above program in which you show that you understand the concepts (just like you've done in the above assignments).  
 
 ## Step 2:
 
