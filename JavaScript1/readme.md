@@ -1,0 +1,7 @@
+## Here you can find course content and homework for the JavaScript 1 module.
+
+| Week | Topic | Preparation | Homework | Review |
+| ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |------------------------------------------------------------------------ |
+|1.|• Intro JavaScript (What is it, where can you use it for)<br>• jQuery<br>• Variables [var, let, const]<br>• Basic Data types [Strings, Numbers, Arrays]<br>• Operators|[Preparation](/JavaScript1/Week1/preparation.md)|[Homework](/JavaScript1/Week1/homework.md)|[Review](/JavaScript1/Week1/review.md)|
+|2.|• Advanced data types [Objects] <br>• Conditions <br>• Statements vs Expressions<br> • Loops (for/while)<br>• Functions <br>• Naming conventions|[Preparation](/JavaScript1/Week2/readme.md)|[Homework](/JavaScript1/Week2/homework.md)|[Review](/JavaScript1/Week2/review.md)|
+|3.|• Functions <br>• Code flow (order of execution) <br>• Basic DOM manipulations [img src, innerHTML] <br>• Code commenting <br>• Code debugging using the browser <br>• Beautification of code | [Preparation](/JavaScript1/Week3/readme.md)|[Homework](/JavaScript1/Week3/homework.md)|[Review](/JavaScript1/Week3/review.md)

@@ -29,10 +29,7 @@ A web app with external data source using at least one API
 
 ### Overall
 A good understanding of all the above mentioned topics. Want to check your Knowledge?    
-Go through the [JavaScript Fundamentals README](/fundamentals) and research/ask for help [(Slack!)](https://hackyourfuture-cph.slack.com) with the concepts that are not entirely clear.
+Go through the [JavaScript Fundamentals readme](/fundamentals) and research/ask for help [(Slack!)](https://hackyourfuture-cph.slack.com) with the concepts that are not entirely clear.
 
-
-
-
-
+Helpful resource: http://jsbooks.revolunet.com/ (here you can find tons of free JavaScript books online)
 
