@@ -1,12 +1,10 @@
-## Homework Week 2
-
->[Here](/Week2/README.md) you find the readings you have to complete before the third lecture.
+# Homework
 
 ## Step 1: Recap/Read
 
 - Have a look at [The Secret Life of JavaScript Primitives](https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/)
-- Go through the review of [last week](/Week1/REVIEW.md) (Work in progress, update this week :wrench:)
-- Go through the review of [this week](/Week2/REVIEW.md) (work in progress, update this week :nut_and_bolt:)
+- Go through the review of [last week](../Week1/review.md) (Work in progress, update this week :wrench:)
+- Go through the review of [this week](../Week2/review.md) (work in progress, update this week :nut_and_bolt:)
 
 ## Step 2: JavaScript
 > For all the following exercises create a new .js file. Try to find a proper name for each file or make a small comment about what it does inside for future reference
