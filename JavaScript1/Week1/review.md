@@ -1,19 +1,4 @@
-# REVIEW JavaScript Basics week 1
-
-This review covers:
-
-* jQuery
-* Intro JavaScript (What is it, where can you use it for)
-* Variables [var, let, const]
-* Basic Data types [Strings, Numbers, Arrays]
-
-# jQuery
-
-What is jQuery and why should you use it?
-
-https://learn.freecodecamp.org/front-end-libraries/jquery
-
-# JavaScript fundamentals
+# REVIEW of JavaScript fundamentals
 
 ## Variables
 
