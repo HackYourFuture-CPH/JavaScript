@@ -1,4 +1,4 @@
-## Homework Week 3
+# Homework
 
 ## Step 1: Custom DOM manipulation challenge :mortar_board:
 
@@ -16,13 +16,6 @@
  
 7. Download book covers for each book, construct a new Object which has as keys the bookId's again, and as value the path to the image source (e.g. `{"harry_potter_blabla": "./img/harry_potter_blabla.jpg", ...}`). Now loop over these entries (_hint: `Object.keys(objectName)` gives you an array containing the keys_). Then write a function which places an image at the corresponding `li` element. Remember that Objects are not ordered, so you cannot guarantee that the first key is the first `li` element. (_Hint: you could give each `li` item an `id` tag by modifying the function you made before_)
 
-```
-How to hand in your homework:
-• Upload your homework in your "hyf-javascript1" Github repository. Make sure to create a new folder "week3" first. 
-• Upload your homework files inside the week3 folder and write a description for this “commit”.
-• Your hyf-javascript1/week3 should now contain an index.html, main.css and a script.js file (and the images folder)
-• Send the link on the slack channel
-```
 
 ## Step 2: Call stack and parameters
 
@@ -75,36 +68,23 @@ finishMondayEvening(watchBreakingBad);
 
 And just for fun ... https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-numbers-in-a-range
 
-## Step 4: **Git-It Exercises**
-Download the Git-It application from this link: https://github.com/jlord/git-it-electron/releases
-
-Find the latest version for your operating system, download and start it like a normal application.
-
-Git-It is a tutorial application that will walk you through setting up Git and Github and performing the most basic steps needed for contributing to a Git repository.
-
-The homework for next time is to complete exercise 1-7. You have probably already performed the first few steps during class but I recommend doing all of the exercises from the beginning. Make sure to keep a close eye on the instructions as they explain very well what to do and how the basics of Git works.
-
-Our expectations from the next class is that you know how to do the following:
-- Create a repository on github.
-- Create a local repository on your computer.
-- Link your local and remote repository.
-- Add file changes to the git staging area.
-- Commit staged changes.
-- Push from the local repository to the remote.
-
-Additionally, the exercises above should teach you how to create branches. We will cover that in class as well, so don't worry if the purpose of doing so is not completely clear, but please try to complete the exercises anyway as we will be using these tools over and over during the course.
-
-
-### :boom: Bonus homework :boom:
+## Step 4 bonus homework
 the Bonus homework for this week (for those of you want an extra challenge) do the following:
 
-- Sign up on codewars.com
-- In you account setting under “clan” write “Hack Your Future” 
-- Go do the challenges in the following playlist: https://www.codewars.com/collections/fun-fun-fundamentals
+Go to http://roverjs.com/ and complete the functions and arrays chapters. 
 
-Codewars is really a lot of fun, and you can compete against each other who has the most points :trollface:
-it’s a great way to really practice JavaScript a lot in various problems.
+## Step 5: Hand in Homework:
+Go over your homework one last time:
 
-Please note, there are various challenges all sorted on difficultly called KIU. Kiu 8 is the easiest, Kiu 1 is the hardest, we expect you to do challenges around level 8, 7 maybe.
+- Does every file run without errors and with the correct results?
+- Have you used `const` and `let` and avoided `var`?
+- Do the variable, function and argument names you created follow the [Naming Conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)?
+- Is your code well-formatted (see [Code Formatting](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md))?
 
-enjoy!
+If you can answer yes to the above questions then you are ready to hand if the homework:
+* Find the hyf-homework git repo (forked from [here](https://github.com/HackYourFuture-CPH/hyf-homework))
+* Add your homework files in the Javascript/javascript1/week3 folder
+* To finish the homework use the link in the top of your classes slack channel. 
+---
+
+🎉
