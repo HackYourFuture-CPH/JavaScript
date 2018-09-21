@@ -1,4 +1,4 @@
-# Reading material for the third lecture:
+# Week 2
 
 ## Learning goals
 - [ ] Advanced data types [Objects]

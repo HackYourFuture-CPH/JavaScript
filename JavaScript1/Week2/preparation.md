@@ -1,24 +1,15 @@
-## Reading material for the second lecture:
+# Preparation for the second lecture:
 
-```
-In week two we will discuss the following topics:
-• Loops (for/while)
-• Functions
-• Advanced data types [Objects]
-• Conditions (if/else statements)
-• Statements vs Expressions
-• Naming conventions
-```
+## Read the following articles that are very important to programming!
+- [Array](http://javascript.info/array) (10 min)
+- [Loops](http://javascript.info/while-for) (10 min)
+- [Functions](http://javascript.info/function-basics) (10 min)
+- [Another Functions article](http://eloquentjavascript.net/03_functions.html) (25 min)
+- [Objects](http://javascript.info/object) (15 min)
+- [Conditions](http://javascript.info/ifelse) (5 min)
+- [Program structure](http://eloquentjavascript.net/02_program_structure.html) (25 min)
 
-### Here are resources that we like you to read as a preparation for the coming lecture:
-
-* 'Loops' of [_A Smarter Way To Learn JavaScript_](https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf) : Chapters 18-20
-* 'Functions' of [_A Smarter Way To Learn JavaScript_](https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf) : Chapters 35 - 38
-* Functions ~ http://eloquentjavascript.net/03_functions.html
-* 'Objects' of [_A Smarter Way To Learn JavaScript_](https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf) : Chapters 69 - 75
-* 'Conditions' of [_A Smarter Way To Learn JavaScript_](https://github.com/Sharique-Hasan/SaylaniBatch2-JavaScript/blob/master/A%20Smarter%20Way%20to%20Learn%20JavaScript.pdf) : Chapters 10 - 14
-* Program structure ~ http://eloquentjavascript.net/02_program_structure.html
-
-:star: You can also already go through the [review](/JavaScript1/Week2/REVIEW.md) of the upcoming lecture.
+## Review the topics of week 1:
+[Week1 review](../Week1/review.md) (5 min)
 
 _Please go through the material and come to class prepared!_

@@ -1,13 +1,13 @@
-
-# Reading material for the third lecture:
+# Week 3
 
 ## Learning goals
 - [ ] Functions
-- [ ] Code flow (order of execution)
+  - Order of execution
+  - The call stack
 - [ ] Basic DOM manipulations [img src, innerHTML]
 - [ ] Code commenting
 - [ ] Code debugging using the browser
-- [ ] Beautification of code 
+- [ ] Beautification of code
 
 ## Relevant links
 * [Preparation](preparation.md)
