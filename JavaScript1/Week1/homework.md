@@ -5,7 +5,9 @@
 1. Watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro) Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though). 
 
 ## Step 2: Javascript warm up part one
-In sports its important to warm up before you start a workout session. This gets the muscles ready and also prepares you mentally. With coding its the same, just here the muscle is your brain! So lets get started with some warm up exercises: On freeCodeCamp.com please do the [Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript) exercises up and until the **"Shopping List"** exercise (there are some topics we did not cover but you can do it).
+Lets get started with some warm up exercises: On freeCodeCamp.com please do the [Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript) exercises up and until the **"Shopping List"** exercise (there are some topics we did not cover but you can do it).
+
+Please add your freecodecamp username as answer for this exercise!
 
 ## Step 3: Javascript warm up part two
 1. Write a `console.log` statement saying "Hello World!" for each language that you know.
@@ -28,7 +30,8 @@ Hola, mundo! // Spanish
 * Add a statement that adds 'baby pig' to the *existing array*.  
 * Log your new array!
 
-5. Working with strings  
+5. Working with strings
+Checkout [this article](https://www.digitalocean.com/community/tutorials/how-to-index-split-and-manipulate-strings-in-javascript) for help with working with strings
 Let's consider the following string: `let myString = "this is a test"`.
   * Find a way to get the length of `myString`.  
   * `console.log` the length of `myString`.  
@@ -45,6 +48,10 @@ Let's consider the following string: `let myString = "this is a test"`.
 
 * Now write a `console.log` statement wherein you first explain in words what you think the _type_ of your variables is.  
 * Now use `typeof` to log the actual _type_ of your variables.  
+
+---
+
+You have finished the warmup exercises, well done! To celebrate lets add the answers to github as a commit, see [Here](##Step-5:-Hand-in-Homework:) how to do that.
 
 ## Step 4: Smart-ease - We help where we can
 Enough warm up, lets get to the real problems! We will assume a real world business case where you (the developer) needs to help a business that is starting up (a startup) with solving some of their problems related to JavaScript! Here we go:
@@ -115,7 +122,11 @@ To be continued...
 Steps:
 * Use the hyf-homework repo and add your homework files in the javascript/javascript1/week1 folder
 * If you dont have the repo, fork it from here: https://github.com/HackYourFuture-CPH/hyf-homework
-* To finish the homework use the link in the top of your classes slack channel. 
+* Make your commits for the homework. Remember to seperate the code into meaningful commits!
+* Push the changes to github
+* To finish the homework:
+  * Fill in the form for the relevant week. The link to the form can be found at the top of your classes slack channel. 
+  * Share the github link to your classes slack channel. 
 
 ---
 
