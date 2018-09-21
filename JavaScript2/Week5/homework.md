@@ -3,7 +3,7 @@
 >[Here](/Week5/README.md) you find the readings you have to complete before the sixth lecture.
 
 ### Step 0
-All share a video or a resource (this can be a drawing, article or a pod cast) that was helpful for you the last few weeks with learning JavaScript. Please share this in the channel of your class in Slack. Also write as small note about what the resource i about and why you think it's so helpful (you can share more than one if you like).
+All share a video or a resource (this can be a drawing, article or a pod cast) that was helpful for you the last few weeks with learning JavaScript. Please share this in the #teach-yourself channel in Slack. Also write as small note about what the resource i about and why you think it's so helpful (you can share more than one if you like).
 
 ### Step 1
 1. We learned a little bit about callbacks in JS. A callback is simply a function passed to another function that gets executed (run) after a potentially long running operation has completed. There is another function called `setTimeout` that will wait a specified period of time and then execute a function. For example: 

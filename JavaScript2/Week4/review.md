@@ -151,8 +151,6 @@ console.log(firstArray.slice(0, 2)); // ['milk', 'sugar']
 console.log(firstArray.reverse()); // [, 'eggs', 'flour', 'butter' ,'sugar', 'milk']
 ```
 
-## Review by Pankaj
-
 Suggested exercises to use during the session.
 
 #### Exercise 1

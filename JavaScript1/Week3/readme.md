@@ -4,7 +4,6 @@
 - [ ] Functions
   - Order of execution
   - The call stack
-  - Function as a parameter
 - [ ] Basic DOM manipulations [img src, innerHTML]
 - [ ] Code commenting
 - [ ] Code debugging using the browser

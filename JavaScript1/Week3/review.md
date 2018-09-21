@@ -5,29 +5,18 @@
 console.log("script loaded");
 
 function cakeLogger(numberOfCakes) {
-    let cakeString = "";
-    for (let i = 0; i < numberOfCakes; i++) {
-        cakeString += "cake ";
-    }
-
-    return cakeString;
+    return 'Delicious cake!';
 }
 
-const cakeStringResult = cakeLogger(20);
+const cakeStringResult = cakeLogger();
 
 
 
 const cakeLoggerConst = function(numberOfCakes) {
-    console.log(numberOfCakes);
-    let cakeString = "";
-    for (let i = 0; i < numberOfCakes; i++) {
-        cakeString += "cake ";
-    }
-
-    return cakeString;
+    return 'Delicious cake!';
 }
 
-//console.log(cakeLoggerConst(10));
+//console.log(cakeLoggerConst());
 
 
 
@@ -50,7 +39,6 @@ const test = function() {
     return "test";
 }
 
-//console.log(test);
 //console.log(test());
 
 /*context execution */
@@ -81,7 +69,7 @@ function pickUpKids() {
 }
 
 function buyCarrots() {
-    
+    console.log('I am buying carrots');
 }
 
 function buyVegetables() {
