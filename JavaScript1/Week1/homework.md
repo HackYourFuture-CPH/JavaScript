@@ -30,22 +30,21 @@ Hola, mundo! // Spanish
 * Add a statement that adds 'baby pig' to the *existing array*.  
 * Log your new array!
 
-5. Working with strings
+4. Working with strings
 Checkout [this article](https://www.digitalocean.com/community/tutorials/how-to-index-split-and-manipulate-strings-in-javascript) for help with working with strings
 Let's consider the following string: `let myString = "this is a test"`.
   * Find a way to get the length of `myString`.  
   * `console.log` the length of `myString`.  
 
-6. Working with variable types
-* First declare at least four variables and assign them different data types.  
+5. Working with variable types
+* First declare at least four variables and assign them different variable types.  
 * For each variable write a `console.log` statement that logs the value
   ```js
   let foo = 3;
   console.log('The value of my variable foo is: ' + foo);
   ```
 
-  (Curious to know what a `foo` is? Check [this article](https://en.wikipedia.org/wiki/Metasyntactic_variable) on Wikipedia.)
-
+6. Working with typeof
 * Now write a `console.log` statement wherein you first explain in words what you think the _type_ of your variables is.  
 * Now use `typeof` to log the actual _type_ of your variables.  
 
