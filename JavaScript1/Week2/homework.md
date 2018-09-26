@@ -9,7 +9,7 @@
 
 ## Step 2: Javascript warmup part one
 Just like last time, lets warmup our brain!
-Go back to FreeCodeCamp, start where you left of and finish the rest of the Basic JavaScript challenges. We know this seems like a lot, but the tasks are not so big, so hang in there! 
+Go back to FreeCodeCamp, start where you left off and finish the rest of the Basic JavaScript challenges. We know this seems like a lot, but the tasks are not so big, so hang in there! 
 
 Please make sure you REALLY understand the exercises below:
 
@@ -21,9 +21,9 @@ Please make sure you REALLY understand the exercises below:
 ## Step 3: Javascript warmup part two
 
 1. Create a function that returns an empty object. 
-2. Create a new variable called timeObject and assign it to the result of calling the previous function
+2. Create a new variable called ```timeObject``` and assign it to the result of calling the previous function
 3. Inside the function, add a key to the object called time with the value of the number 12
-4. Log out timeObject. It should look like this:
+4. Log out ```timeObject```. It should look like this:
 ```js
 {
     time: 12,
@@ -33,11 +33,11 @@ Please make sure you REALLY understand the exercises below:
 ---
 
 1. Create a function that returns an array with with 3 empty objects.
-2. Call the function and assign the return of the function to a variable called colorObjects (like we did in the previous exercise)
+2. Call the function and assign the return of the function to a variable called ```colorObjects``` (like we did in the previous exercise)
 3. Change the array so that all the objects have one key called color. Make every object have a different color
-4. Log out colorObjects
-5. Give the function 3 parameters called color1, color2 and color3. The parameters should control the color of the 3 objects. color1 sets the color of the first object and so on. 
-6. Call the function with 3 colors and log out colorObjects. colorObjects should look like this:
+4. Log out ```colorObjects```
+5. Give the function 3 parameters called ```color1```, ```color2``` and ```color3```. The parameters should control the color of the 3 objects. ```color1``` sets the color of the first object and so on. 
+6. Call the function with 3 colors and log out ```colorObjects```. ```colorObjects``  should look like this:
 ```js
 [{
     color: 'red',
@@ -64,7 +64,7 @@ So typical console output is:
 Hint: use remainder operator
 
 ## Step 3: Smart-ease - Goes Global!
-Following the massive success of Smart-ease's first couple of products things have been quite hectic at Smart-ease's shared office space. The phone is constantly ringing from journalists wanting to interview the genius behind the success and the greatest developers want to work for you. Wired wrote an article with the headline "Smart-ease as good as Smarties"
+Following the massive success of Smart-ease's first couple of products things have been quite hectic at Smart-ease's shared office space. The phone is constantly ringing from journalists wanting to interview the genius behind the success and the greatest developers want to work for you. [Wired](www.wired.com) wrote an article with the headline "Smart-ease as good as Smarties"
 
 BUT people are asking: What will be the next product that truly defines Smart-ease as the startup of the century?
 
@@ -75,18 +75,18 @@ As always Smart-ease starts by helping people fix their problems. So lets ventur
 
 #### Save a note
 The first thing we will create is the functionality to save a note:
-Create a variable called notes and assign it to an empty array.
-Create a function called addNote. The addNote has two parameters: note and noteId. The note parameter is a string. and the noteId is a number.
-The addNote function shall push an object to the notes array. This object has two keys: note and noteId, that corresponds to the parameters. The value of the keys should be the value of the corresponding parameters. 
+Create a variable called ```notes``` and assign it to an empty array.
+Create a function called ```addNote```. The ```addNote``` has two parameters: ```note``` and ```noteId```. The ```note``` parameter is a string. and the ```noteId``` is a number.
+The ```addNote``` function shall push an object to the notes array. This object has two keys: note and noteId, that corresponds to the parameters. The value of the keys should be the value of the corresponding parameters. 
 
 #### Get a note
 Now a user can add a note, but what if a user wants to see a specific note, but only remembers the id? Lets create that functionality for him:
-Create a function called getNoteFromId. The function has one parameter called id. When calling this function with an id it should return the relevant note object that corresponds to the id. If no id is specified or if the id is not a number, log out an error string. 
+Create a function called ```getNoteFromId```. The function has one parameter called ```id```. When calling this function with an id it should return the relevant note object that corresponds to the id. If no id is specified or if the id is not a number, log out an error string. 
 Hint: Use a for loop.
 
 #### Read all notes
 Now a user can both add and get a note. What if the user just wants to read all his notes? Lets also create that functionality:
-Create a function showAllNotes. When calling it the function should log this string out for every note:
+Create a function ```showAllNotes```. When calling it the function should log this string out for every note:
 "The note with id: 1, has the following note text: "some example note"."
 
 #### Unique feature
@@ -103,8 +103,8 @@ Its going to work like this: A user can add smartphone activities. Then he can s
 #### Adding an activity
 Lets create the first part of the functionality that is adding activities.
 
-Create a variable called activities that stores all activities of the day. What type of variable would you think would make sense?
-Create a function called addActivity. It should have three parameters: date, activity and duration. The date should be a string, the activity a string and the duration a number. To save the activity push an object that contains the date, the activity and the duration to the activities variable. 
+Create a variable called ```activities``` that stores all activities of the day. What type of variable would you think would make sense?
+Create a function called ```addActivity```. It should have three parameters: ```date```, ```activity``` and ```duration```. The ```date``` should be a string, the ```activity``` a string and the ```duration``` a number. To save the activity push an object that contains the date, the activity and the duration to the activities variable. 
 
 Now a user can add an activity by writing:
 ```
@@ -124,33 +124,34 @@ Just adding activities wont help the user very much, we need to add some functio
 
 
 #### Show my status
-Create a function called ShowStatus. This function should use the activities variable and return a string saying the following:
+Create a function called ```showStatus```. This function should use the activities variable and return a string saying the following:
 "You have added 3 activities. They amount to 78 min. of usage"
 ```
-ShowStatus(activities); // will log out this "You have added 3 activities. They amount to 78 min. of usage"
+showStatus(activities); // will log out this "You have added 3 activities. They amount to 78 min. of usage"
 ```
-Now what happens if we call get status and activities is empty? We need to take that into consideration: If activities is empty log out a string that says: "Add some activities before calling ShowStatus"  
+Now what happens if we call ```showStatus``` and ```activities``` is empty? We need to take that into consideration: If ```activities``` is empty log out a string that says: "Add some activities before calling showStatus"
 
 #### Usage limit
 A user asks us if it is possible to set a limit for his smartphone usage. "Off course it is" we promptly reply! 
 We need to store that limit somewhere, but where and what type should this be?
-So how should it work? When ShowStatus is called and the users usage is above the limit he set. Log out the following string: "You have reached your limit, no more smartphoning for you!"
+So how should it work? When ```showStatus``` is called and the users usage is above the limit he set. Log out the following string: "You have reached your limit, no more smartphoning for you!"
 
+#### Extra feature
 Come up with one feature you think would be helpful for this program.
 
 Optional
-* Lets improve the addActivity, so that we dont need to specify the date, but the function automatically figures out what the date is. Check out this link: https://stackoverflow.com/a/34015511
-* Improve the ShowStatus function by only showing the number of actitivies for that specific day.
+* Lets improve the ```addActivity```, so that we dont need to specify the date, but the function automatically figures out what the date is. Check out this link: https://stackoverflow.com/a/34015511
+* Improve the ```showStatus``` function by only showing the number of actitivies for that specific day.
 * Create a function for calculating the activity a user has spent the most time on.
 ---
 
 
 ## Step 4: Rover the Robot (Optional)
-Go and try out this cool game: [roverjs.com](http://roverjs.com), written by one of the HYF teachers from Amsterdam, Joost Lubach. There are different levels. Solve the chapter up until and with the variables chapter. There might be a small price for completing that!
+Go and try out this cool game: [roverjs.com](http://roverjs.com), written by one of the HYF teachers from Amsterdam, [Joost Lubach](https://github.com/joost). There are different levels. Solve the chapter up until and including the variables chapter. There might be a small price for completing that!
 
 ## Step 5: Hand in Homework:
 Steps:
-* Use the hyf-homework repo and add your homework files in the javascript/javascript1/week2 folder
+* Use the ```hyf-homework``` repo and add your homework files in the ```javascript/javascript1/week2``` folder
 * If you dont have the repo, fork it from here: https://github.com/HackYourFuture-CPH/hyf-homework
 * Make your commits for the homework. Remember to seperate the code into meaningful commits!
 * Push the changes to github
