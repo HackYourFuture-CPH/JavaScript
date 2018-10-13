@@ -2,6 +2,7 @@
 
 * Presentation of mentors and students
 * Questions for last class or homework.
+* Learning goals form module 1 (something to review)
 * Learning goals for today
 * Presentation of todays example
 * Loop { livecoding, hands-on}
