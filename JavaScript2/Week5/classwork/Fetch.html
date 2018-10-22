@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Class example</title>
+</head>
+
+<body>
+
+	<input id="btn" type="button" value="Display data" />
+
+	<div id="display"></div>
+</body>
+
+</html>
+
+<script>
+	const display = document.getElementById("display");
+	const btn = document.getElementById("btn");
+	btn.addEventListener("click", getData)
+
+
+
+	function getData() {
+		const url = 'https://randomuser.me/api/?results=10';
+		fetch(url)
+			.then((resp) => resp.json())
+			.then(function (data) {
+
+				data.results.forEach(function (author) {
+
+					display.innerHTML += `The firstname of the author is: ${author.name.first},
+											 and the lastname is: ${author.name.last}<br>`;
+				})
+			})
+			.catch(function (error) {
+				console.log(error);
+			});
+	}
+</script>
