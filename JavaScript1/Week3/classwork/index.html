@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Restaurnt Portal</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <style>
+        .jumbotron{
+                background: #F0D382;
+            }
+            .status-open{
+                height: 12px;
+                width: 12px;
+                background-color: #00e600;
+                border-radius: 50%;
+                display: inline-block;
+            }
+            .status-closed{
+                height: 12px;
+                width: 12px;
+                background-color: #999;
+                border-radius: 50%;
+                display: inline-block;
+            }
+        </style>
+</head>
+
+<body data-gr-c-s-loaded="true">
+
+
+    <main role="main">
+
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">Are you hungry? !</h1>
+                <p class="lead text-muted">
+                    Order your best food here
+                </p>
+
+            </div>
+        </section>
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="pizza.jpg">
+                            <div class="card-body">
+                                <p class="card-text">Pizza</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group" id="button-1">
+
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Menu</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Order</button>
+                                    </div>
+                                    <small class="text-muted" id="status-1">
+                                        <span class="status-closed"></span> Closed
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                alt="Thumbnail [100%x225]" src="indian-spicy.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                            <div class="card-body">
+                                <p class="card-text">Indian Spicy</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group" id="button-2">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Menu</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"  onclick="showOpeningHour(1)">Opening Hour
+                                        </button>
+                                    </div>
+                                    <small class="text-muted" id="status-2"><span class="status-closed"></span> Closed</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                alt="Thumbnail [100%x225]" src="thai.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                            <div class="card-body">
+                                <p class="card-text">Thai delicious.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group" id="button-3">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Menusssssss</button>
+                                    </div>
+                                    <small class="text-muted" id="status-3"><span class="status"></span> Open</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                alt="Thumbnail [100%x225]" src="burger.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                            <div class="card-body">
+                                <p class="card-text">Burger Meal</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group" id="button-4">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Menu</button>
+                                    </div>
+                                    <small class="text-muted" id="status-4"><span class="status"></span> Open</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                alt="Thumbnail [100%x225]" src="sushi.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                            <div class="card-body">
+                                <p class="card-text">Sushi</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group" id="button-5">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Menu</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="showOpeningHour()">Opening Hour
+                                        </button>
+                                    </div>
+                                    <small class="text-muted" id="status-5"><span class="status"></span> Closed</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                alt="Thumbnail [100%x225]" src="hot-spicy.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                            <div class="card-body">
+                                <p class="card-text">Hot spicy</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group" id="button-6">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Menu</button>
+                                        
+                                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="showOpeningHour(5)">Opening Hour
+                                        </button>
+                                    </div>
+                                    <small class="text-muted" id="status-6"><span class="status"></span> Closed</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <!-- Bootstrap core JavaScript
+            ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+
+<script src="main.js"></script>
+    <svg xmlns="http://www.w3.org/2000/svg" width="348" height="225" viewBox="0 0 348 225" preserveAspectRatio="none"
+        style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;">
+        <defs>
+            <style type="text/css"></style>
+        </defs><text x="0" y="17" style="font-weight:bold;font-size:17pt;font-family:Arial, Helvetica, Open Sans, sans-serif">Thumbnail</text>
+    </svg>
+
+
+</body>
+
+</html>
