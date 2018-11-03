@@ -2,7 +2,7 @@
 
 ### Step 1: Feedback
 
-Give feedback on `step 3` of `week 5` to one of your fellow students (do this by creating issues in Github).
+Give feedback on [step 3 of week 5](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/JavaScript2/Week5/homework.md#step-3-homework-for-javascript) to one of your fellow students (do this by creating issues in Github).
 
 
 ### Step 2: Fix issues and API
