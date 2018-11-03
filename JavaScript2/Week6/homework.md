@@ -1,7 +1,5 @@
 # Homework Week 6
 
->[Here](/Week6/reading.md) you find the readings you have to complete before the seventh lecture.
-
 ### Step 1: Feedback
 
 Give feedback on `step 3` of `week 5` to one of your fellow students (do this by creating issues in Github).
