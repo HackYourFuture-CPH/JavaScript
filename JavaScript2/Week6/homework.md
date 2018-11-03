@@ -6,6 +6,7 @@
 
 Give feedback on `step 3` of `week 5` to one of your fellow students (do this by creating issues in Github).
 
+
 ### Step 2: Fix issues and API
 
 - Fix the issues from the last week and make sure you explain how you fixed the issue in a comment (or commit message)
@@ -91,10 +92,15 @@ Anyway, endless fun and possibilities. Need inspiration, check out the Github AP
 __Bonus__: Write a function takes this array `['a', 'b', 'c', 'd', 'a', 'e', 'f', 'c']` and returns an array which only has unique values in it (so it removes the duplicate ones). Make it a 'smart' algorithm that could do it for every array (only strings/number). Try to make it as fast as possible!
 
 
-```
-How to hand in your homework:
-• Create a new repository "hyf-javascript2". Also create a new folder "week6" inside this repository. 
-• Upload your homework files inside the week4 folder and write a description for this “commit”.
-• Your hyf-javascript2/week6 should now contain the files of your homework.
-• Post the link on the slack channel and in the Google Form
-```
+### Step 5: Hand in Homework:
+Go over your homework one last time:
+
+- Does every file run without errors and with the correct results?
+- Have you used `const` and `let` and avoided `var`?
+- Do the variable, function and argument names you created follow the [Naming Conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)?
+- Is your code well-formatted (see [Code Formatting](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md))?
+
+If you can answer yes to the above questions then you are ready to hand if the homework:
+* Find the hyf-homework git repo (forked from [here](https://github.com/HackYourFuture-CPH/hyf-homework))
+* Add your homework files in the Javascript/javascript2/week3 folder
+* To submit the homework use the link in the top of your classes slack channel. 
