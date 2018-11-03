@@ -34,7 +34,7 @@ Let's practice working with Objects and Arrays. Go to FreeCodeCamp and complete 
 https://www.freecodecamp.org/challenges/store-multiple-values-in-one-variable-using-javascript-arrays
 
 ## Step 4: Custom challenge 
-1. Go to https://api.github.com/orgs/HackYourFuture/repos, you will see a list of the repositories our HYF organization has (yes it's a lot of JSON).
+1. Go to https://api.github.com/orgs/HackYourFuture-CPH/repos, you will see a list of the repositories our HYF organization has (yes it's a lot of JSON).
 2. You can copy the JSON and put it in a string at the top of your `.js` file use this tool for that: https://jsonformatter.org/. Copy the json text into the jsonformatter and press this key:
 > ![Variables are like boxes](./assets/jsonformatter.PNG)
 Now you have a json string you can copy into your file. Now print the name of the 3rd github repository to the console.
