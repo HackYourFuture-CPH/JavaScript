@@ -195,7 +195,6 @@ function secondFunction() {
 firstFunction();
 ```
 
-I also like following exercise from HYF-CPH repo - https://github.com/HackYourFuture-CPH/JavaScript/blob/master/JavaScript2/Week4/code/exercises.js
 
 
 #### Exercise 2
@@ -207,7 +206,6 @@ Using the planetsFlattened variable:
 Console.log jupiters last moon.
 ```
 
-[JavaScript2/Week4/code/exercises.js](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/JavaScript2/Week4/code/exercises.js)
 
 #### Exercise 3 
 ```
