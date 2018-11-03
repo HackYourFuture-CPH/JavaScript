@@ -5,7 +5,7 @@ First off, congratulations on coming this far, well done!
 ## Step 1: Lets get real comfortable with map, filter and sort.
 
 Use the carGenerator function to generate 10 cars. The file with the function is here: 
-[carGenerator.js](/JavaScript2/Week4/classwork/carGenerator.js)
+[carGenerator.js](/JavaScript2/Week4/assets/carGenerator.js)
 
 You call it like this: 
 generateCars(10);
