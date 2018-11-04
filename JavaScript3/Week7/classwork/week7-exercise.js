@@ -9,8 +9,8 @@
 // We are not interested in all the data, but only the rating. 
 
 // Exercise 4
-// Lets find out if having more than 6 words in the title of a movies decreases the average rating:
-
+// Lets find out if having more than 6 words in the title of a movies increase the average rating:
+// average = sum(all the ratings) / number of movies
 // 4.1 Lets find the average rating from posts with more than 6 words in the title
 
 // 4.2 Lets find the average rating posts without more than 6 words in the title
