@@ -1,6 +1,6 @@
 // Exercise 1
 
-// Firstly lets fetch the movies using their api https://reddit.com/r/ProgrammerHumor.json
+// Firstly lets fetch the movies using their api https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json
 
 // Exercise 2
 // Lets find the movies that have more than 6 words in the title.
