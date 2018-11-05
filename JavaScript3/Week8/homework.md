@@ -1,7 +1,5 @@
 # Homework Week 8
 
->[Here](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/JavaScript3/Week8/README.md) you find the readings you have to complete before the ninth lecture.
-
 ## Step 1: Closure
 
 >Revise before attempting: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
@@ -76,6 +74,8 @@ Once you have the factory function above working well for 3, 10 and 21, create a
 // 1000 items are divisible by 1, 500 by 2 and son on...
 ```
 
+![](https://media.giphy.com/media/jz0oM9Els8bHa/giphy.gif)
+
 ## Step 2: Continuing with data loading, processing and rendering
 
 >Revise before attempting: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
@@ -89,7 +89,17 @@ Using [the movies json file from the previous exercise](https://gist.githubuserc
 1. Display only the movies in the list which match the two filter criterion above.
 1. Display the average rating of the movies being filtered and displayed.
 
-Remember to use the following to help with your code:
+Remember to use the promises, map, filter and reduce!
 
-1. Promises to simplify data loading, [covered in this lecture](./classwork/new-ajax.js).
-1. Filter, map, reduce functions + Arrow functions, [covered in last lecture](../Week7/classwork/demonstration.js).
+## Step 3: Hand in Homework:
+Go over your homework one last time:
+
+- Does every file run without errors and with the correct results?
+- Have you used `const` and `let` and avoided `var`?
+- Do the variable, function and argument names you created follow the [Naming Conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)?
+- Is your code well-formatted (see [Code Formatting](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md))?
+
+If you can answer yes to the above questions then you are ready to hand in the homework:
+* Find the hyf-homework git repo (that you have forked from [here](https://github.com/HackYourFuture-CPH/hyf-homework)) the link will be https://github.com/YOUR-ACCOUNT/hyf-homework
+* Add your homework files in the Javascript/javascript3/week8 folder
+* To finish the homework post the link for your repo and the rendered index.html on your classes slack channel
