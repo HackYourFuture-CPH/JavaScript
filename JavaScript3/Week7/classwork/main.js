@@ -36,25 +36,23 @@ fetch('https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0a
     .then((movies) => {
         console.log(movies);
         
-        const getNewMovies = movie => movie.year > 2006;
-        const getMovieTitles = movie => movie.title;
+        const longerMovies = movies
+            .filter((movie) => {
+                console.log(movie);
+                console.log(numberOfWords);
+                const numberOfWords = movie.title.split(' ').length;
+                
+                return numberOfWords > 6;
 
-        const newerMovies = movies
-            .filter(getNewMovies);
 
-        const newerMovieTitles = newerMovies
-            .map(getMovieTitles);
+            })
 
+            const reducer = function(acc, movie) {
+                return acc + movie.rating;
+            } 
 
-        const newerMovieTitlesChain = movies
-            .filter(getNewMovies)
-            .map(getMovieTitles);
+            totalRating = movies.reduce(reducer, 0);
 
-        
-        console.log(newerMovies);
-        
-        console.log(newerMovieTitlesChain);
-        console.log(newerMovieTitles);
         
         
         
