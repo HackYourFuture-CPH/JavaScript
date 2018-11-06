@@ -5,7 +5,7 @@ First off, congratulations on coming this far, well done!
 ## Step 1: Lets get real comfortable with map, filter and sort.
 
 Use the carGenerator function to generate 10 cars. The file with the function is here: 
-[carGenerator.js](/JavaScript2/Week4/classwork/carGenerator.js)
+[carGenerator.js](/JavaScript2/Week4/assets/carGenerator.js)
 
 You call it like this: 
 generateCars(10);
@@ -29,12 +29,12 @@ Create the following arrays:
 ```
 
 
-## Step 3: Some Challenges
+## Step 2: Some Challenges
 Let's practice working with Objects and Arrays. Go to FreeCodeCamp and complete all challenges under "Object Oriented and Functional Programming" and the _first four challenges_ under "Basic Algorithm Scripting", up until 'Find the longest word in a string.'
 https://www.freecodecamp.org/challenges/store-multiple-values-in-one-variable-using-javascript-arrays
 
-## Step 4: Custom challenge 
-1. Go to https://api.github.com/orgs/HackYourFuture/repos, you will see a list of the repositories our HYF organization has (yes it's a lot of JSON).
+## Step 3: Custom challenge 
+1. Go to https://api.github.com/orgs/HackYourFuture-CPH/repos, you will see a list of the repositories our HYF organization has (yes it's a lot of JSON).
 2. You can copy the JSON and put it in a string at the top of your `.js` file use this tool for that: https://jsonformatter.org/. Copy the json text into the jsonformatter and press this key:
 > ![Variables are like boxes](./assets/jsonformatter.PNG)
 Now you have a json string you can copy into your file. Now print the name of the 3rd github repository to the console.
@@ -43,7 +43,7 @@ Now you have a json string you can copy into your file. Now print the name of th
 5. Use CSS to divide the page in two columns. The left column will have a list of the names for repository. The right column should have the following information about each repository: the number of `stargazers`, the number of `watchers`, the number of `forks`, the `language` of the repository.
 6. place the `avatar_url` (logo) of our organization somewhere on a nice place in your page.
 
-## Step 5: Hand in Homework:
+## Step 4: Hand in Homework:
 Go over your homework one last time:
 
 - Does every file run without errors and with the correct results?

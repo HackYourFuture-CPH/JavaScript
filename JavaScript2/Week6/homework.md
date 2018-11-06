@@ -1,10 +1,9 @@
 # Homework Week 6
 
->[Here](/Week6/reading.md) you find the readings you have to complete before the seventh lecture.
-
 ### Step 1: Feedback
 
-Give feedback on `step 3` of `week 5` to one of your fellow students (do this by creating issues in Github).
+Give feedback on [step 3 of week 5](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/JavaScript2/Week5/homework.md#step-3-homework-for-javascript) to one of your fellow students (do this by creating issues in Github).
+
 
 ### Step 2: Fix issues and API
 
@@ -12,7 +11,7 @@ Give feedback on `step 3` of `week 5` to one of your fellow students (do this by
 <!-- - Write a script that [polls this API](https://sunrise-sunset.org/api) every 3 seconds and passes a new date every time where date is previous day ++. -->
 
 ### Step 3: SPA :sweat_drops:
-You are going to write a SPA (Single Page Application) that uses the [Github API](https://developer.github.com/guides/getting-started/). Make sure that your app uses a logical pattern just like [this codepen](http://codepen.io/Razpudding/pen/MmVpeW).
+You are going to write a SPA (Single Page Application) that uses the [Github API](https://developer.github.com/guides/getting-started/). Make sure that your app uses a logical pattern just like [this codepen](https://codepen.io/wistoft/pen/KrKyje).
 
 Just like last week:
 
@@ -91,10 +90,15 @@ Anyway, endless fun and possibilities. Need inspiration, check out the Github AP
 __Bonus__: Write a function takes this array `['a', 'b', 'c', 'd', 'a', 'e', 'f', 'c']` and returns an array which only has unique values in it (so it removes the duplicate ones). Make it a 'smart' algorithm that could do it for every array (only strings/number). Try to make it as fast as possible!
 
 
-```
-How to hand in your homework:
-• Create a new repository "hyf-javascript2". Also create a new folder "week6" inside this repository. 
-• Upload your homework files inside the week4 folder and write a description for this “commit”.
-• Your hyf-javascript2/week6 should now contain the files of your homework.
-• Post the link on the slack channel and in the Google Form
-```
+### Step 5: Hand in Homework:
+Go over your homework one last time:
+
+- Does every file run without errors and with the correct results?
+- Have you used `const` and `let` and avoided `var`?
+- Do the variable, function and argument names you created follow the [Naming Conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)?
+- Is your code well-formatted (see [Code Formatting](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md))?
+
+If you can answer yes to the above questions then you are ready to hand if the homework:
+* Find the hyf-homework git repo (forked from [here](https://github.com/HackYourFuture-CPH/hyf-homework))
+* Add your homework files in the Javascript/javascript2/week3 folder
+* To submit the homework use the link in the top of your classes slack channel. 

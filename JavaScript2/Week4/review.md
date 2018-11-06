@@ -170,7 +170,7 @@ Add your favorite person to a list of famous people and show them on a HTML page
 
 For code flow, mentors can use following code and show how everything gets executed using this tool - http://latentflip.com/loupe/
 
-```
+```js
 function firstFunction() {
     for (let i = 0; i < 5; i++) {
         console.log(i);
@@ -195,7 +195,6 @@ function secondFunction() {
 firstFunction();
 ```
 
-I also like following exercise from HYF-CPH repo - https://github.com/HackYourFuture-CPH/JavaScript/blob/master/JavaScript2/Week4/code/exercises.js
 
 
 #### Exercise 2
@@ -207,7 +206,6 @@ Using the planetsFlattened variable:
 Console.log jupiters last moon.
 ```
 
-[JavaScript2/Week4/code/exercises.js](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/JavaScript2/Week4/code/exercises.js)
 
 #### Exercise 3 
 ```
