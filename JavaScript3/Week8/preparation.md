@@ -1,12 +1,11 @@
 # Preparation
 
-Some nice resources about promises :ring:
-- [Googles post about Promises](https://developers.google.com/web/fundamentals/getting-started/primers/promises)
-- [A nice article from David Walsh](https://davidwalsh.name/promises)
-- [A real life example](https://github.com/mdn/js-examples/blob/master/promises-test/index.html)
-- [stackoverflow]http://stackoverflow.com/questions/13343340/calling-an-asynchronous-function-within-a-for-loop-in-javascript
+## Promises
+- [A cartoon explaining promises](https://kosamari.com/notes/the-promise-of-a-burger-party) (10 min)
+- [A nice article from David Walsh](https://davidwalsh.name/promises) (15 min)
 
-- [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
-- [Why closures are helpful with async code](http://stackoverflow.com/questions/13343340/calling-an-asynchronous-function-within-a-for-loop-in-javascript)
+## Closures
+- [Closures](https://tech.io/playgrounds/6516/closures-in-javascript-for-beginners) (10 min)
+- [Youtube video](https://www.youtube.com/watch?v=yiEeiMN2Khs) (4 min)
 
-The last one about [promises](https://www.youtube.com/watch?v=WBupia9oidU)...
+![You can do it!](https://media.giphy.com/media/yoJC2K6rCzwNY2EngA/giphy.gif)

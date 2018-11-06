@@ -1,7 +1,5 @@
 # Homework Week 7
 
->[Here](/Week7/README.md) you find the readings you have to complete before the eighth lecture.
-
 ## Step 1: Map, filter, reduce, and =>
 
 1. Say you would like to write a program that doubles the odd numbers in an array and throws away the even number.
@@ -32,13 +30,12 @@
     1. Count the number of movies made between 1980-1989 (including both the years).
 
 ## Step 2: Continuing with the previous exercise
-Note: Most of you have not completed the homework from last week, so this task will be difficult
 
 - Add map, filter, reduce to  your existing app to build an application that loads data from github, filters out based on certain value, map->reduces to a data object and render that object to the dom (using map again).
 - For example you can try to use map, filter and reduce to show the most and the least forked repositories, watched repositories. And the total number of forks for all repo's. Also you can work with the data provided about the amount of commits or contributers.
 - Add a readme to your repo explaining  what your app does and how to use your app. Here's a [template](https://gist.github.com/jxson/1784669) and here you can see how to make [your readme awesome](https://gist.github.com/rrgayhart/91bba7bb39ea60136e5c).
 
-## Step 2: **Some freeCodeCamp challenges:**
+## Step 3: **Some freeCodeCamp challenges:**
 
 1. [Comparisons with the Logical And Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparisons-with-the-logical-and-operator/)
 
@@ -46,14 +43,18 @@ Note: Most of you have not completed the homework from last week, so this task w
 
 3. [Iterate over Arrays with map](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/functional-programming/use-the-map-method-to-extract-data-from-an-array)
 
-## To watch before the next lecture:
+## Step 4: Hand in Homework:
+Go over your homework one last time:
 
-(watch in this order)
+- Does every file run without errors and with the correct results?
+- Have you used `const` and `let` and avoided `var`?
+- Do the variable, function and argument names you created follow the [Naming Conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)?
+- Is your code well-formatted (see [Code Formatting](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md))?  
+![](https://media.giphy.com/media/l4EpblDY4msVtKAOk/giphy.gif)  
+If you can answer yes to the above questions then you are ready to hand in the homework:<br/>
+- Find the hyf-homework git repo (that you have forked from [here](https://github.com/HackYourFuture-CPH/hyf-homework)) the link will be https://github.com/YOUR-ACCOUNT/hyf-homework
+- Add your homework files in the Javascript/javascript3/week7 folder
+- To finish the homework post the link for your repo and the rendered index.html on your classes slack channel
+---
 
-1. [Stacks/Queues](https://www.youtube.com/watch?v=wjI1WNcIntg) (5 mins)
-2. [JS Event Loops](https://www.youtube.com/watch?v=8aGhZQkoFbQ) (26 mins, watch this one twice or until you understand it)
-
->Create a new repository "hyf-javascript3". Also create a new folder "week1" inside this repository. 
-Upload your homework files inside the week1 folder and write a description for this “commit”.
-Your hyf-javascript3/week1 should now contain the files of your homework.
-Place the link to your repository folder in Trello.
+🎉
