@@ -7,5 +7,6 @@
 ## Closures
 - [Closures](https://tech.io/playgrounds/6516/closures-in-javascript-for-beginners) (10 min)
 - [Youtube video](https://www.youtube.com/watch?v=yiEeiMN2Khs) (4 min)
+- A VERY popular [StackOverflow article](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work) (10 min)
 
 ![You can do it!](https://media.giphy.com/media/yoJC2K6rCzwNY2EngA/giphy.gif)
