@@ -62,7 +62,7 @@ Rewrite the following code (using promise and other control flow tools/features)
 
 
 ## Step 3: Shopping cart using factory functions
-Let get a bit more into factory functions!
+Let's get a bit more into factory functions!
 ```js
 
 function createProduct(name, price) {
