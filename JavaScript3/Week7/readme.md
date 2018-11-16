@@ -1,7 +1,7 @@
 # Learning Goals
 - [ ] Map
-- [ ] reduce
-- [ ] filter
+- [ ] Reduce
+- [ ] Filter
 - [ ] Arrow functions
 
 # Relevant links
