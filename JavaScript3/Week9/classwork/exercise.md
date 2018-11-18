@@ -16,17 +16,23 @@ function createCalendar(events) {
     return {
         name: 'Personal calendar',
         getName: function() {
+            // returns the name of the calendar using the this keyword
             // add functionality here
         },
-        getEvents: function() {
+        getAllEvents: function() {
+            // returns all the events in an array
             // add functionality here
-        },
-        logEvents: function() {
-            // add functionality here
-            // should log out events in a easy readible way
         },
         addEvent: function(event) {
+            // Adds an event to the events array
             // add functionality here
+        },
+        removeEvent: function(event) {
+            // Removes an event to the events array
+            // add functionality here
+        },
+        getCalendarOwner: function() {
+            // should return a promise with the user object found from this url: https://jsonplaceholder.typicode.com/users/1
         }
     };
 }
@@ -37,3 +43,6 @@ const calendar = createCalendar([firstEvent]);
 
 ### Part 3:
 Apply the methods you have created on the calendar factory function. 
+
+### part 4: 
+Add two extra methods:  getEvent and logEvents: 

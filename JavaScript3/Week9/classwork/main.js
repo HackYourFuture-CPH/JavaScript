@@ -19,15 +19,15 @@ console.log(this);
 function createPortfolio(paintings) {
     return {
         webPage: "www.benjamins-paintings.com",
-        getPaintings: function(){
+        getPaintings: function () {
             return paintings;
         },
-        addPainting: function(painting) {
+        addPainting: function (painting) {
             paintings.push(painting);
         },
-        getWebpage: function() {
+        getWebpage: function () {
             console.log(this);
-            
+
             return this.webPage;
         }
     }
@@ -59,5 +59,3 @@ The this keyword evaluates to:
 2.3 In other cases this evalueates to window
 2.4 arrow function: this keyword is taken form the enclosing scope
 */
-
-
