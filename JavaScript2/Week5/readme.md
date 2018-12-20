@@ -1,14 +1,15 @@
 # Week 5
 
-In week six we will discuss the following topics:
-• Async VS Sync
-• Structure for a basic SPA
-
 ## Learning goals
-- [ ] Events
-- [ ] Callbacks
-- [ ] XHTTP Requests
-- [ ] API calls
+
+Functions advanced
+- [ ] Function as variable
+- [ ] Calling a function with a function
+- [ ] Code flow
+- [ ] Anonomyous function vs named function
+
+Asynchronicity in js
+- [ ] Callback function (click, input, setTimeout)
 
 ## Relevant links
 * [Preparation](preparation.md)

@@ -1,96 +1,105 @@
 # Homework Week 6
 
-### Step 1: Feedback
+## Why should i even do this homework?
+Working with arrays is an essential part of being a javascript developer. A lot of the time js developers have an array of some objects. That could be users, products, posts, cars etc. Working with these arrays, js developers so often need to filter the arrays, change the structure of the array, sort them or loop through them. 
 
-Give feedback on [step 3 of week 5](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/JavaScript2/Week5/homework.md#step-3-homework-for-javascript) to one of your fellow students (do this by creating issues in Github).
+On top of that combining these array function with each other will show the functional side to javascript in a nice way. 
 
+The warmup exercises will be a bit abstract. But the in the hyfBay exercise the task will be a lot closer to a real world task. 
 
-### Step 2: Fix issues and API
+## Warmup array exercises
 
-- Fix the issues from the last week and make sure you explain how you fixed the issue in a comment (or commit message)
-<!-- - Write a script that [polls this API](https://sunrise-sunset.org/api) every 3 seconds and passes a new date every time where date is previous day ++. -->
+### Doubling of number
+Say you would like to write a program that doubles the odd numbers in an array and throws away the even number.
 
-### Step 3: SPA :sweat_drops:
-You are going to write a SPA (Single Page Application) that uses the [Github API](https://developer.github.com/guides/getting-started/). Make sure that your app uses a logical pattern just like [this codepen](https://codepen.io/wistoft/pen/KrKyje).
-
-Just like last week:
-
-Make a website that fetches (= to get) data asynchronously.
-
-1) Create a new website with external js file
-
-2) Add a button (e.g. 'click me') that when clicked `console.logs` 'you clicked me!'
-
-3) Create a function that fetches from [The Github API](https://developer.github.com/v3/). For example from [this page](https://api.github.com/orgs/HackYourFuture-CPH/repos). For help on this check this [SO post](https://stackoverflow.com/questions/247483/http-get-request-in-javascript)
-
-4) Display the data that you get from the Github API on your web page.
-
-5) Now link the two together: When you click the button -> get the data from the Github API and display it on your website
-
-Cool we are back where we left of.
-
-6) Take a look at this:
-
+Your solution could be something like this:
 ```js
-https://api.github.com/repos/HackYourFuture/CommandLine
+let numbers = [1, 2, 3, 4];
+let newNumbers = [];
+
+for(let i = 0; i < numbers.length; i++) {
+    if(numbers[i] % 2 !== 0) {
+        newNumbers[i] = numbers[i] * 2;
+    }
+}
+
+console.log("The doubled numbers are", newNumbers); // [2, 6]
 ```
 
-7) Make a function which takes a single argument. The function should make an XHR request to `https://api.github.com/search/repositories?q=user:HackYourFuture+[SearchTerm]` where the search term will be the argument. This argument will be the input the user has given you, so make sure that when the user clicks the button you call this function with the argument.
+rewrite the above program using `map` and `filter` don't forget to use `=>`
 
-8) Make all the repositories link their own page in Github. Use the value of the key: `name` to make this work (hint: Github urls always look like this https://api.github.com/repos/HackYourFuture/[repositoryName] where [repositoryName] would be replaced by the actual `name` of the repository, for example `CommandLine`). Make sure the link opens in a new tab.
-
-- Make sure you handle user input well. That means you need to think about empty input, and input that doesn't yield any results.
-
-So Github has this really nice documentation :octocat: :
-Check these out for example
-https://developer.github.com/v3/repos/commits/
-
-9) Extend your page with an input element. This is so the user will be able to type in text.
-
-10) For each repository, show (in the right column) who the contributers are. You will need to use the `contributors_url` for this.
-
-!Important
-- Do not duplicate code! This is especially important for making requests since we are making multiple ones with different urls and we want to do different actions based on the call we are making. Here are some handles to get you started:
-  - So write a function called `makeRequest` which accepts (at least) the following parameters: `url` and `callback`.
-  - Make sure your `callback` is called when the request errors or when it sends a response (look at the documentation)
-  - Your `callback` functions should accept two parameters so it can handle both errors: `err` and `response`.
-  So based on your users actions (input, hovering, clicking) you want to call `makeRequest` with a different `url` and supply it with a function that handles both errors (display an error message to the user for example) and responses (render it correctly, as described below).
- - Make your functions small and reusable (modular)! That means create separate functions to handle certain steps.
-
-11) GO WILD
-
-Again, check out the Github API documentation to see what kind of magic stuff you can do with it.
-
-The assignment is to implement something extra that is not in the assignment :scream: (nice and vague right?)
-
-So for example, we have teams in our organization. You can find out who are in there and make a call to 'https://api.github.com/users/' + userInput (where userInput is a string typed into a search field by a user). You can show the users name, avatar image (not the link to the image!) and the number of public repos they have. Or you could make an API call to 'https://api.github.com/users/user/repos' to find out the public repo's they have. Or you can show how many people starred a specific repository.
-
-Anyway, endless fun and possibilities. Need inspiration, check out the Github API documentation. Oh and please make it look nice (hint: use the stuff you learned in HTML/CSS)!
+### Working with movies
+Copy the movies array in the movies.js file. Use this array to do the following tasks:
+1. Count the number of movies made between 1980-1989 (including both the years).
+1. Create a new array that has an extra key called tag. The tag is based in the rating: Good (>= 7), Average (>= 4 and < 7), Bad (< 4).
+1. Using chaining, first map the movies array to only the rating of the movies. Now filter the movies array to only contain the movies rated higher than 6. Try do it where you define the functions as constants you provide to the filter and map functions. 
+1. Count he number of movies containing the following keywords: `["The", "dog", "who", "is", "not", "a", "man"]`. Can you make sure the search is case insensitive?
+1. Calculate the average rating of all the movies using reduce. *Optional*
+1. Count the total number of Good, Average and Bad movies using reduce. *Optional*
 
 
-### Step 4: Git branching homework
+## hyfBay - get the okay'est products here
+We have been hired for a company to do a SPA - Single Page App for them. It is a website where a user can add products to the users shopping cart. The products can be filtered and sorted based on what products the user wants to see. 
 
-1) Use the unmeshvrije/MyFirst repository (the one you cloned) for this homework.
+### Lets get started!
+In the homework folder there is a project you should continue working on. So Copy the files into your hyf-homework week 6 folder and start working in the main.js file. 
 
-2) Make a branch.
+There is a function available to you called `getAvailableProducts`. Calling this function will return an array of products. There can be from 0 - 30 products in the array. The products are represented by objects that has the following keys: `id`, `name`, `price`, `rating`, `shipsTo`.   
 
-3) Name it YOUR-GITHUB-NAME-dev
+### Add them products
+Call `getAvailableProducts` function to get the products array. Now add these products (as li elements) to the `ul` under the section with the classname products. Here is an example of how the individual li element should look:
+```html
+<li>
+    <div class="name">Drone</div>
+    <div class="price">1234</div>
+    <div class="rating">5</div>
+    <div class="ships-to">Denmark</div>
+    <button data-id="Drone23787">Add to cart</button>
+</li>;
+```
 
-4) Create a file commands.txt in your branch.
+### Price analytics
+In order for analysing the product prices we need to send the prices of the products to a server. 
+A function is available to you called `sendPricesToServer`. You need to call this function with two arguments: 
+1. An array of the prices of the products. 
+2. A callback function with a parameter. The parameter will be the confirmation text sent from the server. The callback function will be called when the data has been sent to the server. 
+Console.log out the response from the server. 
 
-5) Add bash commands that you have learnt with descriptions
+### Filter using countries
+A user can filter the search result in different ways. One way is by choosing to only see products that ship from a certain country. This can be helpful for the user, so the user does not spend to much time looking for products that can not be shipped to the user. We need to create that functionality: When the user selects a country, the products should be updated with the products that ship to that country. 
 
-6) Then git add, commit and push them in a remote branch.
+### Filter using search. 
+When the user writes something in the search input field. The products should be updated to only include the products that match the name. 
 
-**Do not merge the changes to master branch.
+### Create some extra feature
+No matter how small or how big. Create some feature. 
 
-** Do not make any changes to master branch.
+### Sort the products - *optional*
+Choosing one of the sorting metods should update the shown order of the products. There is an array method called `sort`. Find documentation about it and see if you can get it to work. 
 
+### Shopping cart - *optional*
+When clicking the Add to cart button for a product, that product should be added to the `ul` found under the section with the classname cart. The product should be added as a an `li` item. Like this:
+```html
+<li>
+    <div class="name">Drone</div>
+    <div class="price">1234</div>
+</li>;
+```
+Hint 1: Getting the object of the clicked product can be tricky! There are lots of ways but i will discuss two here:
+1. Saving the id of the product in a data-id attribute on the button. When a user clicks the button you get the id of the product (from the data-id attribute). With the product id you can create a function that goes through all the products array and returns the product object with the corresponding id. Fx `getProductObjectFromId('Drone23576172')` would return the relevant object of the drone.
+2. When adding the li tags to the ul. You can for every product in the products array create a new li element using `document.createElement('li')`. You then set the innerHTML as is specified above and then attach a clickListner: `createdLiElement.addEventListener('click', () => {});` The callback function has access to the product object because of something called `closures`. This approach i would say is the best way.
+Hint 2: Have an array with the products in the shopping cart. Render the shopping cart using this array. 
 
-__Bonus__: Write a function takes this array `['a', 'b', 'c', 'd', 'a', 'e', 'f', 'c']` and returns an array which only has unique values in it (so it removes the duplicate ones). Make it a 'smart' algorithm that could do it for every array (only strings/number). Try to make it as fast as possible!
+### Total price of shopping cart - *optional*
+Calculate the total price of all the elements in the shopping cart. Investigate the array function called `reduce`. It reduces an array down to one value. Which is exactly what we want. To reduce the products in the shopping cart array down to a single value that is the total price. 
 
+## Feedback giving time!
+Find a student to give feedback using this site: https://hyf-peer-review.herokuapp.com/
+The feedback should be given after the homework has been handed in preferably latest two days after.
+ 
+To help you get started we have created some ressources about giving feedback. Find them here: https://github.com/HackYourFuture-CPH/curriculum/tree/master/review
 
-### Step 5: Hand in Homework:
+## Hand in Homework:
 Go over your homework one last time:
 
 - Does every file run without errors and with the correct results?

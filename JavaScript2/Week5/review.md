@@ -4,8 +4,6 @@
 this review covers:
 • Events
 • Callbacks
-• XHTTP Requests
-• API calls
 ```
 
 ## Callbacks
@@ -15,43 +13,6 @@ this review covers:
 ## Review by Benjamin
 
 
-Lets quickly reiterate the call stack
-
-```javascript
-let hasBoughtGroceries = false;
-let hasWatchedMovie = false;
-
-function buyGroceries() {
-    hasBoughtGroceries = true;
-}
-
-function watchmovie() {
-    hasBoughtGroceries = true;
-}
-
-buyGroceries();
-watchmovie();
-```
-
-Lets start today off with a function that takes a function as input.
-The function is just a variable.
-
-```javascript
-const nameLogger = function (number) {
-    console.log('Names names and lots and lots of NAMES!!!');
-}
-
-const cityLogger = function (number) {
-    console.log('Copenhagen, Silkeborg, Ry');
-}
-
-
-function logger(logFunction) {
-    logFunction();
-}
-
-logger(cityLogger);
-```
 
 **Events**
 
@@ -117,93 +78,78 @@ const callback = function() {
 document.querySelector('input').addEventListener('input', callback);
 ```
 
-**Ajax Requests** 
 
-When us frontend developers want to get information about a logged in user,
-get search results from a search, check if someones passwors is correct
-we have to ask a server form these things. This communication between a client and 
-a server happens with using ajax requests.  
 
-```javascript
-const url = 'https://api.github.com/users/benna100';
-// Create new ajax call with the js function called XMLHttpRequest
-const req = new XMLHttpRequest();
-req.addEventListener('load', function () {
-    // This in here is our callback function
-    // Check our server responsecode, 200 means ok, success: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes 
-    if (this.status === 200) {
-        const user = JSON.parse(req.responseText);
-        console.log(user);
-    } else {
-        console.log('Something is probably wrong with the url');
-    }
-});
 
-req.addEventListener('error', function () {
-    console.log('Server error like timeout');
-});
+
+
+
+
+
+
+
+
+
+
+
+
+## Async vs sync
+
+In this article there is a really good analogy and description of the differences between async and sync https://www.hongkiat.com/blog/synchronous-asynchronous-javascript/
+
+Here is the analogy in a quick writeup:
+
+There is a a man called mr. X. You can call him with any problem and he will answer your right away. He picks up the phone and answers RIGHT away. This is like synchronous js code. It gets run right away, no waiting. 
+
+Now mr. X gets lots of calls. Therefore he hires a person to take his calls. This guy passes on a message to mr x once he is completely free. So now when you call mr. X you leave his assistant a message and then wait for his assistant to call back. Once Mr x is done with all his other calls his assistant call you back with mr x's answer. This is like asynchronous js code. We now have to wait for our answer. You ask for some task to get done with a callback function, fx log "hello" after one second. Once one second has elapsed javascript runs your callback function.
+
+
+### Synchrounus
+
+This code runs from top to bottom, one line at a time. When it is done with a task it just starts with the next one right away.
+
+```js
+console.log('Before');
+
+for (let i = 0; i < 10; i++) {
+    console.log(i);
+}
+
+console.log('After');
 ```
-Initializes a request with an http method
+
+
+
+
+### Asynchrounus
+
+This code is NOT run from top to bottom. It will first log "First log" then it will setup a timer for 5 seconde, then it will log out Second log. And then after 5000 seconds it will call the callback function that will log out "In timeout".
+
+```js
+console.log('First log');
+
+setTimeout(function() {
+    console.log("In timeout");
+}, 5000);
+
+console.log('Second log');
 ```
-req.open("GET", url);
-```
-Sends the request 
-```
-req.send();
-```
-
-Show the network tab in chrome and filtering for xhr
 
 
-**API - Application Programming Interface**
+### Asynchrounus code in javascript
 
-What is an interface?
-Programmers can use an api to access complex functionality in a simple way. 
-Electricity socket. You just plug your appliance into the wall and it works.
-We dont have to worry about the wiring or anything. The complex functionality has been abstracted away.
+So how does javascript handle asynchronous code? Here is an example with setTimeout:
 
-Examples of API's: 
-- DOM document.queryselector, 
-- Geolocation:navigator.geolocation.getCurrentPosition
-- accelerometer, 
-- facebook 
-- twitter
+First setTimeout is added to the call stack. The call stack hands it over to the browser with the callback function given in the setTimeout function. Now the browser via web apis handle the timing. The setTimeout is popped from the call stack. 
+When the web api is done with the timer it sends the callback to the eventloop. The eventloop then works like this: if the call stack is empty take the first thing in the event loop and add it to the call stack. When it is added to the call stack it is javascript call stack business as usual. Call the function and pop it from the call stack.  
 
-**Web API**'s are like that, but just for getting data from a server. 
-There are some funny apis to play with:
-http://deckofcardsapi.com/
-http://api.giphy.com/v1/gifs/search?api_key=2FuF3E9nyFeXWt3aHIfkxtKTUGn73v0w&q=smile
-https://github.com/toddmotto/public-apis
-This incredibly unique service generates true random numbers by measuring quantum fluctuations of a vacuum in real-time!
-https://qrng.anu.edu.au/API/jsonI.php?length=1&type=uint8&#8217
-https://yesno.wtf/api/
+This is perfectly visualised here: http://latentflip.com/loupe
 
-```javascript
-const api_key = '2FuF3E9nyFeXWt3aHIfkxtKTUGn73v0w';
-const query = 'smile'
 
-const giphyUrl = 'http://api.giphy.com/v1/gifs/search?api_key=' + api_key + '&q=' + query;
+### So why do we have async code in js?
 
-// Create new ajax call with the js function called XMLHttpRequest
+While javascript is performing a task (has functions on its call stack) it cannot do anything else. That means that a user cannot click a button, write anything in an input element, close a modal etc. 
 
-const giphyReq = new XMLHttpRequest();
-giphyReq.addEventListener('load', function () {
-    // This in here is our callback function
-    // Check our server responsecode, 200 means ok, success: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes 
-    if (this.status === 200) {
-        const gifs = JSON.parse(giphyReq.responseText);
-        console.log(gifs);
-    } else {
-        console.log('Something is probably wrong with the url');
-    }
-});
+Imagine requesting data with javascript if js was not async: While the we are fetching our data, the user can do nothing. It could take everything from less that a second to minutes. This is a problem!
 
-giphyReq.addEventListener('error', function () {
-    console.log('Server error like timeout');
-});
-
-// initializes a request with an http method
-giphyReq.open("GET", giphyUrl);
-// Sends the request 
-giphyReq.send();
-```
+The solution to this is async code. So when we request some data via ajax, the waiting for a response part is actually handled in the browser (just like setTimeout was). Therefore javascript has got nothing on its call stack and the user can click button and close modals etc while waiting for a request. Yay :)
