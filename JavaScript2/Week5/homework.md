@@ -1,58 +1,44 @@
 ## Homework Week 5
 
-
-### Step 0
-All share a video or a resource (this can be a drawing, article or a pod cast) that was helpful for you the last few weeks with learning JavaScript. Please share this in the #teach-yourself channel in Slack. Also write as small note about what the resource i about and why you think it's so helpful (you can share more than one if you like).
+## So why this homework?
+We want you to realise that functions are just variables in javascript. It is exactly the same as string or a number. This homework forces you into using functions in weird ways that forces you to think differently about functions. 
 
 ### Step 1
 1. We learned a little bit about callbacks in JS. A callback is simply a function passed to another function that gets executed (run) after a potentially long running operation has completed. There is another function called `setTimeout` that will wait a specified period of time and then execute a function. For example: 
 
-    ```js
-    function doIt() {
-        console.log('I am done');
-    }
-    setTimeout(doIt, 5000)
-    ```
-    If you run the above code it will wait 5 seconds and print `I am done`. Please read something about setTimeout on MDN. The first argument to the `setTimeout` function is the callback (`doIt`)
+```js
+function doIt() {
+    console.log('I am done');
+}
+setTimeout(doIt, 5000)
+```
+If you run the above code it will wait 5 seconds and print `I am done`. Please read something about setTimeout on MDN. The first argument to the `setTimeout` function is the callback (`doIt`)
 
-    You must write a function that takes 4 arguments.
-    - A start value 
-    - An end value
-    - A callback to call if the number is divisible by 3 
-    - A callback to use if the number is divisible by 5
+You must write a function that takes 4 arguments.
+- A start value 
+- An end value
+- A callback to call if the number is divisible by 3 
+- A callback to use if the number is divisible by 5
 
-    The function should generate an array containing values from start value to end value (inclusive). 
+The function should generate an array containing values from start value to end value (inclusive). 
 
-    Then the function should iterate over the array and call the second argument if the array value is divisible by 3
+Then the function should iterate over the array and call the second argument if the array value is divisible by 3
 
-    The function should call the second argument if the array value is divisible by 5 
+The function should call the second argument if the array value is divisible by 5 
 
-    Both functions should be called if the array value is divisible by both 3 and 5
+Both functions should be called if the array value is divisible by both 3 and 5
 
-    ```js
-    THIS IS FAKE CODE 
-    function threeFive(startIndex, stopIndex, threeCallback, fiveCallback) {
-       // make array 
-       // loop through the array. Check if you should call threeCallback and/or fiveCallback.
-    }
-    threeFive(10, 15, sayThree, sayFive);
+```js
+THIS IS FAKE CODE 
+function threeFive(startIndex, stopIndex, threeCallback, fiveCallback) {
+    // make array 
+    // loop through the array. Check if you should call threeCallback and/or fiveCallback.
+}
+threeFive(10, 15, sayThree, sayFive);
 
-    // Should create an array [10,11,12,13,14,15]
-    // and call sayFive, sayThree, sayThree, sayFive  - please make sure you see why these calls are made before you start coding
-    ```
-
-
-2. Please solve this problem using:
-https://www.freecodecamp.com/challenges/repeat-a-string-repeat-a-string
- 1. A for loop
- 2. A while loop
- 3. A do loop
-
-3. Some practice with objects 
-https://www.freecodecamp.com/challenges/construct-javascript-objects-with-functions
-
-4. Nested loops 
-https://www.freecodecamp.com/challenges/nesting-for-loops
+// Should create an array [10,11,12,13,14,15]
+// and call sayFive, sayThree, sayThree, sayFive  - please make sure you see why these calls are made before you start coding
+```
 
 5. We did some work with arrays - `let arr = [1,2,3]`
 We can also nest arrays inside arrays like this `let arr2d = [[1,2], [3,4], [5,6]]` (for math people you can think of this as a matrix)
@@ -82,38 +68,33 @@ console.log(y);
 ```
 If you are confused please run the code and then consult Google for "javaScript pass by value pass by reference"
 
-### Step 2: Feedback
-Give feedback on step 2 of the homework to one of your fellow classmates.
 
-### Step 3: Homework for JavaScript
-
-Make a website that fetches (= to get) data asynchronously.
+### Step 2
 
 1) Create a new website with external js file
 
 2) Add a button (e.g. 'click me') that when clicked `console.logs` 'you clicked me!'
 
-3) Create a function that fetches from [The Github API](https://developer.github.com/v3/). For example from [this page](https://api.github.com/orgs/HackYourFuture-CPH/repos) (the one we used last week). For help on this check this [SO post](https://stackoverflow.com/questions/247483/http-get-request-in-javascript)
+3) Add an input element where you can write numbers. When the button is clicked, get the number from the input element. Use the `threeFive` function we created earlier. If the number if divisible with 3 set the background color to blue (using a function you call `threeFive` with). If the number is divisible with 5 set the background color to yellow.
 
+4) Create a button with the text called show location. When this button is clicked the location on the user should be found using this browser api: https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API
+Now show that location on a map using fx the Google maps api: https://developers.google.com/maps/documentation/javascript/tutorial
 
-4) Display the data that you get from the Github API on your web page.
+5) Create funtions that are used in these different ways:
+- Create an array with 3 items. All items should be functions. Go through the array and call them.
+- Create a function as a const and try creating a function normally. Call both function. 
+- Create an object that has a key whose value is a function. Try calling this function. 
+- Create two setTimeouts one uses a function that is defined as a const. The other uses an anonomous function that is defined inside the setTimeout. 
+- Create a function (outer) that returns a function (inner). Call the outer function and assign the return to a variable. Now call this variable (that is the inner function)
 
-5) Now link the two together: When you click the button -> get the data from the Github API and display it on your website
+## Feedback giving time!
+Find a student to give feedback using this site: https://hyf-peer-review.herokuapp.com/
+The feedback should be given after the homework has been handed in preferably latest two days after. 
 
-6) Make all the repositories link their own page in Github. Use the value of the key: `name` to make this work (hint: Github urls always look like this https://api.github.com/repos/HackYourFuture-CPH/[repositoryName] where [repositoryName] would be replaced by the actual `name` of the repository, for example `CommandLine`). Make sure the link opens in a new tab.
+To help you get started we have created some ressources about giving feedback. Find them here: https://github.com/HackYourFuture-CPH/curriculum/tree/master/review
 
-7) BONUS: if you look at this:
-
-```js
-https://api.github.com/repos/HackYourFuture-CPH/CommandLine
-```
-
-You can see `CommandLine` in the URL. These are called "query parameters" and let us specify in detail what we want from the API. Play around with this. For example you can make two buttons that either get data for a specific repository, JavaScript or Node.js. Or go even more crazy and make users type in a search box 'JavaScript' and then send that to the API by changing the repository.
-
-
-### Step 4: Hand in Homework:
+### Hand in Homework:
 Go over your homework one last time:
-
 - Does every file run without errors and with the correct results?
 - Have you used `const` and `let` and avoided `var`?
 - Do the variable, function and argument names you created follow the [Naming Conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)?

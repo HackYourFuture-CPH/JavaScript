@@ -1,7 +1,8 @@
 # Preparation
 
-- [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) (5 min)
-- Map, sort filter http://www.forbeslindesay.co.uk/post/34574196032/map-filter-and-sort  (10 min)
-- Map, sort filter Another one https://hackernoon.com/map-filter-and-reduce-67d408e06107 (4 min)
+- [Basic DOM manipulations (img src, innerHTML)](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/DOM_manipulation.md) (5 min)
+- [Code Degugging Using the Browser](http://javascript.info/debugging-chrome) (5 min)
+- [Code commenting](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/code_commenting.md) (2 min)
+- [Attaching an event](https://www.w3schools.com/jsref/met_element_addeventlistener.asp) (5 min)
 
 _Please go through the material and come to class prepared!_

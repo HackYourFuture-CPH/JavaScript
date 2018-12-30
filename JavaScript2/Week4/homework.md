@@ -1,49 +1,53 @@
 # Homework
 
-First off, congratulations on coming this far, well done!
+## So why this homework?
+Interacting with the DOM is a crucial part of building a website. If we cannot interact with the DOM annd the javascript we write cannot be used in a browser. Connecting javascript to the browser opens up a new world of possibilities where only the imagination is the limiting factor. 
 
-## Step 1: Lets get real comfortable with map, filter and sort.
+![books](https://media.giphy.com/media/PkQeAkvhRrWoM/giphy.gif)
+## Book site
+1. Open a new js file and start by declaring an array that contains 10 strings. These strings should be of book titles you have read (or made up) and be lowercase without spaces or special characters so that you can use these later as Id's. (Example: Harry Potter's - The Chamber of Secrets -> `harry_potter_chamber_secrets`). 
 
-Use the carGenerator function to generate 10 cars. The file with the function is here: 
-[carGenerator.js](/JavaScript2/Week4/assets/carGenerator.js)
+2. Create a basic html file called index.html and use it to load the js file, confirm the console.log show the array. (This is for debugging and making sure everything is in order. Delete it later when you're done :))
 
-You call it like this: 
-generateCars(10);
+3. Make a function (or functions) that generate a `ul` with `li` elements for each book ID in the array using a for loop. 
 
-Create the following arrays:
+4. Make an object containing information for each book. Each item (object) in this object should have the book ID you thought up in point 1 as a key, and it should have at least the following fields: title, language and author. 
 
-- 1.1: Cars with speeds between 30 and 60
+5. Now change the function you used to display the book ID's in a list to take the actual information about the book from the object and display that. Make sure you choose the right html elements for each piece of info, for instance, a heading for the title.
 
-- 1.2: The makes of the cars that are not lightyellow, so the array is going to look like this: ['BMW', 'Fiat'] etc
+6. Beautify your html page with css, add sources and alts to each of the images.
+ 
+7. Download book covers for each book, construct a new Object which has as keys the bookId's again, and as value the path to the image source (e.g. `{"harry_potter_blabla": "./img/harry_potter_blabla.jpg", ...}`). Now loop over these entries (_hint: `Object.keys(objectName)` gives you an array containing the keys_). Then write a function which places an image at the corresponding `li` element. Remember that Objects are not ordered, so you cannot guarantee that the first key is the first `li` element. (_Hint: you could give each `li` item an `id` tag by modifying the function you made before_)
 
-- 1.3: Lets change the cars array so it can be read by a danish person. Return an array of objects where the key in the object called speed is called fart (danish for speed), the make is called maerke and the color is called farve. The output will look kind of like this:
+![Spirit animal](https://media.giphy.com/media/26xBBMyZgK6xFJDoc/giphy.gif)
 
-```js
-[
-    {
-        maerke: 'Volvo',
-        fart: 45,
-        farve: 'lightYellow',
-    }
-];
-```
+## Spirit animal name generator
+Lets create a page where a users writes his name in an input element. The user then clicks a button. The user will now receive a spirit animal name, fx Benjamin - The fullmoon wolf.
+
+### Markup time!
+Create an input element, a button and a tag to display the spirit animal into.
+
+### Setting up the events
+When the user clicks the button, get the name the user wrote in the input field. 
+
+### Spirit animal part
+Now we can get the users name, next step is to add the spirit animal string and display that the users name a dahs and then the spirit animal. Fx Name: Peter: Peter - The crying butterfly 
+For creating the spiritanimal create an array with 10 string representing spiritanimals. Now get a random item in the array that will represent the spiritanimal.
+
+### New spirit animal
+Now a user tells us that he wants a new spirit animal. No problem we say. Lets create functionality where a user can press a button and then get a new spiritanimal.
+
+### Event types - *Optional and a little tricky*
+Give the user the possibility to select when the spirit animal should be created. Should it be when the user clicks the button or when the input changes or when text is written in the input field? What are the differences between these events? How can the user *select between options* in html? Maybe time for google!
+
+## Feedback giving time!
+Find a student to give feedback using this site: https://hyf-peer-review.herokuapp.com/
+The feedback should be given after the homework has been handed in preferably latest two days after. 
+
+To help you get started we have created some ressources about giving feedback. Find them here: https://github.com/HackYourFuture-CPH/curriculum/tree/master/review
 
 
-## Step 2: Some Challenges
-Let's practice working with Objects and Arrays. Go to FreeCodeCamp and complete all challenges under "Object Oriented and Functional Programming" and the _first four challenges_ under "Basic Algorithm Scripting", up until 'Find the longest word in a string.'
-https://www.freecodecamp.org/challenges/store-multiple-values-in-one-variable-using-javascript-arrays
-
-## Step 3: Custom challenge 
-1. Go to https://api.github.com/orgs/HackYourFuture-CPH/repos, you will see a list of the repositories our HYF organization has (yes it's a lot of JSON).
-2. You can copy the JSON and put it in a string at the top of your `.js` file use this tool for that: https://jsonformatter.org/. Copy the json text into the jsonformatter and press this key:
-> ![Variables are like boxes](./assets/jsonformatter.PNG)
-Now you have a json string you can copy into your file. Now print the name of the 3rd github repository to the console.
-3. Make a `<ul>` with a `<li>` for each repository name (just like you did with the books in the previous assignment).
-4. It should only display the modules that are actually being used in the curriculum at the moment, you of course know which those are, but if you need a reminder you can find them in our [curriculum overview](https://github.com/HackYourFuture/curriculum).
-5. Use CSS to divide the page in two columns. The left column will have a list of the names for repository. The right column should have the following information about each repository: the number of `stargazers`, the number of `watchers`, the number of `forks`, the `language` of the repository.
-6. place the `avatar_url` (logo) of our organization somewhere on a nice place in your page.
-
-## Step 4: Hand in Homework:
+## Hand in Homework:
 Go over your homework one last time:
 
 - Does every file run without errors and with the correct results?
@@ -58,4 +62,3 @@ If you can answer yes to the above questions then you are ready to hand if the h
 ---
 
 🎉
-
