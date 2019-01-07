@@ -1,7 +1,7 @@
 # Homework
 
 ## So why this homework?
-Interacting with the DOM is a crucial part of building a website. If we cannot interact with the DOM annd the javascript we write cannot be used in a browser. Connecting javascript to the browser opens up a new world of possibilities where only the imagination is the limiting factor. 
+Interacting with the DOM is a crucial part of building a website. If we cannot interact with the DOM and the javascript we write cannot be used in a browser. Connecting javascript to the browser opens up a new world of possibilities where only the imagination is the limiting factor. 
 
 ![books](https://media.giphy.com/media/PkQeAkvhRrWoM/giphy.gif)
 ## Book site
@@ -22,7 +22,7 @@ Interacting with the DOM is a crucial part of building a website. If we cannot i
 ![Spirit animal](https://media.giphy.com/media/26xBBMyZgK6xFJDoc/giphy.gif)
 
 ## Spirit animal name generator
-Lets create a page where a users writes his name in an input element. The user then clicks a button. The user will now receive a spirit animal name, fx Benjamin - The fullmoon wolf.
+Let's create a page where a user writes his name in an input element. The user then clicks a button. The user will now receive a spirit animal name, fx Benjamin - The fullmoon wolf.
 
 ### Markup time!
 Create an input element, a button and a tag to display the spirit animal into.
@@ -31,20 +31,20 @@ Create an input element, a button and a tag to display the spirit animal into.
 When the user clicks the button, get the name the user wrote in the input field. 
 
 ### Spirit animal part
-Now we can get the users name, next step is to add the spirit animal string and display that the users name a dahs and then the spirit animal. Fx Name: Peter: Peter - The crying butterfly 
-For creating the spiritanimal create an array with 10 string representing spiritanimals. Now get a random item in the array that will represent the spiritanimal.
+Now we can get the users name, next step is to add the spirit animal string and display that the users name, a dash and then the spirit animal. Fx Name: Peter: Peter - The crying butterfly 
+For creating the spirit animal create an array with 10 string representing spirit animals. Now get a random item in the array that will represent the spirit animal.
 
 ### New spirit animal
-Now a user tells us that he wants a new spirit animal. No problem we say. Lets create functionality where a user can press a button and then get a new spiritanimal.
+Now a user tells us that he wants a new spirit animal. No problem we say. Let's create functionality where a user can press a button and then get a new spirit animal.
 
 ### Event types - *Optional and a little tricky*
 Give the user the possibility to select when the spirit animal should be created. Should it be when the user clicks the button or when the input changes or when text is written in the input field? What are the differences between these events? How can the user *select between options* in html? Maybe time for google!
 
 ## Feedback giving time!
 Find a student to give feedback using this site: https://hyf-peer-review.herokuapp.com/
-The feedback should be given after the homework has been handed in preferably latest two days after. 
+The feedback should be given after the homework has been handed in, preferably the latest two days after. 
 
-To help you get started we have created some ressources about giving feedback. Find them here: https://github.com/HackYourFuture-CPH/curriculum/tree/master/review
+To help you get started we have created some resources about giving feedback. Find them here: https://github.com/HackYourFuture-CPH/curriculum/tree/master/review
 
 
 ## Hand in Homework:
@@ -58,7 +58,7 @@ Go over your homework one last time:
 If you can answer yes to the above questions then you are ready to hand if the homework:
 * Find the hyf-homework git repo (forked from [here](https://github.com/HackYourFuture-CPH/hyf-homework))
 * Add your homework files in the Javascript/javascript2/week1 folder
-* To finish the homework use the link in the top of your classes slack channel. 
+* To finish the homework, use the link in the top of your classes slack channel. 
 ---
 
 🎉
