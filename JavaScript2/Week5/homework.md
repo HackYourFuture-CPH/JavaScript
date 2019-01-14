@@ -46,28 +46,6 @@ How would you print all the items of an array with 3 dimensions?
 How about with K dimensions? 
 What if you didn't know how deep the array was nested? (You don't have to write code for this but think about it)
 
-6. Here are two functions that look like they do the something similar but they print different results. Please explain what's going on here.
-
-```js
-let x = 9; 
-function f1(val) { 
-    val = val+1; 
-    return val;
-}
-f1(x);
-console.log(x);
-
-
-let y = { x: 9 };
-function f2(val) {
-    val.x = val.x + 1;
-    return val;
-}
-f2(y);
-console.log(y);
-```
-If you are confused please run the code and then consult Google for "javaScript pass by value pass by reference"
-
 
 ### Step 2
 
