@@ -1,5 +1,7 @@
 # Learning goals
-- [ ] Object Literals (and other patterns)
+- [ ] Constructor function 
+- [ ] Promises advanced (all, race, chaining)
+- [ ] Classes
 
 # Relevant links
 * [Preparation](preparation.md)

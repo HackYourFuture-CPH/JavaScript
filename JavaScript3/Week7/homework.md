@@ -1,49 +1,80 @@
 # Homework Week 7
 
-## Step 1: Map, filter, reduce, and =>
+## Why should i even do this homework?
+Working with json and api's is the way modern **javascript application's communicate with servers**. That can be either getting some data but also updating or creating new data. 
 
-1. Say you would like to write a program that doubles the odd numbers in an array and throws away the even number.
+It is how autocomplete can receive suggestions for a search query and how infinite scroll can keep loading new posts. 
 
-    Your solution could be something like this:
-    ```js
-    let numbers = [1, 2, 3, 4];
-    let newNumbers = [];
+## Create your own json file
+Create your own json file with something that **interests you**. Maybe that could be computers, pets, music etc.
 
-    for(let i = 0; i < numbers.length; i++) {
-        if(numbers[i] % 2 !== 0) {
-            newNumbers[i] = numbers[i] * 2;
-        }
-    }
+Remember to validate the json using a tool like fx this: https://jsonlint.com/
 
-    console.log("The doubled numbers are", newNumbers); // [2, 6]
+## Find a cool api
+Find a cool api and **explain how it works** and what kind of **json data** the api responds with. Is it an array, an object, a string. How is the data structure. Is it fx an array of objects or how is it structured. 
 
-    ```
+There are a few examples of apis here:
+https://github.com/toddmotto/public-apis
 
-    rewrite the above program using `map` and `filter` don't forget to use `=>`
+## Weather app
+Lets create a **weather app** that based on a **users location** can find the relevant weather for that user.
 
-2. Using [this json file](https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json) as the source, build a function which does the following:
+### Sign up for api key
+Go to https://openweathermap.org/appid and **sign up for an api key**. This key we will use for getting access to the weather api. 
 
-    1. Give each movie a `tag`: Good (>= 7), Average (>= 4 and < 7), Bad (< 4) based on the ratings.
-    1. Calculate the average rating of all the movies.
-    1. Count the total number of Good, Average and Bad movies.
-    1. Count he number of movies containing the following keywords: `["The", "dog", "who", "is", "not", "a", "man"]`. Can you make sure the search is case insensitive?
-    1. Count the number of movies made between 1980-1989 (including both the years).
+### First call to the weather api
+We are going to be using the current weather api: https://openweathermap.org/current
 
-## Step 2: Continuing with the previous exercise
+To get some data from the api go to https://api.openweathermap.org/data/2.5/weather?q=copenhagen&appid=YOUR_APP_ID, where `YOUR_APP_ID` is substituted with the key you signed up for in the first step.
 
-- Add map, filter, reduce to  your existing app to build an application that loads data from github, filters out based on certain value, map->reduces to a data object and render that object to the dom (using map again).
-- For example you can try to use map, filter and reduce to show the most and the least forked repositories, watched repositories. And the total number of forks for all repo's. Also you can work with the data provided about the amount of commits or contributers.
-- Add a readme to your repo explaining  what your app does and how to use your app. Here's a [template](https://gist.github.com/jxson/1784669) and here you can see how to make [your readme awesome](https://gist.github.com/rrgayhart/91bba7bb39ea60136e5c).
+If you go to the [above url](https://api.openweathermap.org/data/2.5/weather?q=copenhagen&appid=YOUR_APP_ID) and see some weather json data then congrats 🎉. 
 
-## Step 3: **Some freeCodeCamp challenges:**
+If not, try and **read the error 💻** and see if you can figure out what went wrong. Or ask in the slack group :)
 
-1. [Comparisons with the Logical And Operator](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/comparisons-with-the-logical-and-operator/)
+### Fetch weather data from a city
+Create a javascript file and an html file and import the javascript file in the html file.
 
-2. [Record Collection](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/record-collection/)
+**Fetch weather json data** from the api using a city a user has specified: Add an **input element** and **a button** to the html. When the button is clicked, get the text from the input (which should be a city name) and fetch the relevant weather data from that city.
 
-3. [Iterate over Arrays with map](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/functional-programming/use-the-map-method-to-extract-data-from-an-array)
+Remember to show some **loading text**. What if a user **writes nothing in the input?**
 
-## Step 4: Hand in Homework:
+### Display the data
+Find some relevant data to show. That could fx be city name, average temperature, how cloudy it is, weather icon etc.
+
+You decide how the data should be displayed. You could maybe be inspired by googling for "weather app ui".
+
+### Your feature here
+Now its your time to **come up with a feature**. No matter how big or small. 
+
+### Use my current position *optional*
+Investigate the [geo location api](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API). Add a button to your page, clicking this button will **get the users current position**. Use that position to fetch weather data. 
+
+Hint: We have to change the weather api url, so we are not using city but position. Look into the documentation!
+
+### Save my location *optional*
+Imagine if a user did not have to either write a city or click the get my position button, but could just save the location. Lets do that!
+
+When a user has gotten a location through either the input element or the geo location api, save that location using [localstorage](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API). Localstorage is a **way to save data** even when you close the browser. 
+
+Now when loading the page and there is a city in the localstorage, use that to get the current weather. 
+
+![Weather man](https://media.giphy.com/media/3ohzdJlyD2InWwbJle/giphy.gif)
+
+## Giphy api
+Create a site where a **user can search for any word**. When searching a word the application will **find a gif** using the **searched word** using the giphy api: https://developers.giphy.com/docs/
+Here is how it is going to work: The user can write some text indicating the gif he is looking for, click a button and then a gif will be found (using the searched word) and the gif will be displayed to the user. 
+
+Try break this problem into **smaller problems** and write down how you are going to solve the problem **BEFORE you start coding.** 
+
+![Coding](https://media.giphy.com/media/1C8bHHJturSx2/giphy.gif)
+
+## Feedback giving time!
+Find a student to give feedback using this site: https://hyf-peer-review.herokuapp.com/
+The feedback should be given after the homework has been handed in preferably latest two days after.
+ 
+To help you get started we have created some ressources about giving feedback. Find them here: https://github.com/HackYourFuture-CPH/curriculum/tree/master/review
+
+## Hand in Homework:
 Go over your homework one last time:
 
 - Does every file run without errors and with the correct results?

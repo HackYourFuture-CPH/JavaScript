@@ -1,7 +1,8 @@
 # Preparation
 
-- Check the first 3-4 [Videos](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84). (30 min)
-- https://flaviocopes.com/javascript-arrow-functions/ (15 min)
+- [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) (5 min)
+
+- Read about APIS: https://www.programmableweb.com/api-university/what-are-apis-and-how-do-they-work (10 min)
 
 ![Studying](https://media.giphy.com/media/l0HlAgJTVaAPHEGdy/giphy.gif)
 

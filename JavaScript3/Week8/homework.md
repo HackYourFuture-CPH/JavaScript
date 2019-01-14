@@ -1,101 +1,121 @@
 # Homework Week 8
 
-## Step 1: Closure
+## Why should i even do this homework?
+Promises creates a **pleasant way of working with asynchronous code**. It will make your asynchronous code nearly look synchronous. It is possible to compose promises further developing the function part of javascript. 
 
->Revise before attempting: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+Since promises is becoming standard in javascript, new browser api's use promises for interacting with them. `getUserMedia` for accessing webcam, `Navigator.getBattery()` for getting battery level, `Bluetooth.requestDevice()`, `serviceWorker` or `USB.requestDevice()`
 
-We have an array with the numbers from 1 to 1000. Now we are interested in all numbers in that array which are divisible by 3. And then divisible by 10. And then by 21. We have implemented that using for loops:
+So lets learn some promises :)
+
+## Warmup exercises
+We will start with some **abstract tasks** first and then get into a concrete task in the end. 
+
+## Promise that resolves after set time
+Create a function that has one parameter: `millisecondsToResolve`. **Calling this function** will **return a promise** that resolves after the millisecondsToResolve has passed. 
+
+Here is an example: `notThisFunctionName(3000)` will return a promise that resolves after 3000 milliseconds.
+
+Use the `notThisFunctionName` to log out the string `I am called asynchronously` after 6000 milliseconds.
+
+## Fetching and waiting
+Only using promises
+1. Fetch some data from an api.
+1. Wait 3 seconds
+1. Log out the data from the api
+1. Do all of these things using chaining
+
+## Rewrite time
+Rewrite [setTimeout](https://developer.mozilla.org/ro/docs/Web/API/window.setTimeout) and [navigator.geolocation.getCurrentPosition](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API#JavaScript_Content) to promises. So instead of using [setTimeout](https://developer.mozilla.org/ro/docs/Web/API/window.setTimeout) and [navigator.geolocation.getCurrentPosition](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API#JavaScript_Content) with callbacks, use it as a promise.
+
+Example of usage
 
 ```js
-  let arr = [];
-   for( let i=1; i<=1000;i++){
-       arr.push(i);
-   }
-   console.log(arr);
+setTimeoutPromise(3000)
+    .then(() => {
+        console.log('Called after 3 seconds');
+    });
 
-   // here the solution using loops starts
-   const x = 3;
-   let divisbleBy3 = [];
-   for(let i=0;i<arr.length;i++){
-       if(arr[i]%x===0){
-           divisbleBy3.push(arr[i]);
-       }
-   }
-   console.log("Numbers divisible by 3: ",divisbleBy3);
-   console.log("Amount of numbers divisible by 3: ",divisbleBy3.length);
-
-   const y = 10;
-   let divisbleBy10 = [];
-   for(let i=0;i<arr.length;i++){
-       if(arr[i]%y===0){
-           divisbleBy10.push(arr[i]);
-       }
-   }
-   console.log("Numbers divisible by 10: ",divisbleBy10);
-   console.log("Amount of numbers divisible by 10: ",divisbleBy10.length);
-
-   const z = 21;
-   let divisbleBy21 = [];
-   for(let i=0;i<arr.length;i++){
-       if(arr[i]%z===0){
-           divisbleBy21.push(arr[i]);
-       }
-   }
-   console.log("Numbers divisible by 21: ",divisbleBy21);
-   console.log("Amount of numbers divisible by 21: ",divisbleBy21.length);
+getCurrentLocation()
+    .then((position) => {
+        // called when the users position is found
+        console.log(position);
+    })
+    .catch((error) => {
+        // called if there was an error getting the users location
+        console.log(error);
+    });
 ```
 
-## Part 1
-Your task is now, to implement a closure (a function factory), that generates functions which allow us to determine if a number is divisible by some other number. The return of the inner function will be a boolean.
+## Thumbs up or thumbs down
+Lets build a website where people can say thumbs up or thumbs down to diffeent things.
 
-So just like with our adder function we want to use it like this:
+![Demo](homework/demo.gif)
+
+If you go into the [homework folder](homework) there is some html, css and some js. If you clone down the javascript repo, then you can simply copy the files into your hyf-homework js3 week 2 folder.
+
+You will be working in the main.js file.
+
+### Manually create functionality
+What we want to happen when a button is clicked is the following:
+1. The `li` in the top of the `ul` should get a `transform:translateX(1000px)`. That will translate the `li` to the right out of the window. This indicates that the user has given a thumbs up to what the `li` element contains. When the `li` has been translated out we dont see any `li`. Thats because the next `li` has `opacity: 0;`. Lets fix that in the next step.
+1. Lets show the next `li`: The next `li` (the second `li` in the `ul`) should become visible. Do that by giving it the following css attributes: `opacity: 1; transform: scale(1);` This will animate the next `li` element into view.
+
+Do these steps two **manually using the inspector** simply setting the style of the relevant elements. **Nothing to hand in here**, its just simply to give you a feeling for the application.
+
+### Getting to js
+Now we have a feeling for what should happen when the thumbs up button is clicked: **Animate `li` out, then animate next `li` into view**
+
+The very detail oriented students probably saw the keyword **then** in the previous sentence! Hmm that sound just like a promise: 
+- Do something (animate `li` out) 
+- **then** do something else (animate next `li` into view) 
+
+Lets create a function called `animateLiOut`. This function should animate the `li` out and **return a promise** that resolves after the animation of the first `li` is done. What function can we use to wait for some given time in js?
+
+Pseudo code of the function
 ```js
-const divisibilityCheckerFive = divisibilityChecker(3);
-console.log(divisibilityCheckerFive(2)) // logs out false
+animateLiOut()
+    .then(() => {
+        // this callback function is first called when the li is out of view!
+
+        // Now lets animate the next li into view
+        animateNextLiIntoView();
+    });
 ```
 
-## Part 2
-Create an array where the first element in that array is equal to the number of numbers (in ```arr```) that are divisible 1. The second element should be equal to the number of numbers that are divisible by 2. And so on. Use the divisibilityChecker function you created in part 1.
-This is how the resulting array should look:
-```js
-[1000, 500, 333, 250, 200, 166, 142, 125, 111, 100, 90, 83, 76, 71, 66, 62, 58, 55, 52, 50, 47, 45, 43, 41, 40, 38, 37, 35, 34, 33, 32]
+### Improving the application
+Now when we press the thumbs up button: the first `li` is animated out and the next one comes into view. But what about when we **press the button again**? Lets create the functionality that keeps animating the next `li` out. And what if we **press the thumbs down button**, then the `li` should be animated out of view but **to the left not to the right**. Lets also create that functionality.
 
-// 1000 items are divisible by 1, 500 by 2 and son on...
-```
+### Personalise the application
+Right now the `li` elements just have the text Thing 1, Thing 2 which is super boring! Now you have to give it a **personal touch**!
 
-> Hint: Use `map`, `filter` and `reduce`. Think about the sizes of your arrays and then choose whether you need `map`, `filter` or `reduce`. A good old `forEach` would also be fine. 
+You decide what we are giving thumbs up or down to. Maybe its music tracks, food dishes, movies or danish traditions, **you decide!** 
+
+Create an `array` of `objects` in js that represents what we are interacting with. Using that `array` of `objects`, build the `li's` and insert them into the `ul`. The `li's` could contain a h1, a span, maybe an image, you decide here, as long as it is built from the `array` of `objects`.
+
+### Improve improve imporve *optional*
+- What if we instead of creating our own `array` of `objects` fetch some data from an [api](https://github.com/toddmotto/public-apis) and use that data to render our `li's`
+- Interaction with the keyboard arrows
+- Super duper hard mode: swipe the card
 
 
-![](https://media.giphy.com/media/jz0oM9Els8bHa/giphy.gif)
+## Feedback giving time!
+Find a student to give feedback using this site: https://hyf-peer-review.herokuapp.com/
+The feedback should be given after the homework has been handed in preferably latest two days after.
+ 
+To help you get started we have created some ressources about giving feedback. Find them here: https://github.com/HackYourFuture-CPH/curriculum/tree/master/review
 
-## Step 2: Continuing with data loading, processing and rendering
-
->Revise before attempting: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
-
-Using [the movies json file from the previous exercise](https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json) as the source, extend your appliation to do the following:
-
-1. Give each movie a `tag`: Good (>= 7), Average (>= 4 and < 7), Bad (< 4) based on the ratings.
-1. Render all the movies as a list (similar to how you were presenting Github repositories in the homework before).
-1. Add a input field, and a button to perform search. Use `.filter` method on arrays to filter on the titles.
-1. Add 4 radio buttons for each tag + All tag (All, Good, Average, Bad) and filter the movies based on the tag selected.
-1. Display only the movies in the list which match the two filter criterion above.
-1. Display the average rating of the movies being filtered and displayed.
-1. **Extra task:** For every movie you render add a button somewhere that says "Get poster". 
-When clicking this button it gets the poster for the movie using this api: http://www.omdbapi.com/. You first need to get an api key! See if you can figure out how it works by yourself. If not you are always welcome to ask :)
-
-You could also add the actors from the movie. And if you wanna go really crazy add their portrait from this api: https://www.themoviedb.org
-
-Remember to use the promises, map, filter and reduce!
-
-## Step 3: Hand in Homework:
+## Hand in Homework:
 Go over your homework one last time:
 
 - Does every file run without errors and with the correct results?
 - Have you used `const` and `let` and avoided `var`?
 - Do the variable, function and argument names you created follow the [Naming Conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)?
-- Is your code well-formatted (see [Code Formatting](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md))?
+- Is your code well-formatted (see [Code Formatting](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md))?  
+![](https://media.giphy.com/media/l4EpblDY4msVtKAOk/giphy.gif)  
+If you can answer yes to the above questions then you are ready to hand in the homework:<br/>
+- Find the hyf-homework git repo (that you have forked from [here](https://github.com/HackYourFuture-CPH/hyf-homework)) the link will be https://github.com/YOUR-ACCOUNT/hyf-homework
+- Add your homework files in the Javascript/javascript3/week7 folder
+- To finish the homework post the link for your repo and the rendered index.html on your classes slack channel
+---
 
-If you can answer yes to the above questions then you are ready to hand in the homework:
-* Find the hyf-homework git repo (that you have forked from [here](https://github.com/HackYourFuture-CPH/hyf-homework)) the link will be https://github.com/YOUR-ACCOUNT/hyf-homework
-* Add your homework files in the Javascript/javascript3/week8 folder
-* To finish the homework post the link for your repo and the rendered index.html on your classes slack channel
+🎉
