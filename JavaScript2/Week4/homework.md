@@ -37,8 +37,15 @@ For creating the spirit animal create an array with 10 string representing spiri
 ### New spirit animal
 Now a user tells us that he wants a new spirit animal. No problem we say. Let's create functionality where a user can press a button and then get a new spirit animal.
 
+### No input
+What if the user clicks the generate new spirit animal and there is no text in the input?
+
 ### Event types - *Optional and a little tricky*
-Give the user the possibility to select when the spirit animal should be created. Should it be when the user clicks the button or when the input changes or when text is written in the input field? What are the differences between these events? How can the user *select between options* in html? Maybe time for google!
+Give the user the possibility to select when the spirit animal should be created. Should it be when the user clicks the button or the user hovers the input field or when text is written in the input field? 
+
+How can we give a user multiple options to select from in html? Maybe time for google!
+
+An example is: A user select that she only wants to generate a spirit animal when the input is hovered. That means that if the user writes her name in the input and clicks the button nothing happens. BUT when she hovers the input, NOW a new spirit animal is generated.
 
 ## Feedback giving time!
 Find a student to give feedback using this site: https://hyf-peer-review.herokuapp.com/
