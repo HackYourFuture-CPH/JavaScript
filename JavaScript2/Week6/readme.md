@@ -17,12 +17,11 @@ Functional composition
 * [Review](review.md)
 
 
-## Array methods filter, map and sort
+## Array methods map, filter and sort
 
-### Filter
+### Map
 
-The filter function works on arrays and it filters out elements in our array. 
-It takes a function as input. This function is called on every element in the array. Just like forEach. If this function we create returns true the element is saved in the, if we return false the element is filtered out.
+The map function works on arrays. It maps (think transform) the elements of an array. Or from MDN: "The map() method creates a new array with the results of calling a provided function on every element in the calling array."
 
 
 ```js
@@ -46,6 +45,31 @@ const cars = [
     }
 ];
 
+// lets use the same cars array
+
+// Lets transfrom it from an array of car objects to an array of car colors
+const carColors = cars.map(function(car) {
+    return car.color;
+});
+
+console.log(carColors); // ['lightYellow', 'lightBlue', 'lightCyan']
+
+const carSpeeds = cars.map(function(car) {
+    return car.speed;
+});
+
+console.log(carSpeeds); // [45, 87, 78]
+```
+
+
+### Filter
+
+The filter function works on arrays and it filters out elements in our array. 
+It takes a function as input. This function is called on every element in the array. Just like forEach. If this function we create returns true the element is saved in the, if we return false the element is filtered out.
+
+
+```js
+
 // Lets get only cars with a speed larger than 60
 const fastCars = cars.filter(function(car) {
     // This function is called for every car in the cars array
@@ -63,27 +87,6 @@ console.log(fastCars); // logs the BMW and the Fiat
 
 
 
-### Map
-
-The map function works on arrays. It maps (think transform) the elements of an array. Or from MDN: "The map() method creates a new array with the results of calling a provided function on every element in the calling array."
-
-
-```js
-// lets use the same cars array
-
-// Lets transfrom it from an array of car objects to an array of car colors
-const carColors = cars.map(function(car) {
-    return car.color;
-});
-
-console.log(carColors); // ['lightYellow', 'lightBlue', 'lightCyan']
-
-const carSpeeds = cars.map(function(car) {
-    return car.speed;
-});
-
-console.log(carSpeeds); // [45, 87, 78]
-```
 
 
 ### Sort
