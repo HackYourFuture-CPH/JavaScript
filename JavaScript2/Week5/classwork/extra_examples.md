@@ -12,8 +12,8 @@ const btn1 = document.getElementById("btn1");
 const btn2 = document.getElementById("btn2");
 
 function listenForClick(e) {
-	// e refers to the click event, and e.target to the elment clicked
-	console.log(e.target.id);
+  // e refers to the click event, and e.target to the elment clicked
+  console.log(e.target.id);
 }
 
 btn1.addEventListener("click", listenForClick);
@@ -30,19 +30,19 @@ function listenForClick (e) {
   console.log(e.target.id);
   // Check which button was clicked, and track it
   if(e.target.id === 'btn1')
-  	btn1Clicked = true;
+    btn1Clicked = true;
   else
-  	btn2Clicked = true;
-    
+    btn2Clicked = true;
+
   // reset both to false after a second
-	setTimeout(() => {
-  	btn1Clicked = false;
+  setTimeout(() => {
+    btn1Clicked = false;
     btn2Clicked = false;
   }, 1000)
   
   // If both have been tracked as true in the past 1 sec
   if(btn1Clicked && btn2Clicked)
-  	console.log("--success--");
+    console.log("--success--");
 }
 ```
 
@@ -83,11 +83,11 @@ const id = setInterval(() => {
 That works well. But what if we want to apply this sort of animation again, for different colors? It would make sense to turn it into a function which we can call again:
 
 ```javascript
-function applyForEach(color, delay){
+function applyBackgroundForEach(bgColor, delay){
  const listItems = document.getElementById("list").children;
  let i=0;
  const id = setInterval(() => {
-  listItems[i].style.backgroundColor = color;
+  listItems[i].style.backgroundColor = bgColor;
   i++;
   
   // once we've gone through all the items
@@ -96,14 +96,14 @@ function applyForEach(color, delay){
   }, delay);
 }
 
-// applyForEach("red", 500);
-applyForEach("blue", 300);
+// applyBackgroundForEach("red", 500);
+applyBackgroundForEach("blue", 300);
 ```
 
 Our function now lets us switch between which color we want to apply for all the list items. However, it is not flexible enough to let us do other operations on the list items. What if we want to change the `text-decoration` or `font-size`? Or even delete the list items? What if we could run an arbitary operation i.e. `function` on all of the list items:
 
 ```javascript
-function applyForEach(action, delay){
+function applyActionForEach(action, delay){
  const listItems = document.getElementById("list").children;
  let i=0;
  const id = setInterval(() => {
@@ -124,8 +124,8 @@ function makeTextBold(item){
   item.style.fontWeight = "bold";
 }
 
-// applyForEach(makeBlueBackground, 300);
-applyForEach(makeTextBold, 1000);
+// applyActionForEach(makeBlueBackground, 300);
+applyActionForEach(makeTextBold, 1000);
 ```
 
 In the above, `applyForEach` now takes an argument `action` which is a `function` that is applied to each of the list items. `action` is therefore a **callback function**. As you can see, callback functions can be both *synchronous* like the one here, or *asynchronous* as the one discussed in class.
