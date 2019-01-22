@@ -1,8 +1,7 @@
 # Learning Goals
-- [ ] Map
-- [ ] Reduce
-- [ ] Filter
-- [ ] Arrow functions
+- [ ] Json
+- [ ] Apis
+- [ ] Fetch (No promise explanation! Focus on usage)
 
 # Relevant links
 * [Preparation](preparation.md)

@@ -1,11 +1,8 @@
 # Homework Week 9
 
-## Step 1: Continuing on previous weeks' homework
-The solutions to last week's homework are available in [this folder](https://github.com/HackYourFuture-CPH/JavaScript/tree/class06/JavaScript3/Week9/More-homework/last-homework-V2).
+## So why should i do this homework?
+Using constructor functions help with structuring code. It is one of many **design patterns**. The reason we use the constructr function design pattern is because it is a **solid desing pattern** first of. Second it **connects everything** you have learned in js: objects, function, properties, methods, keys, arrays. If you get how a constructor function work then you get how javascript work!
 
-Continuing on last weeks movies solution, add the following features on top:
-1. Create a way to select movies by decade (hint: you can use something similar to how movies are filtered by the rating tag).
-1. Similarly, allow the user to sort the movies by: Name, Rating or Year (hint: you can create a new `select` element as well, listen for user interaction and then apply `array.sort()` at the end). Optional
 
 ## Step 2: Getting into promises
 Rewrite the following code (using promise and other control flow tools/features):
@@ -115,16 +112,24 @@ The `createProduct` factory function should get a method that can change the nam
 ### Part 4, optional
 Be creative! Create some cool/weird/quirky functionality of either the `createProduct` or the `createShoppingCart` factory function.
 
+## Feedback giving time!
+Find a student to give feedback using this site: https://hyf-peer-review.herokuapp.com/
+The feedback should be given after the homework has been handed in preferably latest two days after.
+ 
+To help you get started we have created some ressources about giving feedback. Find them here: https://github.com/HackYourFuture-CPH/curriculum/tree/master/review
 
-## Step 4: Hand in Homework:
+## Hand in Homework:
 Go over your homework one last time:
 
 - Does every file run without errors and with the correct results?
 - Have you used `const` and `let` and avoided `var`?
 - Do the variable, function and argument names you created follow the [Naming Conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)?
-- Is your code well-formatted (see [Code Formatting](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md))?
+- Is your code well-formatted (see [Code Formatting](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md))?  
+![](https://media.giphy.com/media/l4EpblDY4msVtKAOk/giphy.gif)  
+If you can answer yes to the above questions then you are ready to hand in the homework:<br/>
+- Find the hyf-homework git repo (that you have forked from [here](https://github.com/HackYourFuture-CPH/hyf-homework)) the link will be https://github.com/YOUR-ACCOUNT/hyf-homework
+- Add your homework files in the Javascript/javascript3/week7 folder
+- To finish the homework post the link for your repo and the rendered index.html on your classes slack channel
+---
 
-If you can answer yes to the above questions then you are ready to hand in the homework:
-* Find the hyf-homework git repo (that you have forked from [here](https://github.com/HackYourFuture-CPH/hyf-homework)) the link will be https://github.com/YOUR-ACCOUNT/hyf-homework
-* Add your homework files in the Javascript/javascript3/week9 folder
-* To finish the homework post the link for your repo and the rendered index.html on your classes slack channel
+🎉

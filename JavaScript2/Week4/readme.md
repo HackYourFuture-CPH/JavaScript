@@ -10,7 +10,7 @@ DOM manipulation
 - [ ] Get elements
 - [ ] Insert elements
 - [ ] Element manipulation (style, innerHTML, text)
-- [ ] Windon object
+- [ ] Window object
 - [ ] Document object
 
 Event listeners

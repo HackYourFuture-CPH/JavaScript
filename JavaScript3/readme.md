@@ -1,7 +1,7 @@
 ## Here you can find course content and homework for the JavaScript 3 module
 
-| Week | Topic | Preparation | Homework | Review |
-| ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------ |
-| 7. | • Map, reduce, filter <br> • Arrow functions| [Preparation](Week7/preparation.md) | [Homework](Week7/homework.md) | - |
-| 8.   | • Closures <br>• Promises <br>| [Preparation](Week8/preparation.md) | [Homework](Week8/homework.md)     | - | 
-| 9. | • Object Literals (and other patterns)  | [Preparation](Week9/preparation.md)| [Homework](Week9/homework.md) | [Review](Week9/review.md) |
+| Week | Topic | Preparation | Homework |
+| ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| 7. | Json <br> Apis <br> Fetch| [Preparation](Week7/preparation.md) | [Homework](Week7/homework.md) |
+| 8.   | Promises <br> Scoping <br> Debugging| [Preparation](Week8/preparation.md) | [Homework](Week8/homework.md)|
+| 9. | Constructor function <br> Promises advanced <br> classes | [Preparation](Week9/preparation.md)| [Homework](Week9/homework.md) |

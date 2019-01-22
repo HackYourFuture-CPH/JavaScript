@@ -1,8 +1,7 @@
 # Learning Goals
-- [ ] Closures
 - [ ] Promises
+- [ ] Scoping
 
 # Relevant links
 * [Preparation](preparation.md)
 * [Homework](homework.md)
-
