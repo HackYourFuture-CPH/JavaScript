@@ -18,6 +18,7 @@ Asynchronicity in js
 
 
 ## Callbacks
+A callback is simply a function passed to another function that gets executed (run) after a potentially long running operation has completed.
 
 Now lets learn about callbacks!
 Well actually you have already made callbacks!
