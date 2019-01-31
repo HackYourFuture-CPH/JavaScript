@@ -17,12 +17,21 @@ Here is an example: `notThisFunctionName(3000)` will return a promise that resol
 
 Use the `notThisFunctionName` to log out the string `I am called asynchronously` after 6000 milliseconds.
 
+## Exercise 2
+Fetch movies from this api: `https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json`
+
+1. Create an array called long movies that contain an array of long movies. A long movie has a running time of larger than 7000
+1. Create an array called longMovieTitles. That contain only the titles of the long movies. 
+1. Log out an array of bad movies
+1. Log out an array of bad movies since year 2000
+1. only log the titles of the bad movies since year 2000
+
 ## Fetching and waiting
 Only using promises
 1. Fetch some data from an api.
-1. Wait 3 seconds
+1. After that data has been fetched, wait 3 seconds
 1. Log out the data from the api
-1. Do all of these things using chaining
+1. Now do all of these things using chaining
 
 ## Rewrite time
 Rewrite [setTimeout](https://developer.mozilla.org/ro/docs/Web/API/window.setTimeout) and [navigator.geolocation.getCurrentPosition](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API#JavaScript_Content) to promises. So instead of using [setTimeout](https://developer.mozilla.org/ro/docs/Web/API/window.setTimeout) and [navigator.geolocation.getCurrentPosition](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API#JavaScript_Content) with callbacks, use it as a promise.
@@ -69,7 +78,7 @@ The very detail oriented students probably saw the keyword **then** in the previ
 - Do something (animate `li` out) 
 - **then** do something else (animate next `li` into view) 
 
-Lets create a function called `animateLiOut`. This function should animate the `li` out and **return a promise** that resolves after the animation of the first `li` is done. What function can we use to wait for some given time in js?
+Lets create a function called `animateLiOut`. This function should animate the `li` out and **return a promise** that resolves after the animation of the first `li` is done. (how long time does it take for the `li` to animate out?) What function can we use to wait for some given time in js?
 
 Pseudo code of the function
 ```js
@@ -83,7 +92,7 @@ animateLiOut()
 ```
 
 ### Improving the application
-Now when we press the thumbs up button: the first `li` is animated out and the next one comes into view. But what about when we **press the button again**? Lets create the functionality that keeps animating the next `li` out. And what if we **press the thumbs down button**, then the `li` should be animated out of view but **to the left not to the right**. Lets also create that functionality.
+Now when we press the thumbs up button: the first `li` is animated out and the next one comes into view. But what about when we **press the button again**? Lets create the functionality that keeps animating the next `li` out, we now need some kind of index to keep track of which `li` has been animated out. And what if we **press the thumbs down button**, then the `li` should be animated out of view but **to the left not to the right**. Lets also create that functionality.
 
 ### Personalise the application
 Right now the `li` elements just have the text Thing 1, Thing 2 which is super boring! Now you have to give it a **personal touch**!
