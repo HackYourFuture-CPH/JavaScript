@@ -1,102 +1,99 @@
 # Homework Week 9
 
 ## So why should i do this homework?
-Using constructor functions help with structuring code. It is one of many **design patterns**. The reason we use the constructr function design pattern is because it is a **solid desing pattern** first of. Second it **connects everything** you have learned in js: objects, function, properties, methods, keys, arrays. If you get how a constructor function work then you get how javascript work!
+Using classes help with structuring code. It is one of many **design patterns**.  Second it **connects everything** you have learned in js: functions, properties, methods, keys, arrays.
 
+## Lets make some art using classes
+In HTML5 there is an elements called canvas. It works just like a canvas. You can paint elements to the canvas.
 
-## Step 2: Getting into promises
-Rewrite the following code (using promise and other control flow tools/features):
+### Paint a circle to a canvas element
+First add the canvas element to your html. Now draw a circle on the canvas using js. Google is your friend here :) 
 
+When you have added a normal circle, try filling it out so it has a color. 
+
+### Class creation time!
+Lets create a class called `Circle`. The circle should be used like this:
 ```js
-    function getAjaxData(url, callback) {
-        const request = new XMLHttpRequest();
-        request.addEventListener('load', function () {
-            if (this.status === 200) {
-                callback(JSON.parse(request.responseText));
-            } else {
-                console.log('Something is probably wrong with the url');
-                callback(null, true);
-            }
-        });
-        request.addEventListener('error', function () {
-            callback(null, true);
-        });
-        request.open("GET", url);
-        request.send();
-    }
-
-    const usersURL = "https://jsonplaceholder.typicode.com/users";
-
-    getAjaxData(usersURL, function(data, err){
-        if(err)
-            console.log('Error loading users: ', err);
-        else {
-            let users = data;
-            for (var i = 0; i < users.length; i++) {
-                // load the todos for this user
-                const todosURL = `https://jsonplaceholder.typicode.com/users/${users[i].id}/todos`;
-
-                // why is this line needed below?
-                let index = i;
-
-                getAjaxData(todosURL, function(data, err){
-                    if(err)
-                        console.log('Error loading todos for user ', i, ' :', err);
-                    else{
-                        users[index].todos = data;
-                    }
-
-                    // console.log(index, i);
-
-                    // if this is the last user, console.log all data
-                    if(index == users.length - 1)
-                        console.log(users);
-                });
-            }
-        }
-    });
+const c1 = new Circle(50, 50, 20, 0, 2 * Math.PI, '#000000');
+c1.draw();
 ```
 
+Where the constructor should look like this: `constructor(x, y, r, startAngle, endAngle, fillColor)`
 
-## Step 3: Shopping cart using factory functions
-Let's get a bit more into factory functions!
+The circle should have one method: `draw` that draws the circle to the canvas.
+
+Test if the new class works by creating a circle and drawing it to the canvas.
+
+### Now lets make art!
+Every half second create a new circle class and draw that to the canvas.
+
+The circle should have random `x`, `y`, `radius` and `color`.
+
+What if we wanted the canvas to have the same width and height of the screen? 
+
+### Follow the mouse - optional
+Instead of the circles just randomly appearing on the screen, make them appear around the cursor.
+
+
+## Getting into promises
+Get `movies` using this api: https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json 
+
+Show the movie poster and the title for the first 20 movies from the above api. To get a movie poster for a movie, use this api: https://developers.themoviedb.org/3/getting-started/introduction You need to investigate a bit how to get the poster for a given movie. But help each other in the class and ask questions if you struggle too much.
+
+Think about `promise.all` and using chaining of `.then`.
+
+Here is an example of how the output should be:
+
+![Output example](assets/homework-movies.png)
+
+hint: This task is difficult, so find someone to work with! 
+
+## Shopping cart using Classes
+Let's get a bit more into creating classes!
 ```js
 
-function createProduct(name, price) {
-    return {
-        name: name,
-        price: price,
+class Product {
+    constructor(name, price) {
+        this.name = name;
+        this.price = price;
     }
 }
 
-function createShoppingCart(products) {
-    return {
-        addProduct: function(product) {
-            // Implement functionality here
-        },
-        removeProduct: function(product) {
-            // Implement functionality here
-        },
-        getTotal: function() {
-            // Implement functionality here
-        },
-        renderProducts: function() {
-            // Implement functionality here
-        },
-        getUser: function() {
-            // Implement functionality here
-        }
+
+class ShoppingCart {
+    constructor(products) {
+        this.products = products;
+    }
+    
+    addProduct(product) {
+        // Implement functionality here
+    }
+
+    removeProduct(product) {
+        // Implement functionality here
+    }
+
+    getTotal() {
+        // Implement functionality here
+    }
+
+    renderProducts() {
+        // Implement functionality here
+    }
+
+    getUser() {
+        // Implement functionality here
     }
 }
 
-const flatscreen = createProduct('flat-screen', 5000);
-const shoppingCart = createShoppingCart([flatscreen]);
+const flatscreen = new Product('flat-screen', 5000);
+const shoppingCart = new ShoppingCart([flatscreen]);
 ```
 
-So we have two factory functions/ constructor function. `createProduct` creates products represented by objects. `createShoppingCart` creates a shopping cart also represented as an object. 
+So we have two classes. `Product` represents products. `ShoppingCart` represents a shopping cart. 
 
 ### Part 1
-Create the functionality for the `createShoppingCart` factory functions. 
+Create the functionality for the `ShoppingCart` class.
 - `addProduct` should add a product to the products array.
 - `removeProduct` should remove a product from the products array. 
 - `getTotal` should get the total price of the products.
@@ -104,13 +101,13 @@ Create the functionality for the `createShoppingCart` factory functions.
 - `getUser` should return a promise with the data from this api: https://jsonplaceholder.typicode.com/users/1
 
 ### Part 2
-Use the `addProduct` and the `removeProduct` functions. Use the `getUser` function to get a user. When the user has been fetched. Show the total price and the username in html and render the products for the user. This should be in html, but you have to choose what to show!
+Try and call the `addProduct` and the `removeProduct` functions. Call the `getUser` function to get a user. When the user has been fetched. Render the total price of the Shoppingcar, the username and the products in the shopping cart. 
 
 ### Part 3
-The `createProduct` factory function should get a method that can change the name of the product using the `this` keyword. 
+The `Product` class function should get a method called `getPrice`. The function should have `currency` as a parameter. Depending on the currency return the correct price. Add 3 or more curriencies. Or use an api for getting the price dependent on a currency that getPrice uses. 
 
 ### Part 4, optional
-Be creative! Create some cool/weird/quirky functionality of either the `createProduct` or the `createShoppingCart` factory function.
+Be creative! Create some cool/weird/quirky functionality of either the `Product` class or the `ShoppingCart` class.
 
 ## Feedback giving time!
 Find a student to give feedback using this site: https://hyf-peer-review.herokuapp.com/

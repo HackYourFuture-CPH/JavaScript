@@ -62,7 +62,7 @@ Lets build a website where people can say thumbs up or thumbs down to diffeent t
 
 If you go into the [homework folder](homework) there is some html, css and some js. If you clone down the javascript repo, then you can simply copy the files into your hyf-homework js3 week 2 folder.
 
-You will be working in the main.js file.
+You will be working in the index.js file.
 
 ### Manually create functionality
 What we want to happen when a button is clicked is the following:
