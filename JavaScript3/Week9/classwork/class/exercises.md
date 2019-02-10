@@ -17,7 +17,7 @@ The Cv that we will be making uses three classes: `Job`, `Education` and
 Create those classes.
 
 ### Part 2: 
-Now add the functionality for the methods in the `Calendar` class.
+Now add the functionality for the methods in the `Cv` class.
 
 ```js
 class Cv {
@@ -58,7 +58,7 @@ class Cv {
 ```
 
 ### Part 3:
-Apply the methods you have created on the calendar class. 
+Apply the methods you have created on the Cv class. 
 
 ### part 4: 
 To the education class add a method called getPosition. Calling this function should return the lat and lng of the address of the school.
