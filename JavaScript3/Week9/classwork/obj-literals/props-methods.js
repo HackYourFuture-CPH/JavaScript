@@ -18,7 +18,13 @@ var o = {
    set f(val) {
       this.a = val;
    },
-   [g] : "Foo"
+   [g] : "Foo",
+   h: function() {
+      return "returned from object function";
+   },
+   i: () => {
+      return "returned from object arrow function";
+   }
 };
 
 delete o.b // delete prop
