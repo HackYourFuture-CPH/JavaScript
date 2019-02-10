@@ -1,12 +1,14 @@
 # Part 1
 
-## Create an object literal with a method
-Come up with some example using an object literal
+## Create a user object literal with a method
+The object should have 3 keys: firstname, surname and getFullname
+
+Call the getFullname method
 
 ## Creating a Cv class
 
 The Cv that we will be making uses three classes: `Job`, `Education` and
-`Sv`. The `Sv` class we have made for you (with some missing functionality). The `Job` and `Education` classes you need to create.
+`Cv`. The `Cv` class we have made for you (with some missing functionality). The `Job` and `Education` classes you need to create.
 
 ### Part 1:
 - `Job` has three properties: `title`, `descriptions`, `startDate` and `endDate`
