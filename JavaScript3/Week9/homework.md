@@ -4,12 +4,12 @@
 Using classes help with structuring code. It is one of many **design patterns**.  Second it **connects everything** you have learned in js: functions, properties, methods, keys, arrays.
 
 ## Lets make some art using classes
-In HTML5 there is an elements called canvas. It works just like a canvas. You can paint elements to the canvas.
+In HTML5 there is an elements called canvas. It works just like a canvas. You can paint elements like lines, circles and much more to the canvas.
 
 ### Paint a circle to a canvas element
-First add the canvas element to your html. Now draw a circle on the canvas using js. Google is your friend here :) 
+First add the `canvas` element to your html. Now draw a circle on the `canvas` using js. Google is your friend here :) 
 
-When you have added a normal circle, try filling it out so it has a color. 
+When you have added a normal circle, try filling it out so it has a color. Again google time!
 
 ### Class creation time!
 Lets create a class called `Circle`. The circle should be used like this:
@@ -20,14 +20,14 @@ c1.draw();
 
 Where the constructor should look like this: `constructor(x, y, r, startAngle, endAngle, fillColor)`
 
-The circle should have one method: `draw` that draws the circle to the canvas.
+The circle should have one method: `draw` that draws the circle to the canvas. That means that creating an instance of the circle class will not draw the circle. That first happens when we call the draw method. 
 
-Test if the new class works by creating a circle and drawing it to the canvas.
+Test if the new class works by creating a circle and drawing it to the canvas. Try some different radiuses and fill colors. 
 
 ### Now lets make art!
 Every half second create a new circle class and draw that to the canvas.
 
-The circle should have random `x`, `y`, `radius` and `color`.
+The circle should have random `x`, `y`, `radius` and `color`. For giving the `circle` a random color what should we do?? We should google off course!
 
 What if we wanted the canvas to have the same width and height of the screen? 
 
@@ -36,17 +36,11 @@ Instead of the circles just randomly appearing on the screen, make them appear a
 
 
 ## Getting into promises
-Get `movies` using this api: https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json 
+Lets use the github api to see what repositories different users have. You can use this url to get repositories for a specific github username, in this case the username `benna100`: `https://api.github.com/search/repositories?q=user:benna100`. Select 3 classmates github username that you want to show repositories for.
 
-Show the movie poster and the title for the first 20 movies from the above api. To get a movie poster for a movie, use this api: https://developers.themoviedb.org/3/getting-started/introduction You need to investigate a bit how to get the poster for a given movie. But help each other in the class and ask questions if you struggle too much.
+Fetch all the 3 classmates repositories at the same time using Promise.all. 
 
-Think about `promise.all` and using chaining of `.then`.
-
-Here is an example of how the output should be:
-
-![Output example](assets/homework-movies.png)
-
-hint: This task is difficult, so find someone to work with! 
+When you have the data for the different repositories, render the fullname of the repo, url of the repo, and the owner of the repo. See [github-repos](homework/github-repos.html) as an example of how the renderered repos should look.
 
 ## Shopping cart using Classes
 Let's get a bit more into creating classes!
@@ -95,13 +89,15 @@ So we have two classes. `Product` represents products. `ShoppingCart` represents
 ### Part 1
 Create the functionality for the `ShoppingCart` class.
 - `addProduct` should add a product to the products array.
-- `removeProduct` should remove a product from the products array. 
-- `getTotal` should get the total price of the products.
+- `removeProduct` should remove a product from the products array. Hint look up indexOf
+- `getTotal` should get the total price of the products in the `shoppingcart`.
 - `renderProducts` should render the products to html. You decide what to show and how.
 - `getUser` should return a promise with the data from this api: https://jsonplaceholder.typicode.com/users/1
 
 ### Part 2
-Try and call the `addProduct` and the `removeProduct` functions. Call the `getUser` function to get a user. When the user has been fetched. Render the total price of the Shoppingcar, the username and the products in the shopping cart. 
+Try and create some products and call the `addProduct` and the `removeProduct` functions to see if they work. 
+
+Call the `getUser` function to get a user. When the user has been fetched. Render the products using the `renderProducts` method. Also render the username and the total price of the products in the `shoppingcart`. 
 
 ### Part 3
 The `Product` class function should get a method called `getPrice`. The function should have `currency` as a parameter. Depending on the currency return the correct price. Add 3 or more curriencies. Or use an api for getting the price dependent on a currency that getPrice uses. 
