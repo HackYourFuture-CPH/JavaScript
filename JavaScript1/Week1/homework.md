@@ -4,53 +4,17 @@
 ## Step 1: Before you start with the homework:
 1. Watch: [What is programming](https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro) Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though). 
 
+## Why should i do this homework?
+> One must be able to crawl before understanding the true nature of javaascript - Albert Einstein
+
+This homework will get you started developing in javascript. What you learn the first 3 modules of javascript will be building blocks for creating great javascript web applications.
+
 ## Step 2: Javascript warm up part one
-Lets get started with some warm up exercises: On freeCodeCamp.com please do the [Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript) exercises up and until the **"Shopping List"** exercise (there are some topics we did not cover but you can do it).
+Lets get started with some warm up exercises: On freeCodeCamp.com do the [Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript) exercises up and until the **"Manipulate Arrays With push()"** exercise (there are some topics we did not cover but you can do it).
 
 Please add your freecodecamp username as answer for this exercise!
 
-## Step 3: Javascript warm up part two
-1. Write a `console.log` statement saying "Hello World!" for each language that you know.
-
-For example:
-```
-Halo, dunia! // Indonesian
-Ciao, mondo! // Italian
-Hola, mundo! // Spanish
-```
-
-2. Create a variable that rounds the number 7.25, to the nearest integer (i.e., whole number)  
-
-3. Working with arrays
-* Declare an empty array. Make sure that the name you choose indicates 'plurality', because an array is capable of containing more than one element. (See [Naming conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)).  
-* Write a `console.log` statement that explains in words what you think the value of the array is.  
-* `console.log` your array.  
-* Create an array that has your favorite animals inside (see if you can find a good name that exactly describes what this variable will hold).  
-* Log your array.  
-* Add a statement that adds 'baby pig' to the *existing array*.  
-* Log your new array!
-
-4. Working with strings
-Checkout [this article](https://www.digitalocean.com/community/tutorials/how-to-index-split-and-manipulate-strings-in-javascript) for help with working with strings
-Let's consider the following string: `let myString = "this is a test"`.
-  * Find a way to get the length of `myString`.  
-  * `console.log` the length of `myString`.  
-
-5. Working with variable types
-* First declare at least four variables and assign them different variable types.  
-* For each variable write a `console.log` statement that logs the value
-  ```js
-  let foo = 3;
-  console.log('The value of my variable foo is: ' + foo);
-  ```
-
-6. Working with typeof
-* Now write a `console.log` statement wherein you first explain in words what you think the _type_ of your variables is.  
-* Now use `typeof` to log the actual _type_ of your variables.  
-
----
-
-You have finished the warmup exercises, well done! To celebrate lets add the answers to github as a commit, see [Here](##Step-5:-Hand-in-Homework:) how to do that.
+You have finished the warmup exercises, well done!
 
 ## Step 4: Smart-ease - We help where we can
 Enough warm up, lets get to the real problems! We will assume a real world business case where you (the developer) needs to help a business that is starting up (a startup) with solving some of their problems related to JavaScript! Here we go:
@@ -72,7 +36,7 @@ Create two variables called yearOfBirth and yearFuture. Assign these your own ag
 What type will these two variables be? Now calculate the age and store that in a variable called age. Log out this string:
 "You will be 40 years old in 2027". With 40 being the result of the age variable and 2027 being the yearFuture variable. (Hint use string concatenation)
 
-### Goodboy-Oldboy (A dog age calculator) (Optional)
+### Goodboy-Oldboy (A dog age calculator)
 > The same friend (who by the way loves dogs) asks how old his dog will be in 2045. Hmm you think, lets make this into a product as well!
 Dogs age can either be measured in dog years or in human years, this we want to take into consideration! 
 
@@ -84,7 +48,7 @@ or
 ### Housey pricey (A house price estimator)
 > Two of your friends are considering buying a house, but cannot figure out what the right price should be. Your friends know the width, the height and the depth of the house and the garden size. Lets help them figure out if they paid too much:
 
-We have made our own formula for calculating the price of a house:
+We have made our own formula for calculating the price of a house. This formula is VERY simplified and not at all close to the real calculation which can get [quite complicated](https://www.kaggle.com/erick5/predicting-house-prices-with-machine-learning):
 ```js
 housePrice = volumeInMeters * 2.5 * 1000 + gardenSizeInM2 * 300
 ```
@@ -94,8 +58,7 @@ Your friend Julia is considering a house that is 5m wide, 11m deep and 8m high. 
 
 Figure out if Peter and Julia are paying too much or too little using javascript and the formula specified above.
 
-
-### Ez Namey (Startup name generator) (Optional)
+### Ez Namey (Startup name generator) *Optional*
 > At a meetup you overhear a conversation between two developers. It went something like this: "Man i wish picking a startup name was easier! You need to be creative, funny and interesting, its nearly impossible!" Another problem to solve, awesome!
 
 Lets help people who struggle finding a startup name by creating some code!
