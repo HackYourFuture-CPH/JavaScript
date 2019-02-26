@@ -5,6 +5,4 @@
 
 - [ ] [JavaScript Introduction at MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction) (10 min)
 
-- [ ] Extra: Go through the [review](review.md) of the this class. (10 min)
-
 _Please go through the material and come to class prepared!_
