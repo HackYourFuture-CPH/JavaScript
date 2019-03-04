@@ -174,12 +174,9 @@ Go and try out this cool game: [roverjs.com](http://roverjs.com), written by one
 ## Step 5: Hand in Homework:
 Steps:
 * Use the ```hyf-homework``` repo and add your homework files in the ```javascript/javascript1/week2``` folder
-* If you dont have the repo, fork it from here: https://github.com/HackYourFuture-CPH/hyf-homework
 * Make your commits for the homework. Remember to seperate the code into meaningful commits!
 * Push the changes to github
-* To finish the homework:
-  * Fill in the form for the relevant week. The link to the form can be found at the top of your classes slack channel. 
-  * Share the github link to your classes slack channel. 
+* Share the github link to your classes slack channel. 
 ---
 
 And thats it your are done 🎉
