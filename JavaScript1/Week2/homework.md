@@ -52,7 +52,11 @@ getFullname('Benjamin', 'Hughes', true); // returns "Lord Benjamin Hughes"`
 getFullname('Benjamin', 'Hughes', false); // returns "Benjamin Hughes"
 ```
 
-What do we do if `useFormalName` is not defined?
+What do we do if `useFormalName` is not given as an argument?
+
+Remember to consider someone calling the function with an empty string as firstname and lastname.
+
+Try out your code by pasting your getFullname function in the javascript part of this codepen: https://codepen.io/hackyourfuture-cph/pen/jJWwbN
 
 ### Event application
 Another customer has contacted us. He works for a secret company that rimes with foogle. The customer works on their calendar application. They need some functionality to help with writing what weekday an event is held. 
