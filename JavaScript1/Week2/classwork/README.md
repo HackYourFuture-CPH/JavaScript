@@ -5,3 +5,6 @@
 - [Code Wars exercises](https://www.codewars.com/collections/js1)
 - [Conditionals and more on functions](conditionals.js)
 - [For and while loops](loops.js)
+
+- [Repeat string](string-repeat.js)
+- [Remove first and last char with loops](first-last-char.js)
