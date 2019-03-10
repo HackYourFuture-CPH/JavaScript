@@ -25,3 +25,11 @@ n-- // gives old value
 --n // gives new value
 
 console.log(n)
+
+// Comparison
+var oneIsLessTwo = 1 < 2
+
+[3, 1] > [2, 5] // Doesn't make much sense
+
+'Emil' < 'Emma' // Compares lexicographic comparison
+'10' < '1Hello' // Not human sorting, but computer sorting
