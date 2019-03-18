@@ -104,3 +104,37 @@ const sortedCars = cars.sort(function(a, b) {
 
 console.log(sortedCars); // it will return an array with the BMW object first, then the fiat and then the volvo
 ```
+
+
+### Chaining
+We can chain array methods after each other. 
+
+So if we wanted an array of fast cars brands we could do this:
+```js
+// Broken down
+const fastCars = cars
+    .filter(car => car.speed > 60);
+
+const fastCarBrands = fastCars
+    .map(car => car.brand);
+
+// But we can do those two operations in one go
+const fastCarBrands = cars
+    .filter(car => car.speed > 60)
+    .map(car => car.brand);
+```
+
+This part:
+```js
+const fastCars = cars
+    .filter(car => car.speed > 60);
+```
+Returns an array of objects (that represent fast cars). We know that we can call filter on an array, doing that we get the chaining of methods. 
+
+The principal behind is exactly the same as in this example:
+
+```js
+"BENJAMIN".toLowerCase().endsWith('n');
+```
+
+We are chaining methods on the return of the previous function's return value

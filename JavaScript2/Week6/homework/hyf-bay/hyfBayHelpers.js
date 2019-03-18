@@ -29,7 +29,7 @@ window.getAvailableProducts = function() {
     /* DONT MODIFY ANY OF THIS CODE!!!*/
     function getRandomCountries() {
         const availableCountries = ['Denmark', 'Sweden', 'Norway', 'Germany', 'Iceland', 'England'];
-        const numberOfCountries = getRandomInt(1, availableCountries.length);
+        const numberOfCountries = getRandomInt(1, 3);
 
         const randomCountries = [];
         while (randomCountries.length < numberOfCountries) {

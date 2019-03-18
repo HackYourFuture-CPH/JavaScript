@@ -5,7 +5,7 @@ Working with arrays is an essential part of being a javascript developer. A lot 
 
 On top of that combining these array function with each other will show the functional side to javascript in a nice way. 
 
-The warmup exercises will be a bit abstract. But the in the hyfBay exercise the task will be a lot closer to a real world task. 
+The warmup exercises will be a bit abstract. But the in the **hyfBay exercise** the task will be a lot closer to a **real world task**. 
 
 ## Warmup array exercises
 
@@ -29,20 +29,26 @@ console.log("The doubled numbers are", newNumbers); // [2, 6]
 Rewrite the above program using `map` and `filter` don't forget to use arrow functions.
 
 ### Working with movies
+![cinema](https://media.giphy.com/media/l6mBchxYZc7Sw/giphy.gif)
+
 Copy the movies array in the [movies](homework/movies.js) file. Use this array to do the following tasks:
-1. Count the number of movies made between 1980-1989 (including both the years).
-1. Create a new array that has an extra key called tag. The tag is based on the rating: Good (>= 7), Average (>= 4 and < 7), Bad (< 4).
-1. Using chaining, first filter the movies array to only contain the movies rated higher than 6. Now map the movies array to only the rating of the movies. Try do it where you define the functions as constants you provide to the filter and map functions. 
-1. Count he number of movies containing the following keywords: `["The", "dog", "who", "is", "not", "a", "man"]`. Can you make sure the search is case insensitive? Hint: use indexOf
-1. Calculate the average rating of all the movies using [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce). *Optional*
-1. Count the total number of Good, Average and Bad movies using [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce). *Optional*
+1. Create an array of movies containing the **movies with a short title** (you define what short means)
+2. Create an array of movie titles with **long movie titles**
+3. Count the **number of movies** made between 1980-1989 (including both the years)
+4. Create a new array that has an **extra key called tag**. The tag is based on the rating: Good (>= 7), Average (>= 4 and < 7), Bad (< 4)
+5. **Using [chaining](readme.md#Chaining)**, first filter the movies array to only contain the movies rated higher than 6. Now map the movies array to only the rating of the movies.
+6. **Count the total number of movies** containing any of following keywords: `Surfer`, `Alien` or `Benjamin`. So if there were 3 movies that contained `Surfer`, 1 with `Alien` and 2 with `Benjamin`, you would return 6. Can you make sure the search is case insensitive? 
+7. Create an array of movies where a **word in the title is duplicated**. Fx "Star **Wars**: The Clone **Wars**" the word **Wars** is duplicated. 
+8. Find the word that is **mostly duplicated** using [sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) *Optional*
+9. Calculate the **average rating** of all the movies using [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce). *Optional*
+10. **Count the total number** of Good, Average and Bad movies using [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce). *Optional*
 
 
 ## hyfBay - get the okay'est products here
-We have been **hired for a company** to do a SPA - Single Page App for them. It is a website where a user can **add products to the users shopping cart**. The products can be **filtered and sorted** based on what products the user wants to see. 
+We have been **hired for a company** to do a SPA - Single Page App for them. It is a website where a user can search for products. The products can also be **filtered and sorted** based on what products the user wants to see. 
 
 ### Lets get started!
-In the [homework/hyf-bay folder](homework/hyf-bay) there is a project you should continue working on. So copy all the files into your hyf-homework/Javascript/javascript2/week3 folder and start working in the main.js file. 
+In the [homework/hyf-bay folder](homework/hyf-bay) there is a project you should continue working on. So copy all the files into your hyf-homework/Javascript/javascript2/week3 folder and **start working in the main.js** file. 
 
 I have done some rudimentary styling for the project but you are super welcome to make it even nicer!
 
@@ -50,51 +56,75 @@ There is a function available to you called `getAvailableProducts`. Calling this
 
 ### Add them products
 Call `getAvailableProducts` function to get the products array. Now add these products (as li elements) to the `ul` under the section with the classname `products`. Here is an example of how the individual li element should look:
+
 ```html
 <li>
     <div class="name">Drone</div>
     <div class="price">1234</div>
     <div class="rating">5</div>
-    <div class="ships-to">Denmark</div>
-    <button data-id="Drone23787">Add to cart</button>
+    <div class="ships-to">
+        <ul>
+            <li>Denmark</li>
+            <li>Sweden</li>
+        </ul>
+    </div>
+    <button>Add to cart</button>
 </li>
 ```
 
 ### Price analytics
-In order to analyse the product prices we need to send the prices of the products to a server. 
-A function is available to you called `sendPricesToServer`. You need to call this function with two arguments: 
-1. An array of the prices of the products. 
-2. A callback function with a parameter. The parameter will be the confirmation text sent from the server. The callback function will be called when the data has been sent to the server. 
-Console.log out the response from the server. 
+**Read the following closely**, to ensure you call the function correctly!
 
-### Filter using countries
-A user can filter the search result in different ways. One way is by choosing to only **see products that ship from a certain country**. This can be helpful for the user, so the user does not spend to much time looking for products that can not be shipped to the user. We need to create that functionality: When the **user selects a country**, the products should be updated with the **products that ship to that country**. 
+In order to analyse the product prices we need to **send the prices of the products to a server**. A function is available to you called `sendPricesToServer`. You need to call this function with two arguments: 
+1. An **array of the prices** of the products. What array method can we use here?
+2. A **callback function** with a parameter. The parameter will be the confirmation text sent from the server. The callback function will be called when the data has been sent to the server. 
+`Console.log` out the response from the server.
 
-### Filter using search. 
-When the user writes something in the search input field. The products should be updated to only include the products that match the name. 
+### Render products function
+Create a function called `renderProducts`. It should have a parameter called `products`. The function should **clear the products that are currently shown** and then **render the `products`** from the parameter. We are going to be using this function in the following exercises.
+
+### Filter products
+A very normal usecase for a product site it that a **user wants to search for some product** or get products that only ships to his country. Lets implement that functionality for a user!
+
+BUT first lets figure out what happens on a conceptual level:
+1. Some kind of **event happens**, fx a user searches for a product, we need to listen for that event
+2. When that event happens we need to **filter the products** the user wants
+3. Then we should **render those products**
+
+Lets get a little closer to javacript:
+1. `.addEventListener` on an element
+2. `.filter` on the products array
+3. `renderProducts` with the filtered array
+
+#### Searching for products
+When the user writes something in the search input field. The products should be updated to only include the products that match the name. Use the overview shown above and the `renderProducts` function.
+
+#### Showing products that ships to country
+Lets help a user to avoid spending too much time looking for products that can not be shipped to the user's country: When the **user selects a country** in the ships to select tag, the products should be updated with the **products that ship to that country**. 
+
+Hint 1: Break this task into smaller tasks!
+
+Hint 2: How can you get a value from a select list? Its a little tricky, but google and slack is your friend!
+
+Hint 3: To figure out if a product does ship to a country, use [includes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
 
 ### Create some extra feature
 No matter how small or how big. Create some feature that would be **cool/helpful/quirky/funny**. 
 
 ### Sort the products - *optional*
-Choosing one of the sorting metods should update the shown order of the products. There is an array method called `sort`. Find documentation about it and see if you can get it to work. 
+Choosing one of the sorting metods should update the shown order of the products. There is an array method called `sort`. Find documentation about it and see if you can get it to work. Use the `renderProducts` function.
 
 ### Shopping cart - *optional*
 When clicking the `Add to cart` button for a product, that product should be added to the `ul` found under the section with the classname `cart`. The product should be added as a an `li` item. Like this:
+
 ```html
 <li>
     <div class="name">Drone</div>
     <div class="price">1234</div>
 </li>
 ```
-Hint 1: Getting the object of the clicked product can be tricky! There are lots of ways but i will discuss two here:
-1. Saving the id of the product in a data-id attribute on the button. When a user clicks the button you get the id of the product (from the data-id attribute). With the product id you can create a function that goes through all the products array and returns the product object with the corresponding id. Fx `getProductObjectFromId('Drone23576172')` would return the relevant object of the drone.
-2. When adding the li tags to the ul. You can for every product in the products array create a new li element using `document.createElement('li')`. You then set the innerHTML as is specified above and then attach a clickListner: `createdLiElement.addEventListener('click', () => {});` The callback function has access to the product object because of something called [closures](https://www.youtube.com/watch?v=1JsJx1x35c0). This approach i would say is the best way.
-
-Hint 2: Have an array with the products in the shopping cart. Render the shopping cart using this array. This will be super helpful if you do the next part.
-
-### Total price of shopping cart - *optional*
-Calculate the total price of all the elements in the shopping cart. Investigate the array function called [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce). It reduces an array down to one value. Which is exactly what we want. To reduce the products in the shopping cart array down to a single value that is the total price. 
+Hint 1: Getting the object of the clicked product can be tricky! Here is one way:
+1. When adding the li tags to the ul. You can for every product in the products array create a new li element using `document.createElement('li')`. You then set the innerHTML as is specified above and then attach a clickListner: `createdLiElement.addEventListener('click', () => {});` The callback function has access to the product object because of something called [closures](https://www.youtube.com/watch?v=1JsJx1x35c0). This approach i would say is the best way.
 
 ![Shopping cart](https://media.giphy.com/media/8PA8Ew3nw97yg/giphy.gif)
 
