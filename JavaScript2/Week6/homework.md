@@ -57,7 +57,7 @@ Call `getAvailableProducts` function to get the products array. Now add these pr
     <div class="rating">5</div>
     <div class="ships-to">Denmark</div>
     <button data-id="Drone23787">Add to cart</button>
-</li>;
+</li>
 ```
 
 ### Price analytics
