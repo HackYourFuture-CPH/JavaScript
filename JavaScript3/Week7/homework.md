@@ -39,7 +39,14 @@ Create a javascript file and an html file and import the javascript file in the 
 Remember to show some **loading text**. What if a user **writes nothing in the input?**
 
 ### Display the data
-Find some relevant data to show. That could fx be city name, average temperature, how cloudy it is, weather icon etc.
+This data should be showed in your app:
+- The chosen city
+- Temperature
+- Icon for the weather type
+- Wind speed
+- How clowdy it is
+- When sunrise and sunset is
+- *Optional* a map showing where the city is located
 
 You decide how the data should be displayed. You could maybe be inspired by googling for "weather app ui".
 
@@ -47,7 +54,7 @@ You decide how the data should be displayed. You could maybe be inspired by goog
 Now its your time to **come up with a feature**. No matter how big or small. 
 
 ### Use my current position *optional*
-Investigate the [geo location api](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API). Add a button to your page, clicking this button will **get the users current position**. Use that position to fetch weather data. 
+Investigate the [geo location api](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API). Add a button to your page, clicking this button will **get the users current position**. Use that position to fetch weather data from that position. 
 
 Hint: We have to change the weather api url, so we are not using city but position. Look into the documentation!
 
@@ -64,9 +71,11 @@ Now when loading the page and there is a city in the localstorage, use that to g
 Create a site where a **user can search for any word**. When searching a word the application will **find a gif** using the **searched word** using the giphy api: https://developers.giphy.com/docs/
 Here is how it is going to work: The user can write some text indicating the gif he is looking for, click a button and then a gif will be found (using the searched word) and the gif will be displayed to the user. 
 
+Add an input element, where the user can specify how many gif results the user wants.
+
 Try break this problem into **smaller problems** and write down how you are going to solve the problem **BEFORE you start coding.** 
 
-![Coding](https://media.giphy.com/media/1C8bHHJturSx2/giphy.gif)
+![giphy search](assets/giphy-search.gif)
 
 ## Feedback giving time!
 Find a student to give feedback using this site: https://hyf-peer-review.herokuapp.com/
