@@ -158,7 +158,7 @@ Use this function to add some songs to your playlist!
 #### Improving our application *optional*
 What if there are multiple songs with the same name? Then we have problems in our `getSongByTitle` function! Instead of returning a song, return an array of songs that match the title parameter.
 
-What is a user had multiple playlists? How could we accomodate that? Either describe how to fix this problem or make some code!
+What if a user had multiple playlists? How could we accomodate that? Either describe how to fix this problem or make some code!
 
 ![boombox](https://media.giphy.com/media/NkkKrHU2wAin6/giphy.gif)
 
