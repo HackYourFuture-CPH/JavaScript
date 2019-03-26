@@ -90,11 +90,13 @@ Go over your homework one last time:
 - Does every file run without errors and with the correct results?
 - Have you used `const` and `let` and avoided `var`?
 - Do the variable, function and argument names you created follow the [Naming Conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)?
-- Is your code well-formatted (see [Code Formatting](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md))?  
-![](https://media.giphy.com/media/l4EpblDY4msVtKAOk/giphy.gif)  
+- Is your code well-formatted (see [Code Formatting](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md))?
+- 
+![](https://media.giphy.com/media/l4EpblDY4msVtKAOk/giphy.gif)
+
 If you can answer yes to the above questions then you are ready to hand in the homework:<br/>
 - Find the hyf-homework git repo (that you have forked from [here](https://github.com/HackYourFuture-CPH/hyf-homework)) the link will be https://github.com/YOUR-ACCOUNT/hyf-homework
-- Add your homework files in the Javascript/javascript3/week7 folder
+- Add your homework files in the Javascript/javascript3/week8 folder
 - To finish the homework post the link for your repo and the rendered index.html on your classes slack channel
 ---
 
