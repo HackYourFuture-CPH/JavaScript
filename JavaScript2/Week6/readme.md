@@ -124,17 +124,24 @@ const fastCarBrands = cars
     .map(car => car.brand);
 ```
 
-This part:
 ```js
 const fastCars = cars
     .filter(car => car.speed > 60);
+
+// fastCars is an array! Arrays we can call .map on, so why not do it in one go!?
 ```
-Returns an array of objects (that represent fast cars). We know that we can call filter on an array, doing that we get the chaining of methods. 
+Calling the `filter` function, returns an array (in our case an array of objects, that represent fast cars). We know that we can call `.map` on an array, doing that we get the chaining of methods. 
 
 The principal behind is exactly the same as in this example:
 
 ```js
-"BENJAMIN".toLowerCase().endsWith('n');
+const doesBenjaminEndWithN = "BENJAMIN".toLowerCase().endsWith('n');
+
+// We can also write that as:
+doesBenjaminEndWithNFormatted = "BENJAMIN"
+    .toLowerCase() // <-- toLowerCase returns a string!
+    .endsWith('n'); // <-- That we can call .endsWith on!
 ```
 
-We are chaining methods on the return of the previous function's return value
+We are chaining methods on the return of the previous function's return value!
+

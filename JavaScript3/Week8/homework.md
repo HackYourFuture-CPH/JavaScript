@@ -7,31 +7,21 @@ Since promises is becoming standard in javascript, new browser api's use promise
 
 So lets learn some promises :)
 
-## Warmup exercises
-We will start with some **abstract tasks** first and then get into a concrete task in the end. 
-
-## Promise that resolves after set time
-Create a function that has one parameter: `millisecondsToResolve`. **Calling this function** will **return a promise** that resolves after the millisecondsToResolve has passed. 
-
-Here is an example: `notThisFunctionName(3000)` will return a promise that resolves after 3000 milliseconds.
-
-Use the `notThisFunctionName` to log out the string `I am called asynchronously` after 6000 milliseconds.
-
-## Exercise 2
+### Movies exercise
 Fetch movies from this api: `https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json`
 
 1. Create an array called long movies that contain an array of long movies. A long movie has a running time of larger than 7000
-1. Create an array called longMovieTitles. That contain only the titles of the long movies. 
-1. Log out an array of bad movies
-1. Log out an array of bad movies since year 2000
-1. only log the titles of the bad movies since year 2000
+2. Create an array called longMovieTitles. That contain only the titles of the long movies. 
+3. Log out an array of bad movies
+4. Log out an array of bad movies since year 2000
+5. only log the titles of the bad movies since year 2000
 
-## Fetching and waiting
-Only using promises
-1. Fetch some data from an api.
-1. After that data has been fetched, wait 3 seconds
-1. Log out the data from the api
-1. Now do all of these things using chaining
+## Promise that resolves after set time
+Create a function that has one parameter: `resolveAfter`. **Calling this function** will **return a promise** that resolves after the `resolveAfter` seconds has passed. 
+
+Here is an example: `makeUpYourOwnFunctionName(3)` will return a promise that resolves after 3 seconds.
+
+Use the `makeUpYourOwnFunctionName` to log out the string `I am called asynchronously` after 6 seconds.
 
 ## Rewrite time
 Rewrite [setTimeout](https://developer.mozilla.org/ro/docs/Web/API/window.setTimeout) and [navigator.geolocation.getCurrentPosition](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API#JavaScript_Content) to promises. So instead of using [setTimeout](https://developer.mozilla.org/ro/docs/Web/API/window.setTimeout) and [navigator.geolocation.getCurrentPosition](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API#JavaScript_Content) with callbacks, use it as a promise.
@@ -55,57 +45,38 @@ getCurrentLocation()
     });
 ```
 
-## Thumbs up or thumbs down
-Lets build a website where people can say thumbs up or thumbs down to diffeent things.
+## Fetching and waiting
+**Only using promises**
+1. Fetch some data from an api.
+2. After that data has been fetched, wait 3 seconds
+3. Log out the data from the api
+4. Now do all of these things using [chaining](readme.md#promise-chaining)
 
-![Demo](homework/demo.gif)
+## Visual promise
+This task is about visually understanding the difference between Promise.all and calling a promise one at a time.
 
-If you go into the [homework folder](homework) there is some html, css and some js. If you clone down the javascript repo, then you can simply copy the files into your hyf-homework js3 week 2 folder.
+If you go into the [promise-visual homework folder](homework/promise-visual) there is some html, css and some js. If you clone down the javascript repo, then you can simply copy the files into your hyf-homework js3 week 2 folder. Dont modify move-box.js, only work in main.js!
 
-You will be working in the index.js file.
+There is a function available to you called `moveElement`. It moves an element to a new position and returns a promise. `moveElement` takes a `DOM element` and an `object` specifying the `x` and `y` of the new position. It then returns a `promise` that resolves after the `DOM element` has been moved.
 
-### Manually create functionality
-What we want to happen when a button is clicked is the following:
-1. The `li` in the top of the `ul` should get a `transform:translateX(1000px)`. That will translate the `li` to the right out of the window. This indicates that the user has given a thumbs up to what the `li` element contains. When the `li` has been translated out we dont see any `li`. Thats because the next `li` has `opacity: 0;`. Lets fix that in the next step.
-1. Lets show the next `li`: The next `li` (the second `li` in the `ul`) should become visible. Do that by giving it the following css attributes: `opacity: 1; transform: scale(1);` This will animate the next `li` element into view.
-
-Do these steps two **manually using the inspector** simply setting the style of the relevant elements. **Nothing to hand in here**, its just simply to give you a feeling for the application.
-
-### Getting to js
-Now we have a feeling for what should happen when the thumbs up button is clicked: **Animate `li` out, then animate next `li` into view**
-
-The very detail oriented students probably saw the keyword **then** in the previous sentence! Hmm that sound just like a promise: 
-- Do something (animate `li` out) 
-- **then** do something else (animate next `li` into view) 
-
-Lets create a function called `animateLiOut`. This function should animate the `li` out and **return a promise** that resolves after the animation of the first `li` is done. (how long time does it take for the `li` to animate out?) What function can we use to wait for some given time in js?
-
-Pseudo code of the function
 ```js
-animateLiOut()
+moveElement(document.querySelector('li'), {x: 100, y: 100})
     .then(() => {
-        // this callback function is first called when the li is out of view!
-
-        // Now lets animate the next li into view
-        animateNextLiIntoView();
+        console.log('Element has been moved');
     });
 ```
 
-### Improving the application
-Now when we press the thumbs up button: the first `li` is animated out and the next one comes into view. But what about when we **press the button again**? Lets create the functionality that keeps animating the next `li` out, we now need some kind of index to keep track of which `li` has been animated out. And what if we **press the thumbs down button**, then the `li` should be animated out of view but **to the left not to the right**. Lets also create that functionality.
+Your task is to create two functions!
+- `translateOneByOne` - Should translate the circles one at a time from their **random start position** to their **target**. Log something out **after each element has been moved**
+- `translateAllAtOnce` - Should translate all the circles at the same time from their **random start position** to their **target**. Log out something **after all elements have been moved**
 
-### Personalise the application
-Right now the `li` elements just have the text Thing 1, Thing 2 which is super boring! Now you have to give it a **personal touch**!
+**One by one**
 
-You decide what we are giving thumbs up or down to. Maybe its music tracks, food dishes, movies or danish traditions, **you decide!** 
+<img alt="One by one" src="assets/one-by-one.gif" width="300" />
 
-Create an `array` of `objects` in js that represents what we are interacting with. Using that `array` of `objects`, build the `li's` and insert them into the `ul`. The `li's` could contain a h1, a span, maybe an image, you decide here, as long as it is built from the `array` of `objects`.
+**All at one**
 
-### Improve improve imporve *optional*
-- What if we instead of creating our own `array` of `objects` fetch some data from an [api](https://github.com/toddmotto/public-apis) and use that data to render our `li's`
-- Interaction with the keyboard arrows
-- Super duper hard mode: swipe the card
-
+<img alt="All at one" src="assets/all-at-once.gif" width="300" />
 
 ## Feedback giving time!
 Find a student to give feedback using this site: https://hyf-peer-review.herokuapp.com/
