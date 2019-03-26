@@ -4,8 +4,10 @@
 
 Array functions
 - [ ] ForEach
-- [ ] Map
-- [ ] Filter
+- [ ] [Map](#map)
+- [ ] [Filter](#filter)
+
+[Arrow function](#Arrow-functions)
 
 Higher order functions
 
@@ -67,7 +69,6 @@ console.log(carSpeeds); // [45, 87, 78]
 The filter function works on arrays and it filters out elements in our array. 
 It takes a function as input. This function is called on every element in the array. Just like forEach. If this function we create returns true the element is saved in the, if we return false the element is filtered out.
 
-
 ```js
 
 // Lets get only cars with a speed larger than 60
@@ -86,9 +87,6 @@ console.log(fastCars); // logs the BMW and the Fiat
 ```
 
 
-
-
-
 ### Sort
 
 The sort function works on arrays. It sorts the elements of the array.
@@ -104,6 +102,35 @@ const sortedCars = cars.sort(function(a, b) {
 
 console.log(sortedCars); // it will return an array with the BMW object first, then the fiat and then the volvo
 ```
+
+### Arrow functions
+Functions can be written as arrow functions, it looks like this:
+
+```js
+// This function
+function getTimesTen(a) {
+    return a * 10;
+}
+
+// Can be written like this:
+const getTimesTenArrowFunction = (a) => {
+    return a * 10;
+}
+
+// If there is only one parameter, we can remove the paranthesis:
+const getTimesTenArrowFunction = a => {
+    return a * 10;
+}
+
+// If the function is returning a single line of code, you can shorten it even further:
+const getTimesTenArrowFunction = a => a * 10;
+```
+
+Here is how you **convert a function into an arrow function:**
+1. Remove the keyword function
+2. Add an arrow after the parameter
+3. If there is only one parameter, we can remove the paranthesis around the parameter
+4. If the function is returning a single line of code, we can remove the return keyword and the curly braces.
 
 
 ### Chaining
