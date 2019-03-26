@@ -5,7 +5,7 @@
 Functions advanced
 - [ ] Function as variable
 - [ ] Calling a function with a function
-- [ ] Code flow
+- [ ] Code flow, using the [call stack](../../JavaScript1/Week3/readme.md#call-stack)
 - [ ] Anonomyous function vs named function
 
 Asynchronicity in js
