@@ -33,3 +33,7 @@ var oneIsLessTwo = 1 < 2
 
 'Emil' < 'Emma' // Compares lexicographic comparison
 '10' < '1Hello' // Not human sorting, but computer sorting
+
+// Array of arrays
+var multiarray = [[[[[[1]]]]]]
+multiarray[0][0][0][0][0][0]
