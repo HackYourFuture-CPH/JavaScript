@@ -31,7 +31,7 @@ Try accessing jupiters last moon in a smarter way.
 Use [this api](http://api.open-notify.org/astros.json) to fetch how many astronauts are currently in spaces. 
 
 ```
-fetch('http://api.open-notify.org/astros.json/master/data/science/planets.json')
+fetch('http://api.open-notify.org/astros.json')
     .then(response => response.json())
     .then((planets) => {
         console.log(planets);
