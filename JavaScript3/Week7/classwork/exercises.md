@@ -59,6 +59,6 @@ Using this API: https://dog.ceo/api/breeds/image/random
 
 1. Get a random dog image and display it in the browser
 2. Get a new image every 2 sec.
-3. Get the list aogf all breeds from https://dog.ceo/api/breeds/list/all
+3. Get the list of all breeds from https://dog.ceo/api/breeds/list/all
 4. Display a random image of a breed from the list https://dog.ceo/api/breed/[BREEDNAME]/images/random
 5. Display the name of the breed under the image
