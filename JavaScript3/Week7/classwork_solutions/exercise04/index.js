@@ -2,30 +2,28 @@
 
 // Solution 1 - using setInterval: 
 
-setInterval(function(){ 
+setInterval(function () {
 
     fetch('https://dog.ceo/api/breeds/image/random')
-    .then(response => response.json())
-    .then((dogObject) => {
-        document.querySelector('#img0').src = dogObject.message;
-    });
+        .then(response => response.json())
+        .then((dogObject) => {
+            document.querySelector('#img0').src = dogObject.message;
+        });
 
+}, 2000);
 
- }, 2000);
- 
- // Solution 2 - using recursion: 
+// Solution 2 - using recursion: 
 
- (function getDog() {
+(function getDog() {
     fetch('https://dog.ceo/api/breeds/image/random')
-    .then(response => response.json())
-    .then((dogObject) => {
-        document.querySelector('#img1').src = dogObject.message;
-        setTimeout(() => {
-            getDog();
-        }, 2000)
-    });
-})(); 
-
+        .then(response => response.json())
+        .then((dogObject) => {
+            document.querySelector('#img1').src = dogObject.message;
+            setTimeout(() => {
+                getDog();
+            }, 2000)
+        });
+})();
 
 
 // Solutions to exercise 4 nr.3,4,5
@@ -38,12 +36,12 @@ fetch('https://dog.ceo/api/breeds/list/all')
         // Object.keys() returns an array of keys.
         var keyArray = Object.keys(response.message);
         var firstBreed = keyArray[0];
-        
-        fetch('https://dog.ceo/api/breed/'+ firstBreed + '/images/random')
+
+        fetch('https://dog.ceo/api/breed/' + firstBreed + '/images/random')
             .then(response => response.json())
             .then(response => {
                 // Here response.message is a string that points to a URL
                 document.querySelector('#img2').src = response.message
                 document.querySelector('figcaption').innerHTML = firstBreed;
-        });
-});
+            });
+    });
