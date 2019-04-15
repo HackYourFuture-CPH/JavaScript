@@ -1,14 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-</head>
+    <style>
+        body {
+            padding: 0 100px;
+        }
+        .flex-me {
+            display: flex;
+            width: 100%;
+        }
+        .flex-me > .flex-sub {
+            width: 33%;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        figure {
+            margin : 0;
+        }
+    </style>
 <body>
-    <h1></h1>
-    <img src="" alt="">
+    <div class="flex-me">
+        <div class="flex-sub">
+            <h3>Solution 1 setInterval</h3>
+            <img class="img-item" id="img0" src="" alt="">
+        </div>
+        <div class="flex-sub">
+             <h3>Solution 2 recursion</h3>
+            <img class="img-item" id="img1" src="" alt="">
+        </div>
+        <div class="flex-sub">
+            <h3>Fetch breed from</h3>
+            <figure class="img-item">
+                <img id="img2" src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+        </div>
+    </div>
     <script src="index.js"></script>
 </body>
+
 </html>
