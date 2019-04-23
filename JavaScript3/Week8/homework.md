@@ -5,16 +5,15 @@ Promises creates a **pleasant way of working with asynchronous code**. It will m
 
 Since promises is becoming standard in javascript, new browser api's use promises for interacting with them. `getUserMedia` for accessing webcam, `Navigator.getBattery()` for getting battery level, `Bluetooth.requestDevice()`, `serviceWorker` or `USB.requestDevice()`
 
-So lets learn some promises :)
 
 ### Movies exercise
+This exercise is repetition of array functions. 
+
 Fetch movies from this api: `https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json`
 
-1. Create an array called long movies that contain an array of long movies. A long movie has a running time of larger than 7000
-2. Create an array called longMovieTitles. That contain only the titles of the long movies. 
-3. Log out an array of bad movies
-4. Log out an array of bad movies since year 2000
-5. only log the titles of the bad movies since year 2000
+1. Create an array of bad movies
+2. Creat an array of bad movies since year 2000
+3. Create an array of the titles of the bad movies since year 2000
 
 ## Promise that resolves after set time
 Create a function that has one parameter: `resolveAfter`. **Calling this function** will **return a promise** that resolves after the `resolveAfter` seconds has passed. 
@@ -50,25 +49,36 @@ getCurrentLocation()
 1. Fetch some data from an api.
 2. After that data has been fetched, wait 3 seconds
 3. Log out the data from the api
-4. Now do all of these things using [chaining](readme.md#promise-chaining)
+4. *Optional* Now do all of these things using [chaining](readme.md#promise-chaining)
 
 ## Visual promise
 This task is about visually understanding the difference between Promise.all and calling a promise one at a time.
 
-If you go into the [promise-visual homework folder](homework/promise-visual) there is some html, css and some js. If you clone down the javascript repo, then you can simply copy the files into your hyf-homework js3 week 2 folder. Dont modify move-box.js, only work in main.js!
+If you go into the [promise-visual homework folder](homework/promise-visual) there is some html, css and some js. If you clone down the javascript repo, then you can simply copy the files into your hyf-homework js3 week 2 folder. Dont modify move-element.js, only work in main.js!
 
 There is a function available to you called `moveElement`. It moves an element to a new position and returns a promise. `moveElement` takes a `DOM element` and an `object` specifying the `x` and `y` of the new position. It then returns a `promise` that resolves after the `DOM element` has been moved.
 
 ```js
+// This code will move the li to the position 100, 100. Calling moveElement will return a promise that resolves after the li element has been moved. 
 moveElement(document.querySelector('li'), {x: 100, y: 100})
     .then(() => {
         console.log('Element has been moved');
     });
 ```
 
-Your task is to create two functions!
+
+
+Your task is to create two functions. 
 - `translateOneByOne` - Should translate the circles one at a time from their **random start position** to their **target**. Log something out **after each element has been moved**
 - `translateAllAtOnce` - Should translate all the circles at the same time from their **random start position** to their **target**. Log out something **after all elements have been moved**
+
+Test that the functions works as intended before submitting homework. 
+
+```
+Red circle target: x: 20px, y: 300px;
+Blue circle target: x: 400px, y: 300px;
+Green circle target: x: 400px, y: 20px;
+```
 
 **One by one**
 
