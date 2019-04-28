@@ -35,10 +35,10 @@ You can use the example of soup:
 1. Boil water.
 2. Add broth/stock.
 
-Create the functions boilWater(), addStock() and cookSoup(). The boilWater() and addStock() should return a promise after some time. cookSoup() should call the two other functions and handle the promises in the correct order. Again, look at the "boiling pasta" example for inspiration.
+Create the functions `boilWater()`, `addStock()` and `cookSoup()`. The `boilWater()` and `addStock()` should return a promise after some time. `cookSoup()` should call the two other functions and handle the promises in the correct order. Again, look at the "boiling pasta" example for inspiration.
 
 ## Exercise 5
 
-Try to add a chopVegetables() function that returns a promise. In the cookSoup() function, use Promise.all to console.log("Add vegetables"), once both boilWater() and chopVegetables() have resolved their promises (you wouldn't add your vegetables to the water before it is boiling or before the vegetables have been chopped).
+Try to add a `chopVegetables()` function that returns a promise. In the `cookSoup()` function, use `Promise.all` to `console.log("Add vegetables")`, once both `boilWater()` and `chopVegetables()` have resolved their promises (you wouldn't add your vegetables to the water before it is boiling or before the vegetables have been chopped).
 
 If you finish the exercises in class, feel free to look over the homework.
