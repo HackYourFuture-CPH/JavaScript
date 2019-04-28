@@ -59,7 +59,7 @@ getCurrentLocation()
 
 This task is about visually understanding the difference between Promise.all and calling a promise one at a time.
 
-If you go into the [promise-visual homework folder](homework/promise-visual) there is some html, css and some js. If you clone down the javascript repo, then you can simply copy the files into your hyf-homework js3 week 2 folder. Dont modify move-element.js, only work in main.js!
+If you go into the [promise-visual homework folder](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/JavaScript3/Week8/homework/promise-visual) there is some html, css and some js. If you clone down the javascript repo, then you can simply copy the files into your hyf-homework js3 week 2 folder. Dont modify move-element.js, only work in main.js!
 
 There is a function available to you called `moveElement`. It moves an element to a new position and returns a promise. `moveElement` takes a `DOM element` and an `object` specifying the `x` and `y` of the new position. It then returns a `promise` that resolves after the `DOM element` has been moved.
 
