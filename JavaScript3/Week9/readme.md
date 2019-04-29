@@ -1,7 +1,6 @@
 # Learning goals
-- [ ] Constructor function 
-- [ ] Promises advanced (all, race, chaining)
 - [ ] Classes
+- [ ] Promises advanced
 
 # Relevant links
 * [Preparation](preparation.md)

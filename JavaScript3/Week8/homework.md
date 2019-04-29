@@ -6,9 +6,9 @@ Promises creates a **pleasant way of working with asynchronous code**. It will m
 
 Since promises is becoming standard in javascript, new browser api's use promises for interacting with them. `getUserMedia` for accessing webcam, `Navigator.getBattery()` for getting battery level, `Bluetooth.requestDevice()`, `serviceWorker` or `USB.requestDevice()`
 
-### Movies exercise
 
-This exercise is repetition of array functions.
+### Movies exercise
+This exercise is repetition of array functions. 
 
 Fetch movies from this api: `https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json`
 
@@ -17,8 +17,7 @@ Fetch movies from this api: `https://gist.githubusercontent.com/pankaj28843/08f3
 3. Create an array of the titles of the bad movies since year 2000
 
 ## Promise that resolves after set time
-
-Create a function that has one parameter: `resolveAfter`. **Calling this function** will **return a promise** that resolves after the `resolveAfter` seconds has passed.
+Create a function that has one parameter: `resolveAfter`. **Calling this function** will **return a promise** that resolves after the `resolveAfter` seconds has passed. 
 
 Here is an example: `makeUpYourOwnFunctionName(3)` will return a promise that resolves after 3 seconds.
 
@@ -47,35 +46,34 @@ getCurrentLocation()
 ```
 
 ## Fetching and waiting
-
 **Only using promises**
-
 1. Fetch some data from an api.
 2. After that data has been fetched, wait 3 seconds
 3. Log out the data from the api
-4. _Optional_ Now do all of these things using [chaining](readme.md#promise-chaining)
+4. *Optional* Now do all of these things using [chaining](readme.md#promise-chaining)
 
 ## Visual promise
-
 This task is about visually understanding the difference between Promise.all and calling a promise one at a time.
 
-If you go into the [promise-visual homework folder](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/JavaScript3/Week8/homework/promise-visual) there is some html, css and some js. If you clone down the javascript repo, then you can simply copy the files into your hyf-homework js3 week 2 folder. Dont modify move-element.js, only work in main.js!
+If you go into the [promise-visual homework folder](homework/promise-visual) there is some html, css and some js. If you clone down the javascript repo, then you can simply copy the files into your hyf-homework js3 week 2 folder. Dont modify move-element.js, only work in main.js!
 
 There is a function available to you called `moveElement`. It moves an element to a new position and returns a promise. `moveElement` takes a `DOM element` and an `object` specifying the `x` and `y` of the new position. It then returns a `promise` that resolves after the `DOM element` has been moved.
 
 ```js
-// This code will move the li to the position 100, 100. Calling moveElement will return a promise that resolves after the li element has been moved.
-moveElement(document.querySelector("li"), { x: 100, y: 100 }).then(() => {
-  console.log("Element has been moved");
-});
+// This code will move the li to the position 100, 100. Calling moveElement will return a promise that resolves after the li element has been moved. 
+moveElement(document.querySelector('li'), {x: 100, y: 100})
+    .then(() => {
+        console.log('Element has been moved');
+    });
 ```
 
-Your task is to create two functions.
 
+
+Your task is to create two functions. 
 - `translateOneByOne` - Should translate the circles one at a time from their **random start position** to their **target**. Log something out **after each element has been moved**
 - `translateAllAtOnce` - Should translate all the circles at the same time from their **random start position** to their **target**. Log out something **after all elements have been moved**
 
-Test that the functions works as intended before submitting homework.
+Test that the functions works as intended before submitting homework. 
 
 ```
 Red circle target: x: 20px, y: 300px;
@@ -106,7 +104,7 @@ Go over your homework one last time:
 - Have you used `const` and `let` and avoided `var`?
 - Do the variable, function and argument names you created follow the [Naming Conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)?
 - Is your code well-formatted (see [Code Formatting](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md))?
--
+
 
 ![](https://media.giphy.com/media/l4EpblDY4msVtKAOk/giphy.gif)
 

@@ -1,69 +1,71 @@
-## Homework Week 5
+# Homework
 
 ## So why this homework?
-We want you to realise that functions are just variables in javascript. It is exactly the same as string or a number. This homework forces you into using functions in weird ways that forces you to think differently about functions. 
+Working with functions in javascript is such an essential part of working with javascript. 
 
-### Step 1
-1. We learned a little bit about callbacks in JS. A callback is simply a function passed to another function that gets executed (run) after a potentially long running operation has completed. There is another function called `setTimeout` that will wait a specified period of time and then execute a function. For example: 
+We want you to realise that **functions are just variables** in javascript. It is exactly the same as string or a number. This homework forces you into using functions in weird ways that forces you to think differently about functions. 
 
-```js
-function doIt() {
-    console.log('I am done');
-}
-setTimeout(doIt, 5000)
-```
-If you run the above code it will wait 5 seconds and print `I am done`. Please read something about setTimeout on MDN. The first argument to the `setTimeout` function is the callback (`doIt`)
+## Warmup
+The warmup is a **little abstract**, it will get more concrete later on!
 
-You must write a function that takes 4 arguments.
-- A start value 
-- An end value
-- A callback to call if the number is divisible by 3 
-- A callback to use if the number is divisible by 5
+1. Log out the text `Called after 2.5 seconds` 2.5 seconds after the script is loaded. 
+2. Create a function that takes 2 parameters: `delay` and `stringToLog`. Calling this function should log out the `stringToLog` after `delay` seconds. Call the function you have created with some different arguments. 
+3. Create a button in html. When clicking this button, use the function you created in the previous task to log out the text: `3.5 seconds after button is clicked` 3.5 seconds after the button is clicked.
+4. Create two functions and assign them to two different variables. One function logs out `Earth`, the other function logs out `Saturn`. Now create a new third function that has one parameter: `planetLogFunction`. The only thing the third function should do is call the provided parameter function. Try call the third function once with the `Earth` function and once with the `Saturn` function.
+5. Create a button with the text called "Log location". When this button is clicked the location (latitude, longitude) of the user should be logged out using this [browser api](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) 
+6. *Optional* Now show that location on a map using fx the [Google maps api]( https://developers.google.com/maps/documentation/javascript/tutorial)
+7. Create a function called `runAfterDelay`. It has two parameters: `delay` and `callback`. When called the function should wait `delay` seconds and then call the provided callback function. Try and call this function with different delays and different callback functions
+8. Check if we have double clicked on the page. A double click is defined by two clicks within 0.5 seconds. If a double click has been detected, log out the text: "double click!"
+9. Create a function called `jokeCreator` that has three parameters: `shouldTellFunnyJoke` - boolean, `logFunnyJoke` - function and `logBadJoke` - function. If you set `tellFunnyJoke` to `true` it should call the `logFunnyJoke` function that should log out a funny joke. And vice versa.
 
-The function should generate an array containing values from start value to end value (inclusive). 
-
-Then the function should iterate over the array and call the second argument if the array value is divisible by 3
-
-The function should call the second argument if the array value is divisible by 5 
-
-Both functions should be called if the array value is divisible by both 3 and 5
-
-```js
-THIS IS FAKE CODE 
-function threeFive(startIndex, stopIndex, threeCallback, fiveCallback) {
-    // make array 
-    // loop through the array. Check if you should call threeCallback and/or fiveCallback.
-}
-threeFive(10, 15, sayThree, sayFive);
-
-// Should create an array [10,11,12,13,14,15]
-// and call sayFive, sayThree, sayThree, sayFive  - please make sure you see why these calls are made before you start coding
-```
-
-5. We did some work with arrays - `let arr = [1,2,3]`
-We can also nest arrays inside arrays like this `let arr2d = [[1,2], [3,4], [5,6]]` (for math people you can think of this as a matrix)
-How would you print all the items of an array with 3 dimensions? 
-How about with K dimensions? 
-What if you didn't know how deep the array was nested? (You don't have to write code for this but think about it)
-
-
-### Step 2
-
-1) Create a new website with external js file
-
-2) Add a button (e.g. 'click me') that when clicked `console.logs` 'you clicked me!'
-
-3) Add an input element where you can write numbers. When the button is clicked, get the number from the input element. Use the `threeFive` function we created earlier. If the number if divisible with 3 set the background color to blue (using a function you call `threeFive` with). If the number is divisible with 5 set the background color to yellow.
-
-4) Create a button with the text called show location. When this button is clicked the location on the user should be found using this browser api: https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API
-Now show that location on a map using fx the Google maps api: https://developers.google.com/maps/documentation/javascript/tutorial
-
-5) Create funtions that are used in these different ways:
-- Create an array with 3 items. All items should be functions. Go through the array and call them.
-- Create a function as a const and try creating a function normally. Call both function. 
-- Create an object that has a key whose value is a function. Try calling this function. 
-- Create two setTimeouts one uses a function that is defined as a const. The other uses an anonomous function that is defined inside the setTimeout. 
+### Function as a variable
+Create funtions that are used in these different ways:
+- Create an array with 3 items. All items should be functions. Iterate through the array and call all the functions.
+- Create a function as a const and try creating a function normally. Call both functions.
+- Create an object that has a key whose value is a function. Try calling this function.
 - Create a function (outer) that returns a function (inner). Call the outer function and assign the return to a variable. Now call this variable (that is the inner function)
+
+Yes i know that was a little tough, now on to the fun part 🎉
+
+![phew](https://media.giphy.com/media/EDt1m8p5hqXG8/giphy.gif)
+
+## The fastest presser in this realm
+Lets create a fun simple game :)
+
+Here is the setup of the game: **Two users compete** about who can **press a key the most times** within a set time!
+
+ A user specifies how long time the game should be, and presses **"start game!"**. When the button is pressed it is about pressing either `l` or `s` on the keyboard. The user that has the highest number of keypresses after the time is up, wins 🎉
+
+Here is a gif of how the site should work:
+
+<img alt="homework folder" src="homework/fastest-clicker.gif" width="400" />
+
+You can implement it exactly like you want to, but here is my recommended order:
+
+1. **Create an input and a button in html**. When the button is clicked, get the value of the input. This value will be the amount of time the game should run.
+2. **Set a timeout for the time specified by the user.** After that time has run out just log out a simple string.
+3. **Create an event listener** so you can call a function **when any key is pressed**. Now grap the actual key that was pressed. Fx was it a `j` or an `i`. We are interested in `s` and `l`. Here google is your friend!
+4. **Keep a counter** for how many times `l` and `s` was pressed. 
+5. **Now put it all together!** After the timeout is done figure out which of the counters is largest. Give some kind of feedback to the users indicating who won.
+
+### Extra features
+1. **Start a new game** functionality. Create some functionality so that the users can restart a game. 
+4. Try and give the site some **styling so it looks nice** :)
+3. **Custom feature**. Add something unique to the game! If you dont know how to implement it, just describe what it should do!
+2. **Countdown to end of game** - *optional*. Have a countdown that simply counts down until the game is done.
+
+Here are some general things to consider:
+- What if a user starts pressing a key before the game is started, what should happen?
+- What if the game is a draw? Are both winners? None winners? Maybe indicate to the user that is was a draw.
+- What if no time was specified for the game?
+- What if there were no key presses before the game ends?
+
+### Confetti
+If you wanna give the game some confetti like in the gif, check out [this library](https://www.npmjs.com/package/confetti-js)
+
+Use the library in your page by adding this line before you load your main.js:
+
+`<script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.13/dist/index.min.js"></script>`
 
 ## Feedback giving time!
 Find a student to give feedback using this site: https://hyf-peer-review.herokuapp.com/

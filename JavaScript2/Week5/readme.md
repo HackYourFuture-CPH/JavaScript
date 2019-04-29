@@ -5,7 +5,7 @@
 Functions advanced
 - [ ] Function as variable
 - [ ] Calling a function with a function
-- [ ] Code flow
+- [ ] Code flow, using the [call stack](../../JavaScript1/Week3/readme.md#call-stack)
 - [ ] Anonomyous function vs named function
 
 Asynchronicity in js
@@ -18,6 +18,7 @@ Asynchronicity in js
 
 
 ## Callbacks
+A callback is simply a function passed to another function that gets executed (run) after a potentially long running operation has completed.
 
 Now lets learn about callbacks!
 Well actually you have already made callbacks!
