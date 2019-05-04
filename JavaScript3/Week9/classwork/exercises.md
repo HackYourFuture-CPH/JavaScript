@@ -27,10 +27,10 @@ The CV that we will be making uses three classes: `Job`, `Education` and
 
 ### Part 1:
 
+Create the classes `Job` and `Education`.
+
 - `Job` has five properties: `id`, `title`, `description`, `startDate` and `endDate` (the dates can be strings or actual `Date` objects).
 - `Education` has six properties: `id`, `title`, `school`, `address`, `startDate` and `endDate`.
-
-Create those classes.
 
 ### Part 2:
 
@@ -64,15 +64,15 @@ class CV {
 
 ### Part 3:
 
-Create a new `CV` object using the `new` keyword, and save it in a variable called `myCV`.
+1. Create a new `CV` object using the `new` keyword, and save it in a variable called `myCV`.
 
-Apply the methods you have created on the `myCV` object. Create a few `job` and `education` objects and add them to your CV.
+2. Apply the methods you have created on the `myCV` object. Create a few `Job` and `Education` objects and add them to your CV.
 
-Log `myCV` to the console.
+3. Log `myCV` to the console.
 
-Remove a job and an education from `myCV`.
+4. Remove a job and an education from `myCV`.
 
-Log `myCV` to the console, again, and check that the objects were removed correctly.
+5. Log `myCV` to the console, again, and check that the objects were removed correctly.
 
 ### Part 4:
 
