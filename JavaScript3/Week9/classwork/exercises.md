@@ -27,8 +27,8 @@ The CV that we will be making uses three classes: `Job`, `Education` and
 
 ### Part 1:
 
-- `Job` has four properties: `title`, `description`, `startDate` and `endDate` (the dates can be strings or actual `Date` objects).
-- `Education` has five properties: `title`, `school`, `address`, `startDate` and `endDate`.
+- `Job` has five properties: `id`, `title`, `description`, `startDate` and `endDate` (the dates can be strings or actual `Date` objects).
+- `Education` has six properties: `id`, `title`, `school`, `address`, `startDate` and `endDate`.
 
 Create those classes.
 
