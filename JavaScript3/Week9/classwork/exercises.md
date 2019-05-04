@@ -3,7 +3,7 @@
 ## Exercise 1
 ### Create a user class
 
-The class should have 2 fields: firstName and lastName. Hint: Use `this` and `constructor`.
+The class should have 2 properties: firstName and lastName. Hint: Use `this` and `constructor`.
 
 ## Exercise 2
 ### Create an instance of the class
