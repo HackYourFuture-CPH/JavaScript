@@ -68,11 +68,9 @@ class CV {
 
 2. Apply the methods you have created on the `myCV` object. Create a few `Job` and `Education` objects and add them to your CV.
 
-3. Log `myCV` to the console.
+3. Remove a job and an education from `myCV`.
 
-4. Remove a job and an education from `myCV`.
-
-5. Log `myCV` to the console, again, and check that the objects were removed correctly.
+4. Log `myCV` to the console, again, and check that the objects were removed correctly.
 
 ### Part 4:
 
