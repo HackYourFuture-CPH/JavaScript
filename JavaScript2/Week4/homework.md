@@ -30,28 +30,6 @@ const housePrices = [3000000, 3500000, 1300000, 40000000, 100000000, 8000000, 21
 
 Now render the prices and the average and median in a web page. 
 
-## Book site
-Everybody loves books, so **lets create a favorite book site 📚 :)**
-
-![books](https://media.giphy.com/media/PkQeAkvhRrWoM/giphy.gif)
-
-Create `index.html` and `main.js`. Reference the javascript in html inside of a script tag. To make sure you have imported the javascript file properly, log out `script loaded`. 
-
-### Display book titles
-Declare an array that contains 10 strings. These strings should be **book titles you have read or made up** (Example: Harry Potter's - The Chamber of Secrets). 
-
-Make a function (or functions) that generates a `ul` with `li` elements **for each book title** in the array using a for loop. And inserts this ul to the dom. You should now be able to see the **book titles rendered on your html page!**
-
-### Display books
-Now instead of representing a book only by its title, lets **add some additional information usign objects!** For every book title make an object that represents a book. Each book (object) in this array should at least have the following fields: id, title, language and author. Id is the title that is lowercase and without spaces or special characters fx: `harry_potter_chamber_secrets`  You should now have an array of 10 objects. 
-
-Now change the function you used to display the book titles in a list to **take the actual information about the book** from the object and **display that**. Make sure you choose the right html elements for each piece of info, for instance, a heading for the title.
-
-Beautify your html page with css, add sources and alts to each of the images.
-
-### Show the book covers
-Download book covers for each book, construct a new Object which has as keys the book titles, and as value the path to the image source (e.g. `{"harry_potter_chamber_secrets": "./img/harry_potter_blabla.jpg", ...}`). Now loop over these entries (_hint: `Object.keys(objectName)` gives you an array containing the keys_). Then write a function which places an image at the corresponding `li` element. Remember that Objects are not ordered, so you cannot guarantee that the first key is the first `li` element. (_Hint: you could give each `li` item an `id` tag by modifying the function you made before_)
-
 
 ## Spirit animal name generator
 Let's create a page where **a user writes his name** in an input element. The user then clicks a button. The user will now **receive a spirit animal name**, fx Benjamin - The fullmoon wolf.
@@ -80,6 +58,103 @@ How can we give a user multiple options to select from in html? Maybe time for g
 An example is: A user select that she only wants to generate a spirit animal when the input is hovered. That means that if the user writes her name in the input and clicks the button nothing happens. BUT when she hovers the input, NOW a new spirit animal is generated.
 
 ![Spiritanimal](https://media.giphy.com/media/IMSq59ySKydYQ/giphy.gif)
+
+
+## hyfBay - get the okay'est products here
+We have been **hired for a company** to do a SPA - Single Page App for them. It is a website where a user can search for products. The products can also be **filtered and sorted** based on what products the user wants to see. 
+
+We are going to be building this website step by step, so have patience :)
+
+### Lets get started!
+In the [homework/hyf-bay folder](homework/hyf-bay) there is a project you should continue working on. So copy all the files into your hyf-homework/Javascript/javascript2/week4 folder.
+
+Open the `index.html` file in a browser and take a look at the site and the html by inspecting the website. 
+
+I have done some rudimentary styling for the project but you are super welcome to make it even nicer!
+
+So the site looks like a typical product site, but is **missing some products!** Lets fix that!
+
+#### Render test product names
+Create an array called `testProductNames` that contains test product names. Lets start of with taking this array of test product names and render them!
+
+To render these test products, we need to do the following:
+1. Select the `ul` that is a child to the `section` called `products` in javascript
+2. For each `productName` in the `testProductNames`:
+   1.  [create an `li`](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
+   2.  Set the innerHTML of that `li` to the `productName`
+   3.  [Append the `li`](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild) to the `ul`
+
+#### Render products function
+When test products can be rendered, lets create a function that does the this!
+
+So lets create a function called `renderProducts`. It has one parameter: `products` - which is an array. 
+
+It should work like this:
+```js
+const testProductNames = ['Flat screen', 'Mobile phone', 'Wallet'];
+renderProducts(testProductNames); // Should add 3 li's to the ul under the products section with Flat screen, Mobile phone, Wallet text
+```
+
+We have now made a **code abstraction**, awesome! When we want to render new products, we dont need to think about all the details of innerHtml, appendChild etc, we simply need to call the `renderProducts` function with an array we would like to render.
+
+#### Improving the `renderProducts` function
+Now representing a product by **ONLY its name is a bit too simple.** A product usually has a price, a rating, a specific id, a name and countries it ships to. If we have to represent a product with that kind of data in Javascript we use an `object` with the following keys: `id`, `name`, `price`, `rating`, `shipsTo`. In the `main.js` file there is a function available to you called `getAvailableProducts`. **Calling this function** will return an **array of products.** There can be from 0 - 30 products in the array.
+
+```js
+const products = getAvailableProducts();
+console.log(products) // logs out
+/*
+[{
+    id: 23771823,
+    name: 'Flat screen',
+    price: 4000,
+    rating: 4.2,
+    shipsTo: [ 'denmark', 'germany'],
+},
+...]
+*/
+```
+
+Lets improve the `renderProducts` so that it still shows only product names, but using the `products` from calling `getAvailableProducts`!
+
+#### Showing more details to the user
+So now we have come a long way. We can get  `products` calling `getAvailableProducts`. Those `product` names we can render by calling `renderProducts(products)`. But now the **user also wants to see the price, the rating and where the product ships to.** Lets first implement it in a simple way: 
+
+Lets seperate the different product details with a `|`. So calling `renderProducts(products)` will now add an `li` with the `innerHTML` that looks like this: `Flat screen | 4000 | 4.2 | [ 'denmark', 'germany']`
+
+That is all fine and dandy and it kind of works, BUT we would of course like to improve it.
+
+#### Showing more details to the user in a nice way!
+We could see all the product details as a **list of product details!** How do we represent lists in html?? 
+
+Yes, thats right with a `ul` and `li` tag. So each product detail is an `li` inside a `ul`. 
+
+Now we have two sets of `ul` and `li` tags. We have the individual products and then for every product we have the individual product details. 
+
+#### *Optional* ships to rendering.
+A product can be **shipped to multiple countries**, that means that it can be seen as a list of countries. How do we represent lists in html?? 
+
+I think you know the answer! Try and implement ships to so it is represented as a list in html. 
+
+A product li should now look like this:
+
+```html
+<li>
+    <ul>
+        <li class="name">Drone</li>
+        <li class="price">1234</li>
+        <li class="rating">5</li>
+        <li class="ships-to">
+            <ul>
+                <li>Denmark</li>
+                <li>Sweden</li>
+            </ul>
+        </li>
+    </ul>
+</li>
+```
+
+We have now made a fully functioning website that can render products. For the next homework we are **going to improve the site further.**
 
 ## Feedback giving time!
 Find a student to give feedback using this site: https://hyf-peer-review.herokuapp.com/

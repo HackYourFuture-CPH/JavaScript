@@ -1,5 +1,3 @@
-# Week 1
-
 ## Learning goals
 - [ ] Intro JavaScript (What is it, what can you use it for)
 - [ ] Setup js either via browser or via node

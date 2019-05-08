@@ -1,5 +1,3 @@
-# Week 2
-
 ## Learning goals
 - [ ] Conditions: if, elseif, else. Negated.
 - [ ] [Functions](#Functions): [Calling](#calling-a-function-on-something), defining, [parameters, arguments](#parameters--arguments)

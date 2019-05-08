@@ -66,11 +66,15 @@ section.products>ul {
     padding: 0;
 }
 
-section.products>ul>li {
+section.products>ul>li>ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 0 12px 12px;
+    padding: 12px 12px 12px 12px;
+}
+
+section.products>ul>li>ul>li:first-child {
+    width: 200px;
 }
 
 section.products>ul>li:nth-child(odd) {
@@ -81,6 +85,7 @@ section.products li div, section.products li button {
     margin-right: 12px;
     width: 100px;
 }
+
 
 section.products li .name {
     width: 200px;

@@ -40,6 +40,19 @@ Copy the above code to your homework
 
 ---
 
+
+### When will we be there??
+Write a function where you speficy your speed in `km/h` and how far you have to go in `km`. The function has to return the time it will take to arrive at your destination. The time should be formatted like this: `3 hours and 34 minutes`.
+
+```
+const speed = 50;
+const destinationDistance = 432;
+const travelTime = notThisFunctionName(speed, destinationDistance);
+console.log(travelTime); // 4 hours and 42 minutes
+```
+
+---
+
 ### Series duration of my life
 
 ```js

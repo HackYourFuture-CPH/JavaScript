@@ -1,4 +1,4 @@
-# Homework Week 9
+# Homework
 
 ## So why should i do this homework?
 Using classes help with structuring code. It is one of many **design patterns**.  Second it **connects everything** you have learned in js: functions, properties, methods, keys, arrays.

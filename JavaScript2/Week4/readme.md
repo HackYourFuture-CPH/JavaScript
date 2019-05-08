@@ -1,5 +1,3 @@
-# Week 4
-
 ## Learning goals
 Browser environment
 - [ ] HTML vs CSS vs JS
@@ -20,7 +18,6 @@ Event listeners
 ## Relevant links
 * [Preparation](preparation.md)
 * [Homework](homework.md)
-* [Review](review.md)
 
 
 ## HTML interaction

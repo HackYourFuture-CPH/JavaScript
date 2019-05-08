@@ -1,4 +1,4 @@
-# Homework Week 7
+# Homework
 
 ## Why should i even do this homework?
 Working with json and api's is the way modern **javascript application's communicate with servers**. That can be either getting some data but also updating or creating new data. 

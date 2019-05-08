@@ -1,76 +1,35 @@
-# Homework Week 6
+# Homework
 
-## Why should i even do this homework?
-Working with arrays is an essential part of being a javascript developer. A lot of the time js developers have an array of some objects. That could be **users, products, posts, jobs** etc. Working with these arrays, js developers so often need to filter the arrays, change the structure of the array, sort them or loop through them. 
+## So why this homework?
+Working with functions in javascript is such an essential part of working with javascript. 
 
-On top of that combining these array function with each other will show the functional side to javascript in a nice way. 
+We want you to realise that **functions are just variables** in javascript. It is exactly the same as string or a number. This homework forces you into using functions in weird ways that forces you to think differently about functions. 
 
-The warmup exercises will be a bit abstract. But the in the **hyfBay exercise** the task will be a lot closer to a **real world task**. 
+## Warmup
+The warmup is a **little abstract**, it will get more concrete later on!
 
-## Warmup array exercises
+1. Log out the text `Called after 2.5 seconds` 2.5 seconds after the script is loaded. 
+2. Create a function that takes 2 parameters: `delay` and `stringToLog`. Calling this function should log out the `stringToLog` after `delay` seconds. Call the function you have created with some different arguments. 
+3. Create a button in html. When clicking this button, use the function you created in the previous task to log out the text: `3.5 seconds after button is clicked` 3.5 seconds after the button is clicked.
+4. Create two functions and assign them to two different variables. One function logs out `Earth`, the other function logs out `Saturn`. Now create a new third function that has one parameter: `planetLogFunction`. The only thing the third function should do is call the provided parameter function. Try call the third function once with the `Earth` function and once with the `Saturn` function.
+5. Create a button with the text called "Log location". When this button is clicked the location (latitude, longitude) of the user should be logged out using this [browser api](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) 
+6. *Optional* Now show that location on a map using fx the [Google maps api]( https://developers.google.com/maps/documentation/javascript/tutorial)
+7. Create a function called `runAfterDelay`. It has two parameters: `delay` and `callback`. When called the function should wait `delay` seconds and then call the provided callback function. Try and call this function with different delays and different callback functions
+8. Check if we have double clicked on the page. A double click is defined by two clicks within 0.5 seconds. If a double click has been detected, log out the text: "double click!"
+9. Create a function called `jokeCreator` that has three parameters: `shouldTellFunnyJoke` - boolean, `logFunnyJoke` - function and `logBadJoke` - function. If you set `tellFunnyJoke` to `true` it should call the `logFunnyJoke` function that should log out a funny joke. And vice versa.
 
-### Doubling of number
-Say you would like to write a program that **doubles the odd numbers** in an array and **throws away the even number**.
+### Function as a variable
+Create funtions that are used in these different ways:
+- Create an array with 3 items. All items should be functions. Iterate through the array and call all the functions.
+- Create a function as a const and try creating a function normally. Call both functions.
+- Create an object that has a key whose value is a function. Try calling this function.
 
-Your solution could be something like this:
-```js
-let numbers = [1, 2, 3, 4];
-let newNumbers = [];
+Yes i know that was a little tough, now on to the fun part 🎉
 
-for(let i = 0; i < numbers.length; i++) {
-    if(numbers[i] % 2 !== 0) {
-        newNumbers[i] = numbers[i] * 2;
-    }
-}
+![phew](https://media.giphy.com/media/EDt1m8p5hqXG8/giphy.gif)
 
-console.log("The doubled numbers are", newNumbers); // [2, 6]
-```
-
-Rewrite the above program using `map` and `filter` don't forget to use arrow functions.
-
-### Working with movies
-![cinema](https://media.giphy.com/media/l6mBchxYZc7Sw/giphy.gif)
-
-Copy the movies array in the [movies](homework/movies.js) file. Use this array to do the following tasks:
-1. Create an array of movies containing the **movies with a short title** (you define what short means)
-2. Create an array of movie titles with **long movie titles**
-3. Count the **number of movies** made between 1980-1989 (including both the years)
-4. Create a new array that has an **extra key called tag**. The tag is based on the rating: Good (>= 7), Average (>= 4 and < 7), Bad (< 4)
-5. **Using [chaining](readme.md#Chaining)**, first filter the movies array to only contain the movies rated higher than 6. Now map the movies array to only the rating of the movies.
-6. **Count the total number of movies** containing any of following keywords: `Surfer`, `Alien` or `Benjamin`. So if there were 3 movies that contained `Surfer`, 1 with `Alien` and 2 with `Benjamin`, you would return 6. Can you make sure the search is case insensitive? 
-7. Create an array of movies where a **word in the title is duplicated**. Fx "Star **Wars**: The Clone **Wars**" the word **Wars** is duplicated. 
-8. Find the word that is **mostly duplicated** using [sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) *Optional*
-9. Calculate the **average rating** of all the movies using [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce). *Optional*
-10. **Count the total number** of Good, Average and Bad movies using [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce). *Optional*
-
-
-## hyfBay - get the okay'est products here
-We have been **hired for a company** to do a SPA - Single Page App for them. It is a website where a user can search for products. The products can also be **filtered and sorted** based on what products the user wants to see. 
-
-### Lets get started!
-In the [homework/hyf-bay folder](homework/hyf-bay) there is a project you should continue working on. So copy all the files into your hyf-homework/Javascript/javascript2/week3 folder and **start working in the main.js** file. 
-
-I have done some rudimentary styling for the project but you are super welcome to make it even nicer!
-
-There is a function available to you called `getAvailableProducts`. Calling this function will return an array of products. There can be from 0 - 30 products in the array. The products are represented by objects that has the following keys: `id`, `name`, `price`, `rating`, `shipsTo`.
-
-### Add them products
-Call `getAvailableProducts` function to get the products array. Now add these products (as li elements) to the `ul` under the section with the classname `products`. Here is an example of how the individual li element should look:
-
-```html
-<li>
-    <div class="name">Drone</div>
-    <div class="price">1234</div>
-    <div class="rating">5</div>
-    <div class="ships-to">
-        <ul>
-            <li>Denmark</li>
-            <li>Sweden</li>
-        </ul>
-    </div>
-    <button>Add to cart</button>
-</li>
-```
+## hyfBay - get the okay'est products here - continued
+**Continue work on your homework regarding the Hyfbay** from previous week. Please copy the files from last week into this weeks hyf-homework folder and continue working there. If you have not made last weeks homework it does not matter, this part can be made without the solution from last weekse homework.
 
 ### Price analytics
 **Read the following closely**, to ensure you call the function correctly!
@@ -80,63 +39,55 @@ In order to analyse the product prices we need to **send the prices of the produ
 2. A **callback function** with a parameter. The parameter will be the confirmation text sent from the server. The callback function will be called when the data has been sent to the server. 
 `Console.log` out the response from the server.
 
-### Render products function
-Create a function called `renderProducts`. It should have a parameter called `products`. The function should **clear the products that are currently shown** and then **render the `products`** from the parameter. We are going to be using this function in the following exercises.
+---
 
-### Filter products
-A very normal usecase for a product site it that a **user wants to search for some product** or get products that only ships to his country. Lets implement that functionality for a user!
 
-BUT first lets figure out what happens on a conceptual level:
-1. Some kind of **event happens**, fx a user searches for a product, we need to listen for that event
-2. When that event happens we need to **filter the products** the user wants
-3. Then we should **render those products**
+## The fastest presser in this realm
+Lets create a fun simple game :)
 
-Lets get a little closer to javacript:
-1. `.addEventListener` on an element
-2. `.filter` on the products array
-3. `renderProducts` with the filtered array
+Here is the setup of the game: **Two users compete** about who can **press a key the most times** within a set time!
 
-#### Searching for products
-When the user writes something in the search input field. The products should be updated to only include the products that match the name. Use the overview shown above and the `renderProducts` function.
+ A user specifies how long time the game should be, and presses **"start game!"**. When the button is pressed it is about pressing either `l` or `s` on the keyboard. The user that has the highest number of keypresses after the time is up, wins 🎉
 
-#### Showing products that ships to country
-Lets help a user to avoid spending too much time looking for products that can not be shipped to the user's country: When the **user selects a country** in the ships to select tag, the products should be updated with the **products that ship to that country**. 
+Here is a gif of how the site should work:
 
-Hint 1: Break this task into smaller tasks!
+<img alt="homework folder" src="homework/fastest-clicker.gif" width="400" />
 
-Hint 2: How can you get a value from a select list? Its a little tricky, but google and slack is your friend!
+You can implement it exactly like you want to, but here is my recommended order:
 
-Hint 3: To figure out if a product does ship to a country, use [includes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+1. **Create an input and a button in html**. When the button is clicked, get the value of the input. This value will be the amount of time the game should run.
+2. **Set a timeout for the time specified by the user.** After that time has run out just log out a simple string.
+3. **Create an event listener** so you can call a function **when any key is pressed**. Now grap the actual key that was pressed. Fx was it a `j` or an `i`. We are interested in `s` and `l`. Here google is your friend!
+4. **Keep a counter** for how many times `l` and `s` was pressed. 
+5. **Now put it all together!** After the timeout is done figure out which of the counters is largest. Give some kind of feedback to the users indicating who won.
 
-### Create some extra feature
-No matter how small or how big. Create some feature that would be **cool/helpful/quirky/funny**. 
+### Extra features
+1. **Start a new game** functionality. Create some functionality so that the users can restart a game. 
+4. Try and give the site some **styling so it looks nice** :)
+3. **Custom feature**. Add something unique to the game! If you dont know how to implement it, just describe what it should do!
+2. **Countdown to end of game** - *optional*. Have a countdown that simply counts down until the game is done.
 
-### Sort the products - *optional*
-Choosing one of the sorting metods should update the shown order of the products. There is an array method called `sort`. Find documentation about it and see if you can get it to work. Use the `renderProducts` function.
+Here are some general things to consider:
+- What if a user starts pressing a key before the game is started, what should happen?
+- What if the game is a draw? Are both winners? None winners? Maybe indicate to the user that is was a draw.
+- What if no time was specified for the game?
+- What if there were no key presses before the game ends?
 
-### Shopping cart - *optional*
-When clicking the `Add to cart` button for a product, that product should be added to the `ul` found under the section with the classname `cart`. The product should be added as a an `li` item. Like this:
+### Confetti
+If you wanna give the game some confetti like in the gif, check out [this library](https://www.npmjs.com/package/confetti-js)
 
-```html
-<li>
-    <div class="name">Drone</div>
-    <div class="price">1234</div>
-</li>
-```
-Hint 1: Getting the object of the clicked product can be tricky! Here is one way:
-1. When adding the li tags to the ul. You can for every product in the products array create a new li element using `document.createElement('li')`. You then set the innerHTML as is specified above and then attach a clickListner: `createdLiElement.addEventListener('click', () => {});` The callback function has access to the product object because of something called [closures](https://www.youtube.com/watch?v=1JsJx1x35c0). This approach i would say is the best way.
+Use the library in your page by adding this line before you load your main.js:
 
-![Shopping cart](https://media.giphy.com/media/8PA8Ew3nw97yg/giphy.gif)
+`<script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.13/dist/index.min.js"></script>`
 
 ## Feedback giving time!
 Find a student to give feedback using this site: https://hyf-peer-review.herokuapp.com/
-The feedback should be given after the homework has been handed in preferably latest two days after.
- 
+The feedback should be given after the homework has been handed in preferably latest two days after. 
+
 To help you get started we have created some ressources about giving feedback. Find them here: https://github.com/HackYourFuture-CPH/curriculum/tree/master/review
 
-## Hand in Homework:
+### Hand in Homework:
 Go over your homework one last time:
-
 - Does every file run without errors and with the correct results?
 - Have you used `const` and `let` and avoided `var`?
 - Do the variable, function and argument names you created follow the [Naming Conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)?
@@ -144,5 +95,5 @@ Go over your homework one last time:
 
 If you can answer yes to the above questions then you are ready to hand if the homework:
 * Find the hyf-homework git repo (forked from [here](https://github.com/HackYourFuture-CPH/hyf-homework))
-* Add your homework files in the Javascript/javascript2/week3 folder
+* Add your homework files in the Javascript/javascript2/week2 folder
 * To submit the homework use the link in the top of your classes slack channel. 
