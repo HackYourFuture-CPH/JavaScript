@@ -41,6 +41,27 @@ In order to analyse the product prices we need to **send the prices of the produ
 
 ---
 
+You can now choose which webapp you would rather build! The **Emoji keyboard site** or **The fastest presser in this realm**. 
+
+## Emoji keyboard
+Finding the right emoji can be a bit annoying. I always go to Google, search for an emoji i want and then emoji. Like this: `construction hat emoji` and then i copy the emoji from the first link. This is a little annoying, so lets improve the way a user selects an emoji:
+
+## Main functionality
+Create a site where a user is **presented with lots of emoji's.** Clicking on any of the emojis will copy the emoji to a users clipboard. 
+
+See the fatures here: https://coolsymbol.com/emojis/emoji-for-copy-and-paste.html but please improve the design!
+
+### Search for emoji
+A user should be able to search for an emoji. 
+
+### Save to favorites
+A user should be able to save the emoji's the user uses the most. 
+
+### Categorise emoji's
+Create categories for the emoji's, clicking on a category will show only emoji's in that category.
+
+![Thinking emoji](https://media.giphy.com/media/CaiVJuZGvR8HK/giphy.gif)
+
 
 ## The fastest presser in this realm
 Lets create a fun simple game :)
