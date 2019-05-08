@@ -1,4 +1,4 @@
-# Homework week 1
+# Homework
 
 ![Hacking](https://media.giphy.com/media/eCqFYAVjjDksg/giphy.gif)
 ## Step 1: Before you start with the homework:

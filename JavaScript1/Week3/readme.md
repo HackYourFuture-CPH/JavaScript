@@ -1,5 +1,3 @@
-# Week 3
-
 ## Learning goals
 - [ ] Arrays continued: pop, push, shift, unshift, length, indexOf. No map, filter or reduce
 - [ ] [Objects](#Objects): Access properties two ways, key value. Array of objects. Use real world examples (users, products, houselistings)

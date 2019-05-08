@@ -1,4 +1,4 @@
-# Homework Week 8
+# Homework
 
 ## Why should i even do this homework?
 Promises creates a **pleasant way of working with asynchronous code**. It will make your asynchronous code nearly look synchronous. It is possible to compose promises further developing the function part of javascript. 

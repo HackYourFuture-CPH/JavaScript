@@ -1,0 +1,59 @@
+<head>
+        <title>HyfBay</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <header>
+                <div class="wrapper">
+                    <h1>HyfBay</h1>
+                    <h2>- Buy the okay'est products</h2>
+                </div>
+            </header>
+            <section class="table-view-control">
+                <div class="search">
+                    <label>What are you looking for?</label>
+                    <input type="text">
+                </div>
+                <div class="sort">
+                    <label>Sort:</label>
+                    <select>
+                        <option value="cheap">Cheap first</option>
+                        <option value="expensive">Expensive first</option>
+                        <option value="name">Name</option>
+                    </select>
+                </div>
+                <div class="filters">
+                    <div class="country">
+                        <label>Ships to</label>
+                        <select>
+                            <option value="denmark">Denmark</option>
+                            <option value="sweden">Sweden</option>
+                            <option value="norway">Norway</option>
+                            <option value="germany">Germany</option>
+                            <option value="iceland">Iceland</option>
+                            <option value="england">England</option>
+                        </select>
+                    </div>
+                    <div class="price">
+                        <input type="range" id="start" name="volume" min="0" max="11">
+                        <label for="volume">Lower Price:</label>
+                    </div>
+                </div>
+            </section>
+            <section class="products">
+                <ul></ul>
+            </section>
+            <section class="cart">
+                <h2>Your shopping cart</h2>
+                <div class="total">
+                    <p>Total price:<span></span></p>
+                </div>
+                <ul></ul>
+            </section>
+        </main>
+        <script src="hyfBayHelpers.js"></script>
+        <script src="main.js"></script>
+    </body>
