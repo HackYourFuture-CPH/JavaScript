@@ -6,6 +6,7 @@ class Quiz {
     }
 
     getQuestions () {
+        // ***write missing code
         // return promise
     }
 
@@ -21,10 +22,13 @@ class Quiz {
             }
 
             function addText() {
-               // return text
+                // ***write missing code
+                // return text
+               
             }
 
-            function addLabel() {          
+            function addLabel() {
+                // ***write missing code          
                 // return label
             }
 
@@ -32,8 +36,9 @@ class Quiz {
                 var openSelect = `<select id="answer-select">`
                 var closeSelect = `</select">`
                 var options = "";
-
-               // loop over answers and append option elements to options var
+            
+               // ***write missing code
+               // loop over questions and append option elements to options var
 
                 return openSelect + options + closeSelect;
             }
@@ -42,14 +47,19 @@ class Quiz {
         })
     }
     calculateScore() {
+        // ***write missing code
         // return score
     }
 }
 
+// ***write missing code
 // instantiate quiz with name
 
+// ***write missing code
 // render quiz
 
-// get store in button listener
+// ***write missing code
+// get score in button listener
+// add confetti
 
 

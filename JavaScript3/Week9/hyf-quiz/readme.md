@@ -7,7 +7,7 @@ You will in pairs you will create the quiz tool using all the cool skills you ha
 ## The task
 
 ### The html file
-You will use the html file i have already written. It has some styles, a js file that has a helper function a confetti library and a main.js where you will be writing your javascript. 
+You will use the html file i have already written. It has some styles, a js file, a confetti library and a main.js where you will be writing your javascript. 
 The html contains a some different tags. The ones you will be working with are the following:
 * The p tag will the class loading
 * The ul tag with the class questions
@@ -55,16 +55,16 @@ To see how the confetti library (i already loaded) works look here: https://gith
 ## Recomended order of implementation
 You can off course write the code in the order you want to, but here is a suggestion:
 1. Create the `Quiz` class. 
-1. Create the fetching questions method.
-1. Create the render questions method. Render the questions with the title and the content in a li element and append these questions to the ul.
-2. Update the render questions method. Inside of the individual li elements add the select tag with the given options for the question.
-3. Add a click listener to the button. When a user clicks it just log out 'user clicked button'.
-4. Create the get score method. When a user clicks the button calculate the score using the method. 
-6. Render the score to the user. 
+2. Create the fetching questions method.
+3. Create the render questions method. Render the questions with the title and the content in a li element and append these questions to the ul.
+4. Update the render questions method. Inside of the individual li elements add the select tag with the given options for the question.
+5. Add a click listener to the button. When a user clicks it just log out 'user clicked button'.
+6. Create the get score method. When a user clicks the button calculate the score using the method. 
+7. Render the score to the user. 
 
 If you have any questions please ask and if you have more time try adding extra features like. 
 * Let the user choose what difficulty the rendered questions should be. 
-* Dependent on the score a user gets, show specific text to that user. 
+* Dependening on the score a user gets, show specific text to that user. 
 * Create your own quiz here: https://gist.github.com/ Adding a json file in the same format. Create a new quiz using the factory function!
 * And be creative!!!11!!
 
