@@ -4,8 +4,9 @@
   - [ ] [Map](#map)
   - [ ] [Filter](#filter)
 - [ ] [Arrow function](#Arrow-functions)
+<!---
 - [ ] Code flow, using the [call stack](../../JavaScript1/Week3/readme.md#call-stack)
-
+-->
 ## Relevant links
 * [Preparation](preparation.md)
 * [Homework](homework.md)

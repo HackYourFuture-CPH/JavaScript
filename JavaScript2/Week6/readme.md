@@ -1,13 +1,11 @@
 ## Learning goals
 
 Functions advanced
-- [ ] Callback function
+- [ ] Function as a variable
   - [ ] Calling a function with a function
-  - [ ] Function as variable
-  - [ ] Anonomyous function vs named function
-- [ ] Asyncronicity
+- [ ] Callback function and asyncronicity
   - [ ] setTimeout, addEventListener
-- [ ] Scope
+- [ ] Anonomyous function vs named function
 
 
 ## Relevant links

@@ -1,11 +1,11 @@
 ## Learning goals
 - [ ] Intro JavaScript (What is it, what can you use it for)
 - [ ] Setup js either via browser or via node
-- [ ] [Variables: var, let, const](#variables)
 - [ ] Console.log
-- [ ] Errors: How to read and fix errors
+- [ ] [Variables: var, let, const](#variables)
 - [ ] [Types](#variable-types): [String](#String), [number](#Number), boolean, [null, undefined](#Null--undefined), [array](#Array)
 - [ ] [Operators](#comparison-operators): Comparision, addition, subtraction, multiplication, division, modulus, increment, decrement
+- [ ] Errors: How to read and fix errors
 
 Focus on how to read documentation, google answers and google errors
 
