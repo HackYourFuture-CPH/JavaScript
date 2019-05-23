@@ -54,40 +54,106 @@ So the data type of what `typeof` returns is always a string, bar on the other h
 
 ## Functions
 
-A function is a reusable piece of code. Functions are *very* important in JavaScript, to the extent that some people call JavaScript a "function-oriented" language. As mentioned above, variables can be of type function. In fact, *every function is a variable*.
+A function is a reusable piece of code. It is used to hide away abstraction! Functions are *very* important in JavaScript, to the extent that some people call JavaScript a "function-oriented" language. 
 
-The following two pieces of code have the exact same result:
+### Two sides of a function
+
+There are two sides to using function, using a function (calling a function) and creating a function.
+
+#### Function usage
+
+When you call a function some javascript code is run. Here's a simple example:
 
 ```js
+const randomNumber = Math.random();
+console.log(randomNumber); // logs out some number between 0 and 1
+```
+
+Here `Math.random` is a function. To activate the function we call it using paranthesis `()`. When calling it we get a randomNumber! We now dont need to think about all the code it takes to create a random number in javascript, we simply call the function and get a random number. Code has been abstracted away for us!
+
+Some functions is called with arguments fx:
+
+```js
+const maxNumber = Math.max(3,5); // 3 and 5 are arguments
+console.log(maxNumber); // logs out 5
+```
+
+Arguments are used to control the code inside a function.
+
+#### Function creation
+
+When we create a function we use the function keyword:
+
+```js
+let todoItem = 'Buy Groceries';
+console.log(todoItem);
+
+// Create the function
+function checkItem() {
+    todoItem = todoItem + ' - done';
+}
+
+// use the function by calling it using ()
+// If we dont call the function that code will NEVER EVER IN A MILLION YEARS run!
+checkItem();
+console.log(todoItem);
+```
+
+```js
+// a and b are called parameters. This function has two parameters
 function sum(a, b) {
-  return a + b;
+    return a + b;
 }
 ```
 
-and
 
 ```js
-let sum = function (a, b) {
-  return a + b;
-}
+// 5 and 10 are called arguments now when called in a function
+// Arguments are "passed" to the function: "we pass `4` and `5` to the function sum
+const returnedSum = sum(5, 10);
+console.log(returnedSum); // logs 15
 ```
-
-> Note
->
-> This is not entirely true, as in the second code, the function is "anonymous", i.e. it has no name. But in both cases, you can call the function like this: `sum(4, 5)`.
-
-### Parameters & arguments
-
-When writing `function sum(a, b)`, `a` and `b` are the "parameters" of the function. We say that this function has two parameters. (Sometimes, you'll see the word "arity": this function has "arity" 2, but that is something you don't have to use for now.)
-
-Now, when *calling* function sum, e.g. `var s = sum(4, 5);`, we say that the numbers `4` and `5` are the "arguments" of the function. Arguments are "passed" to the function: "we pass `4` and `5` to the function `sum`".
 
 So remember the difference between the word "parameter" and "argument". Many people confuse them, and that's not a big problem, but understanding the difference is always nice:
 
 * A parameter is the name you want to give to the variable that is available inside of the function.
 * An argument is the actual value you want to assign to the parameters when you call the function.
 
-A function that "has two parameters" is also said to "take/accept two arguments". But, sometimes you'll hear people say: "the function has two arguments" or "the function takes two parameters". While formally incorrect, you'll know what they mean.
+Parameters acts as a placeholder for the arguments. The value of the parameter will get substituted with the value of the argument.
+
+```js
+function multiply(a, b) {
+    // the value of a will be substituted with the value of 10!
+    // the value of b will be substituted with the value of 4!
+    console.log(a, b); // logs out 10 4
+    return a * b;
+}
+
+multiply(10 * 4);
+
+```
+
+##### Return value
+Sometimes we want to get a value back when calling a function. Fx in the sum example. We want to call the function and get the sum back!
+
+```js
+function sum(a, b) {
+    return a + b;
+}
+const returnedSum = sum(5, 10); // the variable returnedSum captures the return value from calling the function!
+console.log(returnedSum); // logs 15
+
+// If we dont return, we cannot capture the returned value!
+function sumNoReturn(a, b) {
+    a + b; // no return!
+}
+const returnedSum = sum(5, 10);
+console.log(returnedSum); // logs undefined
+
+```
+
+If we dont return anything from the function, it will automatically return `undefined`. This is the functions way of saying that nothing was returned.
+
 
 ### Calling a function on something
 
@@ -98,10 +164,6 @@ let s = " this is a string  ";
 s.trim(); // -> "this is a string"
 ```
 
-> Note
->
-> Technically, this means that the string `s` will become the `this` special variable inside of the function.
-
 However, there are functions that you don't call on anything:
 
 ```js
@@ -111,21 +173,3 @@ sum(4, 5); // -> 9
 
 Here, you call the function `sum` on nothing.
 
-Most built-in functions in JavaScript, like math functions or logging functions, also use the dot:
-
-```js
-Math.round(4.5);
-console.log("hello");
-Array.from([1, 2, 3]);
-```
-
-Indeed, these functions are also called "on" `Math`, `console`, `Array`, and so on. However, in this case, their purpose is more to group them logically, so here it's not very important to use that terminology. We'd rather say: "call the function `Math.round` with `4.5` as an argument", i.e. we include it in the full name of the methods.
-
-It's more when you think about which functions you can call "on" your own variables (strings, arrays, numbers, etc):
-
-```js
-myString.trim();
-myArray.slice();
-myNumber.toString();
-...
-```
