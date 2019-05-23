@@ -12,6 +12,7 @@ Focus on how to read documentation, google answers and google errors
 ## Relevant links
 * [Preparation](preparation.md)
 * [Homework](homework.md)
+* [Lesson plan](lesson-plan.md)
 
 ## Variables
 

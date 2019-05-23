@@ -9,6 +9,7 @@ Teaching note. Start off explaining functions with how to use a function fx expl
 ## Relevant links
 * [Preparation](preparation.md)
 * [Homework](homework.md)
+* [Lesson plan](lesson-plan.md)
 
 ### Recap Logical operators:
 

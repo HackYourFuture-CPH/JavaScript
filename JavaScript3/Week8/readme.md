@@ -4,6 +4,7 @@
 # Relevant links
 * [Preparation](preparation.md)
 * [Homework](homework.md)
+* [Lesson plan](lesson-plan.md)
 
 ## Promise chaining
 Just like we can chain array functions like this:
