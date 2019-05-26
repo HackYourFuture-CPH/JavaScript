@@ -128,7 +128,7 @@ Try out all the cases:
 
 To see your code applied on a webapp, go here: https://codepen.io/hackyourfuture-cph/pen/PLPmOB and paste your javascript code. 
 
-### Candy helper
+### Candy helper *optional*
 > We are at the candystore. We have taken some shovels of the **caramel-strawberry-cola-lemon-gravy winegums**, a few of the **banana chocolate diesel-motors** and a handful of the **salmon-potato covered toffee encrusted pizzas**. But what is all this worth? And can you even afford it? 
 
 Let's solve this problem with some functions. 
