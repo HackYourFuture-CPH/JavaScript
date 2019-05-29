@@ -25,18 +25,21 @@ Please add your freecodecamp username as answer for this exercise!
 
 ### Item array removal
 
+Remove the item in `names` that is equal to `nameToRemove`
+
+Copy the code below to your homework
+
 ```js
 
-const numbersArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const randomNumber = parseInt(Math.random() * 11);
+const names = ['Peter', 'Ahmad', 'Yana', 'kristina', 'Rasmus', 'Samuel', 'katrine', 'Tala'];
+const nameToRemove = 'Ahmad';
 
 // Write some code here
 
-```
-Copy the above code to your homework
+// Code done
 
-1. Remove the item in `numbersArray` that is equal to `randomNumber`
-1. *Optional* create a variable `numbersToRemove`. In a loop remove the number of items equal to `numbersToRemove`. Remember to have randomNumber inside of the forloop
+console.log(names); // ['Peter', 'Yana', 'kristina', 'Rasmus', 'Samuel', 'katrine', 'Tala']
+```
 
 ---
 
@@ -44,7 +47,7 @@ Copy the above code to your homework
 ### When will we be there??
 Write a function where you speficy your speed in `km/h` and how far you have to go in `km`. The function has to return the time it will take to arrive at your destination. The time should be formatted like this: `3 hours and 34 minutes`.
 
-```
+```js
 const speed = 50;
 const destinationDistance = 432;
 const travelTime = notThisFunctionName(speed, destinationDistance);
@@ -210,7 +213,7 @@ Come up with a unique feature **you think would make this app better.** Write do
 
 Try an **interactive version 💻 of your code** [here](https://codepen.io/hackyourfuture-cph/pen/GeMzdE). Remember to insert your code in the top of the codepen :)
 
-### CactusIO-interactive (Smart phone usage app)
+### CactusIO-interactive (Smart phone usage app) *optional*
 > After a long day you come home to relax. The first thing you do is find your phone and start watching some youtube. Then check facebook, and then reading some news. Suddently a hour has passed. What happened to all that time you think to yourself. Maybe we can create some program to help with this problem! What if we could help users manage their smart phone usage?
 
 Its going to work like this: A user can add smartphone activities. Then he can see a status on how his smartphone usage is going. 
