@@ -1,0 +1,13 @@
+h1 {
+  color: blue;
+}
+
+.red-bg {
+  background-color: red;
+}
+
+img {
+  display: block;
+  margin: 10px;
+  border: 5px solid black;
+}
