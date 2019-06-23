@@ -1,0 +1,10 @@
+.cat {
+  position: absolute;
+  top: 100px;
+  left:100px;
+}
+
+body {
+  width: 10000px;
+  height: 10000px;
+}
