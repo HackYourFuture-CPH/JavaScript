@@ -106,7 +106,16 @@ Go over your homework one last time:
 - Do the variable, function and argument names you created follow the [Naming Conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)?
 - Is your code well-formatted (see [Code Formatting](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md))?
 
-If you can answer yes to the above questions then you are ready to hand if the homework:
-* Find the hyf-homework git repo (forked from [here](https://github.com/HackYourFuture-CPH/hyf-homework))
-* Add your homework files in the Javascript/javascript2/week3 folder
-* To submit the homework use the link in the top of your classes slack channel. 
+![check](https://media.giphy.com/media/l4EpblDY4msVtKAOk/giphy.gif) 
+
+If you can answer yes to the above questions then you are ready to hand if the homework: 
+
+- Use the `hyf-homework` repo and add your homework files in the `javascript/javascript2/week2` folder
+- Make your commits for the homework. Remember to seperate the code into meaningful commits!
+- Push the changes to github
+- To finish the homework post the link for your repo and the rendered index.html on your classes slack channel
+
+---
+
+🎉
+
