@@ -16,7 +16,7 @@ Please add your freecodecamp username as answer for this exercise!
 
 You have finished the warmup exercises, well done!
 
-## Step 4: Smart-ease - We help where we can
+## Step 3: Smart-ease - We help where we can
 Enough warm up, lets get to the real problems! We will assume a real world business case where you (the developer) needs to help a business that is starting up (a startup) with solving some of their problems related to JavaScript! Here we go:
 
 ---
@@ -79,7 +79,7 @@ const randomNumber = Math.floor(Math.random() * 10) + 0
 To be continued...
 
 
-## Step 5: Hand in Homework:
+## Step 4: Hand in Homework:
 
 Steps:
 * Use the ```hyf-homework``` repo and add your homework files in the ```javascript/javascript1/week1``` folder
