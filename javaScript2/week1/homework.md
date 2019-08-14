@@ -66,7 +66,7 @@ We have been **hired for a company** to do a SPA - Single Page App for them. It 
 We are going to be building this website step by step, so have patience :)
 
 ### Lets get started!
-In the [homework/hyf-bay folder](homework/hyf-bay) there is a project you should continue working on. So copy all the files into your hyf-homework/Javascript/javascript2/week4 folder.
+In the [homework/hyf-bay folder](homework/hyf-bay) there is a project you should continue working on. So copy all the files into your hyf-homework/Javascript/javascript2/week1 folder.
 
 Open the `index.html` file in a browser and take a look at the site and the html by inspecting the website. 
 

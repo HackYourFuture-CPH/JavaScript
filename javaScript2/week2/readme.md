@@ -5,7 +5,7 @@
   - [ ] [Filter](#filter)
 - [ ] [Arrow function](#Arrow-functions)
 <!---
-- [ ] Code flow, using the [call stack](../../JavaScript1/Week3/readme.md#call-stack)
+- [ ] Code flow, using the [call stack](../../javaScript1/week3/readme.md#call-stack)
 -->
 ## Relevant links
 * [Preparation](preparation.md)

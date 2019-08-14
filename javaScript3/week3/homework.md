@@ -38,7 +38,7 @@ Instead of the circles just randomly appearing on the screen, make them appear a
 ## Getting into promises
 Lets use the github api to see **what repositories different users have**. You can use this url to get repositories for a specific github username, in this case the username `benna100`: `https://api.github.com/search/repositories?q=user:benna100`. Select 3 classmates github username that you want to show repositories for.
 
-Fetch all the 3 classmates repositories **at the same time using Promise.all.** Remember the **all at once** exercise [here?](../Week8/homework.md#visual-promise)
+Fetch all the 3 classmates repositories **at the same time using Promise.all.** Remember the **all at once** exercise [here?](../week2/homework.md#visual-promise)
 
 When you have the data for the different repositories, **render the fullname** of the repo, **url** of the repo, and **the owner** of the repo. See [github-repos](homework/github-repos.html) as an example of how the renderered repos should look. You are more than welcome to style it a bit nicer!
 
