@@ -17,13 +17,13 @@ This JavaScript course is divided in three modules. Starting from the simple use
 
 ## Module goals:
 
-### [Week 1-4:](/javaScript1)   
+### [Week 1-4:](/javascript1)   
 A basic program with multiple functions (reacting to user input)
 
-### [Week 5-7:](/javaScript2)
+### [Week 5-7:](/javascript2)
 A tool capable of loading a JSON file and representing it in the DOM
 
-### [Week 8-10:](/javaScript3)
+### [Week 8-10:](/javascript3)
 A web app with external data source using at least one API
 
 ### Overall
