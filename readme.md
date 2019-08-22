@@ -1,7 +1,6 @@
-> Please help us improve and share your feedback! If you find better tutorials or links, please share them by opening a Pull Request.   
+> Please help us improve and share your feedback! If you find better tutorials or links, please share them by opening a [Pull Request](https://github.com/HackYourFuture-CPH/JavaScript/pulls).   
 > 
-> **Kind note:**  
-We expect you to **always** come prepared to the class on Sunday.
+
 <h1 align='center'>
  HackYourJavaScript
 </h1>   
