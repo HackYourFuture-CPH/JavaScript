@@ -11,25 +11,21 @@ function checkIfExists(character){
     // console.log(characters[i].character)
     // console.log(character)
     if(characters[i].character === character){
-      return true;
+      return i;
     }
   }
-  return false;
+  return -1;
 }
 
-function addToCount(character){
-  for(let i = 0; i < characters.length; i++){
-    if(characters[i].character === character){
-      characters[i].count += 1;
-      return;
-    }
-  }
+function addToCount(idx){
+  characters[idx].count += 1;
 }
 
 for(let i = 0; i < word.length; i++){
   const character = word[i];
-  if( checkIfExists(character) ){
-    addToCount(character);
+  const idx = checkIfExists(character);
+  if( idx !== -1 ){
+    addToCount(idx);
   } else {
     addCharacter(character);
   }
