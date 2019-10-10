@@ -1,0 +1,24 @@
+.square {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.big {
+    width: 400px;
+    height: 400px;
+}
+
+.small {
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
