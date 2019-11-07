@@ -1,0 +1,17 @@
+[
+  {
+    "foo": "bar",
+    "a": {
+      "b": "c"
+    },
+    "n": 42,
+    "b": true,
+    "c": false,
+    "d": [
+      "Rasmus",
+      "Hansen"
+    ],
+    "e": null,
+    "f": ""
+  }
+]
