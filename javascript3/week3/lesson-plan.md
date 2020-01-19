@@ -188,8 +188,10 @@ Now add the functionality for the methods in the `CV` class.
 
 ```js
 class CV {
-  constructor(jobs, educations, email) {
-    // write code here
+  constructor(email) {
+    this.jobs = [];
+    this.educations = [];
+    //this.email = ?
   }
 
   addJob(job) {
