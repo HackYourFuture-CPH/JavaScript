@@ -8,7 +8,8 @@ function renderProducts(products) {
     products.forEach(product => {
         const li = document.createElement('li');
 
-        const shipsToHTML = product.shipsTo.reduce((acc, country) => `<li>${acc}</li><li>${country}</li>`);
+        let shipsToHTML = '';
+        product.shipsTo.forEach(country => shipsToHTML += `<li>${country}</li>`);
 
         li.innerHTML = `
             <ul>

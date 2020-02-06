@@ -1,7 +1,6 @@
-> Please help us improve and share your feedback! If you find better tutorials or links, please share them by opening a Pull Request.   
+> Please help us improve and share your feedback! If you find better tutorials or links, please share them by opening a [Pull Request](https://github.com/HackYourFuture-CPH/JavaScript/pulls).   
 > 
-> **Kind note:**  
-We expect you to **always** come prepared to the class on Sunday.
+
 <h1 align='center'>
  HackYourJavaScript
 </h1>   
@@ -18,13 +17,13 @@ This JavaScript course is divided in three modules. Starting from the simple use
 
 ## Module goals:
 
-### [Week 1-4:](/javaScript1)   
+### [JS1 Module:](/javascript1)   
 A basic program with multiple functions (reacting to user input)
 
-### [Week 5-7:](/javaScript2)
+### [JS2 Module:](/javascript2)
 A tool capable of loading a JSON file and representing it in the DOM
 
-### [Week 8-10:](/javaScript3)
+### [JS3 Module:](/javascript3)
 A web app with external data source using at least one API
 
 ### Overall
