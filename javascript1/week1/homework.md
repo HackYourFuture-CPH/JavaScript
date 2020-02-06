@@ -81,7 +81,9 @@ To be continued...
 
 ## Step 4: Hand in Homework:
 
-Use the `hyf-homework` repo and find folder that locally on your cumputer
+We are going to be handing in homework using something called a **pull request (now PR)**. The reason for that is that **most companies use PR's** when they work with code. So you might aswell get used to it! **Okay, lets go!**
+
+Use the `hyf-homework` repo and find the folder that contains this repo
 
 -----
 
@@ -93,7 +95,7 @@ git checkout -b javascript/javascript1/week1
 
 -----
 
-To add your files go to the folder `javascript/javascript1/week1`. Here you add all the files relevant for the homework. Remember to seperate the code into meaningful commits. You can now push the commits
+To add your files go to the folder `javascript/javascript1/week1`. Here you **add all the files relevant for the homework**. Remember to **seperate the code into meaningful commits**. You can now push the commits
 
 ```
 git add .
@@ -105,11 +107,21 @@ git push origin javascript/javascript1/week1
 
 Go into the `hyf-homework` repo on https://github.com/ click on the `Pull requests` tab and then click the `New pull request` button
 
-Where it says compare, choose the `javascript/javascript1/week1` branch. Just keep the pull request title as it is. You can leave a comment if you want. Now click `Create pull request`. You have now handed in homework, but you are not quite done yet
+![Create new pull request](#assets/create-new-pull-request.jpg)
+
+Where it says compare, choose the `javascript/javascript1/week1` branch. Just keep the PR title as it is. You can leave a comment if you want. Now click `Create pull request`. 
+
+![Create new pull request](#assets/open-a-pull-request.jpg)
+
+You have now handed in homework, but you are not quite done yet
 
 ---
 
-A mentor will at some point look through your code and give you some comments. Based on the feedback, implement changes to the homework. Then add, commit and push these changes.
+A mentor will look through your code and give you some feedback. 
+
+![Pull request comment](#assets/pull-request-comment.jpg)
+
+Based on the feedback, implement improvements to the homework. Then add, commit and push these improvements.
 
 ```
 git add .
@@ -121,7 +133,11 @@ git push origin javascript/javascript1/week1
 
 Now you can merge the changes. Congrats, you are completely done with the homework 🎉🎉🎉
 
-https://www.youtube.com/watch?v=m6rwZLWrglA
+![Merge the pull request](#assets/merge-pull-request.jpg)
+
+Now it should look like this: 
+
+![Pull request done](#assets/pull-request-done.jpg)
 
 When merged you can **share the github link** to your classes slack channel if you are **proud of what you did** 💪
 
