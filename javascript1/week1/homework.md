@@ -81,9 +81,15 @@ To be continued...
 
 ## Step 4: Hand in Homework:
 
-We are going to be handing in homework using something called a **pull request (now PR)**. The reason for that is that **most companies use PR's** when they work with code. So you might aswell get used to it! **Okay, lets go!**
+We are going to be handing in homework using something called a **pull request (now PR)**. The reason for that is that **most companies use PR's** when they work with code. So you might aswell get used to it! 
 
-Use the `hyf-homework` repo and find the folder that contains this repo
+Watch [this video](https://www.youtube.com/watch?v=feyBVDhFQuk) to go through the same process as is documented here
+
+**Okay, lets go!**
+
+-----
+
+Use the `hyf-homework` repo and find the folder on your computer that contains this repo
 
 -----
 
