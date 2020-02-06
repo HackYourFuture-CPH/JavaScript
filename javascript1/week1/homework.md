@@ -81,11 +81,55 @@ To be continued...
 
 ## Step 4: Hand in Homework:
 
-Steps:
-* Use the ```hyf-homework``` repo and add your homework files in the ```javascript/javascript1/week1``` folder
-* Make your commits for the homework. Remember to seperate the code into meaningful commits!
-* Push the changes to github
-* Share the github link to your classes slack channel. 
+- Remember to seperate the code into meaningful commits!
+
+Use the `hyf-homework` repo and find folder that locally on your cumputer
+
+-----
+
+Create a new branch called `javascript/javascript1/week1` and checkout this branch 
+
+**Git command**
+```
+git checkout -b javascript/javascript1/week1
+```
+
+-----
+
+To add your files go to the folder `javascript/javascript1/week1` here you add all your files relevant for this homework, commit them and push them
+
+**Git command**
+```
+git add .
+git commit -m "homework"
+git push origin javascript/javascript1/week1
+```
+
+-----
+
+Now you go into the `hyf-homework` repo on https://github.com/ click on the `Pull requests` tab and then click the `New pull request` button
+
+Where it says compare, choose the `javascript/javascript1/week1` branch. Just keep the pull request title as it is. You can leave a comment if you want. Now click `Create pull request`. You have now handed in homework, but you are not quite done yet
+
 ---
 
-And thats it your are done 🎉
+A mentor will at some point look through your code and give you some comments. Based on the feedback, implement changes to the homework. Then add, commit and push these changes.
+
+**Git command**
+```
+git add .
+git commit -m "Implemented feedback"
+git push origin javascript/javascript1/week1
+```
+
+---
+
+Now you can merge the changes. Congrats, you are now completely done with the homework 🎉🎉🎉
+
+https://www.youtube.com/watch?v=m6rwZLWrglA
+
+When merged you can **share the github link** to your classes slack channel if you are **proud of what you did** 💪
+
+---
+
+And thats it you are done 🎉
