@@ -276,21 +276,15 @@ the Bonus homework for this week (for those of you want an extra challenge) do t
 
 Go to http://roverjs.com/ and complete the functions and arrays chapters. 
 
-## Step 5: Hand in Homework:
-Go over your homework one last time:
+## Step 5: Hand in Homework
 
-- Does every file run without errors and with the correct results?
-- Have you used `const` and `let` and avoided `var`?
-- Do the variable, function and argument names you created follow the [Naming Conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)?
-- Is your code well-formatted (see [Code Formatting](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md))?
+Watch [this video](https://www.youtube.com/watch?v=feyBVDhFQuk) for a more detailed go-through of how to hand in homework!
 
-If you can answer yes to the above questions then you are ready to hand if the homework: 
-
-* Use the `hyf-homework` repo and add your homework files in the `javascript/javascript1/week3` folder
-* Make your commits for the homework. Remember to seperate the code into meaningful commits!
-* Push the changes to github
-* Share the github link to your classes slack channel. 
-
----
-
-🎉
+- Create a new branch called `javascript/javascript1/week3` 
+- Add all your changes to this branch in the `javascript/javascript1/week3` folder. 
+- Create a pull request using the `javascript/javascript1/week3` branch
+- Wait for mentor feedback
+- Implement feedback, `add`, `commit` and `push` the changes
+- Now you can merge the changes into `master`
+- When merged you can **share the github link** to your classes slack channel if you are **proud of what you did** 💪
+- Now celebrate 🎉🎉🎉

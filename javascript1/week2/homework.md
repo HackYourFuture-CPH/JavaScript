@@ -172,11 +172,14 @@ Hint: Use a for loop to calculate the total price of the candy pieces.
 Go and try out this cool game: [roverjs.com](http://roverjs.com), written by one of the HYF teachers from Amsterdam, [Joost Lubach](https://github.com/joost). There are different levels. Solve the chapter up until and including the variables chapter. 
 
 ## Step 5: Hand in Homework:
-Steps:
-* Use the ```hyf-homework``` repo and add your homework files in the ```javascript/javascript1/week2``` folder
-* Make your commits for the homework. Remember to seperate the code into meaningful commits!
-* Push the changes to github
-* Share the github link to your classes slack channel. 
----
 
-And thats it your are done 🎉
+Watch [this video](https://www.youtube.com/watch?v=feyBVDhFQuk) for a more detailed go-through of how to hand in homework!
+
+- Create a new branch called `javascript/javascript1/week2` 
+- Add all your changes to this branch in the `javascript/javascript1/week2` folder. 
+- Create a pull request using the `javascript/javascript1/week2` branch
+- Wait for mentor feedback
+- Implement feedback, `add`, `commit` and `push` the changes
+- Now you can merge the changes into `master`
+- When merged you can **share the github link** to your classes slack channel if you are **proud of what you did** 💪
+- Now celebrate 🎉🎉🎉

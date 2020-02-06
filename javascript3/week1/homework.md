@@ -84,22 +84,23 @@ The feedback should be given after the homework has been handed in preferably la
 To help you get started we have created some ressources about giving feedback. Find them here: https://github.com/HackYourFuture-CPH/curriculum/tree/master/review
 
 ## Hand in Homework:
+
+Watch [this video](https://www.youtube.com/watch?v=feyBVDhFQuk) for a more detailed go-through of how to hand in homework!
+
+- Create a new branch called `javascript/javascript3/week1` 
+- Add all your changes to this branch in the `javascript/javascript3/week1` folder. 
+- Go through the [Homework checklist](#homework-checklist)
+- Create a pull request using the `javascript/javascript3/week1` branch
+- Wait for mentor feedback
+- Implement feedback, `add`, `commit` and `push` the changes
+- Now you can merge the changes into `master`
+- When merged you can **share the github link** to your classes slack channel if you are **proud of what you did** 💪
+- Now celebrate 🎉🎉🎉
+
+## Homework checklist
 Go over your homework one last time:
 
-- Does every file run without errors and with the correct results?
-- Have you used `const` and `let` and avoided `var`?
-- Do the variable, function and argument names you created follow the [Naming Conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)?
-- Is your code well-formatted (see [Code Formatting](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md))?
-
-![check](https://media.giphy.com/media/l4EpblDY4msVtKAOk/giphy.gif) 
-
-If you can answer yes to the above questions then you are ready to hand if the homework: 
-
-- Use the `hyf-homework` repo and add your homework files in the `javascript/javascript3/week1` folder
-- Make your commits for the homework. Remember to seperate the code into meaningful commits!
-- Push the changes to github
-- To finish the homework post the link for your repo and the rendered index.html on your classes slack channel
-
----
-
-🎉
+- [ ] Does every file run without errors and with the correct results?
+- [ ] Have you used `const` and `let` and avoided `var`?
+- [ ] Do the variable, function and argument names you created follow the [Naming Conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)?
+- [ ] Is your code well-formatted (see [Code Formatting](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md))?
