@@ -83,8 +83,10 @@ class ShoppingCart {
     }
 }
 
+const shoppingCart = new ShoppingCart();
 const flatscreen = new Product('flat-screen', 5000);
-const shoppingCart = new ShoppingCart([flatscreen]);
+shoppingCart.addProduct(flatscreen);
+
 ```
 
 So we have two classes. `Product` represents products. `ShoppingCart` represents a shopping cart. 
