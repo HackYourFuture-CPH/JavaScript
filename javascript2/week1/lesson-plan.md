@@ -22,15 +22,17 @@ If you find anything that could be improved then please create a pull request! W
   - Client vs server
   - Where is the script tag being loaded
 
-- DOM manipulation
-  - Get elements
-  - Create elements
-  - Insert elements - let students investigate `appendChild`, `insertBefore`
-  - Element manipulation (`style`, `innerHTML`, `text`)
-  - Document object
-  - [Code inspiration simple](#dom)
-  - [Code inspiration change logo](#change-logo)
-  - Exercises: [Favorite dishes](#favorite-dishes), [podcasts](#podcast), [image inserter](#image-inserter)
+DOM
+  - What is it and what do developers use the DOM for?
+  - DOM manipulation
+    - Get elements
+    - Create elements
+    - Insert elements - let students investigate `appendChild`, `insertBefore`
+    - Element manipulation (`style`, `innerHTML`, `text`)
+    - Document object
+    - [Code inspiration simple](#dom)
+    - [Code inspiration change logo](#change-logo)
+    - Exercises: [Favorite dishes](#favorite-dishes), [podcasts](#podcast), [image inserter](#image-inserter)
 
 - Event listeners - Focus on usage, no explanation of callback
   - Click, mouseover, etc. Explain one and let students investigate another, like mouseover or mousemove
