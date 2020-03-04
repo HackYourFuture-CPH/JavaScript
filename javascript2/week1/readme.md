@@ -4,12 +4,14 @@ Browser environment
 - [ ] Client vs server
 - [ ] Where is the script tag being loaded
 
-DOM manipulation
-- [ ] Get elements
-- [ ] Insert elements
-- [ ] Element manipulation (style, innerHTML, text)
-- [ ] Window object
-- [ ] Document object
+DOM
+- [ ] What is it and what do developers use the DOM for?
+- [ ] DOM manipulation
+    - [ ] Get elements
+    - [ ] Insert elements
+    - [ ] Element manipulation (style, innerHTML, text)
+    - [ ] Window object
+    - [ ] Document object
 
 Event listeners
 - [ ] Document onload
