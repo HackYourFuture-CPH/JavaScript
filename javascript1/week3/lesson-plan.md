@@ -83,6 +83,7 @@ const newUser = {
   age: ''
 }
 
+var students = []
 function addStudent(student) {
   if (student.name == null && typeof student.name === 'string') return 'Error'
   if (student.age == null) return 'Error'
