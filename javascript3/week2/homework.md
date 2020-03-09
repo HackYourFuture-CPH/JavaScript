@@ -26,6 +26,8 @@ makeUpYourOwnFunctionName(8)
     })
 ```
 
+When you have written the promise, use it with async/await
+
 ## Rewrite time
 Rewrite [setTimeout](https://developer.mozilla.org/ro/docs/Web/API/window.setTimeout) and [navigator.geolocation.getCurrentPosition](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API#JavaScript_Content) to promises. So instead of using [setTimeout](https://developer.mozilla.org/ro/docs/Web/API/window.setTimeout) and [navigator.geolocation.getCurrentPosition](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API#JavaScript_Content) with callbacks, use it as a promise.
 
@@ -49,11 +51,17 @@ getCurrentLocation()
 ```
 
 ## Fetching and waiting
-**Only using promises**
+
+1. Do the 3 steps below using promises and `.then`. 
+2. Do the 3 steps below using async/await
+
+The 3 steps:
+
 1. Fetch some data from an api.
-2. After that data has been fetched, wait 3 seconds
-3. Log out the data from the api
-4. *Optional* Now do all of these things using [chaining](readme.md#promise-chaining)
+1. After that data has been fetched, wait 3 seconds
+1. Log out the data from the api
+
+Which way do you prefer, the promise way or the async/await way?
 
 ## Visual promise
 This task is about visually understanding the difference between Promise.all and calling a promise one at a time.
