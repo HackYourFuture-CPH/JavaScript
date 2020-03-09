@@ -7,20 +7,24 @@ Since promises is becoming standard in javascript, new browser api's use promise
 
 
 ### Movies exercise
-This exercise is repetition of array functions. 
+This exercise is repetition of array functions. Dont use cahining or anything fancy. Just fetch the movies and use the correct array function to get the following movies:
 
-Fetch movies from this api: `https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json`
+Fetch movies from [this api](https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json): 
 
 1. Create an array of bad movies
 2. Creat an array of bad movies since year 2000
-3. Create an array of the titles of the bad movies since year 2000
 
 ## Promise that resolves after set time
 Create a function that has one parameter: `resolveAfter`. **Calling this function** will **return a promise** that resolves after the `resolveAfter` seconds has passed. 
 
-Here is an example: `makeUpYourOwnFunctionName(3)` will return a promise that resolves after 3 seconds.
+Here is an example of how to use the promise
 
-Use the `makeUpYourOwnFunctionName` to log out the string `I am called asynchronously` after 6 seconds.
+```js
+makeUpYourOwnFunctionName(8)
+    .then(() => {
+        console.log('I am called asynchronously'); // logged out after 8 seconds
+    })
+```
 
 ## Rewrite time
 Rewrite [setTimeout](https://developer.mozilla.org/ro/docs/Web/API/window.setTimeout) and [navigator.geolocation.getCurrentPosition](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API#JavaScript_Content) to promises. So instead of using [setTimeout](https://developer.mozilla.org/ro/docs/Web/API/window.setTimeout) and [navigator.geolocation.getCurrentPosition](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API#JavaScript_Content) with callbacks, use it as a promise.

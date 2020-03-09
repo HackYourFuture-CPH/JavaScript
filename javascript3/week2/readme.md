@@ -1,4 +1,5 @@
 # Learning Goals
+- [ ] Async/await
 - [ ] Promises
 
 # Relevant links

@@ -23,47 +23,105 @@ First when they fully understand one part of promises, i move on! Don't overcomp
 
 This class is a little poor on real world examples. Make a PR if you ahve any good ideas!
 
+- Async/await - simple introduction focused on usage
+  - Quickly recap asynchronicity
+    - Ask the students what it means that some code is asynchronous
+  - Practical example of async/await
+  - [Exercises 1](#exercise-1)
 - Promise
   - Why do we use promises?
-    - So important, the students always ask this!
+    - So important to explain this, the students always ask this!
     - https://stackoverflow.com/questions/39004567/why-do-we-need-promise-in-js
-  - Creation
-    - [Code inspiration](#promise-creation)
   - Consumption
     - [Code inspiration](#promise-comsumption)  
     - Example, call some function that returns a promise (like fetch)
-  - [Exercises 1](#exercise-1) and [Exercises 2](#exercise-2)
-  - Creating a function that returns a promise
-    - [Code inspiration](#function-that-returns-a-promise)  
-    - At my previous work we called a function `swipeCard` that sent two promises with Promise.all. One that waited for the swipe animation to finish and one that fetched data for the next card. When both of these promises were resolved we could animate in the next card. 
-  - [Exercises 3](#exercise-3)
-  - Chaining. Calling `.then` returns a promise
+    - [Exercises 2](#exercise-2)
+  - Creation
+    - [Code inspiration](#promise-creation)
+    - [Exercises 3](#exercise-3) and then [Exercises 4](#exercise-4)
+  - Chaining. Calling `.then` returns a promise. Only get to here when they understand async/await and promise consumption and creation.
     - [Code inspiration](#reason-for-promise)  
     - Reason for promise: https://mobile.twitter.com/addyosmani/status/1097035418657144832?s=19
   - `Promise.all` - Let students investigate
   - `Promise.race`
-  - [Exercises 4](#exercise-4) and [Exercises 5](#exercise-5)
+  - [Exercises 5](#exercise-5) and [Exercises 6](#exercise-6)
 
 At this point good coding practices is starting to get very important! Check our [coding best practices](https://github.com/HackYourFuture-CPH/curriculum/blob/master/review/review-checklist.md#javascript) and use these both when live coding but also in reviews.
 
 ## Code inspiration
 
-### Promise creation
+### Async/await - simple usage
+```js
+// Warm up exercise. The students has to say everything they can about a variable, ONLY from the variable name. Fx the type, what it returns, what object we could expect etc.
+// cars, car, title, getTitle, addTitle, isTitle, hasTitle, hasItem, users, year, yearIndex, user, review.
+```
 
 ```js
-// Warm up exercise. Guess the type, improve the students variable naming skills
-// cars, car, title, getTitle, addTitle, isTitle, hasTitle, hasItem, users, year, yearIndex, user, review.
+// DONT EXPLAIN WHAT ASYNC OR AWAIT DOES YET! Explain on a higher level:
+// You have to write async before a function for await to work. No details for now
+// await waits until we have fetched the data from the api. Or said in another way await waits until fetch has resolved with the data from the api
 
-// function creation
-function test() {
-    
+// write async before a function for await to work. What does it mean that something is asynchronous?
+async function getAstronauts() {
+    // await waits until we have data from fetch before it runs the next line. No need for callbacks 🤯
+    console.log("Before we fetch data");
+    const astronautsResponse = await fetch(
+        "http://api.open-notify.org/astros.json"
+    );
+    console.log(
+        "This is logged out after some time, even though the code looks synchronous! 🤯"
+    );
+    const astronauts = await astronautsResponse.json();
+    console.log("This is logged out after some time! 🤯");
+    console.log(astronauts);
+    return astronauts;
 }
 
+getAstronauts();
 
-// function usage
-console.log(test());
+```
 
-// Start as simple as possible:
+
+
+### Promise comsumption
+
+So how did the async/await example above actually work? Lets get into promises!
+
+If you have a promise, you can call two functions on that promise. '.then' and '.catch'. When are these functions called? What does it mean that a promise is resolved or rejected?
+
+
+The students should be able to answer these questions:
+// Question 1: What does it mean that a promise is resolved? Which method on a promise get called?
+// Question 2: What does it mean that a promise is rejected? Which method on a promise get called?
+// How would you explain your mom what resolved and rejected means?
+
+```js
+
+fetch("http://api.open-notify.org/astros.json")
+    .then((astronautsResponse) => astronautsResponse.json())
+    .then((astronauts) => {
+        console.log(astronauts);
+    })
+    .catch((error) => console.log(error));
+
+// https://codesandbox.io/s/scrollto-promise-example-0gjp6
+// If not working try chrome
+scrollTo("section.features")
+  .then(() => console.log("scrolling done"))
+  .catch(error => console.log(error));
+    
+
+// HAMMER in this point: 
+// When you have a promise you can call two functions on that promise (.then and .catch). '.then' is called when the promise is resolved. '.catch' is called when the promise is rejected. 
+```
+
+### Promise creation - A recepy for creating your own promise
+
+When you create a new promise you give it a function that has two functions as parameters (resolve and reject). Resolve is called when everything in a promise goes well. Reject is called when something goes wrong.
+
+```js
+
+// Start as simple as possible, no reject, just resolve!
 const oneSecondTimeoutPromise = new Promise(resolve => {
     setTimeout(() => {
         resolve();
@@ -71,42 +129,68 @@ const oneSecondTimeoutPromise = new Promise(resolve => {
 });
 
 
-// Promise creation
-const oneSecondTimeoutPromise = new Promise((resolve) => {
-    console.log(typeof resolve);
+// You can pass data in the resolve
+const oneSecondTimeoutPromise = new Promise(resolve => {
     setTimeout(() => {
-        const resolveObject = {
-            name: 'benjamin'
-        };
-        resolve(resolveObject);
+        resolve('1 second has passed');
     }, 1000);
 });
 
+oneSecondTimeoutPromise.then(timeoutData => {
+    console.log(timeoutData); // '1 second has passed'
+});
+
+const orderPizzaPromise = new Promise((resolve, reject) => {
+    const pizzaMakingTime = 10000;
+    const didPizzaBakingSucceed = true;
+    const pizza = 'Macaroni pizza';
+    setTimeout(() => {
+        if(didPizzaBakingSucceed) {
+            resolve(pizza);
+        } else {
+            reject('The pizza was a mess');
+        }
+    }, pizzaMakingTime);
+});
+
+orderPizzaPromise.then(pizza => {
+    console.log(`Lets eat the ${pizza}`);
+}).catch(error => {
+    console.log(`Lets eat the nothing`);
+})
+
 // HAMMER in this point: 
 // When you create a new promise you give it a function that has two functions as parameters (resolve and reject). Resolve is called when everything in a promise goes well. Reject is called when something goes wrong.
+
+// Compare function creation and consumption to promise creation and consumption
+// function creation
+function test() {
+    
+}
+
+// function usage
+console.log(test());
 ```
 
-### Promise comsumption
+### Back to async/await
+
+So writing `async` in front of a function makes it return a promise! The keyword `await` makes JavaScript wait until that promise resolved and returns its result.
 
 ```js
+async function getAstronauts() {
+    try {
+        const astronautsResponse = await fetch(
+            "http://api.open-notify.org/astros.json"
+        );
+        const astronauts = await astronautsResponse.json();
+        return astronauts;
+    } catch(err) {
+        throw "Fetchin the astronauts went wrong";
+    }
+}
 
-// Promise usage
-oneSecondTimeoutPromise
-    .then((benjaminString) => {
-        console.log('one second timeout done');
-        console.log(oneSecondTimeoutPromise);
-        console.log(benjaminString);
-    });
-    
-/*
-fetch('asduasd')
-    .then((response) => response.json())
-    .then((data) => {
-    });
-    */
+const astronauts = getAstronauts();
 
-// HAMMER in this point: 
-// When you have a promise you can call two functions on that promise (.then and .catch). .then is called when the promise is resolved .catch is called when the promise is rejected. 
 ```
 
 ### Reason for promise
@@ -196,35 +280,46 @@ makeTea()
 ## Exercises
 
 ## Exercise 1
-Lets use some promises:
+
+Using async await
 
 1. `fetch` yes or no from this api: `https://yesno.wtf/api`. log out the answer
-2. Get your battery level and if it is charging or not using `navigator.getBattery()` - use chrome browser
 
 ## Exercise 2
-1. Create a promise that resolves after 4 seconds. Use this promise to log out the text 'hello' after 4 seconds
-2. Create a promise that resolves with a string (you decide what the string should say) after 2 seconds. 
-3. Use the promise: When the promise is resolved console.log that string
-4. Now make the promise fail by rejecting it with an error message instead of resolving it, and log the error message to the console
+
+Using promises
+
+1. `fetch` yes or no from this api: `https://yesno.wtf/api`. log out the answer
+2. Try fetching a url that rejects fx `https://knajskdskj.jasdk`. Log out the error message
 
 ## Exercise 3
-This exercise could also be a lot more real world. If you have any ideas, please make a PR!
-
-Create a new function that returns a promise. This function should have one parameter: `successMessage`. 
-The promise should resolve after 1 second. When you resolve the promise, it should be resolved with the `successMessage` parameter. 
-
-Call the function with an argument, assign the return of the function to a variable (what type will that have?). Use the variable to log out the `successMessage`.
-
-Now add the possibility for the promise to also reject. Give the function a new parameter: `errorMessage`. When the promise is rejected it should be rejected with the `errorMessage` parameter.
-Now reject the promise after 1 second instead of resolving it. 
-
-give the function a third parameter: `shouldReject`. If `shouldReject` is true the promise being returned from the function should reject (with the `errorMessage` parameter) the promise. Otherwise the promise should resolve (with the `successMessage` parameter)
+1. Create a promise that resolves after 4 seconds. Use this promise to log out the text 'hello' after 4 seconds.
+2. Now make the promise fail by rejecting it with an error message instead of resolving it, and log the error message to the console.
 
 ## Exercise 4
-1. Get battery level
-1. After the battery level has been gotten, fetch the movies
-1. Log out the movies from [this api](https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json)
-1. Use chaining
+Create a function that returns a promise, that i can use like this:
 
-# Exercise 5
-Get battery level and the movies at the same time. Log out the movies and the battery status when both promises has been resolved. 
+```js
+// getLoggedInUsers should wait 5 seconds before it resolves with the users! 
+// Sometimes it should resolve and sometimes it should reject. 
+// Look into Math.random
+getLoggedInUsers()
+    .then(users => {
+        console.log(users); // ['benna', 'magdy', 'carolina']
+    }).catch(error => {
+        console.log(error);
+    });
+
+```
+
+The above example show how to consume the promise using promises. Now try consume the `getLoggedInUsers` using async/await
+
+## Exercise 5
+Using chaining
+
+1. Fetch the astronauts
+2. After the astronauts has been fetched, fetch movies using [this api](https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json)
+3. Log out the movies
+
+# Exercise 6
+Get the astronauts and the movies at the same time. Log out the movies and the battery status when both promises has been resolved. 

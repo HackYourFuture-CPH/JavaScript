@@ -1,0 +1,15 @@
+<audio
+  src="https://raw.githubusercontent.com/mdn/webaudio-examples/master/audio-basics/outfoxing.mp3"
+  crossorigin="anonymous"
+></audio>
+<script>
+  const audioCtx = new AudioContext();
+  const track = audioCtx.createMediaElementSource(
+    document.querySelector("audio")
+  );
+  const test = document.querySelector("audio");
+  test.play();
+  console.log(track);
+
+  track.resume();
+</script>
