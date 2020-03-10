@@ -29,7 +29,7 @@ makeUpYourOwnFunctionName(8)
 When you have written the promise, use it with async/await
 
 ## Rewrite time
-Rewrite [setTimeout](https://developer.mozilla.org/ro/docs/Web/API/window.setTimeout) and [navigator.geolocation.getCurrentPosition](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API#JavaScript_Content) to promises. So instead of using [setTimeout](https://developer.mozilla.org/ro/docs/Web/API/window.setTimeout) and [navigator.geolocation.getCurrentPosition](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API#JavaScript_Content) with callbacks, use it as a promise.
+Rewrite [setTimeout](https://developer.mozilla.org/ro/docs/Web/API/window.setTimeout) and [navigator.geolocation.getCurrentPosition](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API#JavaScript_Content) to promises. The `getCurrentPosition` function is probably going to throw an error, but that is fine. As long as you can use it as a promise.
 
 Example of usage
 
