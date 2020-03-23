@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello DOM</title>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8"/>
+</head>
+<body>
+	<h1 id="hello">Hello DOM</h1>
+	<p>Hi, my name is Document Object Model (DOM). I am a programming interface for HTML documents. I represent the page so that programs can change my structure, style and content. I represent the document as nodes and objects. That way, programming languages can connect to the page.</p>
+
+	<p>A Web page is a document. This document can be either displayed in the browser window or as the HTML source. But it is the same document in both cases. I, the Document Object Model (DOM), represent that same document so it can be manipulated. I am an object-oriented representation of the web page, which can be modified with a scripting language such as JavaScript.</p>
+
+	<p>I am implemented in most modern browsers as a tree structure, as shown here:</p>
+
+	<img id="domtree" width="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1024px-DOM-model.svg.png">
+
+	<h1>About me</h1>
+	<ul>
+		<li class="blue" style="text-decoration: underline;">21 years old</li>
+		<li style="color: red;">Born in the World Wide Web</li>
+		<li class="blue">Lives in the Web browser</li>
+		<li style="color: green;">Cross-platttform</li>
+	</ul>
+	<script type="text/javascript">
+		// Change style attributes of our HTML
+		const liTags = document.querySelectorAll('li');
+		for(let i = 0; i < liTags.length; i++){
+			liTags[i].setAttribute("class", "blue");
+			liTags[i].removeAttribute("style");
+		}
+
+		// Change content of our HTML
+		const h1Tag = document.getElementById("hello");
+		h1Tag.innerHTML = "Hello World";
+
+		// add element to list
+		const newLiTag = document.createElement('li')
+		newLiTag.innerHTML = "I am a tree structure"
+		const ulTag = document.querySelector('ul')
+		ulTag.appendChild(newLiTag)
+	</script>
+</body>
+</html>

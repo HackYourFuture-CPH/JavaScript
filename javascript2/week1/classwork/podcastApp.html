@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8"/>
+</head>
+<body>
+    <ul></ul>
+<script type="text/javascript">
+    const podcasts = [{
+            name: 'The mystery om of Johan Klausen Varbourg',
+            imageUrl: 'https://picsum.photos/536/354'
+        },
+        {
+            name: 'Tips about dogs with small legs',
+            imageUrl: 'https://picsum.photos/536/354'
+        },
+        {
+            name: 'You, me, we and us'
+        },
+        {
+            name: 'Breakfast news - Dinner edition',
+            imageUrl: 'https://picsum.photos/536/354'
+        }
+    ];
+
+    const ulTag = document.querySelector('ul')
+    for(let i = 0; i<podcasts.length; i++){
+        const podcast = podcasts[i]
+        const liTag = document.createElement('li')
+        liTag.innerText = podcast.name
+        ulTag.appendChild(liTag)
+        if("imageUrl" in podcast){
+            // console.log(podcast)
+            const imgTag = document.createElement('img')
+            imgTag.setAttribute('src', podcast.imageUrl)
+            imgTag.setAttribute('width', 250)
+            liTag.appendChild(imgTag)
+        }
+    }
+</script>
+</body>
+</html>

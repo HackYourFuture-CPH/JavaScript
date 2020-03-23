@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My favourite Dishes</title>
+	<meta charset="utf-8"/>
+</head>
+<body>
+	<ul></ul>
+	<script type="text/javascript">
+		const myFavouriteDishes = ['Falafel', 'Pizza', 'Risotto'];
+		const ulTag = document.querySelector('ul')
+
+		for(let i = 0; i < myFavouriteDishes.length; i++){
+			ulTag.innerHTML += `<li>${myFavouriteDishes[i]}</li>`
+		}
+	</script>
+</body>
+</html>

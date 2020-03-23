@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My favourite Dishes</title>
+	<meta charset="utf-8"/>
+</head>
+<body>
+	<ul></ul>
+	<script type="text/javascript">
+		const myFavouriteDishes = ['Falafel', 'Pizza', 'Risotto'];
+		console.log(myFavouriteDishes)
+
+		// add ul tag
+		// const ulTag = document.createElement('ul')
+		// const bodyTag = document.querySelector('body')
+		// bodyTag.appendChild(ulTag)
+
+		const ulTag = document.querySelector('ul')
+
+		for(let i = 0; i < myFavouriteDishes.length; i++){
+			const liTag = document.createElement('li')
+			liTag.innerHTML = myFavouriteDishes[i]
+			ulTag.appendChild(liTag)
+		}	
+
+		// liTag.innerText = "<strong>Test</strong>"
+		// liTag.innerHTML = "<strong>Test</strong>"
+	</script>
+</body>
+</html>
