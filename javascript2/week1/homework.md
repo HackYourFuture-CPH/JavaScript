@@ -63,7 +63,7 @@ So the site looks like a typical product site, but is **missing some products!**
 Create an array called `testProductNames` that contains test product names. Lets start of with taking this array of test product names and render them!
 
 To render these test products, we need to do the following:
-1. Select the `ul` that is a child to the `section` called `products` in javascript
+1. Select the `ul` that is a child to the `section` called `products` in javascript. Hint: use `document.querySelector` to select the ul
 2. For each `productName` in the `testProductNames`:
    1.  [create an `li`](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
    2.  Set the innerHTML of that `li` to the `productName`
