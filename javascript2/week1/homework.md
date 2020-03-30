@@ -51,102 +51,43 @@ We have been **hired for a company** to do a SPA - Single Page App for them. It 
 We are going to be building this website step by step, so have patience :)
 
 ### Lets get started!
-In the [homework/hyf-bay folder](homework/hyf-bay) there is a project you should continue working on. So copy all the files into your hyf-homework/Javascript/javascript2/week1 folder.
 
-Open the `index.html` file in a browser and take a look at the site and the html by inspecting the website. 
+In the [homework/hyf-bay folder](homework/hyf-bay) there is a project template you should continue working on. So copy all the files into your `hyf-homework/javascript/javascript2/week1` folder.
 
-I have done some rudimentary styling for the project but you are super welcome to make it even nicer!
+The `index.html` is very basic. It simply loads two javascript files and include some css. The two javascript files are `hyfBayHelpers.js` and the `main.js`. `hyfBayHelpers.js` contains a function (`getAvailableProducts`) that we can use to get an array of products. In the `main.js` we will be writing all our code!
 
-So the site looks like a typical product site, but is **missing some products!** Lets fix that!
+#### Requirements
+- Using the `getAvailableProducts` array we will render an html list of products
+- The list should contain `name`, `price` and `rating`
+- The list of products should be generated through calling a function called `renderProducts(products)`
 
-#### Render test product names
-Create an array called `testProductNames` that contains test product names. Lets start of with taking this array of test product names and render them!
-
-To render these test products, we need to do the following:
-1. Select the `ul` that is a child to the `section` called `products` in javascript. Hint: use `document.querySelector` to select the ul
-2. For each `productName` in the `testProductNames`:
-   1.  [create an `li`](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
-   2.  Set the innerHTML of that `li` to the `productName`
-   3.  [Append the `li`](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild) to the `ul`
-
-#### Render products function
-When test products can be rendered, lets create a function that does the this!
-
-So lets create a function called `renderProducts`. It has one parameter: `products` - which is an array. 
-
-It should work like this:
-```js
-const testProductNames = ['Flat screen', 'Mobile phone', 'Wallet'];
-renderProducts(testProductNames); // Should add 3 li's to the ul under the products section with Flat screen, Mobile phone, Wallet text
-```
-
-We have now made a **code abstraction**, awesome! When we want to render new products, we dont need to think about all the details of innerHtml, appendChild etc, we simply need to call the `renderProducts` function with an array we would like to render.
-
-#### Improving the `renderProducts` function
-Now representing a product by **ONLY its name is a bit too simple.** A product usually has a price, a rating, a specific id, a name and countries it ships to. If we have to represent a product with that kind of data in Javascript we use an `object` with the following keys: `id`, `name`, `price`, `rating`, `shipsTo`. In the `main.js` file there is a function available to you called `getAvailableProducts`. **Calling this function** will return an **array of products.** There can be from 0 - 30 products in the array.
-
+#### Example
 ```js
 const products = getAvailableProducts();
-console.log(products) // logs out
-/*
-[{
-    id: 23771823,
-    name: 'Flat screen',
-    price: 4000,
-    rating: 4.2,
-    shipsTo: [ 'denmark', 'germany'],
-},
-...]
-*/
+
+function renderProducts(products) {
+    // your code here
+}
+
+renderProducts(products); // This should create the ul and the li's with the individual products details
 ```
 
-Lets improve the `renderProducts` so that it still shows only product names, but using the `products` from calling `getAvailableProducts`!
+So after calling the `renderProducts` function, the output should be like the output you can see here: https://codesandbox.io/s/hyf-bay-first-week-oml13
 
-#### Showing more details to the user
-So now we have come a long way. We can get  `products` calling `getAvailableProducts`. Those `product` names we can render by calling `renderProducts(products)`. But now the **user also wants to see the price, the rating and where the product ships to.** Lets first implement it in a simple way: 
+#### So how can i do that?
 
-Lets seperate the different product details with a `|`. So calling `renderProducts(products)` will now add an `li` with the `innerHTML` that looks like this: `Flat screen | 4000 | 4.2 | [ 'denmark', 'germany']`
-
-That is all fine and dandy and it kind of works, BUT we would of course like to improve it.
-
-#### Showing more details to the user in a nice way!
-We could see all the product details as a **list of product details!** How do we represent lists in html?? 
-
-Yes, thats right with a `ul` and `li` tag. So each product detail is an `li` inside a `ul`. 
-
-Now we have two sets of `ul` and `li` tags. We have the individual products and then for every product we have the individual product details. 
-
-#### *Optional* ships to rendering.
-A product can be **shipped to multiple countries**, that means that it can be seen as a list of countries. How do we represent lists in html?? 
-
-I think you know the answer! Try and implement ships to so it is represented as a list in html. 
-
-A product li should now look like this:
-
-```html
-<li>
-    <ul>
-        <li class="name">Drone</li>
-        <li class="price">1234</li>
-        <li class="rating">5</li>
-        <li class="ships-to">
-            <ul>
-                <li>Denmark</li>
-                <li>Sweden</li>
-            </ul>
-        </li>
-    </ul>
-</li>
-```
-
-We have now made a fully functioning website that can render products. For the next homework we are **going to improve the site further.**
+Here is a possible way to render the products
+1. In the html create a `ul` that will contain all the products. Select that `ul` using `document.querySelector`
+2. For each `product` in the `products` array:
+   1.  [create an `li`](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
+   2.  Set the innerHTML of that `li` to the contain the name, price and rating
+   3.  [Append the `li`](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild) to the `ul`
 
 ## Feedback giving time!
 Find a student to give feedback using this site: https://hyf-peer-review.herokuapp.com/
 The feedback should be given after the homework has been handed in, preferably the latest two days after. 
 
 To help you get started we have created some resources about giving feedback. Find them here: https://github.com/HackYourFuture-CPH/curriculum/tree/master/review
-
 
 ## Hand in Homework:
 
