@@ -291,6 +291,7 @@ function generateListings(numberOfListings) {
         listing.price = randomIntFromInterval(1, 10000);
         listing.hasGarden = Boolean(randomIntFromInterval(0, 1));
         listing.size = randomIntFromInterval(12, 1000);
+        listing.img = `https://loremflickr.com/200/200/${listing.type}`
 
         listings.push(listing);
     }
