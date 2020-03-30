@@ -20,11 +20,7 @@ These are the commands you should be able to give the voice assistant:
 - `What is on my todo?` - should respond with the todos. Fx you have 2 todos - fishing and singing in the shower
 - `What day is it today?` - Should respond with the date in a human readable format. E.g. if today is 30/8/2019 then it should respond with 30. of August 2019
 - Should be able to do simple math. fx `what is 3 + 3` should respond with 6. Or `what is 4 * 12` should respond with 48
-- `My favorite dish is lasagne` - should save the user's favorite dish as lasagne.
-- `What is my favorite dish` - should respond with the favorite dish
 - `Set a timer for 4 minutes` - Should respond with "Timer set for 4 minutes". When 4 minutes is up: "Timer done". How do we set a timer in js? Google is your friend here!
-- `Add Bike ride the 3/5/2019 to my calendar` - Should respond with "Bike ride added to your calendar". Should add an event represented by an object with keys `name` and `date` to an array of events.
-- `What am I doing this week?` - should respond with the events for that week. Fx "This week you have 1 event: Bike ride the 3. of May 2019"
 - Add one or more command to your voice assistant
 
 Here is an example of usage:
@@ -32,7 +28,7 @@ Here is an example of usage:
 ```js
 console.log(getReply('Hello my name is Benjamin')); // "Nice to meet you benjamin"
 console.log(getReply('What is my name?')); // "Your name is Benjamin"
-console.log(getReply('Add Bike ride the 3/5-2019 to my calendar')); // "Bike ride added to your calendar"
+console.log(getReply('Add fishing to my todo')); // "fishing added to your todo"
 ```
 
 When you are done, add your `getReply` function and global variables to this CodeSandbox and try the voice command out with both commands and speech! 

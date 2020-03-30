@@ -6,6 +6,9 @@ Working with functions in javascript is such an essential part of working with j
 We want you to realise that **functions are just variables** in javascript. It is exactly the same as string or a number. This homework forces you into using functions in weird ways that forces you to think differently about functions. 
 
 ## Warmup
+
+If you feel like you struggle with these exercises, try wathing this video: https://www.youtube.com/watch?v=Nau-iEEgEoM or watch the class recording from the class
+
 The warmup is a **little abstract**, it will get more concrete later on!
 
 1. Log out the text `Called after 2.5 seconds` 2.5 seconds after the script is loaded. 
@@ -49,19 +52,6 @@ Create funtions that are used in these different ways:
 Yes i know that was a little tough, now on to the fun part 🎉
 
 ![phew](https://media.giphy.com/media/EDt1m8p5hqXG8/giphy.gif)
-
-## hyfBay - get the okay'est products here - continued
-**Continue work on your homework regarding the Hyfbay** from previous week. Please copy the files from last week into this weeks hyf-homework folder and continue working there. If you have not made last weeks homework it does not matter, this part can be made without the solution from last weekse homework.
-
-### Price analytics
-**Read the following closely**, to ensure you call the function correctly!
-
-In order to analyse the product prices we need to **send the prices of the products to a server**. A function is available to you called `sendPricesToServer`. You need to call this function with two arguments: 
-1. An **array of the prices** of the products. What array method can we use here?
-2. A **callback function** with a parameter. The parameter will be the confirmation text sent from the server. The callback function will be called when the data has been sent to the server. 
-`Console.log` out the response from the server.
-
----
 
 
 ## The fastest presser in this realm

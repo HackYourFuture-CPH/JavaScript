@@ -86,11 +86,11 @@ const seriesDurations = [
 ]
 ```
 
-How much time of my life have i been watching series? Lets find out! Calculate **how much time a series** have taken as a **percentage of an average lifespan** of 80 years.
+How much time of my life have i been watching series on tv? Lets find out! Calculate **how much time a tv series** have taken as a **percentage of an average lifespan** of 80 years.
 
-Firstly change the `seriesDurations` object to include your favorite series. Find the duration of a series here: http://tiii.me/
+Firstly change the `seriesDurations` array found above to include your favorite series. Find the duration of a series here: http://tiii.me/
 
-Using the `seriesDurations` log out the text:
+Create a function that logs out the following text using the `seriesDurations` array:
 
 ```
 Game of thrones took 0.01% of my life
@@ -100,88 +100,25 @@ The Wire took 0.007% of my life
 In total that is 0.2% of my life
 ```
 
-### My favorite songs
-
-Lets create some js where you can add songs from a list of available songs to your own list of songs you like.
-
-```js
-const songDatabase = [{
-    songId: 1,
-    title: 'My baby',
-    artist: 'Soggy socks',
-  },
-  {
-    songId: 2,
-    title: '3 nails in wood',
-    artist: 'The carpenters',
-  },
-  {
-    songId: 3,
-    title: 'Blacker than black',
-    artist: 'Instant coffee',
-  },
-  {
-    songId: 4,
-    title: 'When is enough too little?',
-    artist: 'The spies girls',
-  },
-];
-
-const myPlaylist = [];
-```
-
-> In this task when i mention a song i mean an `object` that is represented as a song. You can also say that a song is represented **as an** object
-
-#### Add song to database
-Lets create a function that can **add a song** to the `songDatabase` array.
-
-The function should be called `addSongToDatabase` and have one parameter called `song`. The type of `song` should be an object with the same keys as the songs in the `songDatabase` array.
-
-Now **add some of your favorite songs to the database** using `addSongToDatabase`.
-
-Now a question for you! Should this function return anything? What do you think, why/why not?
-
-#### Searching for a song
-Create a function called `getSongByTitle` that returns the songs that match a song title. It has one parameter called `title`. It should return 
-the song that match the `title` parameter. 
-
-Lets give an example:
-
-```js
-const searchedSong = getSongByTitle('When is enough too little?');
-console.log(searchedSong); // returns { songId: 4, title: 'When is enough too little', artist: 'The spies girls'}
-
-const searchedSong2 = getSongByTitle('When is enough too');
-console.log(searchedSong); // returns undefined
-```
-
-Try to use the function by searching for some different songs that are in the `songDatabase` and some that are not.
-
-*Hint:* First find the index of the object in the `songDatabase` array where the title match, then return that index of the `songDatabase` array.
-
-*Optional:* Add fuzzy search, so we can search for "When enough to little?" and still get the song with id 4.
-
-#### Create our own playlist
-Lets use the two functions we have created to **make our own playlist!**
-Create a new function called `addSongToMyPlaylist` it has a parameter called `title`. 
-
-Using the `getSongByTitle` and the `addSong` functions create a function where you specify the song title of the song you would like in your playlist!
-
 Here is an example:
 
 ```js
-addSongToMyPlaylist('3 nails in wood');
-console.log(myPlaylist); // [{ songId: 2, title: '3 nails in wood', artist: 'The carpenters' }]
+const seriesDurations = [
+  {
+    title: 'Game of thrones',
+    days: 3,
+    hours: 1,
+    minutes: 0,  
+  }
+]
+
+function logOutSeriesText() {
+  // write code here
+}
+
+logOutSeriesText(); // logs out the text found above
+
 ```
-
-Use this function to add some songs to your playlist!
-
-#### Improving our application *optional*
-What if there are multiple songs with the same name? Then we have problems in our `getSongByTitle` function! Instead of returning a song, return an array of songs that match the title parameter.
-
-What if a user had multiple playlists? How could we accomodate that? Either describe how to fix this problem or make some code!
-
-![boombox](https://media.giphy.com/media/NkkKrHU2wAin6/giphy.gif)
 
 ## Step 3: Smart-ease - Back to the basics!
 Smart-ease is going back to the basics. As always Smart-ease starts by helping people fix their problems. So lets venture out into the real world and see what we find:
@@ -192,31 +129,62 @@ Smart-ease is going back to the basics. As always Smart-ease starts by helping p
 #### Save a note
 The first thing we will create is the functionality to **save a note**:
 Create a variable called `notes` and assign it to an empty array.
-Create a function called `addNote`. The `addNote` has two parameters: 
+Create a function called `saveNote`. The `saveNote` has two parameters: 
 - `content` parameter is a string. 
 - `id` is a number.
 
-The `addNote` function shall push an object to the notes array. This object has two keys: `content` and `id`, that corresponds to the function parameters. The value of the keys should be the value of the corresponding parameters. 
+The `saveNote` function should push an object to the `notes` array with the keys `content` and `id`. Here is an example
+
+```js
+const notes = [];
+
+function saveNote(content, id) {
+  // write some code here
+}
+
+saveNote('Pick up groceries', 1);
+saveNote('Do laundry', 2);
+
+console.log(notes); // [{content: 'Pick up groceries', id: 1}, {content: 'Do laundry', id: 2}]
+
+```
 
 #### Get a note
-**Now a user can add a note**, but what if a user wants to **see a specific note**, but only remembers the id? Lets create that functionality for him:
-Create a function called `getNoteFromId`. The function has one parameter called `id`. When calling this function with an id it should return the relevant note object that corresponds to the id. If no id is specified or if the id is not a number, log out an error string. 
+**Now a user can save a note**, but what if a user wants to **see a specific note**, but only remembers the id? Lets create that functionality for him:
+Create a function called `getNote`. The function has one parameter called `id`. When calling this function with an id it should return the relevant note object that corresponds to the id. If no id is specified or if the id is not a number, log out an error string. 
 Hint: Use a for loop.
 
-#### Get all notes
-Should return an array of the notes.
+```js
+function getNote(id) {
+  // your code here
+}
+
+const firstNote = getNote(1); 
+console.log(firstNote); // {content: 'Pick up groceries', id: 1}
+```
 
 #### Log out notes
-Now a user can both add and get a note. What if the user just wants to **read all his notes?** Lets also create that functionality:
+Now a user can both save and get a note. What if the user just wants to **read all his notes?** Lets also create that functionality:
 Create a function `logOutNotesFormatted`. When calling the function it should log this string out for every note:
 "The note with id: 1, has the following note text: "some example note"."
+
+```js
+function logOutNotesFormatted() {
+  // your code here
+}
+
+logOutNotesFormatted(); // should log out the text below
+
+// The note with id: 1, has the following note text: Pick up groceries
+// The note with id: 2, has the following note text: Do laundry
+```
 
 #### Unique feature
 Suddenly you get this great idea for making the note app even better! 
 
 Come up with a unique feature **you think would make this app better.** Write down the idea and see if you can implement it. If not dont worry :) If it is too hard to implement try and ask in the slack channel :)
 
-Try an **interactive version 💻 of your code** [here](https://codepen.io/hackyourfuture-cph/pen/GeMzdE). Remember to insert your code in the top of the codepen :)
+Try an **interactive version 💻 of your code** [here](https://codepen.io/dalsHughes/pen/poJGejX). Remember to insert your code in the top of the codepen :)
 
 ### CactusIO-interactive (Smart phone usage app) *optional*
 > After a long day you come home to relax. The first thing you do is find your phone and start watching some youtube. Then check facebook, and then reading some news. Suddently a hour has passed. What happened to all that time you think to yourself. Maybe we can create some program to help with this problem! What if we could help users manage their smart phone usage?

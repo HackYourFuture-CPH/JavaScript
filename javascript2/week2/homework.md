@@ -78,20 +78,6 @@ No matter how small or how big. Create some feature that would be **cool/helpful
 ### Sort the products - *optional*
 Choosing one of the sorting metods should update the shown order of the products. There is an array method called `sort`. Find documentation about it and see if you can get it to work. Use the `renderProducts` function.
 
-### Shopping cart - *optional*
-When clicking the `Add to cart` button for a product, that product should be added to the `ul` found under the section with the classname `cart`. The product should be added as a an `li` item. Like this:
-
-```html
-<li>
-    <div class="name">Drone</div>
-    <div class="price">1234</div>
-</li>
-```
-Hint 1: Getting the object of the clicked product can be tricky! Here is one way:
-1. When adding the li tags to the ul. You can for every product in the products array create a new li element using `document.createElement('li')`. You then set the innerHTML as is specified above and then attach a clickListner: `createdLiElement.addEventListener('click', () => {});` The callback function has access to the product object because of something called [closures](https://www.youtube.com/watch?v=1JsJx1x35c0). This approach i would say is the best way.
-
-![Shopping cart](https://media.giphy.com/media/8PA8Ew3nw97yg/giphy.gif)
-
 ## Feedback giving time!
 Find a student to give feedback using this site: https://hyf-peer-review.herokuapp.com/
 The feedback should be given after the homework has been handed in preferably latest two days after.

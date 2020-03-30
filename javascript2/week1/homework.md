@@ -16,21 +16,6 @@ const danishWords = ['bil', 'plante', 'kaffe', 'bog', 'ø', 'planetarium'];
 notThisFunctionName(danishWords); // returns 'ø'
 ```
 
-### Difference between median and average
-Understand the **difference between average and median** by:
-- Make a function that takes an array as parameter and returns the average of that parameter
-- Make a function that takes an array as parameter and returns the median of that parameter
-
-Now create a function that calculates the median and the average and returns these two value in an object. 
-
-```js
-// use the functions on this array
-const housePrices = [3000000, 3500000, 1300000, 40000000, 100000000, 8000000, 2100000];
-```
-
-Now render the prices and the average and median in a web page. 
-
-
 ## Spirit animal name generator
 Let's create a page where **a user writes his name** in an input element. The user then clicks a button. The user will now **receive a spirit animal name**, fx Benjamin - The fullmoon wolf.
 
