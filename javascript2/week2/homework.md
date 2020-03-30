@@ -9,6 +9,11 @@ The warmup exercises will be a bit abstract. But the in the **hyfBay exercise** 
 
 ## Warmup array exercises
 
+If you struggle to do this weeks homework there are a couple of things to do:
+- Try watch this video: https://www.youtube.com/watch?v=Urwzk6ILvPQ
+- Watch the class recording. If it for some reason is missing. Find a previous class recoring [here](https://www.youtube.com/channel/UCgWEvuTAyg7qbWcq0M8w4EQ/videos) just search for fx js week 2
+- Read up on array functions [here](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript2/week2/readme.md#array-methods-map-filter-and-sort)
+
 ### Doubling of number
 Say you would like to write a program that **doubles the odd numbers** in an array and **throws away the even number**.
 
