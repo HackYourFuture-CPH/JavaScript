@@ -3,6 +3,10 @@
 ## Why should i even do this homework?
 Understanding the basics of Javascript is SUPER important. Therefore this homework focuses on repeating the basics to really have a solid understanding of this. 
 
+If you struggle to do this weeks homework there are a couple of things to do:
+- Watch the class recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=Mo54btMPN7Q), [part 2](https://www.youtube.com/watch?v=mSUAoual5sE), [part 3](https://www.youtube.com/watch?v=uq3NnTtXqsU)
+- Go through the last 3 weeks readme files. [Week 1](../week1/readme.md#variables), [week 2](../week2/readme.md#recap-logical-operators), [week 3](../week3/readme.md#objects)
+
 ## Finishing class exercises
 Finish the exercises from the class
 
