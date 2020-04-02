@@ -11,7 +11,7 @@ The warmup exercises will be a bit abstract. But the in the **hyfBay exercise** 
 
 If you struggle to do this weeks homework there are a couple of things to do:
 - Try watch this video: https://www.youtube.com/watch?v=Urwzk6ILvPQ
-- Watch the class recording. If it for some reason is missing. Find a previous class recoring [here](https://www.youtube.com/channel/UCgWEvuTAyg7qbWcq0M8w4EQ/videos) just search for fx js week 2
+- Watch the class recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=AJt_O0EFDC8), [part 2](https://www.youtube.com/watch?v=4tj7CvD7ka8), [part 3](https://www.youtube.com/watch?v=CO40FG6pK2k) [part 4](https://www.youtube.com/watch?v=eA2tCs0AaaM)
 - Read up on array functions [here](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript2/week2/readme.md#array-methods-map-filter-and-sort)
 
 ### Doubling of number

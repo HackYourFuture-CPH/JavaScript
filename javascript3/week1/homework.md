@@ -5,6 +5,11 @@ Working with json and api's is the way modern **javascript application's communi
 
 It is how autocomplete can receive suggestions for a search query and how infinite scroll can keep loading new posts. 
 
+If you struggle to do this weeks homework there are a couple of things to do:
+- Try watch these two videos: https://www.youtube.com/watch?v=uxf0--uiX0I, https://www.youtube.com/watch?v=tc8DU14qX6I
+- Watch the class recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=0piVFh9S0Kc), [part 2](https://www.youtube.com/watch?v=DjdFsV1X9-o), [part 3](https://www.youtube.com/watch?v=5uN00cZzUKM) [part 4](https://www.youtube.com/watch?v=GB1N8XxFP7I)
+- Read up on [fetch](https://javascript.info/fetch), [JSON](https://javascript.info/json). The articles are a little tricky
+
 ## Create your own json file
 Create your own json file with something that **interests you**. Maybe that could be computers, pets, music etc.
 

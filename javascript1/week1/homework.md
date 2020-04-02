@@ -9,6 +9,11 @@
 
 This homework will get you started developing in javascript. What you learn the first 3 modules of javascript will be building blocks for creating great javascript web applications.
 
+If you struggle to do this weeks homework there are a couple of things to do:
+- Watch the class recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=uhTRC33cpp0), [part 2](https://www.youtube.com/watch?v=mVgyjr9MV5U)
+- Read up on javascript basics [here](readme.md#variables)
+
+
 ## Step 2: Javascript warm up part one
 Lets get started with some warm up exercises: On freeCodeCamp.com do the <a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript" target="_blank">Basic JavaScript</a> exercises up and until the **"Manipulate Arrays With push()"** exercise (there are some topics we did not cover but you can do it).
 
