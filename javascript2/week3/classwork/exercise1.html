@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<button id="up">UP</button>
+	<button id="down">DOWN</button>
+	<div id="count"></div>
+	<script type="text/javascript">
+		let i = 0;
+		const countDiv = document.getElementById("count")
+
+		// Solution 1
+		const countUp = function(event){
+			i++;
+			renderCount()
+		}
+
+		const countDown = function(event){
+			i--;
+			renderCount()
+		}
+
+		const renderCount = function(){
+			countDiv.innerHTML = `Count is: ${i}`;
+		}
+
+		renderCount();
+		document.getElementById("up").addEventListener('click', countUp) // if button up is pressed
+		document.getElementById("down").addEventListener('click', countDown) // if button down is pressed
+
+		// Solution 2
+		// const countNumber = function(event){
+		// 	if(event.target.id === "up"){
+		// 		i++;
+		// 	}else{
+		// 		i--;
+		// 	}
+		// 	countDiv.innerHTML = `Count is: ${i}`
+		// }
+
+		// document.getElementById("up").addEventListener('click', countNumber)
+		// document.getElementById("down").addEventListener('click', countNumber)
+	</script>
+</body>
+</html>

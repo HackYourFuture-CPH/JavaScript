@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac nunc volutpat, commodo leo eu, facilisis dui. Praesent viverra tortor ut vestibulum tempor. Fusce laoreet nulla ut dui dignissim feugiat. Nulla dictum rutrum ornare. Vivamus consectetur, ante et suscipit sollicitudin, arcu magna tristique turpis, nec blandit nibh lorem id magna. Aenean eu sem in mauris euismod lacinia non sed mauris. Ut euismod, nunc eget venenatis blandit, nisl libero eleifend massa, ac porta enim lorem vitae ligula.
+</p>
+<p>
+Donec in neque tempus massa eleifend ultricies vel at metus. Sed ac lectus erat. Phasellus ullamcorper risus convallis ante tempus congue. Etiam ultrices odio est, id aliquet nisl finibus sed. Curabitur feugiat dignissim lacus, sed rhoncus ante sodales id. Aliquam erat volutpat. Phasellus id ex tempor diam egestas ullamcorper ac eget augue.
+</p>
+<p>
+Proin pretium, arcu non porta vestibulum, ligula leo hendrerit est, sed tincidunt magna orci eu dolor. Morbi posuere id lacus non ullamcorper. Integer aliquet dolor nisi, et tincidunt augue vulputate vitae. Quisque ultrices lacinia tempus. Vestibulum condimentum viverra lorem a semper. Aliquam tincidunt diam a ullamcorper ultrices. Nam in lobortis sem.
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac nunc volutpat, commodo leo eu, facilisis dui. Praesent viverra tortor ut vestibulum tempor. Fusce laoreet nulla ut dui dignissim feugiat. Nulla dictum rutrum ornare. Vivamus consectetur, ante et suscipit sollicitudin, arcu magna tristique turpis, nec blandit nibh lorem id magna. Aenean eu sem in mauris euismod lacinia non sed mauris. Ut euismod, nunc eget venenatis blandit, nisl libero eleifend massa, ac porta enim lorem vitae ligula.
+</p>
+<p>
+Donec in neque tempus massa eleifend ultricies vel at metus. Sed ac lectus erat. Phasellus ullamcorper risus convallis ante tempus congue. Etiam ultrices odio est, id aliquet nisl finibus sed. Curabitur feugiat dignissim lacus, sed rhoncus ante sodales id. Aliquam erat volutpat. Phasellus id ex tempor diam egestas ullamcorper ac eget augue.
+</p>
+<p>
+Proin pretium, arcu non porta vestibulum, ligula leo hendrerit est, sed tincidunt magna orci eu dolor. Morbi posuere id lacus non ullamcorper. Integer aliquet dolor nisi, et tincidunt augue vulputate vitae. Quisque ultrices lacinia tempus. Vestibulum condimentum viverra lorem a semper. Aliquam tincidunt diam a ullamcorper ultrices. Nam in lobortis sem.
+</p>
+<div id="mouseposition"></div>
+
+<script type="text/javascript">
+	const mouseposDiv = document.getElementById('mouseposition');
+	const mouseMove = event => {
+		// console.log(event);
+		mouseposDiv.innerHTML = `X: ${event.clientX}, Y: ${event.clientY}`
+	}
+	document.body.addEventListener('mousemove', mouseMove)
+</script>
+</body>
+</html>

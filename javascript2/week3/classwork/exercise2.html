@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<button id="myButton">Hello World</button>
+	<script type="text/javascript">
+		const btn = document.getElementById('myButton')
+
+		const delayedHelloWorld = function(){
+			setTimeout(()=>{console.log("Hello World")}, 3000)
+		}
+
+		btn.addEventListener('click', delayedHelloWorld)
+	</script>
+</body>
+</html>
