@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<button id="myButton">This is a button</button>
+	<script type="text/javascript">
+		function myFunction(){ // BLUE ARROW FUNCTION
+			console.log("myFunction");
+		}
+
+		const myFunctionAsVar = function(){ // GREEN ARROW FUNCTION
+			console.log("myFunctionAsVar");
+		}
+
+		// CALLBACK FUNCTION
+		document.getElementById("myButton").addEventListener('click', myFunction); // ORANGE CIRCLE --> BLUE ARROW FUNCTION
+		document.getElementById("myButton").addEventListener('click', myFunctionAsVar); // ORNAGE CIRCLE --> GREEN ARROW FUNCTION
+	</script>
+</body>
+</html>

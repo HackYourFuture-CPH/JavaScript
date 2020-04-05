@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<button id="one">I am button 1</button>
+<button id="two">I am button 2</button>
+
+<script type="text/javascript">
+	// Can I check if both buttons were clicked within 2 seconds??
+
+	let btn1Clicked = false;
+	let btn2Clicked = false;
+
+	const listenForClick = function(event){
+		// console.log("Clicked");
+
+		if(event.target.id === "one"){
+			btn1Clicked = true
+		}else{
+			btn2Clicked = true
+		}
+
+		setTimeout(()=>{
+			btn1Clicked = false
+			btn2Clicked = false
+		}, 2000)
+
+		if(btn1Clicked && btn2Clicked){
+			console.log("Both buttons have been clicked within 2 seconds!")
+		}
+	}
+
+	document.getElementById("one").addEventListener('click', listenForClick)
+	document.getElementById("two").addEventListener('click', listenForClick)
+</script>
+</body>
+</html>

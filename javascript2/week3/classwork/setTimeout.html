@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		const lateFunction = function(){
+			console.log("Hi, sorry for being late!");
+		}
+
+		setTimeout(lateFunction, 5000) // 5000 ms -> 5 s
+
+		let i = 1;
+		setInterval(function(){
+			console.log(`When do we arrive? ${i}`);
+			i++;
+		}, 2000)
+	</script>
+</body>
+</html>
