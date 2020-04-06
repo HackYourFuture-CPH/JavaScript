@@ -3,7 +3,15 @@
 ## So why should i do this homework?
 Using classes help with structuring code. It is one of many **design patterns**.  Second it **connects everything** you have learned in js: functions, properties, methods, keys, arrays.
 
+If you struggle to do this weeks homework there are a couple of things to do:
+- Try watch this: https://www.youtube.com/watch?v=T-HGdc8L-7w&t=565s
+- Watch the class recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=KfEeUcT0PWY), [part 2](https://www.youtube.com/watch?v=jbnKWe92uv4), [part 3](https://www.youtube.com/watch?v=-lqbVK12lWM) [part 4](https://www.youtube.com/watch?v=E3Stsveg4rg)
+- Read up on [classes](https://javascript.info/class)
+
 ## Lets make some art using classes
+
+Lets create lots of circles in different sizes and colors on a webpage!
+
 In HTML5 there is an elements called canvas. It **works just like a real canvas.** You can paint elements like lines, circles and much more to the canvas.
 
 ### Paint a circle to a canvas element
@@ -25,7 +33,7 @@ The circle should have one method: `draw` that **draws the circle to the canvas*
 Test if the new class works by creating a circle and drawing it to the canvas. Try some different radiuses, positions and fill colors. 
 
 ### Now lets make art!
-Every half second create a new circle class and draw that to the canvas.
+Every 100ms create a new circle class and draw that to the canvas.
 
 The circle should have random `x`, `y`, `radius` and `color`. For giving the `circle` a random color what should we do?? We should google off course!
 

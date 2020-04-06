@@ -3,6 +3,11 @@
 ## Why should i even do this homework?
 Functions and conditions are some of the basic building blocks of javascript. Functions ensure that we dont repeat ourselves when writing code. Conditions ensures that we can handle different cases when programming.
 
+If you struggle to do this weeks homework there are a couple of things to do:
+- Watch the class recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=P9BQLgRm7zs), [part 2](https://www.youtube.com/watch?v=qFI5QnjN2GQ)
+- Read up on javascript basics [here](readme.md#recap-logical-operators)
+
+
 ## Javascript warmup
 Just like last homework, lets **warmup our brain**!
 
@@ -56,7 +61,7 @@ What do we do if `useFormalName` is not given as an argument?
 
 Remember to consider someone calling the function with an empty string as firstname and lastname.
 
-Try out your code by pasting your getFullname function in the javascript part of this codepen: https://codepen.io/hackyourfuture-cph/pen/jJWwbN
+Try out your code by pasting your `getFullname` function in the javascript part of this codepen: https://codepen.io/hackyourfuture-cph/pen/jJWwbN
 
 ### Event application
 Another customer has contacted us. He works for a secret company that rimes with foogle. The customer works on their calendar application. They need some functionality to help with writing what weekday an event is held. 

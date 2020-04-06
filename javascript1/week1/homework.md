@@ -9,6 +9,11 @@
 
 This homework will get you started developing in javascript. What you learn the first 3 modules of javascript will be building blocks for creating great javascript web applications.
 
+If you struggle to do this weeks homework there are a couple of things to do:
+- Watch the class recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=uhTRC33cpp0), [part 2](https://www.youtube.com/watch?v=mVgyjr9MV5U)
+- Read up on javascript basics [here](readme.md#variables)
+
+
 ## Step 2: Javascript warm up part one
 Lets get started with some warm up exercises: On freeCodeCamp.com do the <a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript" target="_blank">Basic JavaScript</a> exercises up and until the **"Manipulate Arrays With push()"** exercise (there are some topics we did not cover but you can do it).
 
@@ -40,7 +45,7 @@ What type will these two variables be? Now calculate the age and store that in a
 > The same friend (who by the way loves dogs) asks how old his dog will be in 2045. Hmm you think, lets make this into a product as well!
 Dogs age can either be measured in dog years or in human years, this we want to take into consideration! 
 
-Like before lets create three variables but this time we call them dogYearOfBirth, dogYearFuture and dogYear. We add an extra variable called shouldShowResultInDogYears. If it is true we should show the result in dog years, if it is false we should show it in human years. What do we call this type of variable? Now log this string out:
+Like before lets create three variables but this time we call them `dogYearOfBirth`, `dogYearFuture` and `dogYear`. We add an extra variable called `shouldShowResultInDogYears`. If it is `true` we should show the result in dog years, if it is false we should show it in human years. What do we call this type of variable? Now log this string out:
 "Your dog will be 10 human years old in 2027"
 or 
 "Your dog will be 70 dog years old in 2027"

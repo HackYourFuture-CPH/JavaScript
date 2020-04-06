@@ -7,12 +7,14 @@ We want you to realise that **functions are just variables** in javascript. It i
 
 ## Warmup
 
-If you feel like you struggle with these exercises, try wathing this video: https://www.youtube.com/watch?v=Nau-iEEgEoM or watch the class recording from the class
+If you struggle to do this weeks homework there are a couple of things to do:
+- Try watch this video: https://www.youtube.com/watch?v=Nau-iEEgEoM
+- Watch the class recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=57bGm2wa2JM), [part 2](https://www.youtube.com/watch?v=Rpvuz2ywiQM), [part 3](https://www.youtube.com/watch?v=bjvplXwTsyo) [part 4](https://www.youtube.com/watch?v=YE_off9euAc)
+- Read up on functions, callback async and synchronous functions [here](readme.md#callbacks)
 
 The warmup is a **little abstract**, it will get more concrete later on!
 
 1. Log out the text `Called after 2.5 seconds` 2.5 seconds after the script is loaded. 
-
 
 2. Create a function that takes 2 parameters: `delay` and `stringToLog`. Calling this function should log out the `stringToLog` after `delay` seconds. Call the function you have created with some different arguments. 
 ![second task](assets/carbon.png)
@@ -29,7 +31,6 @@ The warmup is a **little abstract**, it will get more concrete later on!
 
 ![second task](assets/log-location.gif)
 
-
 6. *Optional* Now show that location on a map using fx the [Google maps api]( https://developers.google.com/maps/documentation/javascript/tutorial)
 
 
@@ -39,14 +40,12 @@ The warmup is a **little abstract**, it will get more concrete later on!
 
 8. Check if we have double clicked on the page. A double click is defined by two clicks within 0.5 seconds. If a double click has been detected, log out the text: "double click!"
 
-
-
 9.  Create a function called `jokeCreator` that has three parameters: `shouldTellFunnyJoke` - boolean, `logFunnyJoke` - function and `logBadJoke` - function. If you set `tellFunnyJoke` to `true` it should call the `logFunnyJoke` function that should log out a funny joke. And vice versa.
 
 ### Function as a variable
 Create funtions that are used in these different ways:
 - Create an array with 3 items. All items should be functions. Iterate through the array and call all the functions.
-- Create a function as a const and try creating a function normally. Call both functions.
+- Create a function as a const and try creating a function normally. Call both functions. Read up on this if you are interested: https://stackoverflow.com/questions/1013385/what-is-the-difference-between-a-function-expression-vs-declaration-in-javascrip
 - Create an object that has a key whose value is a function. Try calling this function.
 
 Yes i know that was a little tough, now on to the fun part 🎉

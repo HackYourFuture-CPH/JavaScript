@@ -5,6 +5,10 @@ Array's has lots of helper functions, that is used all the time when developing 
 
 Objects can be used for **representing data** and it can **help structure your code**. An object can fx represent a user that has a firstname, surname, profile picture and a list of friends. It is constantly used in javascript and **essential to learning the language**.
 
+If you struggle to do this weeks homework there are a couple of things to do:
+- Watch the class recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=idfGCqAItGI), [part 2](https://www.youtube.com/watch?v=cNRFY0RW5L8)
+- Read up on objects and arrays [here](readme.md#objects)
+
 ## Javascript warmup
 
 Its warmup time!

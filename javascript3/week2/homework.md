@@ -5,9 +5,13 @@ Promises creates a **pleasant way of working with asynchronous code**. It will m
 
 Since promises is becoming standard in javascript, new browser api's use promises for interacting with them. `getUserMedia` for accessing webcam, `Navigator.getBattery()` for getting battery level, `Bluetooth.requestDevice()`, `serviceWorker` or `USB.requestDevice()`
 
+If you struggle to do this weeks homework there are a couple of things to do:
+- Try watch these two videos: https://www.youtube.com/watch?v=XO77Fib9tSI, https://www.youtube.com/watch?v=QO4NXhWo_NM
+- Watch the class recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=SDr1FCqqjAs), [part 2](https://www.youtube.com/watch?v=V82nhqIYWP0), [part 3](https://www.youtube.com/watch?v=iQgYX5tB7gs) [part 4](https://www.youtube.com/watch?v=RYdLBdHZMCU) [part 5](https://www.youtube.com/watch?v=A41NxevmHwI)
+- Read up on [promises](https://javascript.info/promise-basics), [async await](https://javascript.info/async-await)
 
 ### Movies exercise
-This exercise is repetition of array functions. Dont use cahining or anything fancy. Just fetch the movies and use the correct array function to get the following movies:
+This exercise is repetition of array functions. you dont have to use chaining or anything fancy. Just fetch the movies and use the correct array function to get the following movies:
 
 Fetch movies from [this api](https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json): 
 
@@ -68,7 +72,7 @@ This task is about visually understanding the difference between Promise.all and
 
 If you go into the [promise-visual homework folder](homework/promise-visual) there is some html, css and some js. If you clone down the javascript repo, then you can simply copy the files into your hyf-homework js3 week 2 folder. Dont modify move-element.js, only work in main.js!
 
-There is a function available to you called `moveElement`. It moves an element to a new position and returns a promise. `moveElement` takes a `DOM element` and an `object` specifying the `x` and `y` of the new position. It then returns a `promise` that resolves after the `DOM element` has been moved.
+There is a function available to you called `moveElement`. calling that function moves an element to a new position and returns a promise. `moveElement` takes a `DOM element` and an `object` specifying the `x` and `y` of the new position. It then returns a `promise` that resolves after the `DOM element` has been moved.
 
 ```js
 // This code will move the li to the position 100, 100. Calling moveElement will return a promise that resolves after the li element has been moved. 
@@ -78,13 +82,13 @@ moveElement(document.querySelector('li'), {x: 100, y: 100})
     });
 ```
 
-
-
 Your task is to create two functions. 
-- `translateOneByOne` - Should translate the circles one at a time from their **random start position** to their **target**. Log something out **after each element has been moved**
+- `translateOneByOne` - Should translate the circles one at a time from their **random start position** to their **target** see the target positions below. Log something out **after each element has been moved**
 - `translateAllAtOnce` - Should translate all the circles at the same time from their **random start position** to their **target**. Log out something **after all elements have been moved**
 
-Test that the functions works as intended before submitting homework. 
+Test that the functions works as intended before submitting homework. You decide if you want to do it the promise way or the async/await way
+
+### Target positions:
 
 ```
 Red circle target: x: 20px, y: 300px;

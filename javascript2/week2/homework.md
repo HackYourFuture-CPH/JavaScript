@@ -7,7 +7,15 @@ On top of that combining these array function with each other will show the func
 
 The warmup exercises will be a bit abstract. But the in the **hyfBay exercise** the task will be a lot closer to a **real world task**. 
 
+## Appreciate how far you have come
+Javascript is getting difficult now and we are aware of that! Take some time to appreciate how far you have come that last 6 weeks. Instead of comparing yourself to others, compare yourself to where you were a some time ago. If you are seeing progress then you are doing it right 💪
+
 ## Warmup array exercises
+
+If you struggle to do this weeks homework there are a couple of things to do:
+- Try watch this video: https://www.youtube.com/watch?v=Urwzk6ILvPQ
+- Watch the class recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=AJt_O0EFDC8), [part 2](https://www.youtube.com/watch?v=4tj7CvD7ka8), [part 3](https://www.youtube.com/watch?v=CO40FG6pK2k) [part 4](https://www.youtube.com/watch?v=eA2tCs0AaaM)
+- Read up on array functions [here](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript2/week2/readme.md#array-methods-map-filter-and-sort)
 
 ### Doubling of number
 Say you would like to write a program that **doubles the odd numbers** in an array and **throws away the even number**.
@@ -38,10 +46,9 @@ Copy the movies array in the [movies](homework/movies.js) file. Use this array t
 4. Create a new array that has an **extra key called tag**. The tag is based on the rating: Good (>= 7), Average (>= 4 and < 7), Bad (< 4)
 5. **Using [chaining](readme.md#Chaining)**, first filter the movies array to only contain the movies rated higher than 6. Now map the movies array to only the rating of the movies.
 6. **Count the total number of movies** containing any of following keywords: `Surfer`, `Alien` or `Benjamin`. So if there were 3 movies that contained `Surfer`, 1 with `Alien` and 2 with `Benjamin`, you would return 6. Can you make sure the search is case insensitive? 
-7. Create an array of movies where a **word in the title is duplicated**. Fx "Star **Wars**: The Clone **Wars**" the word **Wars** is duplicated. 
-8. Find the word that is **mostly duplicated** using [sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) *Optional*
-9. Calculate the **average rating** of all the movies using [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce). *Optional*
-10. **Count the total number** of Good, Average and Bad movies using [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce). *Optional*
+7. Create an array of movies where a **word in the title is duplicated**. Fx "Star **Wars**: The Clone **Wars**" the word **Wars** is duplicated. Here are some madeup examples of movies with duplicated words in the title: "**The** three men and **the** pistol", "**Chase** three - The final **chase**"
+8. Calculate the **average rating** of all the movies using [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce). *Optional*
+9. **Count the total number** of Good, Average and Bad movies using [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce). A return could fx be `{goodMovies: 33, averageMovies: 45, goodMovies: 123}` *Optional*
 
 
 ## hyfBay - get the okay'est products here - continued
