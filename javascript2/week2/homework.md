@@ -7,6 +7,9 @@ On top of that combining these array function with each other will show the func
 
 The warmup exercises will be a bit abstract. But the in the **hyfBay exercise** the task will be a lot closer to a **real world task**. 
 
+## Appreciate how far you have come
+Javascript is getting difficult now and we are aware of that! Take some time to appreciate how far you have come that last 6 weeks. Instead of comparing yourself to others, compare yourself to where you were a some time ago. If you are seeing progress then you are doing it right 💪
+
 ## Warmup array exercises
 
 If you struggle to do this weeks homework there are a couple of things to do:
