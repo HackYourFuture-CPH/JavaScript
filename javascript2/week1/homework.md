@@ -16,6 +16,17 @@ const danishWords = ['bil', 'plante', 'kaffe', 'bog', 'ø', 'planetarium'];
 notThisFunctionName(danishWords); // returns 'ø'
 ```
 
+### Find the shortest word
+Find the individual number and the total number of danish letters in a string. 
+
+```js
+const danishString = ['Jeg har en blå bil'];
+notThisFunctionName(danishString); // returns {total: 1, å: 1}
+
+const danishString2 = ['Blå grød med rød bær'];
+notThisFunctionName(danishString2); // returns {total: 4, æ: 1, ø: 2, å: 1}
+```
+
 ## Spirit animal name generator
 Let's create a page where **a user writes his name** in an input element. The user then clicks a button. The user will now **receive a spirit animal name**, fx Benjamin - The fullmoon wolf.
 
