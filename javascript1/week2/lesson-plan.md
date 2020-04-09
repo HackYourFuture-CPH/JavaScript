@@ -137,7 +137,7 @@ function multiply(a, b) {
     return a * b;
 }
 
-multiply(10 * 4);
+multiply(10, 4);
 
 // Return value
 function sum(a, b) {
