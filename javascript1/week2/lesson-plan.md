@@ -20,7 +20,7 @@ If you find anything that could be improved then please create a pull request! W
 - Conditions
   - [Code inspiration](#if-sentences)
   - [Exercises](#if-sentences-1)
-- Functions
+- Functions (https://twitter.com/wesbos/status/1105907924088565762)
   - General description - A function is a reusable piece of code.
   - Function usage
     - Arguments
