@@ -23,7 +23,7 @@ Find the individual number and the total number of danish letters in a string.
 const danishString = ['Jeg har en blå bil'];
 notThisFunctionName(danishString); // returns {total: 1, å: 1}
 
-const danishString2 = ['Blå grød med rød bær'];
+const danishString2 = ['Blå grød med røde bær'];
 notThisFunctionName(danishString2); // returns {total: 4, æ: 1, ø: 2, å: 1}
 ```
 
@@ -69,7 +69,7 @@ The `index.html` is very basic. It simply loads two javascript files and include
 
 #### Requirements
 - Using the `getAvailableProducts` array we will render an html list of products
-- The list should contain `name`, `price` and `rating`
+- The list should contain `title`, `price` and `rating`
 - The list of products should be generated through calling a function called `renderProducts(products)`
 
 #### Example
@@ -91,7 +91,7 @@ Here is a possible way to render the products
 1. In the html create a `ul` that will contain all the products. Select that `ul` using `document.querySelector`
 2. For each `product` in the `products` array:
    1.  [create an `li`](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
-   2.  Set the innerHTML of that `li` to the contain the name, price and rating
+   2.  Set the innerHTML of that `li` to the contain the title, price and rating
    3.  [Append the `li`](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild) to the `ul`
 
 ## Feedback giving time!
