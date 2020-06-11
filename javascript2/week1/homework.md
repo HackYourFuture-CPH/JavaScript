@@ -16,14 +16,14 @@ const danishWords = ['bil', 'plante', 'kaffe', 'bog', 'ø', 'planetarium'];
 notThisFunctionName(danishWords); // returns 'ø'
 ```
 
-### Find the shortest word
-Find the individual number and the total number of danish letters in a string. 
+### Find and count the Danish letters
+Find the individual number and the total number of Danish letters in a string.
 
 ```js
-const danishString = ['Jeg har en blå bil'];
+const danishString = 'Jeg har en blå bil';
 notThisFunctionName(danishString); // returns {total: 1, å: 1}
 
-const danishString2 = ['Blå grød med røde bær'];
+const danishString2 = 'Blå grød med røde bær';
 notThisFunctionName(danishString2); // returns {total: 4, æ: 1, ø: 2, å: 1}
 ```
 
