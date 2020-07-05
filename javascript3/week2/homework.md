@@ -61,8 +61,8 @@ getCurrentLocation()
 
 The 3 steps:
 
-1. Fetch some data from an api.
-1. After that data has been fetched, wait 3 seconds
+1. Wait 3 seconds
+1. After 3 seconds fetch some data from any api you like
 1. Log out the data from the api
 
 Which way do you prefer, the promise way or the async/await way?
