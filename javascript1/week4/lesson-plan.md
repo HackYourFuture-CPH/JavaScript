@@ -38,6 +38,11 @@ Focus on
 - Letting the students learn a framework for solving problems
 - Lots and lost of exercises 💪
 
+## Typical misconceptions
+
+- Difference between return and console.log
+- What console.log does and what it is made for
+
 ## Code inspiration
 
 ### Fibonacci Sequence
