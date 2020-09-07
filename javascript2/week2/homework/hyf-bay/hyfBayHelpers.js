@@ -1,5 +1,14 @@
 /* DONT MODIFY ANY OF THIS CODE!!!*/
 
+window.availableCountries = [
+  "Denmark",
+  "Sweden",
+  "Norway",
+  "Germany",
+  "Iceland",
+  "England",
+];
+
 window.getAvailableProducts = function () {
   function getRandomInt(min, max) {
     min = Math.ceil(min);
@@ -56,20 +65,13 @@ window.getAvailableProducts = function () {
 
   /* DONT MODIFY ANY OF THIS CODE!!!*/
   function getRandomCountries() {
-    const availableCountries = [
-      "Denmark",
-      "Sweden",
-      "Norway",
-      "Germany",
-      "Iceland",
-      "England",
-    ];
+
     const numberOfCountries = getRandomInt(1, 3);
 
     const randomCountries = [];
     while (randomCountries.length < numberOfCountries) {
-      const randomIndex = getRandomInt(0, availableCountries.length - 1);
-      const randomCountry = availableCountries[randomIndex];
+      const randomIndex = getRandomInt(0, window.availableCountries.length - 1);
+      const randomCountry = window.availableCountries[randomIndex];
       if (!randomCountries.includes(randomCountry)) {
         randomCountries.push(randomCountry);
       }
