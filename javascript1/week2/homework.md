@@ -16,9 +16,9 @@ Using the `hyf-homework` repo write this command
 
 `git checkout -b javascript/javascript1/week2`
 
-This will create and checkout the branch so you are ready make commits to it.
+This will create and checkout the branch so you are ready make commits to it
 
-[this video](https://www.youtube.com/watch?v=feyBVDhFQuk) can help
+[This video](https://www.youtube.com/watch?v=feyBVDhFQuk) can help
 
 ## Why should i even do this homework?
 Functions and conditions are some of the basic building blocks of javascript. Functions ensure that we dont repeat ourselves when writing code. Conditions ensures that we can handle different cases when programming.

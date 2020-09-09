@@ -1,5 +1,25 @@
 # Homework
 
+### Get git ready to work on homework
+
+Using the `hyf-homework` repo. In the terminal run `git status`
+
+If there are changes that have not been committed, figure out what to do with those changes
+- Should they be committed to another branch?
+- Should they be committed to `master`?
+- Should they be discarded?
+
+When you have figured out what to do with the changes and fixed those. Write `git status` again. If it says `nothing to commit, working tree clean`. Then you are ready to create the branch for this weeks homework.
+
+#### Creating the branch
+Using the `hyf-homework` repo write this command
+
+`git checkout -b javascript/javascript2/week1`
+
+This will create and checkout the branch so you are ready make commits to it
+
+[This video](https://www.youtube.com/watch?v=feyBVDhFQuk) can help
+
 ## So why this homework?
 **Interacting with the DOM is a crucial part** of building a website. If we cannot interact with the DOM and the javascript we write cannot be used in a browser. **Connecting javascript to the browser opens up a new world of possibilities** where only the imagination is the limiting factor. 
 
@@ -98,7 +118,7 @@ Here is a possible way to render the products
 
 Watch [this video](https://www.youtube.com/watch?v=feyBVDhFQuk) for a more detailed go-through of how to hand in homework!
 
-- Create a new branch called `javascript/javascript2/week1` 
+- Use the branch called `javascript/javascript2/week1` 
 - Add all your changes to this branch in the `javascript/javascript2/week1` folder. 
 - Go through the [Homework checklist](#homework-checklist)
 - Create a pull request using the `javascript/javascript2/week1` branch

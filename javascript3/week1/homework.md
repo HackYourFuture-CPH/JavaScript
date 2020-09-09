@@ -1,5 +1,25 @@
 # Homework
 
+### Get git ready to work on homework
+
+Using the `hyf-homework` repo. In the terminal run `git status`
+
+If there are changes that have not been committed, figure out what to do with those changes
+- Should they be committed to another branch?
+- Should they be committed to `master`?
+- Should they be discarded?
+
+When you have figured out what to do with the changes and fixed those. Write `git status` again. If it says `nothing to commit, working tree clean`. Then you are ready to create the branch for this weeks homework.
+
+#### Creating the branch
+Using the `hyf-homework` repo write this command
+
+`git checkout -b javascript/javascript3/week1`
+
+This will create and checkout the branch so you are ready make commits to it
+
+[This video](https://www.youtube.com/watch?v=feyBVDhFQuk) can help
+
 ## Why should i even do this homework?
 Working with json and api's is the way modern **javascript application's communicate with servers**. That can be either getting some data but also updating or creating new data. 
 
@@ -86,7 +106,7 @@ Try break this problem into **smaller problems** and write down how you are goin
 
 Watch [this video](https://www.youtube.com/watch?v=feyBVDhFQuk) for a more detailed go-through of how to hand in homework!
 
-- Create a new branch called `javascript/javascript3/week1` 
+- Use the branch called `javascript/javascript3/week1` 
 - Add all your changes to this branch in the `javascript/javascript3/week1` folder. 
 - Go through the [Homework checklist](#homework-checklist)
 - Create a pull request using the `javascript/javascript3/week1` branch

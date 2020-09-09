@@ -20,9 +20,9 @@ Using the `hyf-homework` repo write this command
 
 `git checkout -b javascript/javascript1/week1`
 
-This will create and checkout the branch so you are ready make commits to it.
+This will create and checkout the branch so you are ready make commits to it
 
-[this video](https://www.youtube.com/watch?v=feyBVDhFQuk) can help
+[This video](https://www.youtube.com/watch?v=feyBVDhFQuk) can help
 
 ## Why should I do this homework?
 > One must be able to crawl before understanding the true nature of Javascript - Albert Einstein

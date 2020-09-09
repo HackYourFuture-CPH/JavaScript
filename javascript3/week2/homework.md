@@ -1,5 +1,25 @@
 # Homework
 
+### Get git ready to work on homework
+
+Using the `hyf-homework` repo. In the terminal run `git status`
+
+If there are changes that have not been committed, figure out what to do with those changes
+- Should they be committed to another branch?
+- Should they be committed to `master`?
+- Should they be discarded?
+
+When you have figured out what to do with the changes and fixed those. Write `git status` again. If it says `nothing to commit, working tree clean`. Then you are ready to create the branch for this weeks homework.
+
+#### Creating the branch
+Using the `hyf-homework` repo write this command
+
+`git checkout -b javascript/javascript3/week2`
+
+This will create and checkout the branch so you are ready make commits to it
+
+[This video](https://www.youtube.com/watch?v=feyBVDhFQuk) can help
+
 ## Why should i even do this homework?
 Promises creates a **pleasant way of working with asynchronous code**. It will make your asynchronous code nearly look synchronous. It is possible to compose promises further developing the function part of javascript. 
 
@@ -108,7 +128,7 @@ Green circle target: x: 400px, y: 20px;
 
 Watch [this video](https://www.youtube.com/watch?v=feyBVDhFQuk) for a more detailed go-through of how to hand in homework!
 
-- Create a new branch called `javascript/javascript3/week2` 
+- Use the branch called `javascript/javascript3/week2` 
 - Add all your changes to this branch in the `javascript/javascript3/week2` folder. 
 - Go through the [Homework checklist](#homework-checklist)
 - Create a pull request using the `javascript/javascript3/week2` branch
