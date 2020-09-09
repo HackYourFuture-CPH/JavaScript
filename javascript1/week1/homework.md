@@ -4,6 +4,29 @@
 ## Step 1: Before you start with the homework:
 1. Watch: <a href="https://www.khanacademy.org/computing/computer-programming/programming/intro-to-programming/v/programming-intro" target="_blank">What is programming</a> Just watch the 2 min video, you do not have to do the entire JavaScript course (It could be useful later on though). 
 
+### Get git ready to work on homework
+
+#### Starting with nothing to commit
+Using the `hyf-homework` repo
+
+In the terminal run `git status`
+
+If there are changes that have not been committed, figure out what to do with those changes
+- Should they be committed to another branch?
+- Should they be committed to `master`?
+- Should they be discarded?
+
+When you have figured out what to do with the changes and fixed those. Write `git status` again. If it says `nothing to commit, working tree clean`. Then you are ready to create the branch for this weeks homework.
+
+#### Creating the branch
+Using the `hyf-homework` repo write this command
+
+`git checkout -b javascript/javascript1/week1`
+
+This will create and checkout the branch so you are ready make commits to it.
+
+[this video](https://www.youtube.com/watch?v=feyBVDhFQuk) can help
+
 ## Why should I do this homework?
 > One must be able to crawl before understanding the true nature of Javascript - Albert Einstein
 
@@ -98,11 +121,7 @@ Use the `hyf-homework` repo and find the folder on your computer that contains t
 
 -----
 
-Create a new branch called `javascript/javascript1/week1` and checkout this branch 
-
-```
-git checkout -b javascript/javascript1/week1
-```
+Using the branch called `javascript/javascript1/week1`
 
 -----
 

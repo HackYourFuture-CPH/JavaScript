@@ -1,5 +1,28 @@
 # Homework
 
+### Get git ready to work on homework
+
+#### Starting with nothing to commit
+Using the `hyf-homework` repo
+
+In the terminal run `git status`
+
+If there are changes that have not been committed, figure out what to do with those changes
+- Should they be committed to another branch?
+- Should they be committed to `master`?
+- Should they be discarded?
+
+When you have figured out what to do with the changes and fixed those. Write `git status` again. If it says `nothing to commit, working tree clean`. Then you are ready to create the branch for this weeks homework.
+
+#### Creating the branch
+Using the `hyf-homework` repo write this command
+
+`git checkout -b javascript/javascript1/week2`
+
+This will create and checkout the branch so you are ready make commits to it.
+
+[this video](https://www.youtube.com/watch?v=feyBVDhFQuk) can help
+
 ## Why should i even do this homework?
 Functions and conditions are some of the basic building blocks of javascript. Functions ensure that we dont repeat ourselves when writing code. Conditions ensures that we can handle different cases when programming.
 
@@ -180,7 +203,7 @@ Go and try out this cool game: [roverjs.com](http://roverjs.com), written by one
 
 Watch [this video](https://www.youtube.com/watch?v=feyBVDhFQuk) for a more detailed go-through of how to hand in homework!
 
-- Create a new branch called `javascript/javascript1/week2` 
+- Use the branch called `javascript/javascript1/week2` 
 - Add all your changes to this branch in the `javascript/javascript1/week2` folder. 
 - Create a pull request using the `javascript/javascript1/week2` branch
 - Wait for mentor feedback
