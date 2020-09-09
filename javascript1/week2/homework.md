@@ -2,10 +2,7 @@
 
 ### Get git ready to work on homework
 
-#### Starting with nothing to commit
-Using the `hyf-homework` repo
-
-In the terminal run `git status`
+Using the `hyf-homework` repo. In the terminal run `git status`
 
 If there are changes that have not been committed, figure out what to do with those changes
 - Should they be committed to another branch?
