@@ -14,11 +14,13 @@ When you have figured out what to do with the changes and fixed those. Write `gi
 #### Creating the branch
 Using the `hyf-homework` repo write this command
 
+`git checkout master` - You are now on the `master` branch
+
 `git checkout -b javascript/javascript2/week1`
 
 This will create and checkout the branch so you are ready make commits to it
 
-[This video](https://www.youtube.com/watch?v=feyBVDhFQuk) can help
+[This video](https://www.youtube.com/watch?v=feyBVDhFQuk) can help. On slack use the #git-support channel to ask questions about git
 
 ## So why this homework?
 **Interacting with the DOM is a crucial part** of building a website. If we cannot interact with the DOM and the javascript we write cannot be used in a browser. **Connecting javascript to the browser opens up a new world of possibilities** where only the imagination is the limiting factor. 

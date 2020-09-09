@@ -14,11 +14,13 @@ When you have figured out what to do with the changes and fixed those. Write `gi
 #### Creating the branch
 Using the `hyf-homework` repo write this command
 
+`git checkout master` - You are now on the `master` branch
+
 `git checkout -b javascript/javascript3/week1`
 
 This will create and checkout the branch so you are ready make commits to it
 
-[This video](https://www.youtube.com/watch?v=feyBVDhFQuk) can help
+[This video](https://www.youtube.com/watch?v=feyBVDhFQuk) can help. On slack use the #git-support channel to ask questions about git
 
 ## Why should i even do this homework?
 Working with json and api's is the way modern **javascript application's communicate with servers**. That can be either getting some data but also updating or creating new data. 

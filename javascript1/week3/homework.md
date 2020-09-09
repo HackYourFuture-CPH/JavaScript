@@ -14,11 +14,13 @@ When you have figured out what to do with the changes and fixed those. Write `gi
 #### Creating the branch
 Using the `hyf-homework` repo write this command
 
+`git checkout master` - You are now on the `master` branch
+
 `git checkout -b javascript/javascript1/week3`
 
 This will create and checkout the branch so you are ready make commits to it
 
-[This video](https://www.youtube.com/watch?v=feyBVDhFQuk) can help
+[This video](https://www.youtube.com/watch?v=feyBVDhFQuk) can help. On slack use the #git-support channel to ask questions about git
 
 ## Why should i even do this homework?
 Array's has lots of helper functions, that is used all the time when developing js applications. It is super helpful to be able to **manipulate an array** like **removing elements** or **adding elements** at specific indexes. Another helpful function of arrays is to know **where a specific item is** in the array.
