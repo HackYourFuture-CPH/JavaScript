@@ -39,11 +39,12 @@ This class is a little poor on real world examples. Make a PR if you ahve any go
   - Creation
     - [Code inspiration](#promise-creation)
     - [Exercises 3](#exercise-3) and then [Exercises 4](#exercise-4)
-  - Chaining. Calling `.then` returns a promise. Only get to here when they understand async/await and promise consumption and creation.
+  - Async await
+    - [Exercises 5](#exercise-5)
+  - `Promise.all` - Let students investigate
+  - Optional - Chaining.  Calling `.then` returns a promise. Only get to here when they understand async/await and promise consumption and creation.
     - [Code inspiration](#reason-for-promise)  
     - Reason for promise: https://mobile.twitter.com/addyosmani/status/1097035418657144832?s=19
-  - `Promise.all` - Let students investigate
-  - `Promise.race`
   - [Exercises 5](#exercise-5) and [Exercises 6](#exercise-6)
 
 At this point good coding practices is starting to get very important! Check our [coding best practices](https://github.com/HackYourFuture-CPH/curriculum/blob/master/review/review-checklist.md#javascript) and use these both when live coding but also in reviews.
@@ -315,7 +316,7 @@ getLoggedInUsers()
 The above example show how to consume the promise using promises. Now try consume the `getLoggedInUsers` using async/await
 
 ## Exercise 5
-Using chaining
+Using async await
 
 1. Fetch the astronauts
 2. After the astronauts has been fetched, fetch movies using [this api](https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json)
