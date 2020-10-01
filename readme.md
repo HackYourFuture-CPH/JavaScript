@@ -2,7 +2,7 @@
 > 
 
 <h1 align='center'>
- HackYourJavaScript
+ Hack Your JavaScript
 </h1>   
 
 <p align='center'>
