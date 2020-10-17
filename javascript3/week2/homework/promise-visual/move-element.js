@@ -50,7 +50,7 @@
 
     /**
      * @param {DOMelement} boxToMove - A DOM element of the box to move
-     * @param {Position} newPosition - An object specifying the new position of the box. x, y
+     * @param {Position} newPosition - An object specifying how much to move the box in the x and y directions.
      * @return {Promise<any>}
      */
 
