@@ -23,7 +23,7 @@ This will create and checkout the branch so you are ready make commits to it
 [This video](https://www.youtube.com/watch?v=feyBVDhFQuk) can help. On slack use the #git-support channel to ask questions about git
 
 ## Why should i even do this homework?
-Promises creates a **pleasant way of working with asynchronous code**. It will make your asynchronous code nearly look synchronous. It is possible to compose promises further developing the function part of javascript. 
+Promises creates a **pleasant way of working with asynchronous code**. It will make your asynchronous code nearly look synchronous. It is possible to compose promises further developing the function part of javascript.
 
 Since promises is becoming standard in javascript, new browser api's use promises for interacting with them. `getUserMedia` for accessing webcam, `Navigator.getBattery()` for getting battery level, `Bluetooth.requestDevice()`, `serviceWorker` or `USB.requestDevice()`
 
@@ -35,13 +35,13 @@ If you struggle to do this weeks homework there are a couple of things to do:
 ### Movies exercise
 This exercise is repetition of array functions. you dont have to use chaining or anything fancy. Just fetch the movies and use the correct array function to get the following movies:
 
-Fetch movies from [this api](https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json): 
+Fetch movies from [this api](https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json):
 
 1. Create an array of bad movies
 2. Creat an array of bad movies since year 2000
 
 ## Promise that resolves after set time
-Create a function that has one parameter: `resolveAfter`. **Calling this function** will **return a promise** that resolves after the `resolveAfter` seconds has passed. 
+Create a function that has one parameter: `resolveAfter`. **Calling this function** will **return a promise** that resolves after the `resolveAfter` seconds has passed.
 
 Here is an example of how to use the promise
 
@@ -78,7 +78,7 @@ getCurrentLocation()
 
 ## Fetching and waiting
 
-1. Do the 3 steps below using promises and `.then`. 
+1. Do the 3 steps below using promises and `.then`.
 2. Do the 3 steps below using async/await
 
 The 3 steps:
@@ -97,14 +97,14 @@ If you go into the [promise-visual homework folder](homework/promise-visual) the
 There is a function available to you called `moveElement`. calling that function moves an element to a new position and returns a promise. `moveElement` takes a `DOM element` and an `object` specifying the `x` and `y` of the new position. It then returns a `promise` that resolves after the `DOM element` has been moved.
 
 ```js
-// This code will move the li to the position 100, 100. Calling moveElement will return a promise that resolves after the li element has been moved. 
+// This code will move the li to the position 100, 100. Calling moveElement will return a promise that resolves after the li element has been moved.
 moveElement(document.querySelector('li'), {x: 100, y: 100})
     .then(() => {
         console.log('Element has been moved');
     });
 ```
 
-Your task is to create two functions. 
+Your task is to create two functions.
 - `translateOneByOne` - Should translate the circles one at a time from their **random start position** to their **target** see the target positions below. Log something out **after each element has been moved**
 - `translateAllAtOnce` - Should translate all the circles at the same time from their **random start position** to their **target**. Log out something **after all elements have been moved**
 
@@ -130,8 +130,8 @@ Green circle target: x: 400px, y: 20px;
 
 Watch [this video](https://www.youtube.com/watch?v=feyBVDhFQuk) for a more detailed go-through of how to hand in homework!
 
-- Use the branch called `javascript/javascript3/week2` 
-- Add all your changes to this branch in the `javascript/javascript3/week2` folder. 
+- Use the branch called `javascript/javascript3/week2`
+- Add all your changes to this branch in the `javascript/javascript3/week2` folder.
 - Go through the [Homework checklist](#homework-checklist)
 - Create a pull request using the `javascript/javascript3/week2` branch
 - Wait for mentor feedback
@@ -149,10 +149,10 @@ Go over your homework one last time:
 - [ ] Is your code well-formatted (see [Code Formatting](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md))?
 
 ## Feedback giving time!
-Find a student to give feedback using this site: https://hyf-peer-review.herokuapp.com/. The feedback should be given after the homework has been handed in, preferably two days after. 
+Find a student to give feedback using this site: https://hyf-peer-review.herokuapp.com/. The feedback should be given after the homework has been handed in, preferably two days after.
 
 Give the review on the PR exactly how the mentors do it! To find the link for the PR ask the person you are reviewing :) You can see how to give feedback on a PR using github [here](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request)
 
-To help you get started with reviewing we have created [some ressources](https://github.com/HackYourFuture-CPH/curriculum/tree/master/review) about giving feedback. Find them 
+To help you get started with reviewing we have created [some ressources](https://github.com/HackYourFuture-CPH/curriculum/tree/master/review) about giving feedback. Find them
 
 Why is it important to give feedback? Because it will make you a [better](https://www.brightspot.com/blog/developer-life-5-reasons-why-the-code-review-process-is-critical-for-developers) [developer](https://www.sitepoint.com/the-importance-of-code-reviews/)
