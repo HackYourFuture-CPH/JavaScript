@@ -20,7 +20,7 @@ Using the `hyf-homework` repo write this command
 
 This will create and checkout the branch so you are ready make commits to it
 
-[This video](https://www.youtube.com/watch?v=feyBVDhFQuk) can help. On slack use the #git-support channel to ask questions about git
+[This video](https://www.youtube.com/watch?v=XYlgh9hSWtw) can help. On slack use the #git-support channel to ask questions about git
 
 ## So why should i do this homework?
 Using classes help with structuring code. It is one of many **design patterns**.  Second it **connects everything** you have learned in js: functions, properties, methods, keys, arrays.

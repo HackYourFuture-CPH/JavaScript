@@ -20,7 +20,7 @@ Using the `hyf-homework` repo write this command
 
 This will create and checkout the branch so you are ready make commits to it
 
-[This video](https://www.youtube.com/watch?v=feyBVDhFQuk) can help. On slack use the #git-support channel to ask questions about git
+[This video](https://www.youtube.com/watch?v=XYlgh9hSWtw) can help. On slack use the #git-support channel to ask questions about git
 
 ## So why this homework?
 **Interacting with the DOM is a crucial part** of building a website. If we cannot interact with the DOM and the javascript we write cannot be used in a browser. **Connecting javascript to the browser opens up a new world of possibilities** where only the imagination is the limiting factor. 

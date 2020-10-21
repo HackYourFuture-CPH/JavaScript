@@ -20,7 +20,7 @@ Using the `hyf-homework` repo write this command
 
 This will create and checkout the branch so you are ready make commits to it
 
-[This video](https://www.youtube.com/watch?v=feyBVDhFQuk) can help. On slack use the #git-support channel to ask questions about git
+[This video](https://www.youtube.com/watch?v=XYlgh9hSWtw) can help. On slack use the #git-support channel to ask questions about git
 
 ## Why should i even do this homework?
 Array's has lots of helper functions, that is used all the time when developing js applications. It is super helpful to be able to **manipulate an array** like **removing elements** or **adding elements** at specific indexes. Another helpful function of arrays is to know **where a specific item is** in the array.

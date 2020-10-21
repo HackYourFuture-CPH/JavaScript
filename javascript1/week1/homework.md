@@ -24,7 +24,7 @@ Using the `hyf-homework` repo write this command
 
 This will create and checkout the branch so you are ready make commits to it
 
-[This video](https://www.youtube.com/watch?v=feyBVDhFQuk) can help. On slack use the #git-support channel to ask questions about git
+[This video](https://www.youtube.com/watch?v=XYlgh9hSWtw) can help. On slack use the #git-support channel to ask questions about git
 
 ## Why should I do this homework?
 > One must be able to crawl before understanding the true nature of Javascript - Albert Einstein
