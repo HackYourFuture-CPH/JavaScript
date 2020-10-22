@@ -127,7 +127,7 @@ Using the branch called `javascript/javascript1/week1`
 To add your files go to the folder `javascript/javascript1/week1`. Here you **add all the files relevant for the homework**. Remember to **seperate the code into meaningful commits**. You can now push the commits
 
 ```
-git add .
+git add <file_name>
 git commit -m "Implemented task 1"
 git push origin javascript/javascript1/week1
 ```
@@ -153,7 +153,7 @@ A mentor will look through your code and give you some feedback.
 Based on the feedback, implement improvements to the homework. Then add, commit and push these improvements.
 
 ```
-git add .
+git add <file_name>
 git commit -m "Implemented feedback"
 git push origin javascript/javascript1/week1
 ```
