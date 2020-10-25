@@ -127,7 +127,7 @@ Using the branch called `javascript/javascript1/week1`
 To add your files go to the folder `javascript/javascript1/week1`. Here you **add all the files relevant for the homework**. Remember to **seperate the code into meaningful commits**. You can now push the commits
 
 ```
-git add .
+git add <file_name>
 git commit -m "Implemented task 1"
 git push origin javascript/javascript1/week1
 ```
@@ -136,11 +136,11 @@ git push origin javascript/javascript1/week1
 
 Go into the `hyf-homework` repo on https://github.com/ click on the `Pull requests` tab and then click the `New pull request` button
 
-![Create new pull request](assets/create-new-pull-request.jpg)
+![Create new pull request](assets/create-new-pull-request.png)
 
 Where it says compare, choose the `javascript/javascript1/week1` branch. Just keep the PR title as it is. You can leave a comment if you want. Now click `Create pull request`. 
 
-![Create new pull request](assets/open-a-pull-request.jpg)
+![Create new pull request](assets/open-a-pull-request.png)
 
 You have now handed in homework, but you are not quite done yet
 
@@ -148,12 +148,12 @@ You have now handed in homework, but you are not quite done yet
 
 A mentor will look through your code and give you some feedback. 
 
-![Pull request comment](assets/pull-request-comment.jpg)
+![Pull request comment](assets/pull-request-comment.png)
 
 Based on the feedback, implement improvements to the homework. Then add, commit and push these improvements.
 
 ```
-git add .
+git add <file_name>
 git commit -m "Implemented feedback"
 git push origin javascript/javascript1/week1
 ```
@@ -162,11 +162,11 @@ git push origin javascript/javascript1/week1
 
 Now you can merge the changes. Congrats, you are completely done with the homework 🎉🎉🎉
 
-![Merge the pull request](assets/merge-pull-request.jpg)
+![Merge the pull request](assets/merge-pull-request.png)
 
 Now it should look like this: 
 
-![Pull request done](assets/pull-request-done.jpg)
+![Pull request done](assets/pull-request-done.png)
 
 When merged you can **share the github link** to your classes slack channel if you are **proud of what you did** 💪
 
