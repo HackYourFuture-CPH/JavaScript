@@ -62,6 +62,7 @@ BUT people are asking: What will be the next product that truly defines Smart-ea
 ### Flight booking fullname function
 
 Even for a startup as successful as Smart-ease there needs to be money in the bank. A customer from a flight booking website has asked for our help creating a specific part of their application:
+
 When a user books a flight they **write their firstname and surname**, but when the ticket is printed a **fullname should be displayed**. It is our responsibility to create that.
 
 Create a function called `getFullname` that returns a fullname.
@@ -71,9 +72,9 @@ It should have two parameters: `firstname` and `surname`.
 getFullname("Benjamin", "Hughes"); // returns "Benjamin Hughes"
 ```
 
-Now try to create two variables `fullname1` and `fullname2` these two variables should be assigned to the return of calling the `getFullname` function.
+Now try to create two variables `fullname1` and `fullname2` these two variables should be assigned to calling the `getFullname` function.
 
-Log out the two fullnames.
+Log out the two fullname variables.
 
 #### Formal fullname
 
@@ -91,6 +92,8 @@ What do we do if `useFormalName` is not given as an argument?
 Remember to consider someone calling the function with an empty string as firstname and lastname.
 
 Try out your code by pasting your `getFullname` function in the javascript part of this codepen: https://codepen.io/hackyourfuture-cph/pen/jJWwbN
+
+But what if the person is a woman? Describe how you would fix the `getFullname` so it also works for women
 
 ### Event application
 
@@ -110,7 +113,7 @@ console.log(getEventWeekday(2)); // Logs out "Sunday"
 
 You should get the today's day from the system.
 
-Hint: use remainder operator, array indexes and investigate new Date in js.
+Hint: use remainder operator, array indexes and investigate `new Date` in js.
 
 ### Weather wear
 
