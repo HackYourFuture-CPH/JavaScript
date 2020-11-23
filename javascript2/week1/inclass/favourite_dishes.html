@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Favourite Dishes</title>
+</head>
+<body>
+<ul id="dishesList">
+	
+</ul>
+
+<script type="text/javascript">
+	// const ul_tag = document.createElement("ul");
+	// ul_tag.id = "dishesListBottom"
+	// document.body.appendChild(ul_tag);
+	const ul_tag = document.getElementById("dishesList");
+
+	const favourite_dishes = ["Falafel", "Pizza", "Risotto"];
+
+	for(let i = 0; i < favourite_dishes.length; i++){
+		// console.log(favourite_dishes[i]);
+		const new_li_element = document.createElement("li");
+		new_li_element.innerHTML = favourite_dishes[i];
+		ul_tag.appendChild(new_li_element)
+	}
+
+</script>
+</body>
+</html>

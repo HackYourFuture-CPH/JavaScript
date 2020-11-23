@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event1</title>
+</head>
+<body>
+
+<button id="button">Click Me</button>
+
+<script type="text/javascript">
+	// Button clicked
+	const button = document.getElementById("button");	
+
+	const change_button_text = function(){
+		button.innerHTML = "Button clicked";
+	};
+
+	button.addEventListener('click', change_button_text)
+</script>
+</body>
+</html>

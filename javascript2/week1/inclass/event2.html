@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event2</title>
+</head>
+<body>
+
+<button id="button">Toggle background color</button>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pretium et ante vel accumsan. Integer facilisis vestibulum tincidunt. Mauris purus tellus, sollicitudin a iaculis sed, tristique ac purus. Donec sit amet justo id nulla lacinia tincidunt ac ac massa. Ut turpis purus, consectetur facilisis felis in, egestas consequat diam. Proin non consequat odio, eu auctor sapien. Nullam imperdiet convallis congue. Aenean ut lobortis lorem, a volutpat arcu. Nam scelerisque mi eu est hendrerit convallis. Ut dictum urna id euismod ornare. Proin a eleifend quam. Vestibulum tempor neque vitae vulputate bibendum. Sed interdum purus id justo tempor, at molestie nibh sagittis. Sed urna quam, facilisis et lobortis eu, mattis at mauris.</p>
+
+<script type="text/javascript">
+	// Button clicked
+	const button = document.getElementById("button");	
+
+	let isBackgroundWhite = true;
+	const toggle_background_color = function(){
+		if(isBackgroundWhite){
+			document.body.style = "background:black; color:white;";
+			isBackgroundWhite = false
+		}else{
+			document.body.style = "background:white; color:black;";
+			isBackgroundWhite = true
+		}
+	}
+
+	button.addEventListener('click', toggle_background_color);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello DOM</title>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8"/>
+</head>
+<body>
+	<h1 id="hello">Hello DOM</h1>
+
+	<button id="changeTitleButton">Change Title</button>
+
+	<p>Hi, my name is Document Object Model (DOM). I am a programming interface for HTML documents. I represent the page so that programs can change my structure, style and content. I represent the document as nodes and objects. That way, programming languages can connect to the page.</p>
+
+	<p>A Web page is a document. This document can be either displayed in the browser window or as the HTML source. But it is the same document in both cases. I, the Document Object Model (DOM), represent that same document so it can be manipulated. I am an object-oriented representation of the web page, which can be modified with a scripting language such as JavaScript.</p>
+
+	<p>I am implemented in most modern browsers as a tree structure, as shown here:</p>
+
+	<img id="domtree" width="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1024px-DOM-model.svg.png">
+
+	<h1>About me</h1>
+	<ul id="aboutme">
+		<li class="blue" style="text-decoration: underline;">21 years old</li>
+		<li style="color: red;">Born in the World Wide Web</li>
+		<li class="blue">Lives in the Web browser</li>
+		<li style="color: green;">Cross-platform</li>
+	</ul>
+	<script type="text/javascript">
+		// Change content of our HTML
+		// change innerHtml "Hello DOM" -> "Hello World"
+		let change = true;
+
+		const rename_h1_tag = function(){ // RED ARROW
+			// Select element by id
+			const first_h1_tag = document.getElementById("hello");			
+			
+			console.log(change);
+			if(change){
+				first_h1_tag.innerHTML = "Hello World"
+				change = false;
+			}else{
+				first_h1_tag.innerHTML = "Hello DOM"
+				change = true;
+			}
+		}
+
+		let count = 0
+		const counter = function(){
+			count++;
+		}
+
+		const change_title_button = document.getElementById("changeTitleButton");
+		change_title_button.addEventListener('click', rename_h1_tag);
+		change_title_button.addEventListener('mousemove', counter);
+
+
+		// Change style attributes of our HTML
+		// change li elements to style blue
+		const ul_tag = document.getElementById("aboutme");
+		for(let i=0; i<ul_tag.children.length; i++){
+			// console.log(ul_tag.children[i]);
+			ul_tag.children[i].style = ""
+			ul_tag.children[i].className = "blue"
+		}
+
+		// add element to list
+		// add li element to ul
+
+		// create variable which holds our li element
+		// assign text and properties to this li element
+		const new_a_element = document.createElement("a");
+		new_a_element.innerHTML = "Changed the World";
+		new_a_element.href = "https://www.google.com";
+
+		const new_li_element = document.createElement("li");
+		// new_li_element.innerHTML = "Changed the World";
+		new_li_element.className = "blue"
+		new_li_element.appendChild(new_a_element)
+
+		// ATTACH the new li element to the DOM
+		ul_tag.appendChild(new_li_element)
+
+		// select image tag and console log image url
+		const img_tag = document.getElementById("domtree");
+		// console.log(img_tag.src)
+	</script>
+</body>
+</html>
