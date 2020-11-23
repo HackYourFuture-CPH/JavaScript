@@ -123,14 +123,14 @@ const podcasts = [{
 3. For every podast:
    1. Creat an `li`
    2. Create an `h1` element
-   3. Change the innerHTML of hte `h1` to equal the name of the current podcast
+   3. Change the innerHTML of the `h1` to equal the name of the current podcast
    4. Append the `h1` to the `li`
    5. Now add an image to the `li` with the `src` set to the `imageUrl`. But only if the `imageUrl` key exists on the object!
 4. Append the `li` to the `ul`
 
 ### Image inserter
 
-Create a function that has two parameters: `imageUrl` and `elementToAppendImageTo`. The function should create a img tag using the `imageUrl` parameter. The function should then append the `img` to the `elementToAppendImageTo` - html element.
+Create a function that has two parameters: `imageUrl` and `elementToAppendImageTo`. The function should create an img tag and set the `src` attribute of the img to the `imageUrl` parameter. The function should then append the `img` to the `elementToAppendImageTo` - html element.
 
 ```js
 // Should append a img tag to the body with the picture from 'https://picsum.photos/536/354'
