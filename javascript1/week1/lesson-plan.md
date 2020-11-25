@@ -70,6 +70,8 @@ If you find anything that could be improved then please create a pull request! W
 - [Last exercise, pizza project](#pizza-project)
 
 
+Here is a Notion Zoey Zou made: https://www.notion.so/JS1-Week1-2fdc88fdd4344c958091346efe3ba48b
+
 ## Code inspiration
 
 ### Variable types
