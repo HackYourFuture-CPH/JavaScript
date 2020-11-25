@@ -44,6 +44,11 @@ If you find anything that could be improved then please create a pull request! W
 [Listing project](#listing-project)
 
 
+
+## Flipped classroom videos
+
+[Flipped classroom videos](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript2/week2/preparation.md#flipped-classroom-videos)
+
 ## Code inspiration
 
 ### Mentors
