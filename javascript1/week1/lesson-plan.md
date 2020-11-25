@@ -73,11 +73,8 @@ If you find anything that could be improved then please create a pull request! W
 Here is a Notion Zoey Zou made: https://www.notion.so/JS1-Week1-2fdc88fdd4344c958091346efe3ba48b
 
 ## Flipped classroom videos
-- [Javascript - data type](https://www.youtube.com/watch?v=tQByWsZeYrM)
-- [Javascript - variables](https://www.youtube.com/watch?v=sfqt3ZotOhw)
-- [Javascript - make variable names descriptive](https://www.youtube.com/watch?v=0bgIUXj5BF8)
-- [Javascript - the subtle difference between let and var](https://www.youtube.com/watch?v=9yFx81K9b4k)
-- [Javascript - operators and errors](https://www.youtube.com/watch?v=wVs6rzTReD8)
+
+[Flipped classroom videos](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript1/week1/preparation.md#flipped-classroom-videos)
 
 ## Code inspiration
 
