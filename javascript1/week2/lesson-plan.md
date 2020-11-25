@@ -46,11 +46,10 @@ The students really struggle with the **return** value. What it means, how it is
 
 Zoey Zou made a nice Notion lesson plan here: https://www.notion.so/JS1-Week2-8f2d4b7e7ba0425ea4a9e97816e9ceb7
 
+
 ## Flipped classroom videos
-- [Javascript conditions](https://www.loom.com/share/6affdcf03b4f43ceac56424ff04975e5)
-- [Javascript loops](https://www.loom.com/share/4663f4fa5c784fff9ab67f2b91166c9b)
-- [Javascript function](https://www.loom.com/share/61fadf80906d481497e3b40273897d20)
-- [Javascript scope](https://www.loom.com/share/b8874230724040598860e8f059d8e369)
+
+[Flipped classroom videos](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript2/week2/preparation.md#flipped-classroom-videos)
 
 ## Code inspiration
 
