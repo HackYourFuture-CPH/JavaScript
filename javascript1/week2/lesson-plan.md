@@ -44,6 +44,13 @@ If you find anything that could be improved then please create a pull request! W
 
 The students really struggle with the **return** value. What it means, how it is captured. What happens when nothing is returned etc. Try really hammering in this concept with lots of simple examples and exercises! Fx if a function is called get something. That means that something is returned from that function.
 
+
+## Flipped classroom videos
+- [Javascript conditions](https://www.loom.com/share/6affdcf03b4f43ceac56424ff04975e5)
+- [Javascript loops](https://www.loom.com/share/4663f4fa5c784fff9ab67f2b91166c9b)
+- [Javascript function](https://www.loom.com/share/61fadf80906d481497e3b40273897d20)
+- [Javascript scope](https://www.loom.com/share/b8874230724040598860e8f059d8e369)
+
 ## Code inspiration
 
 ### If sentences
