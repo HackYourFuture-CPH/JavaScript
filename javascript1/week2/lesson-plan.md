@@ -49,7 +49,7 @@ Zoey Zou made a nice Notion lesson plan here: https://www.notion.so/JS1-Week2-8f
 
 ## Flipped classroom videos
 
-[Flipped classroom videos](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript2/week2/preparation.md#flipped-classroom-videos)
+[Flipped classroom videos](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript1/week2/preparation.md#flipped-classroom-videos)
 
 ## Code inspiration
 
