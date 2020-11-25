@@ -42,9 +42,7 @@ Zoey Zou has created a nice lesson plan here: https://www.notion.so/JS1-Week3-a0
 
 ## Flipped classroom videos
 
-- [Javascript callstack](https://www.loom.com/share/d09d10ea84da45e2bddd9ffa05396ed3)
-- [Javascript objects](https://www.loom.com/share/312a9ec3e2ed42beb6017f4a4167bd46)
-- [Javascript array](https://www.loom.com/share/06cdd6a4a3834cb696db8dd941ea6550)
+[Flipped classroom videos](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript1/week3/preparation.md#flipped-classroom-videos)
 
 ## Code inspiration
 
