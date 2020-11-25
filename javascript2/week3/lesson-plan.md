@@ -40,6 +40,11 @@ At this point good coding practices is starting to get very important! Check our
 This is super good at explaining function logic
 ![Function graphic](assest/../assets/function-graphic.jpg)
 
+
+## Flipped classroom videos
+
+[Flipped classroom videos](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript2/week3/preparation.md#flipped-classroom-videos)
+
 ## Code inspiration
 
 ### Calling a function within a function
