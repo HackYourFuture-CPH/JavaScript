@@ -49,6 +49,10 @@ This class is a little poor on real world examples. Make a PR if you ahve any go
 
 At this point good coding practices is starting to get very important! Check our [coding best practices](https://github.com/HackYourFuture-CPH/curriculum/blob/master/review/review-checklist.md#javascript) and use these both when live coding but also in reviews.
 
+## Flipped classroom videos
+
+[Flipped classroom videos](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript3/week2/preparation.md#flipped-classroom-videos)
+
 ## Code inspiration
 
 ### Async/await - simple usage
