@@ -38,6 +38,14 @@ If you find anything that could be improved then please create a pull request! W
   - [Code inspiration](#call-stack)
   - [Exercise](#call-stack-1)
 
+Zoey Zou has created a nice lesson plan here: https://www.notion.so/JS1-Week3-a0f122866ac34fc3b98b7a41870046f4
+
+## Flipped classroom videos
+
+- [Javascript callstack](https://www.loom.com/share/d09d10ea84da45e2bddd9ffa05396ed3)
+- [Javascript objects](https://www.loom.com/share/312a9ec3e2ed42beb6017f4a4167bd46)
+- [Javascript array](https://www.loom.com/share/06cdd6a4a3834cb696db8dd941ea6550)
+
 ## Code inspiration
 
 ### Objects
