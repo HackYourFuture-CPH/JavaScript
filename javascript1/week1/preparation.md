@@ -6,3 +6,10 @@
 - [ ] [JavaScript Introduction at MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction) (10 min)
 
 _Please go through the material and come to class prepared!_
+
+## Flipped classroom videos
+- [Javascript - data type](https://www.youtube.com/watch?v=tQByWsZeYrM)
+- [Javascript - variables](https://www.youtube.com/watch?v=sfqt3ZotOhw)
+- [Javascript - make variable names descriptive](https://www.youtube.com/watch?v=0bgIUXj5BF8)
+- [Javascript - the subtle difference between let and var](https://www.youtube.com/watch?v=9yFx81K9b4k)
+- [Javascript - operators and errors](https://www.youtube.com/watch?v=wVs6rzTReD8)
