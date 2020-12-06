@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+	// some kind of array collecting mousePositions over 30 seconds
+	// setTimout -> calculate the average x and average y
+
+	const mousePositions = []
+	const mouseHasMoved = (event) => {
+		const mousePosition = {x: event.clientX, y: event.clientY}
+		// console.log(mousePosition)
+		mousePositions.push(mousePosition)
+	}
+	document.addEventListener('mousemove', mouseHasMoved);
+
+	const calculateAverageOfNumbers = numbers => {
+		let sumOfNumbers = 0;
+		for(let i = 0; i < numbers.length; i++){
+			sumOfNumbers += numbers[i]
+		}
+		return sumOfNumbers / numbers.length
+	}
+	// console.log(calculateAverageOfNumbers([1,2,3,4,5,6]))
+
+	const calculateAverages = () => {
+		const avgX = calculateAverageOfNumbers(mousePositions.map(pos => pos.x));
+		const avgY = calculateAverageOfNumbers(mousePositions.map(pos => pos.y));
+
+		console.log("Average x and y")
+		console.log(avgX.toFixed(2), avgY.toFixed(2))
+	}
+
+	setTimeout(calculateAverages, 5000)
+</script>
+</body>
+</html>
