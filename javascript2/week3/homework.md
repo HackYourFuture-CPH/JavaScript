@@ -65,7 +65,7 @@ The warmup is a **little abstract**, it will get more concrete later on!
 
 8. Check if we have double clicked on the page. A double click is defined by two clicks within 0.5 seconds. If a double click has been detected, log out the text: "double click!"
 
-9. Create a function called `jokeCreator` that has three parameters: `shouldTellFunnyJoke` - boolean, `logFunnyJoke` - function and `logBadJoke` - function. If you set `tellFunnyJoke` to `true` it should call the `logFunnyJoke` function that should log out a funny joke. And vice versa.
+9. Create a function called `jokeCreator` that has three parameters: `shouldTellFunnyJoke` - boolean, `logFunnyJoke` - function and `logBadJoke` - function. If you set `shouldTellFunnyJoke` to `true` it should call the `logFunnyJoke` function that should log out a funny joke. And vice versa.
 
 ### Function as a variable
 
