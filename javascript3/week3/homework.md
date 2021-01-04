@@ -63,7 +63,7 @@ Test if the new class works by creating a circle and drawing it to the canvas. T
 
 ### Now lets make art!
 
-Every 100ms create a new circle class and draw that to the canvas.
+Every 100ms create a new circle instance and draw that to the canvas.
 
 The circle should have random `x`, `y`, `radius` and `color`. For giving the `circle` a random color what should we do?? We should google off course!
 
