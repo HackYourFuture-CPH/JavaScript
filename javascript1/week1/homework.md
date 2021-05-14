@@ -113,7 +113,7 @@ An example could be: "The startup: "Easy Corporation" contains 16 characters"
 Hint: you can use this code to generate a random number from 0-9, if you dont want to specify the indexes yourself.
 
 ```js
-const randomNumber = Math.floor(Math.random() * 10) + 0;
+const randomNumber = Math.floor(Math.random() * 10);
 ```
 
 ---
