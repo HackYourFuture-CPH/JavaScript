@@ -91,4 +91,4 @@ Go over your homework one last time:
 - [ ] Do the variable, function and argument names you created follow the [Naming Conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)?
 - [ ] Is your code well-formatted (see [Code Formatting](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/code_formatting.md))?
 
-Please, fill out the [survey](https://forms.gle/QKTWFbUTkzgdcKiMA) about the module to give feedback to the staff, teachers and homework helpers.
+ Please, fill out the [survey](https://forms.gle/QKTWFbUTkzgdcKiMA) about the module to give feedback to the staff, teachers and homework helpers.
