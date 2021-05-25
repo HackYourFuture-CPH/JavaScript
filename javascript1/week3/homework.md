@@ -95,7 +95,7 @@ const travelInformation = {
 };
 
 const travelTime = notThisFunctionName(travelInformation);
-console.log(travelTime); // 4 hours and 42 minutes
+console.log(travelTime); // 8 hours and 38 minutes
 ```
 
 ---
