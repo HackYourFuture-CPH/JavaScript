@@ -29,7 +29,7 @@ If you find anything that could be improved then please create a pull request! W
 - Apis
   - The focus should be on consuming api's with `get` method. 
   - Give an example of an api (preferably one with an accesstoken, showing that part aswell)
-  - Explain conceptually what an api is (interface that hides abstraction). Explain how paths and query parameters work. Do not show how an api is implemented. We show that in the node class.
+  - Explain conceptually what an api is (interface that hides abstraction). Explain how paths and query parameters work. Do not show how an api is implemented. We show that in the node class. Good analogies [here](https://sidewaysdictionary.com/#/term/api) and [here](https://www.reddit.com/r/webdev/comments/en04ct/i_created_a_word_suggestions_api_to_use_on_a/fdtmj60/)
   - [Code inspiration](#apis)
 - Fetch (No promise explanation! Focus on usage)
   - Focus on usage let the students copy the fetch script and use it from there. Next week promises will be explained!
@@ -37,6 +37,12 @@ If you find anything that could be improved then please create a pull request! W
   - [Exercise 1](#astronauts-in-space), [exercise 2](#dog-fan-website)
 
 At this point good coding practices is starting to get very important! Check our [coding best practices](https://github.com/HackYourFuture-CPH/curriculum/blob/master/review/review-checklist.md#javascript) and use these both when live coding but also in reviews.
+
+
+## Flipped classroom videos
+
+[Flipped classroom videos](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript3/week1/preparation.md#flipped-classroom-videos)
+
 
 ## Code inspiration
 

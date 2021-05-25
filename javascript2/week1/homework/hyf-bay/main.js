@@ -1,3 +1,4 @@
-console.log('Script loaded');
+console.log("Script loaded");
 
-console.log(getAvailableProducts());
+const products = getAvailableProducts();
+console.log(products);

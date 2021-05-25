@@ -6,3 +6,7 @@ Some nice resources about map, filter
 
 _Please go through the material and come to class prepared!_
 
+## Flipped classroom videos
+- [Javascript advanced array methods part 1](https://youtu.be/wBKv2EX2hw8)
+- [JavaScript advanced array methods part 2](https://youtu.be/w4FNF8FLjQU)
+- [Javascript arrow functions](https://youtu.be/DFyfbJk4sZw)

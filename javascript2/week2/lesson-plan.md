@@ -44,6 +44,11 @@ If you find anything that could be improved then please create a pull request! W
 [Listing project](#listing-project)
 
 
+
+## Flipped classroom videos
+
+[Flipped classroom videos](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript2/week2/preparation.md#flipped-classroom-videos)
+
 ## Code inspiration
 
 ### Mentors
@@ -291,6 +296,7 @@ function generateListings(numberOfListings) {
         listing.price = randomIntFromInterval(1, 10000);
         listing.hasGarden = Boolean(randomIntFromInterval(0, 1));
         listing.size = randomIntFromInterval(12, 1000);
+        listing.img = `https://loremflickr.com/200/200/${listing.type}`
 
         listings.push(listing);
     }

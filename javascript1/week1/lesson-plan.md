@@ -70,6 +70,12 @@ If you find anything that could be improved then please create a pull request! W
 - [Last exercise, pizza project](#pizza-project)
 
 
+Here is a Notion Zoey Zou made: https://www.notion.so/JS1-Week1-2fdc88fdd4344c958091346efe3ba48b
+
+## Flipped classroom videos
+
+[Flipped classroom videos](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript1/week1/preparation.md#flipped-classroom-videos)
+
 ## Code inspiration
 
 ### Variable types

@@ -38,6 +38,12 @@ If you find anything that could be improved then please create a pull request! W
   - [Code inspiration](#call-stack)
   - [Exercise](#call-stack-1)
 
+Zoey Zou has created a nice lesson plan here: https://www.notion.so/JS1-Week3-a0f122866ac34fc3b98b7a41870046f4
+
+## Flipped classroom videos
+
+[Flipped classroom videos](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript1/week3/preparation.md#flipped-classroom-videos)
+
 ## Code inspiration
 
 ### Objects
@@ -226,12 +232,11 @@ planTrip();
 
 ### Codewar exercises
 - [CodeWars - Add property to every object](https://www.codewars.com/kata/add-property-to-every-object-in-array/train/javascript)
-- [CodeWars - Job Matching 1](https://www.codewars.com/kata/job-matching-number-1/train/javascript)
-- [CodeWars - Who's Online](https://www.codewars.com/kata/whos-online/train/javascript)
-- [CodeWars - Ironman Triathlon](https://www.codewars.com/kata/ironman-triathlon/train/javascript)
-- [CodeWars - Job Matching 2](https://www.codewars.com/kata/job-matching-number-2/train/javascript)
 - [CodeWars - Color Association](https://www.codewars.com/kata/colour-association/train/javascript)
 - [CodeWars - Unfinished loop](https://www.codewars.com/kata/unfinished-loop-bug-fixing-number-1/train/javascript)
 - [CodeWars - Is this my tail](https://www.codewars.com/kata/is-this-my-tail/train/javascript)
 - [CodeWars - Longest word](https://www.codewars.com/kata/squash-the-bugs/train/javascript)
+- [CodeWars - Who's Online](https://www.codewars.com/kata/whos-online/train/javascript)
+- [CodeWars - Job Matching 1](https://www.codewars.com/kata/job-matching-number-1/train/javascript)
+- [CodeWars - Job Matching 2](https://www.codewars.com/kata/job-matching-number-2/train/javascript)
 - BONUS [CodeWars - Super Duper Easy](https://www.codewars.com/kata/super-duper-easy/train/javascript)

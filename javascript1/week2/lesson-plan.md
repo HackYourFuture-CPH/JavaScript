@@ -20,7 +20,7 @@ If you find anything that could be improved then please create a pull request! W
 - Conditions
   - [Code inspiration](#if-sentences)
   - [Exercises](#if-sentences-1)
-- Functions
+- Functions (https://twitter.com/wesbos/status/1105907924088565762)
   - General description - A function is a reusable piece of code.
   - Function usage
     - Arguments
@@ -43,6 +43,13 @@ If you find anything that could be improved then please create a pull request! W
   - [Exercise send emails](#send-emails)
 
 The students really struggle with the **return** value. What it means, how it is captured. What happens when nothing is returned etc. Try really hammering in this concept with lots of simple examples and exercises! Fx if a function is called get something. That means that something is returned from that function.
+
+Zoey Zou made a nice Notion lesson plan here: https://www.notion.so/JS1-Week2-8f2d4b7e7ba0425ea4a9e97816e9ceb7
+
+
+## Flipped classroom videos
+
+[Flipped classroom videos](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript1/week2/preparation.md#flipped-classroom-videos)
 
 ## Code inspiration
 
@@ -137,7 +144,7 @@ function multiply(a, b) {
     return a * b;
 }
 
-multiply(10 * 4);
+multiply(10, 4);
 
 // Return value
 function sum(a, b) {
@@ -238,10 +245,10 @@ console.log(spam(14) === 'huehuehuehuehuehuehuehuehuehuehuehuehuehue')
 ### If sentences
 Create an `if` sentence that will give a user a message based on his bank account balance. Use the `balance` variable and change that. 
 
-- If a user has less that 0 log out 'Please earn some money!'
-- If a user has between 0 and 1000 log out 'Your balance is looking okay'
-- If a user has between 1000 and 3000 log out 'Your balance is looking good'
-- If a user has between 3000 and 10000 log out 'Your balance is fantastic'
+- If a user has 0 or less balance log out 'Please deposit some money!'
+- If a user has more than 0 and at most 1000 log out 'Your balance is looking okay'
+- If a user has more than 1000 and at most 3000 log out 'Your balance is looking good'
+- If a user has more than 3000 and at most 10000 log out 'Your balance is fantastic'
 - If a user has more than 10000 log out 'Your balance is AMAZING!'
 
 ```js

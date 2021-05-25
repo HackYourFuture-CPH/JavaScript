@@ -37,6 +37,14 @@ Good example of practical example of callbacks: https://github.com/HackYourFutur
 
 At this point good coding practices is starting to get very important! Check our [coding best practices](https://github.com/HackYourFuture-CPH/curriculum/blob/master/review/review-checklist.md#javascript) and use these both when live coding but also in reviews.
 
+This is super good at explaining function logic
+![Function graphic](assest/../assets/function-graphic.jpg)
+
+
+## Flipped classroom videos
+
+[Flipped classroom videos](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript2/week3/preparation.md#flipped-classroom-videos)
+
 ## Code inspiration
 
 ### Calling a function within a function

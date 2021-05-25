@@ -3,7 +3,7 @@
 Functions advanced
 - [ ] Function as a variable
   - [ ] Calling a function with a function
-- [ ] Callback function and asyncronicity
+- [ ] Callback function and asynchronicity
   - [ ] setTimeout, addEventListener
 - [ ] Anonomyous function vs named function
 
@@ -59,7 +59,7 @@ console.log('After');
 ```
 
 
-### Asynchrounus
+### Asynchronous
 
 This code is NOT run from top to bottom. It will first log "First log" then it will setup a timer for 5 seconde, then it will log out Second log. And then after 5000 seconds it will call the callback function that will log out "In timeout".
 
@@ -74,7 +74,7 @@ console.log('Second log');
 ```
 
 
-### Asynchrounus code in javascript
+### Asynchronous code in javascript
 
 So how does javascript handle asynchronous code? Here is an example with setTimeout:
 

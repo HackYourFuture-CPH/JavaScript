@@ -6,3 +6,8 @@
 - [Attaching an event](https://www.w3schools.com/jsref/met_element_addeventlistener.asp) (5 min)
 
 _Please go through the material and come to class prepared!_
+
+## Flipped classroom videos
+- [Executing Javascript in the browser environment](https://youtu.be/k8PEyCe3vK0)
+- [Interacting with the DOM using Javascript](https://youtu.be/YvHQIaKtOl8)
+- [DOM event listeners using Javascript](https://youtu.be/DwzApTvTngI)
