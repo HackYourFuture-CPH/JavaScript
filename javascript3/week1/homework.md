@@ -103,7 +103,7 @@ Hint: We have to change the weather api url, so we are not using city but positi
 
 Imagine if a user did not have to either write a city or click the get my position button, but could just save the location. Lets do that!
 
-When a user has gotten a location through either the input element or the geo location api, save that location using [localstorage](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API). Localstorage is a **way to save data** even when you close the browser.
+When a user has gotten a location through either the input element or the geo location api, save that location using [localstorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage?fbclid=IwAR2XNXZKUe1OoND0jSUWTPHkykZyYhrBEzTTwmyYsfT2Jpk_5AK39m9hUoY). Localstorage is a **way to save data** even when you close the browser.
 
 Now when loading the page and there is a city in the localstorage, use that to get the current weather.
 
