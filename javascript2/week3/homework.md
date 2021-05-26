@@ -157,3 +157,5 @@ Give the review on the PR exactly how the mentors do it! To find the link for th
 To help you get started with reviewing we have created [some ressources](https://github.com/HackYourFuture-CPH/curriculum/tree/master/review) about giving feedback. Find them
 
 Why is it important to give feedback? Because it will make you a [better](https://www.brightspot.com/blog/developer-life-5-reasons-why-the-code-review-process-is-critical-for-developers) [developer](https://www.sitepoint.com/the-importance-of-code-reviews/)
+
+And finally, please take 5 minutes to give the mentors and staff feedback by filling out the survey [here](https://forms.gle/W8PamVdJ5aBnemZ5A)
