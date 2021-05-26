@@ -181,3 +181,5 @@ Say we want to create an online tool where businesses can see where their users'
  Lets create some js that will get the average `x` and `y` position of a user after 30 seconds. 
 
 Before starting with this exercise, create a plan for how you will implement this! Maybe together with your mentor. 
+
+Thank you for teaching Javascript 2. To make sure we keep improving, we are seeking your feedback on the module. For homework helpers, please click [here](https://forms.gle/pQQGWPAebVmbSDq49) to give us feedback. For teachers, your survey is available [here](https://forms.gle/ATsPi9zdFkd8tvHh7).
