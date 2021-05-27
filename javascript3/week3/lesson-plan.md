@@ -223,3 +223,5 @@ class CV {
 
 #### Part 4:
 Add a method to the `CV` class called `renderCV()`. This method should render out the CV using HTML. Use `document.getElementById("<id>")` and `document.createElement("<element>")`, as well as `element.appendChild(<element>)` to build your HTML using JavaScript.
+
+Thank you very much for teaching Javascript 3, we hope you enjoyed it ! Now it is your time to give feedback about the module. For homework helpers, please click [here](https://forms.gle/4ZA1cnFg7nEjtjYR6) to give us feedback. For teachers, your survey is available [here](https://forms.gle/9nDL7KzZ6p6i6mTL8).
