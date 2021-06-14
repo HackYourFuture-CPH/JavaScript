@@ -158,4 +158,4 @@ To help you get started with reviewing we have created [some ressources](https:/
 
 Why is it important to give feedback? Because it will make you a [better](https://www.brightspot.com/blog/developer-life-5-reasons-why-the-code-review-process-is-critical-for-developers) [developer](https://www.sitepoint.com/the-importance-of-code-reviews/)
 
-And finally, please take 5 minutes to give the mentors and staff feedback by filling out the survey [here](https://forms.gle/W8PamVdJ5aBnemZ5A)
+And finally, please take 5 minutes to give the mentors and staff feedback by filling out the survey [here](https://forms.gle/Kdt8WEdmx595hijN9)
