@@ -44,7 +44,7 @@ There is a a man called mr. X. You can call him with any problem and he will ans
 Now mr. X gets lots of calls. Therefore he hires a person to take his calls. This guy passes on a message to mr x once he is completely free. So now when you call mr. X you leave his assistant a message and then wait for his assistant to call back. Once Mr x is done with all his other calls his assistant call you back with mr x's answer. This is like asynchronous js code. We now have to wait for our answer. You ask for some task to get done with a callback function, fx log "hello" after one second. Once one second has elapsed javascript runs your callback function.
 
 
-### Synchrounus
+### Synchronous
 
 This code runs from top to bottom, one line at a time. When it is done with a task it just starts with the next one right away.
 
