@@ -136,7 +136,7 @@ document.querySelector('input').addEventListener('input', callback);
 ```
 
 
-### Anonomous vs named function
+### Anonymous vs named function
 
 ```js
 
