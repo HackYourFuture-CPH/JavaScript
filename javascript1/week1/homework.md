@@ -24,7 +24,7 @@ Using the `hyf-homework` repo write this command
 
 `git checkout master` - You are now on the `master` branch
 
-`git checkout -b javascript/javascript1/week1`
+`git checkout -b javascript-javascript1-week1`
 
 This will create and checkout the branch so you are ready make commits to it
 
@@ -136,7 +136,7 @@ Use the `hyf-homework` repo and find the folder on your computer that contains t
 
 ---
 
-Using the branch called `javascript/javascript1/week1`
+Using the branch called `javascript-javascript1-week1`
 
 ---
 
@@ -145,7 +145,7 @@ To add your files go to the folder `javascript/javascript1/week1`. Here you **ad
 ```
 git add <file_name>
 git commit -m "Implemented task 1"
-git push origin javascript/javascript1/week1
+git push origin javascript-javascript1-week1
 ```
 
 ---
@@ -154,7 +154,7 @@ Go into the `hyf-homework` repo on https://github.com/ click on the `Pull reques
 
 ![Create new pull request](assets/create-new-pull-request.png)
 
-Where it says compare, choose the `javascript/javascript1/week1` branch. Just keep the PR title as it is. You can leave a comment if you want. Now click `Create pull request`.
+Where it says compare, choose the `javascript-javascript1-week1` branch. Just keep the PR title as it is. You can leave a comment if you want. Now click `Create pull request`.
 
 ![Create new pull request](assets/open-a-pull-request.png)
 
@@ -171,7 +171,7 @@ Based on the feedback, implement improvements to the homework. Then add, commit 
 ```
 git add <file_name>
 git commit -m "Implemented feedback"
-git push origin javascript/javascript1/week1
+git push origin javascript-javascript1-week1
 ```
 
 ---

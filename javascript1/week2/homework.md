@@ -18,7 +18,7 @@ Using the `hyf-homework` repo write this command
 
 `git checkout master` - You are now on the `master` branch
 
-`git checkout -b javascript/javascript1/week2`
+`git checkout -b javascript-javascript1-week2`
 
 This will create and checkout the branch so you are ready make commits to it
 
@@ -224,9 +224,9 @@ Go and try out this cool game: [roverjs.com](http://roverjs.com), written by one
 
 Watch [this video](https://www.youtube.com/watch?v=XYlgh9hSWtw) for a more detailed go-through of how to hand in homework!
 
-- Use the branch called `javascript/javascript1/week2`
-- Add all your changes to this branch in the `javascript/javascript1/week2` folder.
-- Create a pull request using the `javascript/javascript1/week2` branch
+- Use the branch called `javascript-javascript1-week2`
+- Add all your changes to this branch in the `javascript-javascript1-week2` folder.
+- Create a pull request using the `javascript-javascript1-week2` branch
 - Wait for mentor feedback
 - Implement feedback, `add`, `commit` and `push` the changes
 - Now you can merge the changes into `master`
