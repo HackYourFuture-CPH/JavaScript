@@ -28,7 +28,7 @@ Using the `hyf-homework` repo write this command
 
 This will create and checkout the branch so you are ready make commits to it
 
-[This video](https://www.youtube.com/watch?v=XYlgh9hSWtw) can help. On slack use the #git-support channel to ask questions about git
+[This video](https://www.youtube.com/watch?v=JcT4wmK1VcA) can help. On slack use the #git-support channel to ask questions about git
 
 ## Why should I do this homework?
 
@@ -126,7 +126,7 @@ To be continued...
 
 We are going to be handing in homework using something called a **pull request (now PR)**. The reason for that is that **most companies use PR's** when they work with code. So you might aswell get used to it!
 
-Watch [this video](https://www.youtube.com/watch?v=XYlgh9hSWtw) to go through the same process as is documented here
+Watch [this video](https://www.youtube.com/watch?v=JcT4wmK1VcA) to go through the same process as is documented here
 
 **Okay, lets go!**
 

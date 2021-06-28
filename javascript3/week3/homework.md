@@ -22,7 +22,7 @@ Using the `hyf-homework` repo write this command
 
 This will create and checkout the branch so you are ready make commits to it
 
-[This video](https://www.youtube.com/watch?v=XYlgh9hSWtw) can help. On slack use the #git-support channel to ask questions about git
+[This video](https://www.youtube.com/watch?v=JcT4wmK1VcA) can help. On slack use the #git-support channel to ask questions about git
 
 ## So why should i do this homework?
 
@@ -165,7 +165,7 @@ Be creative! Create some cool/weird/quirky functionality of either the `Product`
 
 ## Hand in Homework:
 
-Watch [this video](https://www.youtube.com/watch?v=XYlgh9hSWtw) for a more detailed go-through of how to hand in homework!
+Watch [this video](https://www.youtube.com/watch?v=JcT4wmK1VcA) for a more detailed go-through of how to hand in homework!
 
 - Use the branch called `javascript-javascript3-week3`
 - Add all your changes to this branch in the `javascript-javascript3-week3` folder.
