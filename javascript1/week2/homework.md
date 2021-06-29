@@ -22,7 +22,7 @@ Using the `hyf-homework` repo write this command
 
 This will create and checkout the branch so you are ready make commits to it
 
-[This video](https://www.youtube.com/watch?v=XYlgh9hSWtw) can help. On slack use the #git-support channel to ask questions about git
+[This video](https://www.youtube.com/watch?v=JcT4wmK1VcA) can help. On slack use the #git-support channel to ask questions about git
 
 ## Why should i even do this homework?
 
@@ -222,7 +222,7 @@ Go and try out this cool game: [roverjs.com](http://roverjs.com), written by one
 
 ## Step 5: Hand in Homework:
 
-Watch [this video](https://www.youtube.com/watch?v=XYlgh9hSWtw) for a more detailed go-through of how to hand in homework!
+Watch [this video](https://www.youtube.com/watch?v=JcT4wmK1VcA) for a more detailed go-through of how to hand in homework!
 
 - Use the branch called `javascript-javascript1-week2`
 - Add all your changes to this branch in the `javascript-javascript1-week2` folder.
