@@ -155,23 +155,23 @@ post2.logThis();
 
 ## Exercises
 
-### Create a user class
+### 1. Create a user class
 The class should have 2 properties: firstName and lastName. Hint: Use `this` and `constructor`.
 
 
-### Create an instance of the class
+### 2. Create an instance of the class
 Use the `new` keyword and assign the instance in a variable.
 
 * Try to log out the instance of the `User` to the console.
 * Try to log out the users `firstName`
 
 
-### Create a class method
+### 3. Create a class method
 The method should be called `getFullName`, and should return the combined first name and last name of the user. Use string concatenation or template literals. Remember to use the `this` keyword to access the attributes on the class instance.
 
 Call the `getFullName` method and log the result to the console.
 
-### Creating a CV class
+### 3. Creating a CV class
 The CV that we will be making uses three classes: `Job`, `Education` and
 `CV`. The `CV` class we have made for you (with some missing functionality). The `Job` and `Education` classes you need to create.
 
@@ -180,6 +180,16 @@ Create the classes `Job` and `Education`.
 
 - `Job` has five properties: `id`, `title`, `description`, `startDate` and `endDate` (the dates can be strings or actual `Date` objects).
 - `Education` has six properties: `id`, `title`, `school`, `address`, `startDate` and `endDate`.
+
+```
+class Job {
+   ///...
+}
+
+class Education {
+   ///...
+}
+```
 
 #### Part 2:
 Now add the functionality for the methods in the `CV` class.
