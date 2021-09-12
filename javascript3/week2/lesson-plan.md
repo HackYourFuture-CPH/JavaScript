@@ -302,22 +302,25 @@ Using promises
 2. Now make the promise fail by rejecting it with an error message instead of resolving it, and log the error message to the console.
 
 ## Exercise 4
-Create a function that returns a promise, that i can use like this:
+Create a function that returns a promise, that you can use like this:
 
 ```js
-// getLoggedInUsers should wait 5 seconds before it resolves with the users! 
-// Sometimes it should resolve and sometimes it should reject. 
-// Look into Math.random
-getLoggedInUsers()
-    .then(users => {
-        console.log(users); // ['benna', 'magdy', 'carolina']
-    }).catch(error => {
-        console.log(error);
-    });
+// YesNoFail4Seconds should wait 4 seconds before it does one of the following 3 things:
+// resolves with a yes
+// resolves with a no
+// or rejects
+// Look into Math.random()
+YesNoFail4Seconds()
+  .then((data) => {
+    console.log(`The answer is ${data}`);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
 
 ```
 
-The above example show how to consume the promise using promises. Now try consume the `getLoggedInUsers` using async/await
+The above example show how to consume the promise using promises. Now try consume the `YesNoFail4Seconds` using async/await
 
 ## Exercise 5
 Using async await
