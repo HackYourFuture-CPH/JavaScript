@@ -118,7 +118,7 @@ class ShoppingCart {
     // Implement functionality here
   }
 
-  getUser() {
+  getUser(user) {
     // Implement functionality here
   }
 }
@@ -139,7 +139,7 @@ Create the functionality for the `ShoppingCart` class.
 - `getTotal` should get the total price of the products in the `shoppingcart`.
 - `renderProducts` should render the products to html. You decide what to show and how.
 - `searchProduct` should return an array of product that match the `productName` parameter
-- `getUser` should return a promise with the data from this api: https://jsonplaceholder.typicode.com/users/1
+- `getUser` should return a promise with the data from this api: https://jsonplaceholder.typicode.com/users/1 (replace '1' with correct user). 
 
 ### Part 2
 
