@@ -7,7 +7,7 @@ Using the `hyf-homework` repo. In the terminal run `git status`
 If there are changes that have not been committed, figure out what to do with those changes
 
 - Should they be committed to another branch?
-- Should they be committed to `master`?
+- Should they be committed to `main`?
 - Should they be discarded?
 
 When you have figured out what to do with the changes and fixed those. Write `git status` again. If it says `nothing to commit, working tree clean`. Then you are ready to create the branch for this weeks homework.
@@ -16,7 +16,7 @@ When you have figured out what to do with the changes and fixed those. Write `gi
 
 Using the `hyf-homework` repo write this command
 
-`git checkout master` - You are now on the `master` branch
+`git checkout main` - You are now on the `main` branch
 
 `git checkout -b javascript-javascript2-week1`
 
