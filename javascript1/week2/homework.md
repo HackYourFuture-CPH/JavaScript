@@ -216,11 +216,7 @@ Hint: Use a for loop to calculate the total price of the candy pieces.
 
 _Optional_ Use a [while loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while) instead of a for loop.
 
-## Step 4: Rover the Robot _Optional_
-
-Go and try out this cool game: [roverjs.com](http://roverjs.com), written by one of the HYF teachers from Amsterdam, [Joost Lubach](https://github.com/joost). There are different levels. Solve the chapter up until and including the variables chapter.
-
-## Step 5: Hand in Homework:
+## Step 4: Hand in Homework:
 
 Watch [this video](https://www.youtube.com/watch?v=JcT4wmK1VcA) for a more detailed go-through of how to hand in homework!
 
