@@ -34,7 +34,7 @@ Start VERY simple. Just a class that has few fields, no methods. Explain the dif
   - [Exercise](#creating-a-cv-class)
   - Extend (Only if time!)
 
-At this point good coding practices is starting to get very important! Check our [coding best practices](https://github.com/HackYourFuture-CPH/curriculum/blob/master/review/review-checklist.md#javascript) and use these both when live coding but also in reviews.
+At this point good coding practices is starting to get very important! Check our [coding best practices](https://github.com/HackYourFuture-CPH/curriculum/blob/main/review/review-checklist.md#javascript) and use these both when live coding but also in reviews.
 
 ## Code inspiration
 

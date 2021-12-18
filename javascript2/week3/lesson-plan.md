@@ -35,7 +35,7 @@ document.querySelector('button').addEventListner('click', logOuttext());
 
 Good example of practical example of callbacks: https://github.com/HackYourFuture-CPH/JavaScript/blob/class08/JavaScript2/Week5/classwork/extra_examples.md
 
-At this point good coding practices is starting to get very important! Check our [coding best practices](https://github.com/HackYourFuture-CPH/curriculum/blob/master/review/review-checklist.md#javascript) and use these both when live coding but also in reviews.
+At this point good coding practices is starting to get very important! Check our [coding best practices](https://github.com/HackYourFuture-CPH/curriculum/blob/main/review/review-checklist.md#javascript) and use these both when live coding but also in reviews.
 
 This is super good at explaining function logic
 ![Function graphic](assest/../assets/function-graphic.jpg)
@@ -43,7 +43,7 @@ This is super good at explaining function logic
 
 ## Flipped classroom videos
 
-[Flipped classroom videos](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript2/week3/preparation.md#flipped-classroom-videos)
+[Flipped classroom videos](https://github.com/HackYourFuture-CPH/JavaScript/blob/main/javascript2/week3/preparation.md#flipped-classroom-videos)
 
 ## Code inspiration
 
