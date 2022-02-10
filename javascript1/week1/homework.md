@@ -154,7 +154,7 @@ Go into the `hyf-homework` repo on https://github.com/ click on the `Pull reques
 
 ![Create new pull request](assets/create-new-pull-request.png)
 
-Where it says compare, choose the `javascript-javascript1-week1` branch. Just keep the PR title as it is. You can leave a comment if you want. Now click `Create pull request`.
+Where it says compare, choose the `javascript-javascript1-week1` branch. Just keep the PR title as it is (javascript-javascript1-week1). You can leave a comment if you want. Now click `Create pull request`.
 
 ![Create new pull request](assets/open-a-pull-request.png)
 
