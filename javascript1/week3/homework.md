@@ -303,7 +303,7 @@ Watch [this video](https://www.youtube.com/watch?v=JcT4wmK1VcA) for a more detai
 
 - Use the branch called `javascript-javascript1-week3`
 - Add all your changes to this branch in the `javascript-javascript1-week3` folder.
-- Create a pull request using the `javascript-javascript1-week3` branch and give your PR the same name `javascript-javascript1-week4`
+- Create a pull request using the `javascript-javascript1-week3` branch and give your PR the same name `javascript-javascript1-week3`
 - Wait for mentor feedback
 - Implement feedback, `add`, `commit` and `push` the changes
 - Now you can merge the changes into `master`
