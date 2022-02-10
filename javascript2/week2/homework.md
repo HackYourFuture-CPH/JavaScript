@@ -144,7 +144,7 @@ Watch [this video](https://www.youtube.com/watch?v=JcT4wmK1VcA) for a more detai
 - Use the branch called `javascript-javascript2-week2`
 - Add all your changes to this branch in the `javascript-javascript2-week2` folder.
 - Go through the [Homework checklist](#homework-checklist)
-- Create a pull request using the `javascript-javascript2-week2` branch
+- Create a pull request using the `javascript-javascript2-week2` branch and give your PR the same name `javascript-javascript2-week2`.
 - Wait for mentor feedback
 - Implement feedback, `add`, `commit` and `push` the changes
 - Now you can merge the changes into `main`
