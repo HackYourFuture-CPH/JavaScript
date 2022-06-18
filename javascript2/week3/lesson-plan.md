@@ -21,7 +21,7 @@ If you find anything that could be improved then please create a pull request! W
 - Callback function and asyncronicity - shows a practical example of function that gets called by another function (fx `setTimeout` or `addEventListener`)
   - [Code inspiration](#callback-functions)
 - Anonomyous function vs named function
-    - [Code inspiration](#anonomous-vs-named-function)
+    - [Code inspiration](#anonymous-vs-named-function)
 - [Exercise 1](#click-counter), [exercises 2](#delay-clicker), [exercise 3](#page-onload), [exercises 4](#mouse-position)
 - Scope - Only if the students needs this! Ask to their abilities!
 

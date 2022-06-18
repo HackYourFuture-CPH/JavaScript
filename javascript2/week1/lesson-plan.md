@@ -21,8 +21,9 @@ If you find anything that could be improved then please create a pull request! W
   - HTML vs CSS vs JS
   - Client vs server
   - Where is the script tag being loaded
+  - Code debugging
 
-DOM
+- DOM
   - What is it and what do developers use the DOM for?
   - DOM manipulation
     - Get elements

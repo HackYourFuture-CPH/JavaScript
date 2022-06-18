@@ -28,6 +28,15 @@ This will create and checkout the branch so you are ready make commits to it
 
 **Interacting with the DOM is a crucial part** of building a website. If we cannot interact with the DOM and the javascript we write cannot be used in a browser. **Connecting javascript to the browser opens up a new world of possibilities** where only the imagination is the limiting factor.
 
+## Overview of homework  
+1. **Problem solving cardio:** Warmup exercise that includes
+    - Find the shortest word
+    - Find and count the Danish letters
+
+2. ⭐ **Spirit animal name generator:** Create an interactive page where the user can enter the name and receive a spirit animal name
+
+3. 🌟 **hyfBay:** It's a single-page app where users can search for products. We will be building this website step by step over this course.
+
 ## Problem solving cardio
 
 Lets exercise our problem solving abilities!
