@@ -2,7 +2,7 @@
 ```
 > Focus on having lots of in class exercises.
 
-> DON'T teach everything, let the students investigate topics on their own aswell!
+> DON'T teach everything, let the students investigate topics on their own as well!
 
 > Focus on how to read documentation, Google answers and errors!!
 
