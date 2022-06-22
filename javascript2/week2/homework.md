@@ -37,13 +37,13 @@ The warmup exercises will be a bit abstract. But the in the **hyfBay exercise** 
 Javascript is getting difficult now and we are aware of that! Take some time to appreciate how far you have come that last 6 weeks. Instead of comparing yourself to others, compare yourself to where you were a some time ago. If you are seeing progress then you are doing it right 💪
 
 ## Overview of homework  
-1. **Warmup array exercises:** Warmup exercise that includes
+1. **[Warmup array exercises:](#1-warmup-array-exercises)** Warmup exercise that includes
     - Doubling the number
     - ⭐ Working with movies
 
-2. 🌟 **hyfBay:** It's a single-page app where users can search for products. 
+2. 🌟 **[hyfBay](#hyfbay):** It's a single-page app where users can search for products. 
 
-## Warmup array exercises
+# 1. Warmup array exercises
 
 If you struggle to do this weeks homework there are a couple of things to do:
 
@@ -51,7 +51,7 @@ If you struggle to do this weeks homework there are a couple of things to do:
 - Watch the class recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=AJt_O0EFDC8), [part 2](https://www.youtube.com/watch?v=4tj7CvD7ka8), [part 3](https://www.youtube.com/watch?v=CO40FG6pK2k) [part 4](https://www.youtube.com/watch?v=eA2tCs0AaaM)
 - Read up on array functions [here](https://github.com/HackYourFuture-CPH/JavaScript/blob/main/javascript2/week2/readme.md#array-methods-map-filter-and-sort)
 
-### Doubling of number
+## 1.1. Doubling of number
 
 Say you would like to write a program that **doubles the odd numbers** in an array and **throws away the even number**.
 
@@ -72,7 +72,7 @@ console.log("The doubled numbers are", newNumbers); // [2, 6]
 
 Rewrite the above program using `map` and `filter` don't forget to use arrow functions.
 
-### Working with movies
+## 1.2. Working with movies
 
 ![cinema](https://media.giphy.com/media/l6mBchxYZc7Sw/giphy.gif)
 
@@ -88,11 +88,11 @@ Copy the movies array in the [movies](homework/movies.js) file. Use this array t
 8. Calculate the **average rating** of all the movies using [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce). _Optional_
 9. **Count the total number** of Good, Average and Bad movies using [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce). A return could fx be `{goodMovies: 33, averageMovies: 45, goodMovies: 123}` _Optional_
 
-## hyfBay - get the okay'est products here - continued
+# 2. hyfBay - get the okay'est products here - continued <a id='hyfbay'></a>
 
 **Continue work on your homework regarding the Hyfbay** from previous week. Please copy the files from last week into this weeks `hyf-homework` folder and continue working there. If you have not made last weeks homework the solution for it is included in [this weeks homework folder](homework/hyf-bay) in the `main.js` file.
 
-### Filter products
+## 2.1. Filter products
 
 A very normal usecase for a product site is that a **user wants to search for some product** or find products that are cheaper than a set price. Lets implement that functionality for a user!
 
@@ -108,7 +108,7 @@ Lets get a little closer to javacript:
 2. `.filter` on the products array
 3. `renderProducts` with the filtered array
 
-#### Searching for products
+## 2.2 Searching for products
 
 A user needs to search for products. That means that we need to add an input element to the html.
 
@@ -120,7 +120,7 @@ Use the overview shown above and the `renderProducts` function.
 
 ![Searching for a product](homework/hyf-bay-searching.gif)
 
-#### Filter products based on max price
+## 2.3. Filter products based on max price
 
 Lets help a user to find cheap products! When the **user writes a maximum price** the products should be filtered to match that maximum price
 
@@ -128,17 +128,17 @@ _Hint: Break this task into smaller tasks!_
 
 ![Searching for a product](homework/hyf-bay-price.gif)
 
-#### Make the website look nicer!
+## 2.4. Make the website look nicer!
 
 The website looks awful now, **but** luckily you have had css and html and know exactly what it takes to make this website shine!
 
 Improve it how you see fit. Maybe add a footer, header, logo, title, styling, responsivity. Whatever you feel like would improve the site!
 
-### Create some extra feature
+## 2.5. Create some extra feature
 
 No matter how small or how big. Create some feature that would be **cool/helpful/quirky/funny**.
 
-### Sort the products - _optional_
+## 2.6 Sort the products - _optional_
 
 This task is more open ended! So you need to come up with fx how the user should interact with the functionality.
 

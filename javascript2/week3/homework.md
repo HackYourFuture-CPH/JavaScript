@@ -31,18 +31,19 @@ Working with functions in javascript is such an essential part of working with j
 We want you to realise that **functions are just variables** in javascript. It is exactly the same as string or a number. This homework forces you into using functions in weird ways that forces you to think differently about functions.
 
 ## Overview of homework  
-1. **Warmup:** Warmup exercise that includes
+1. **[Warmup:](#1-warmup)** Warmup exercise that includes
     - ⭐ Create a function to make delay in logging out text
     - calling a function within a function
     - ⭐ Log out location
     - Implement runAfterDelay function
     - Simulate double click with click event
     - Implement joke creator
-    - ⭐ Function as a variable
 
-2. 🌟 **The fastest presser in this realm:** It's a game where two people compete about who can press a key most often.
+2. ⭐ **[Function as a variable:](#2-function-as-a-variable)**
 
-## Warmup
+3. 🌟 **[The fastest presser in this realm:](#3-the-fastest-presser-in-this-realm)** It's a game where two people compete about who can press a key most often.
+
+# 1. Warmup
 
 If you struggle to do this weeks homework there are a couple of things to do:
 
@@ -79,7 +80,7 @@ The warmup is a **little abstract**, it will get more concrete later on!
 
 9. Create a function called `jokeCreator` that has three parameters: `shouldTellFunnyJoke` - boolean, `logFunnyJoke` - function and `logBadJoke` - function. If you set `shouldTellFunnyJoke` to `true` it should call the `logFunnyJoke` function that should log out a funny joke. And vice versa.
 
-### Function as a variable
+# 2. Function as a variable
 
 Create funtions that are used in these different ways:
 
@@ -91,7 +92,7 @@ Yes i know that was a little tough, now on to the fun part 🎉
 
 ![phew](https://media.giphy.com/media/EDt1m8p5hqXG8/giphy.gif)
 
-## The fastest presser in this realm
+# 3. The fastest presser in this realm
 
 Lets create a fun simple game :)
 
@@ -111,7 +112,7 @@ You can implement it exactly like you want to, but here is my recommended order:
 4. **Keep a counter** for how many times `l` and `s` was pressed.
 5. **Now put it all together!** After the timeout is done figure out which of the counters is largest. Give some kind of feedback to the users indicating who won.
 
-### Extra features
+## 2.1 Extra features
 
 1. **Start a new game** functionality. Create some functionality so that the users can restart a game.
 2. Try and give the site some **styling so it looks nice** :)
@@ -125,7 +126,7 @@ Here are some general things to consider:
 - What if no time was specified for the game?
 - What if there were no key presses before the game ends?
 
-### Confetti
+## 3.3 Confetti
 
 If you wanna give the game some confetti like in the gif, check out [this library](https://www.npmjs.com/package/confetti-js)
 
