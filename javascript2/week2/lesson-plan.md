@@ -333,11 +333,11 @@ If a user fx click on a button indicating that the user only wants listings that
 ```js
 const listings = generateListings(20);
 
-const filter = {
+const filterObject = {
     type: 'farm',
 };
 
-const farmListings = filterListings(listings, filter);
+const farmListings = filterListings(listings, filterObject);
 ```
 
 Okay, so the `filterListings` function takes a filter which is an `object`. Say the user wants farm listings that cost more than 1.500.000. 
