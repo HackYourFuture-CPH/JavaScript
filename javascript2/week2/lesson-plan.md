@@ -316,7 +316,7 @@ generateListings(20);
 ### Filter 
 Using the 37 listings from the previous tasks
 - Create an array of cheap listings. You define what cheap means. Each item in this array should be of type object
-- Create an array of expensize listings prices. Each item in this array should be of type number
+- Create an array of expensive listings prices. Each item in this array should be of type number
 - Create an array of listings that have parking. Each item in this array should be of type object
 
 
