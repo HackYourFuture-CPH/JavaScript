@@ -1,0 +1,16 @@
+[
+  {
+    "orderId": 1,
+    "orderName": "Order1",
+    "price": 100,
+    "listOfDrinks": ["Coffee", "Cola"],
+    "orderExtras": ["Ketchup", "Cheese"]
+  },
+  {
+    "orderId": 2,
+    "orderName": "Order2",
+    "price": 50,
+    "listOfDrinks": ["Fanta", "Cola"],
+    "orderExtras": ["Falafel", "Cheese"]
+  }
+]
