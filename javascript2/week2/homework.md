@@ -36,12 +36,14 @@ The warmup exercises will be a bit abstract. But the in the **hyfBay exercise** 
 
 Javascript is getting difficult now and we are aware of that! Take some time to appreciate how far you have come that last 6 weeks. Instead of comparing yourself to others, compare yourself to where you were a some time ago. If you are seeing progress then you are doing it right 💪
 
-## Overview of homework  
-1. **[Warmup array exercises:](#1-warmup-array-exercises)** Warmup exercise that includes
-    - Doubling the number
-    - ⭐ Working with movies
+## Overview of homework
 
-2. 🌟 **[hyfBay](#hyfbay):** It's a single-page app where users can search for products. 
+1. **[Warmup array exercises:](#1-warmup-array-exercises)** Warmup exercise that includes
+
+   - Doubling the number
+   - ⭐ Working with movies
+
+2. 🌟 **[hyfBay](#hyfbay):** It's a single-page app where users can search for products.
 
 # 1. Warmup array exercises
 
@@ -144,35 +146,9 @@ This task is more open ended! So you need to come up with fx how the user should
 
 Give the user the possibility to sort the products. That could fx be on price, name, rating or all of the above!
 
-## Hand in Homework:
+<br/>
 
-Watch [this video](https://www.youtube.com/watch?v=JcT4wmK1VcA) for a more detailed go-through of how to hand in homework!
+## Hand in homework
 
-- Use the branch called `javascript-javascript2-week2`
-- Add all your changes to this branch in the `javascript-javascript2-week2` folder.
-- Go through the [Homework checklist](#homework-checklist)
-- Create a pull request using the `javascript-javascript2-week2` branch and give your PR the same name `javascript-javascript2-week2`.
-- Wait for mentor feedback
-- Implement feedback, `add`, `commit` and `push` the changes
-- Now you can merge the changes into `main`
-- When merged you can **share the github link** to your classes slack channel if you are **proud of what you did** 💪
-- Now celebrate 🎉🎉🎉
-
-## Homework checklist
-
-Go over your homework one last time:
-
-- [ ] Does every file run without errors and with the correct results?
-- [ ] Have you used `const` and `let` and avoided `var`?
-- [ ] Do the variable, function and argument names you created follow the [Naming Conventions](https://github.com/HackYourFuture/fundamentals/blob/main/fundamentals/naming_conventions.md)?
-- [ ] Is your code well-formatted (see [Code Formatting](https://github.com/HackYourFuture/fundamentals/blob/main/fundamentals/code_formatting.md))?
-
-## Feedback giving time!
-
-Find a student to give feedback using this site: https://hyf-peer-review.herokuapp.com/. The feedback should be given after the homework has been handed in, preferably two days after.
-
-Give the review on the PR exactly how the mentors do it! To find the link for the PR ask the person you are reviewing :) You can see how to give feedback on a PR using github [here](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request)
-
-To help you get started with reviewing we have created [some ressources](https://github.com/HackYourFuture-CPH/curriculum/tree/main/review) about giving feedback. Find them
-
-Why is it important to give feedback? Because it will make you a [better](https://www.brightspot.com/blog/developer-life-5-reasons-why-the-code-review-process-is-critical-for-developers) [developer](https://www.sitepoint.com/the-importance-of-code-reviews/)
+Need to brush up on the homework hand-in process?<br/>
+Check [this resource](https://github.com/HackYourFuture-CPH/Git/blob/main/homework_hand_in.md) to remember how to hand in the homework correctly!
