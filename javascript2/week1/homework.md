@@ -28,10 +28,12 @@ This will create and checkout the branch so you are ready make commits to it
 
 **Interacting with the DOM is a crucial part** of building a website. If we cannot interact with the DOM and the javascript we write cannot be used in a browser. **Connecting javascript to the browser opens up a new world of possibilities** where only the imagination is the limiting factor.
 
-## Overview of homework  
+## Overview of homework
+
 1. **[Problem solving cardio:](#1-problem-solving-cardio)** Warmup exercise that includes
-    - Find the shortest word
-    - Find and count the Danish letters
+
+   - Find the shortest word
+   - Find and count the Danish letters
 
 2. ⭐ **[Spirit animal name generator:](#2-spirit-animal-name-generator)** Create an interactive page where the user can enter the name and receive a spirit animal name
 
@@ -111,7 +113,7 @@ In the [homework/hyf-bay folder](homework/hyf-bay) there is a project template y
 
 The `index.html` is very basic. It simply loads two javascript files and include some css. The two javascript files are `hyfBayHelpers.js` and the `main.js`. `hyfBayHelpers.js` contains a function (`getAvailableProducts`) that we can use to get an array of products. In the `main.js` we will be writing all our code!
 
-## 3.2.  Requirements
+## 3.2. Requirements
 
 - Using the `getAvailableProducts` array we will render an html list of products
 - The list should contain `title`, `price` and `rating`
@@ -141,35 +143,9 @@ Here is a possible way to render the products
    2. Set the innerHTML of that `li` to the contain the title, price and rating
    3. [Append the `li`](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild) to the `ul`
 
-## Hand in Homework:
+<br/>
 
-Watch [this video](https://www.youtube.com/watch?v=JcT4wmK1VcA) for a more detailed go-through of how to hand in homework!
+## Hand in homework
 
-- Use the branch called `javascript-javascript2-week1`
-- Add all your changes to this branch in the `javascript-javascript2-week1` folder.
-- Go through the [Homework checklist](#homework-checklist)
-- Create a pull request using the `javascript-javascript2-week1` branch and give your PR the same name `javascript-javascript2-week1`.
-- Wait for mentor feedback
-- Implement feedback, `add`, `commit` and `push` the changes
-- Now you can merge the changes into `master`
-- When merged you can **share the github link** to your classes slack channel if you are **proud of what you did** 💪
-- Now celebrate 🎉🎉🎉
-
-## Homework checklist
-
-Go over your homework one last time:
-
-- [ ] Does every file run without errors and with the correct results?
-- [ ] Have you used `const` and `let` and avoided `var`?
-- [ ] Do the variable, function and argument names you created follow the [Naming Conventions](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/naming_conventions.md)?
-- [ ] Is your code well-formatted (see [Code Formatting](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/code_formatting.md))?
-
-## Feedback giving time!
-
-Find a student to give feedback using this site: https://hyf-peer-review.herokuapp.com/. The feedback should be given after the homework has been handed in, preferably two days after.
-
-Give the review on the PR exactly how the mentors do it! To find the link for the PR ask the person you are reviewing :) You can see how to give feedback on a PR using github [here](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request)
-
-To help you get started with reviewing we have created [some ressources](https://github.com/HackYourFuture-CPH/curriculum/tree/master/review) about giving feedback. Find them
-
-Why is it important to give feedback? Because it will make you a [better](https://www.brightspot.com/blog/developer-life-5-reasons-why-the-code-review-process-is-critical-for-developers) [developer](https://www.sitepoint.com/the-importance-of-code-reviews/)
+Need to brush up on the homework hand-in process?<br/>
+Check [this resource](https://github.com/HackYourFuture-CPH/Git/blob/main/homework_hand_in.md) to remember how to hand in the homework correctly!
