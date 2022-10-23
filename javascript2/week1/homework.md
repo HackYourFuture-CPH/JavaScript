@@ -1,28 +1,8 @@
 # Homework
 
-### Get git ready to work on homework
+## Start the homework
 
-Using the `hyf-homework` repo. In the terminal run `git status`
-
-If there are changes that have not been committed, figure out what to do with those changes
-
-- Should they be committed to another branch?
-- Should they be committed to `main`?
-- Should they be discarded?
-
-When you have figured out what to do with the changes and fixed those. Write `git status` again. If it says `nothing to commit, working tree clean`. Then you are ready to create the branch for this weeks homework.
-
-#### Creating the branch
-
-Using the `hyf-homework` repo write this command
-
-`git checkout main` - You are now on the `main` branch
-
-`git checkout -b javascript-javascript2-week1`
-
-This will create and checkout the branch so you are ready make commits to it
-
-[This video](https://www.youtube.com/watch?v=JcT4wmK1VcA) can help. On slack use the #git-support channel to ask questions about git
+Need to brush up on the homework setup process? Check [this](https://github.com/HackYourFuture-CPH/Git/blob/main/homework_hand_in.md) out before you get into some git confusion!
 
 ## So why this homework?
 
@@ -133,7 +113,7 @@ renderProducts(products); // This should create the ul and the li's with the ind
 
 So after calling the `renderProducts` function, the output should be like the output you can see here: https://codesandbox.io/s/hyf-bay-first-week-oml13
 
-### So how can i do that?
+### So how can I do that?
 
 Here is a possible way to render the products
 
