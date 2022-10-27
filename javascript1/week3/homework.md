@@ -293,9 +293,11 @@ Optional
 
 ## Step 4 bonus homework
 
-the Bonus homework for this week (for those of you want an extra challenge) do the following:
+The bonus homework for this week (for those of you want an extra challenge) do the following:
 
-Go to http://roverjs.com/ and complete the functions and arrays chapters.
+https://www.codewars.com/kata/job-matching-number-1/train/javascript <br/>
+https://www.codewars.com/kata/job-matching-number-2/train/javascript <br/>
+https://www.codewars.com/kata/unfinished-loop-bug-fixing-number-1/train/javascript <br/>
 
 ## Step 5: Hand in Homework
 
