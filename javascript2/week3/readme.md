@@ -78,7 +78,7 @@ console.log('Second log');
 
 So how does javascript handle asynchronous code? Here is an example with setTimeout:
 
-First setTimeout is added to the call stack. The call stack hands it over to the browser with the callback function given in the setTimeout function. Now the browser via web apis handle the timing. The browser handles the timing of the setTimeout via Web APIs and then it is popped from the call stack.
+First setTimeout is added to the call stack. The call stack hands it over to the browser with the callback function given in the setTimeout function. The browser handles the timing of the setTimeout via Web APIs and then it is popped from the call stack.
 
 When the timer is expired it sends the callback of our setTimeout function to the eventloop. The eventloop then works like this: if the call stack is empty it will take the first thing in the event loop and add it to the call stack. When it is added to the call stack it is javascript call stack business as usual. Call the function and pop it from the call stack.  
 
