@@ -40,9 +40,9 @@ Finish the exercises from the class!
 ## Codewars
 
 Complete these Katas in codewars: <br/>
-https://www.codewars.com/kata/54ff3102c1bad923760001f3 <br/>
-https://www.codewars.com/kata/546e2562b03326a88e000020 <br/>
-https://www.codewars.com/kata/554b4ac871d6813a03000035 <br/>
+- [7kyu Vowel Count](https://www.codewars.com/kata/54ff3102c1bad923760001f3) <br/>
+- [7kyu Digit*Digit](https://www.codewars.com/kata/546e2562b03326a88e000020) <br/>
+- [7kyu Highest and Lowest](https://www.codewars.com/kata/554b4ac871d6813a03000035) <br/>
 
 Post a link to your codewars profile when you sumbmit the homework! 
 
