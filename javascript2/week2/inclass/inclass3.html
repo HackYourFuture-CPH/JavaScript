@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Hungry For Apples?</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body class="bg-light">
+    <div class="container">
+        <h1 class="text-center">
+            <i class="bi bi-apple" style="color:orangered"></i>
+            <i class="bi bi-apple" style="color:yellowgreen"></i>
+            <i class="bi bi-apple" style="color:gold"></i>
+            <i class="bi bi-apple" style="color:pink"></i>
+            Hungry For Apples?
+            <i class="bi bi-apple" style="color:orangered"></i>
+            <i class="bi bi-apple" style="color:yellowgreen"></i>
+            <i class="bi bi-apple" style="color:gold"></i>
+            <i class="bi bi-apple" style="color:pink"></i>
+        </h1>
+        
+        <form class="my-4" id="radioForm">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="appleRadios" value="all" id="allRadio" checked>
+                <label class="form-check-label" for="allRadio">
+                    <i class="bi bi-apple" style="color:orangered"></i>
+                    <i class="bi bi-apple" style="color:yellowgreen"></i>
+                    <i class="bi bi-apple" style="color:gold"></i>
+                    <i class="bi bi-apple" style="color:pink"></i> All
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="appleRadios" value="red" id="redRadio">
+                <label class="form-check-label" for="redRadio"><i class="bi bi-apple" style="color:orangered"></i> Red</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="appleRadios" value="yellow" id="yellowRadio">
+                <label class="form-check-label" for="yellowRadio"><i class="bi bi-apple" style="color:gold"></i> Yellow</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="appleRadios" value="green" id="greenRadio">
+                <label class="form-check-label" for="greenRadio"><i class="bi bi-apple" style="color:yellowgreen"></i> Green</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="appleRadios" value="pink" id="pinkRadio">
+                <label class="form-check-label" for="pinkRadio"><i class="bi bi-apple" style="color:pink"></i> Pink</label>
+            </div>
+        </form>
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead class="table-info">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Weight</th>
+                    <th scope="col">Color</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Total Price</th>
+                </tr>
+                </thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src='inclass3.js'></script>
+</body>
+</html>
