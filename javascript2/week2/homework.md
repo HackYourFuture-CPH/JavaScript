@@ -54,7 +54,17 @@ console.log("The doubled numbers are", newNumbers); // [2, 6]
 
 Rewrite the above program using `map` and `filter` don't forget to use arrow functions.
 
-## 1.2. Working with movies
+<br/>
+
+## 1.2. codewars!
+
+Complete these Katas:
+- [8 kyu To square(root) or not to square(root)](https://www.codewars.com/kata/57f6ad55cca6e045d2000627)
+- [8 kyu Removing Elements](https://www.codewars.com/kata/5769b3802ae6f8e4890009d2/train/javascript)
+
+<br/>
+
+## 1.3. Working with movies
 
 ![cinema](https://media.giphy.com/media/l6mBchxYZc7Sw/giphy.gif)
 
