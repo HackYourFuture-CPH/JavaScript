@@ -34,14 +34,24 @@ function generateListings(numberOfListings) {
     return listings;
 }
 const tableBodyTag = document.getElementById("tableBody")
-const listings = generateListings(37);
+const listings = generateListings(1000);
 
 // Filter listings
 const filter = {
     type: 'farm',
+    facilities: ['Parkering', 'Husdyr'],
     minPrice: 1500,
     maxPrice: 8000,
+    hasGarden: false,
+    minSize: 50,
+    maxSize: 700
 };
+
+// add filter do DOM with id filter
+const filterTag = document.getElementById("filter")
+// JSON stringify with line breaks and spaces
+filterTag.innerHTML = JSON.stringify(filter, null, 2)
+
 
 // const filterListings = (listings, filter) => {
 //     const filteredItems = listings
@@ -53,13 +63,24 @@ const filter = {
 const filterListings = (listings, filter) => {
     const allowedKeys = ["type", "facilities", "minPrice", "maxPrice", "hasGarden", "minSize", "maxSize"]
     const filteredKeys = Object.keys(filter).filter(element => allowedKeys.includes(element))
-    // console.log(filteredKeys)
+    console.log(filteredKeys)
 
     const filterFunctions = {
-        type: listing => listing.type.toLowerCase() === filter.type,
+        type: listing => listing.type.toLowerCase() === filter.type.toLowerCase(),
+        // next line is a bit more complicated, but it works
+        // it checks if the filter.facilities array includes any of the listing.facilities
+        // for filter.facilities.every see:
+        // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every
+        facilities: listing => filter.facilities.every(facility => {
+            const listingFacilities = listing.facilities.map(facility => facility.toLowerCase())
+            const filterFacility = facility.toLowerCase()
+            return listingFacilities.includes(filterFacility)
+        }),
         minPrice: listing => listing.price >= filter.minPrice,
         maxPrice: listing => listing.price <= filter.maxPrice,
-        // add key and filtering function for each allowedKey from allowedKeys
+        hasGarden: listing => listing.hasGarden === filter.hasGarden,
+        minSize: listing => listing.size >= filter.minSize,
+        maxSize: listing => listing.size <= filter.maxSize,
     }
 
     filteredKeys.forEach(key => {
