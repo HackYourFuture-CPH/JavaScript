@@ -68,7 +68,7 @@ const filterListings = (listings, filter) => {
     const filterFunctions = {
         type: listing => listing.type.toLowerCase() === filter.type.toLowerCase(),
         // next line is a bit more complicated, but it works
-        // it checks if the filter.facilities array includes any of the listing.facilities
+        // it checks if every element in filter.facilities is included in listing.facilities
         // for filter.facilities.every see:
         // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every
         facilities: listing => filter.facilities.every(facility => {
