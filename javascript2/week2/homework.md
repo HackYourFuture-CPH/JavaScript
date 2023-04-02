@@ -60,7 +60,7 @@ Rewrite the above program using `map` and `filter` don't forget to use arrow fun
 
 Complete these Katas:
 - [8 kyu To square(root) or not to square(root)](https://www.codewars.com/kata/57f6ad55cca6e045d2000627)
-- [8 kyu Removing Elements](https://www.codewars.com/kata/5769b3802ae6f8e4890009d2/train/javascript)
+- [8 kyu Removing Elements](https://www.codewars.com/kata/5769b3802ae6f8e4890009d2)
 
 <br/>
 
