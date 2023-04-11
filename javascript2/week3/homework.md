@@ -10,22 +10,14 @@ Working with functions in javascript is such an essential part of working with j
 
 We want you to realise that **functions are just variables** in javascript. It is exactly the same as string or a number. This homework forces you into using functions in weird ways that forces you to think differently about functions.
 
-## Overview of homework
-
-1. **[Warmup:](#1-warmup)** Warmup exercise that includes
-
-   - ⭐ Create a function to make delay in logging out text
-   - calling a function within a function
-   - ⭐ Log out location
-   - Implement runAfterDelay function
-   - Simulate double click with click event
-   - Implement joke creator
-
-2. ⭐ **[Function as a variable:](#2-function-as-a-variable)**
-
-3. 🌟 **[The fastest presser in this realm:](#3-the-fastest-presser-in-this-realm)** It's a game where two people compete about who can press a key most often.
 
 # 1. Warmup
+
+## 1.1 codewars!
+
+- [7 kyu Product Array (Array Series #5)](https://www.codewars.com/kata/5a905c2157c562994900009d/javascript)
+
+## 1.2 functions! 
 
 If you struggle to do this weeks homework there are a couple of things to do:
 
