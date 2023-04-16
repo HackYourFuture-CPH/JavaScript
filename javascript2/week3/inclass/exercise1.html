@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+    <button id="btn1">Click me</button>
+    <button id="btn2">Click me, too</button>
+    <button id="btn3">Call me later!</button>
+	<script type="text/javascript">
+		const btn1 = document.getElementById("btn1")
+        const btn2 = document.getElementById("btn2")
+        const btn3 = document.getElementById("btn3")
+        const btns = [btn1, btn2]
+
+        let counter = 0
+        const countUp = () => {
+            counter++
+            console.log(counter)
+        }
+
+        btns.forEach(btn => {
+            btn.addEventListener("click", countUp)
+        })
+        
+        const callMeLater = () => {
+            console.log("I am here now!")
+        }
+
+        btn3.addEventListener("click", () => {
+            setTimeout(callMeLater, 3000)
+        })
+        
+	</script>
+</body>
+</html>

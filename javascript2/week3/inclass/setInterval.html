@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<button id="stopInterval">Stop interval</button>
+	<script type="text/javascript">
+		let i = 1;
+		console.log("Output 1")
+		console.log(i)
+
+		let intervalPtr;
+		const callMeLater = () => {
+			// console.log("Hello, I think I am late!")
+			i = i + 1;
+			console.log("Output 2")
+			console.log(i)
+
+			if(i === 21){
+				clearInterval(intervalPtr);
+			};
+		}
+
+		i = 10;
+		console.log("Output 3")
+		console.log(i)
+
+		// setTimout, setInterval
+		intervalPtr = setInterval(callMeLater, 2500);
+		
+		// clear interval via button
+		const stopInterval = document.getElementById("stopInterval");
+		stopInterval.addEventListener("click", () => {
+			clearInterval(intervalPtr);
+		});
+
+	</script>
+</body>
+</html>

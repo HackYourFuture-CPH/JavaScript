@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+        console.log("Output 1")
+        
+        // Closure
+        const callMeLaterWrapper = (x) => {
+            const callMeLater = () => {
+                console.log("Output 2")
+                console.log(x)
+            }
+            return callMeLater
+        }
+		
+		// setTimout
+		setTimeout(callMeLaterWrapper(10), 3000);
+
+		console.log("Output 3")
+	</script>
+</body>
+</html>
