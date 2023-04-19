@@ -10,29 +10,19 @@ Need to brush up on the homework setup process? Check [this](https://github.com/
 
 ## Overview of homework
 
-1. **[Problem solving cardio:](#1-problem-solving-cardio)** Warmup exercise that includes
-
-   - Find the shortest word
-   - Find and count the Danish letters
-
-2. ⭐ **[Spirit animal name generator:](#2-spirit-animal-name-generator)** Create an interactive page where the user can enter the name and receive a spirit animal name
-
-3. 🌟 **[hyfBay:](#hyfbay)** It's a single-page app where users can search for products. We will be building this website step by step over this course.
-
 # 1. Problem solving cardio
 
 Lets exercise our problem solving abilities!
 
 ![mind exercise](https://media.giphy.com/media/l41m04gr7tRet7Uas/giphy.gif)
 
-## 1.1. Find the shortest word
+## 1.1. codewars!
 
-Write a function that finds the shortest word of an array of words
-
-```js
-const danishWords = ["bil", "plante", "kaffe", "bog", "ø", "planetarium"];
-notThisFunctionName(danishWords); // returns 'ø'
-```
+Complete these Katas:
+- [8kyu Remove First and Last Character](https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0)
+- [8kyu Counting sheep...](https://www.codewars.com/kata/54edbc7200b811e956000556)
+- [7kyu String ends with?](https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d)
+- [7kyu Odd or Even?](https://www.codewars.com/kata/5949481f86420f59480000e7)
 
 ## 1.2. Find and count the Danish letters
 
