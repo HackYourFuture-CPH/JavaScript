@@ -1,29 +1,5 @@
 # Homework
 
-### Get git ready to work on homework
-
-Using the `hyf-homework` repo. In the terminal run `git status`
-
-If there are changes that have not been committed, figure out what to do with those changes
-
-- Should they be committed to another branch?
-- Should they be committed to `master`?
-- Should they be discarded?
-
-When you have figured out what to do with the changes and fixed those. Write `git status` again. If it says `nothing to commit, working tree clean`. Then you are ready to create the branch for this weeks homework.
-
-#### Creating the branch
-
-Using the `hyf-homework` repo write this command
-
-`git checkout master` - You are now on the `master` branch
-
-`git checkout -b javascript-javascript1-week4`
-
-This will create and checkout the branch so you are ready make commits to it
-
-[This video](https://www.youtube.com/watch?v=JcT4wmK1VcA) can help. On slack use the #git-support channel to ask questions about git
-
 ## Why should i even do this homework?
 
 Understanding the basics of Javascript is SUPER important. Therefore this homework focuses on repeating the basics to really have a solid understanding of this.
@@ -44,7 +20,6 @@ Complete these Katas in codewars: <br/>
 - [7kyu Vowel Count](https://www.codewars.com/kata/54ff3102c1bad923760001f3) <br/>
 - [7kyu Digit*Digit](https://www.codewars.com/kata/546e2562b03326a88e000020) <br/>
 - [7kyu Highest and Lowest](https://www.codewars.com/kata/554b4ac871d6813a03000035) <br/>
-
 
 Post a link to your codewars profile when you sumbmit the homework! 
 
@@ -79,19 +54,6 @@ When you are done, add your `getReply` function and global variables to this Cod
 
 ---> https://codesandbox.io/s/beautiful-worker-gnhbw <---
 
-## Hand in Homework:
-
-Watch [this video](https://www.youtube.com/watch?v=JcT4wmK1VcA) for a more detailed go-through of how to hand in homework!
-
-- Use the branch called `javascript-javascript1-week4`
-- Add all your changes to this branch in the `javascript-javascript1-week4` folder.
-- Go through the [Homework checklist](#homework-checklist)
-- Create a pull request using the `javascript-javascript1-week4` branch and give your PR the same name `javascript-javascript1-week4`
-- Wait for mentor feedback
-- Implement feedback, `add`, `commit` and `push` the changes
-- Now you can merge the changes into `master`
-- When merged you can **share the github link** to your classes slack channel if you are **proud of what you did** 💪
-- Now celebrate 🎉🎉🎉
 
 ## Homework checklist
 
