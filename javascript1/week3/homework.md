@@ -1,29 +1,5 @@
 # Homework
 
-### Get git ready to work on homework
-
-Using the `hyf-homework` repo. In the terminal run `git status`
-
-If there are changes that have not been committed, figure out what to do with those changes
-
-- Should they be committed to another branch?
-- Should they be committed to `master`?
-- Should they be discarded?
-
-When you have figured out what to do with the changes and fixed those. Write `git status` again. If it says `nothing to commit, working tree clean`. Then you are ready to create the branch for this weeks homework.
-
-#### Creating the branch
-
-Using the `hyf-homework` repo write this command
-
-`git checkout master` - You are now on the `master` branch
-
-`git checkout -b javascript-javascript1-week3`
-
-This will create and checkout the branch so you are ready make commits to it
-
-[This video](https://www.youtube.com/watch?v=JcT4wmK1VcA) can help. On slack use the #git-support channel to ask questions about git
-
 ## Why should i even do this homework?
 
 Array's has lots of helper functions, that is used all the time when developing js applications. It is super helpful to be able to **manipulate an array** like **removing elements** or **adding elements** at specific indexes. Another helpful function of arrays is to know **where a specific item is** in the array.
@@ -40,17 +16,6 @@ If you struggle to do this weeks homework there are a couple of things to do:
 Its warmup time!
 
 ![Warm up](https://media.giphy.com/media/Cfw4WE617UgUw/giphy.gif)
-
-### Freecodecamp exercises
-
-- [ ] https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/build-javascript-objects/
-- [ ] https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-object-properties-with-dot-notation/
-- [ ] https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/accessing-object-properties-with-bracket-notation/
-- [ ] https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/updating-object-properties/
-- [ ] https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/add-new-properties-to-a-javascript-object/
-- [ ] https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/using-objects-for-lookups/
-
-Please add your freecodecamp username as answer for this exercise!
 
 ---
 
@@ -158,7 +123,7 @@ function logOutSeriesText() {
 logOutSeriesText(); // logs out the text found above
 ```
 
-## Step 3: Smart-ease - Back to the basics!
+## Smart-ease - Back to the basics!
 
 Smart-ease is going back to the basics. As always Smart-ease starts by helping people fix their problems. So lets venture out into the real world and see what we find:
 
@@ -291,7 +256,7 @@ Optional
 
 ---
 
-## Step 4 bonus homework
+## Bonus homework
 
 The bonus homework for this week (for those of you want an extra challenge) do the following:
 
@@ -299,15 +264,3 @@ https://www.codewars.com/kata/job-matching-number-1/train/javascript <br/>
 https://www.codewars.com/kata/job-matching-number-2/train/javascript <br/>
 https://www.codewars.com/kata/unfinished-loop-bug-fixing-number-1/train/javascript <br/>
 
-## Step 5: Hand in Homework
-
-Watch [this video](https://www.youtube.com/watch?v=JcT4wmK1VcA) for a more detailed go-through of how to hand in homework!
-
-- Use the branch called `javascript-javascript1-week3`
-- Add all your changes to this branch in the `javascript-javascript1-week3` folder.
-- Create a pull request using the `javascript-javascript1-week3` branch and give your PR the same name `javascript-javascript1-week3`
-- Wait for mentor feedback
-- Implement feedback, `add`, `commit` and `push` the changes
-- Now you can merge the changes into `master`
-- When merged you can **share the github link** to your classes slack channel if you are **proud of what you did** 💪
-- Now celebrate 🎉🎉🎉
