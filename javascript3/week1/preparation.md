@@ -2,7 +2,8 @@
 
 - [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) (5 min)
 
-- Read about APIS: https://www.programmableweb.com/api-university/what-are-apis-and-how-do-they-work (10 min)
+- Read about APIs! The resources keep changing, but the core concepts are everlasting, so we think it is best if you search `"what are APIs"` and watch/listen/read around until you get a good basic idea! 👀 👂🏽 🧐
+Tip: try searching `"API waiter example"` - it is a good classic analogy explaining how APIs work! 
 
 - A recap of higher order functions & arrays: [video](https://www.youtube.com/watch?v=rRgD1yVwIvE&t=1s&ab_channel=TraversyMedia) (~35 mins)
 
