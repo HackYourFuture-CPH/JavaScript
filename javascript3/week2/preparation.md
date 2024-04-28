@@ -10,7 +10,7 @@
 
 ### Extra:
 
-- https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/promises.md (15 min)
+- https://github.com/HackYourFuture/fundamentals/blob/main/fundamentals/promises.md (15 min)
 - An article explaining promises https://www.freecodecamp.org/news/how-to-write-a-javascript-promise-4ed8d44292b8/
 - An article explaining promises step by step :: https://scotch.io/tutorials/javascript-promises-for-dummies
   ![You can do it!](https://media.giphy.com/media/yoJC2K6rCzwNY2EngA/giphy.gif)

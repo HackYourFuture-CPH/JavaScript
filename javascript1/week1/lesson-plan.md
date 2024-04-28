@@ -74,7 +74,7 @@ Here is a Notion Zoey Zou made: https://www.notion.so/JS1-Week1-2fdc88fdd4344c95
 
 ## Flipped classroom videos
 
-[Flipped classroom videos](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript1/week1/preparation.md#flipped-classroom-videos)
+[Flipped classroom videos](https://github.com/HackYourFuture-CPH/JavaScript/blob/main/javascript1/week1/preparation.md#flipped-classroom-videos)
 
 ## Code inspiration
 
