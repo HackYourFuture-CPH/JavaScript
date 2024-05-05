@@ -1,0 +1,6 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode", // Prettier extension
+    "ritwickdey.LiveServer" // Live Server extension
+  ]
+}
