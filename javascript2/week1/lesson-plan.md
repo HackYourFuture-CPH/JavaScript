@@ -47,7 +47,7 @@ Really try in this class to do short teaching and lots of exercises!
 
 ## Flipped classroom videos
 
-[Flipped classroom videos](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript2/week1/preparation.md#flipped-classroom-videos)
+[Flipped classroom videos](https://github.com/HackYourFuture-CPH/JavaScript/blob/main/javascript2/week1/preparation.md#flipped-classroom-videos)
 
 ## Code inspiration
 

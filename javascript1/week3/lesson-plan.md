@@ -44,7 +44,7 @@ Zoey Zou has created a nice lesson plan here: https://www.notion.so/JS1-Week3-a0
 
 ## Flipped classroom videos
 
-[Flipped classroom videos](https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript1/week3/preparation.md#flipped-classroom-videos)
+[Flipped classroom videos](https://github.com/HackYourFuture-CPH/JavaScript/blob/main/javascript1/week3/preparation.md#flipped-classroom-videos)
 
 ## Code inspiration
 
