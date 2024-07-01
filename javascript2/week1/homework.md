@@ -6,7 +6,7 @@ Need to brush up on the homework setup process? Check [this](https://github.com/
 
 ## So why this homework?
 
-**Interacting with the DOM is a crucial part** of building a website. If we cannot interact with the DOM and the javascript we write cannot be used in a browser. **Connecting javascript to the browser opens up a new world of possibilities** where only the imagination is the limiting factor.
+**Interacting with the DOM is a crucial part** of building a website. If we cannot interact with the DOM then the javascript we write cannot change what we see in the browser. **Connecting javascript to the browser opens up a new world of possibilities** where only the imagination is the limiting factor.
 
 ## Overview of homework
 
