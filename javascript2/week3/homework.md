@@ -2,7 +2,7 @@
 
 ## Start the homework
 
-Need to brush up on the homework setup process? Check [this](https://github.com/HackYourFuture-CPH/Git/blob/main/homework_hand_in.md) out before you get into some git confusion!
+Need to brush up on the homework setup process? Check [this](https://github.com/HackYourFuture-CPH/Git/blob/main/homework-submission.md) out before you get into some git confusion!
 
 ## So why this homework?
 
@@ -117,7 +117,7 @@ If you have **any feedback to this specific homework** please fill in this [**qu
 ## Hand in homework
 
 Need to brush up on the homework hand-in process?<br/>
-Check [this resource](https://github.com/HackYourFuture-CPH/Git/blob/main/homework_hand_in.md) to remember how to hand in the homework correctly!
+Check [this resource](https://github.com/HackYourFuture-CPH/Git/blob/main/homework-submission.md) to remember how to hand in the homework correctly!
 
 <br/>
 
