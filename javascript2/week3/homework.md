@@ -110,8 +110,6 @@ Use the library in your page by adding this line before you load your main.js:
 
 ---
 
-If you have **any feedback to this specific homework** please fill in this [**quick google form**](https://forms.gle/S5ag1NKg7MdTXgry5)
-
 <br/>
 
 ## Hand in homework
