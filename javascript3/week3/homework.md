@@ -2,7 +2,7 @@
 
 ## Start the homework
 
-Need to brush up on the homework setup process? Check [this](https://github.com/HackYourFuture-CPH/Git/blob/main/homework_hand_in.md) out before you get into some git confusion!
+Need to brush up on the homework setup process? Check [this](https://github.com/HackYourFuture-CPH/Git/blob/main/homework-submission.md) out before you get into some git confusion!
 
 For this weeks homework we will create a web applications that generates a screenshot of a website based on a url. We will combine two API's one to generate the screenshot and one to allow the user to save the screenshot.
 
