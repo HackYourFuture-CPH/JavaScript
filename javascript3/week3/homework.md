@@ -1,3 +1,5 @@
+<table><tr><td>⚠️ You do not need to complete these homeworks. We are currently trialling alternative homeworks for JS2 and JS3. More info <a href="https://github.com/HackYourFuture-CPH/js-projects">here.</a></td></tr></table>
+
 # Homework
 
 ## Start the homework
