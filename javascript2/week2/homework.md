@@ -1,3 +1,6 @@
+> [!WARNING]
+> You do not need to complete these homeworks. We are currently testing new homeworks for JS2 and JS3. More info [here](https://github.com/HackYourFuture-CPH/js-projects).
+
 # Homework
 
 ## Start the homework
