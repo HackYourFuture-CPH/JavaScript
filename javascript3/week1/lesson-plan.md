@@ -29,7 +29,7 @@ If you find anything that could be improved then please create a pull request! W
 - Apis
   - The focus should be on consuming api's with `get` method. 
   - Give an example of an api (preferably one with an accesstoken, showing that part aswell)
-  - Explain conceptually what an api is (interface that hides abstraction). Explain how paths and query parameters work. Do not show how an api is implemented. We show that in the node class. Good analogies [here](https://sidewaysdictionary.com/#/term/api) and [here](https://www.reddit.com/r/webdev/comments/en04ct/i_created_a_word_suggestions_api_to_use_on_a/fdtmj60/)
+  - Explain conceptually what an api is (interface that hides abstraction). Explain how paths and query parameters work. Do not show how an api is implemented. We show that in the node class. Good analogy [here](https://www.reddit.com/r/webdev/comments/en04ct/i_created_a_word_suggestions_api_to_use_on_a/fdtmj60/)
   - [Code inspiration](#apis)
 - Fetch (No promise explanation! Focus on usage)
   - Focus on usage let the students copy the fetch script and use it from there. Next week promises will be explained!
