@@ -55,7 +55,7 @@ Please add your freecodecamp username as answer for this exercise!
 
 ## Step 3: Smart-ease - Goes Global!
 
-Following the massive success of Smart-ease's first couple of products things have been quite hectic at Smart-ease's shared office space. The phone is constantly ringing from journalists wanting to interview the genius behind the success and the greatest developers want to work for you. [Wired](www.wired.com) wrote an article with the headline "Smart-ease as good as Smarties"
+Following the massive success of Smart-ease's first couple of products things have been quite hectic at Smart-ease's shared office space. The phone is constantly ringing from journalists wanting to interview the genius behind the success and the greatest developers want to work for you. [Wired](https://www.wired.com) wrote an article with the headline "Smart-ease as good as Smarties"
 
 BUT people are asking: What will be the next product that truly defines Smart-ease as the startup of the century?
 
