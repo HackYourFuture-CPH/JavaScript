@@ -124,7 +124,7 @@ baz.length; //-> 11
 
 ### String methods
 
-Read more about the methods you can call on a string [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).
+More about [string methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).
 
 ## Number
 
