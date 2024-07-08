@@ -22,7 +22,7 @@ Promises is notoriously difficult to teach! I teach **consumption and creation o
 
 First when they fully understand one part of promises, i move on! Don't overcomplicate things. Only mention the resolve function to begin with. When they get that, say that there also is a reject function. **Take as many babysteps as is possible!** Dont mention that resolve and reject can take an argument to begin with, first later explain that.
 
-This class is a little poor on real world examples. Make a PR if you ahve any good ideas!
+This class is a little poor on real world examples. Make a PR if you have any good ideas!
 
 - Async/await - simple introduction focused on usage
   - Quickly recap asynchronicity
