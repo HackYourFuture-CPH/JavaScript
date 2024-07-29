@@ -89,7 +89,7 @@ However, in our communication, we will call these variables arrays.
 
 The values `null` and `undefined` are very similar in JavaScript, but they behave a bit differently. The difference is that `null` always has type "object", and `undefined` always has type "undefined".
 
-Whenever you declare a variable, but you don't set a value, the variable will become `undefined`. JavaScript will never make a variable `null` unless you explicitly program it.
+Whenever you declare a variable, but you don't set a value, the variable will become `undefined`. JavaScript will never make a variable `null` unless you explicitly program it - it represents the intentional absence of any object value (read [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/null) for more context).
 
 ```js
 let x;
@@ -124,7 +124,7 @@ baz.length; //-> 11
 
 ### String methods
 
-> Todo
+More about [string methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).
 
 ## Number
 
