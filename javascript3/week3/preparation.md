@@ -12,4 +12,4 @@
 
 - [Intro to Classes ](https://youtu.be/tciZZi2ZxrM)
 - [Constructor & Methods](https://youtu.be/ZRCfNLtyO6Q)
-- ["thi"](https://youtu.be/LrQYgjIfxAU)
+- ["this"](https://youtu.be/LrQYgjIfxAU)
