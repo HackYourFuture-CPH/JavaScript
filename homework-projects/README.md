@@ -60,3 +60,7 @@ The main difference is that you will be on a different repository and that you w
 > New projects are welcome to be added by mentors. Just follow a similar structure to the existing ones, and submit it as a PR.
 
 <hr>
+
+# CONCLUSION
+
+When you wrap up your project in JS3 week3, you will get a chance to present your project either as a video recording or on a demo day. If your team is hosting a demo day, then check out [this guide](/guides/demo-day-presentation.md) for how to prepare for the presentation.
