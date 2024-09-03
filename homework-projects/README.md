@@ -56,4 +56,7 @@ The main difference is that you will be on a different repository and that you w
 [Quiz App](/projects/quiz-app/quiz-app.md)<br/>
 [Recipe App](/projects/recipe-app/recipe-app.md)<br/>
 
+> [!NOTE]
+> New projects are welcome to be added by mentors. Just follow a similar structure to the existing ones, and submit it as a PR.
+
 <hr>
