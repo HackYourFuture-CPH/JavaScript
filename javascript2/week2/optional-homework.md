@@ -1,11 +1,7 @@
 > [!WARNING]
-> You do not need to complete these homeworks. We are currently testing new homeworks for JS2 and JS3. More info [here](https://github.com/HackYourFuture-CPH/js-projects).
+> These are optional homework exercises that you can complete on top of your [homework project](/homework-projects/readme.md), if you wish. These will not be reviewed.
 
-# Homework
-
-## Start the homework
-
-Need to brush up on the homework setup process? Check [this](https://github.com/HackYourFuture-CPH/Git/blob/main/homework-submission.md) out before you get into some git confusion!
+# Optional Homework
 
 ## Why should i even do this homework?
 
@@ -140,8 +136,3 @@ This task is more open ended! So you need to come up with fx how the user should
 Give the user the possibility to sort the products. That could fx be on price, name, rating or all of the above!
 
 <br/>
-
-## Hand in homework
-
-Need to brush up on the homework hand-in process?<br/>
-Check [this resource](https://github.com/HackYourFuture-CPH/Git/blob/main/homework-submission.md) to remember how to hand in the homework correctly!

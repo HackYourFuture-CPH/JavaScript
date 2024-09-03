@@ -1,11 +1,7 @@
 > [!WARNING]
-> You do not need to complete these homeworks. We are currently testing new homeworks for JS2 and JS3. More info [here](https://github.com/HackYourFuture-CPH/js-projects).
+> These are optional homework exercises that you can complete on top of your [homework project](/homework-projects/readme.md), if you wish. These will not be reviewed.
 
-# Homework
-
-## Start the homework
-
-Need to brush up on the homework setup process? Check [this](https://github.com/HackYourFuture-CPH/Git/blob/main/homework-submission.md) out before you get into some git confusion!
+# Optional Homework
 
 ## Why should i even do this homework?
 
