@@ -1,6 +1,6 @@
 # WHAT
 
-During the JS2 and JS3 modules, you will be working on a project instead of your weekly homework assignments. Each week, you will be required to add new features to your project. By the end of JS3, you will have built an actual app using your newly gained knowledge and coding skills!
+During the JS2 and JS3 modules, you will be working on a project instead of the usual weekly homework assignments (which you can still do, as optional practice). Each week, you will be required to add new features to your project. By the end of JS3, you will have built an actual app using your newly gained knowledge and coding skills!
 <br/>
 
 ![](/assets/project-flow.png)
