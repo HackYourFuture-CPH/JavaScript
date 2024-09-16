@@ -3,7 +3,7 @@
 During the JS2 and JS3 modules, you will be working on a project instead of the usual weekly homework assignments (which you can still do, as optional practice). Each week, you will be required to add new features to your project. By the end of JS3, you will have built an actual app using your newly gained knowledge and coding skills!
 <br/>
 
-![](/assets/project-flow.png)
+![](assets/project-flow.png)
 
 <br/>
 
@@ -30,7 +30,7 @@ First, you will pick a project idea from the [projects](projects/) folder. Each 
 
 You will work in your project repository for JS2 and JS3 (not the central homework repository!), and you will submit the weekly task in the usual way by creating a Pull Request.
 
-During JS2 and JS3, refer to the relevant [homework submission guide](/guides/weekly-submission-guide.md).
+During JS2 and JS3, refer to the relevant [homework submission guide](guides/weekly-submission-guide.md).
 
 The main difference is that you will be on a different repository and that you will merge the PR after implementing the review-based improvements, while all the technical steps are the same as always.
 
@@ -38,17 +38,17 @@ The main difference is that you will be on a different repository and that you w
 
 <hr>
 
-[Currency Converter](/projects/currency-converter/currency-converter.md) <br/>
-[Memory Game](/projects/memory-game/memory-game.md)<br/>
-[Movie App](/projects/movie-app/movie-app.md)<br/>
-[Quiz App](/projects/quiz-app/quiz-app.md)<br/>
-[Recipe App](/projects/recipe-app/recipe-app.md)<br/>
+[Currency Converter](projects/currency-converter/currency-converter.md) <br/>
+[Memory Game](projects/memory-game/memory-game.md)<br/>
+[Movie App](projects/movie-app/movie-app.md)<br/>
+[Quiz App](projects/quiz-app/quiz-app.md)<br/>
+[Recipe App](projects/recipe-app/recipe-app.md)<br/>
 
 > [!NOTE]
-> New projects are welcome to be added by mentors. Just follow a similar structure to the existing ones, and submit it as a PR.
+> New projects are welcome to be added by mentors. Just follow a similar structure to the existing ones, and submit it as a PR for review by staff and other mentors.
 
 <hr>
 
 # CONCLUSION
 
-When you wrap up your project in JS3 week3, you will get a chance to present your project either as a video recording or on a demo day. If your team is hosting a demo day, then check out [this guide](/guides/demo-day-presentation.md) for how to prepare for the presentation.
+When you wrap up your project in JS3 week3, you will get a chance to present your project either as a video recording or on a demo day. If your team is hosting a demo day, then check out [this guide](guides/demo-day-presentation.md) for how to prepare for the presentation.
