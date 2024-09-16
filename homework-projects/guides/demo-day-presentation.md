@@ -26,4 +26,4 @@ Tips for a Successful Presentation:
 - Reflect on Your Learning Journey: Share how your understanding evolved over the weeks.
 - Be Open to Feedback: This is a learning opportunity – embrace the insights and suggestions from mentors and peers.
 
-This is a suggested guideline for you to follow. We look forward to seeing your projects and hearing about your journey through the JS2 and JS3 modules in a way you feel most appropriate. Good luck!
+This is a suggested guideline for you to follow. We look forward to seeing your projects and hearing about your journey through the JS2 and JS3 modules in a way that works for you and your project. Good luck!
