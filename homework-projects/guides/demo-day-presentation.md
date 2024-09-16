@@ -9,15 +9,8 @@ Your team may choose to run a demo day to present your project and get feedback.
 Briefly introduce your chosen project. (Refer to the "projects" folder for details.)
 
 ### Weekly Task Breakdown (10 minutes)
-
-- JS2 Week 1: Discuss how you integrated Browser environment, DOM manipulation, and DOM event listeners into your project.
-- JS2 Week 2: Describe your use of Array functions and Arrow functions.
-- JS2 Week 3: Explain your implementation of Callback functions, Asynchronicity, and Scope.
-- JS3 Week 1: Share how you worked with JSON, APIs, and Fetch.
-- JS3 Week 2: Talk about your application of Promises and Async/Await.
-
-For each week, highlight:
-- Your understanding and implementation of these concepts.
+For each week of the JS2 and JS3 modules, highlight:
+- Your understanding and implementation of their concepts.
 - Specific challenges you faced and how you overcame them.
 - Any particular successes or insights you gained.
 
