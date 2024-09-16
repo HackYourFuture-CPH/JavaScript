@@ -18,13 +18,26 @@ We're doing this for four main reasons:
 
 <br/>
 
+# PROJECT IDEAS
+
+[Currency Converter](projects/currency-converter/currency-converter.md) <br/>
+[Memory Game](projects/memory-game/memory-game.md)<br/>
+[Movie App](projects/movie-app/movie-app.md)<br/>
+[Quiz App](projects/quiz-app/quiz-app.md)<br/>
+[Recipe App](projects/recipe-app/recipe-app.md)<br/>
+
+> [!NOTE]
+> New projects are welcome to be added by mentors. Just follow a similar structure to the existing ones, and submit it as a PR for review by staff and other mentors.
+
+<br/>
+
 # HOW
 
 The projects will either be worked on individually, in a pair or as a group. You may also be set up to peer review another's project. This is up to the staff and mentors running the module.
 
 <br/>
 
-First, you will pick a project idea from the [projects](projects/) folder. Each week, you will have specific tasks that you have to deliver. Those tasks are provided in your chosen project description. The tasks are designed to help you practice the main learning points throughout the JS2 and JS3 modules.
+First, you will pick a project idea from above. Each week, you will have specific tasks that you have to deliver. Those tasks are provided in your chosen project description. The tasks are designed to help you practice the main learning points throughout the JS2 and JS3 modules.
 
 <br/>
 
@@ -36,18 +49,11 @@ The main difference is that you will be on a different repository and that you w
 
 <br/>
 
-<hr>
+# DEPLOYMENT
 
-[Currency Converter](projects/currency-converter/currency-converter.md) <br/>
-[Memory Game](projects/memory-game/memory-game.md)<br/>
-[Movie App](projects/movie-app/movie-app.md)<br/>
-[Quiz App](projects/quiz-app/quiz-app.md)<br/>
-[Recipe App](projects/recipe-app/recipe-app.md)<br/>
+So you can demo your project easily both at the end of the project, but also to future employers, it is a requirement that you deploy the project. You can use the [HackYourFuture project template](https://github.com/HackYourFuture-CPH/hyf-project-template) as a starting point, or an otherwise agreed upon process by the staff and mentors.
 
-> [!NOTE]
-> New projects are welcome to be added by mentors. Just follow a similar structure to the existing ones, and submit it as a PR for review by staff and other mentors.
-
-<hr>
+<br/>
 
 # CONCLUSION
 
