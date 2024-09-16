@@ -1,11 +1,7 @@
 > [!WARNING]
-> You do not need to complete these homeworks. We are currently testing new homeworks for JS2 and JS3. More info [here](https://github.com/HackYourFuture-CPH/js-projects).
+> These are optional homework exercises that you can complete on top of your [homework project](/homework-projects/readme.md), if you wish. There is no requirement for these to be reviewed, but feel free to ask a mentor if you wish for some feedback.
 
-# Homework
-
-## Start the homework
-
-Need to brush up on the homework setup process? Check [this](https://github.com/HackYourFuture-CPH/Git/blob/main/homework-submission.md) out before you get into some git confusion!
+# Optional Homework
 
 ## Why should i even do this homework?
 
@@ -104,8 +100,3 @@ Try break this problem into **smaller problems** and write down how you are goin
 ![giphy search](assets/giphy-search.gif)
 
 <br/>
-
-## Hand in homework
-
-Need to brush up on the homework hand-in process?<br/>
-Check [this resource](https://github.com/HackYourFuture-CPH/Git/blob/main/homework-submission.md) to remember how to hand in the homework correctly!

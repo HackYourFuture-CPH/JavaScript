@@ -4,7 +4,7 @@
 
 # Relevant links
 * [Preparation](preparation.md)
-* [Homework](homework.md)
+* [Homework](/homework-projects/readme.md)
 * [Lesson plan](lesson-plan.md)
 
 ## Promise chaining
