@@ -5,6 +5,9 @@
 You joined an online game platform startup and your task is to build one of the small classic games. <br/>
 You will build a Memory Game, where a user needs to flip all the cards in a game in pairs until they find all the matching pairs. You aspire to make the game smooth and pleasant, so the user is compelled to spend more time playing it.
 
+> [!NOTE]
+> Take some time to research online for similar apps and how they look and work to gain inspiration. This is an important skill to practice as a developer because you won't always know (or be told) how to approach the design.
+
 ## Weekly specs:
 
 ### `JS2 week1` - Browser environment, DOM manipulation, DOM event listeners

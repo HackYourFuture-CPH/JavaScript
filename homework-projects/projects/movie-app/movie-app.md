@@ -6,6 +6,9 @@ You joined a startup that has the ambition to build the best new movie streaming
 Your taks will be to build a simple prototype to showcase the look of the platform and some simple functionality. <br/>
 Your way to impress is to not only build a nice-looking main movie list page, but to also include some interesting features that the competitors do not have!
 
+> [!NOTE]
+> Take some time to research online for similar apps and how they look and work to gain inspiration. This is an important skill to practice as a developer because you won't always know (or be told) how to approach the design.
+
 ## Weekly specs:
 
 ### `JS2 week1` - Browser environment, DOM manipulation, DOM event listeners

@@ -4,6 +4,9 @@
 
 You are a foood lover, a cooking enthusiast and you want to share your passion with the web. You aspire to build a cool recipe website as a hobby project and eventually earn a little bit on the side from it.
 
+> [!NOTE]
+> Take some time to research online for similar apps and how they look and work to gain inspiration. This is an important skill to practice as a developer because you won't always know (or be told) how to approach the design.
+
 ## Weekly specs:
 
 ### `JS2 week1` - Browser environment, DOM manipulation, DOM event listeners
