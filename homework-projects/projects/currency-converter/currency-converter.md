@@ -13,7 +13,8 @@ It is expected that your app will have at least these features and functionality
 - Timeout for the market open/close
 - Call the currency API to receive the rates dynamically
 
-<br/>
+> [!NOTE]
+> Take some time to research online for similar apps and how they look and work to gain inspiration. This is an important skill to practice as a developer because you won't always know (or be told) how to approach the design.
 
 ## Weekly specs:
 

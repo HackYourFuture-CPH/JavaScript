@@ -5,6 +5,9 @@
 The most popular quiz app has become very expensive... so there came a startup that aspires to build a new one that will be better, cheaper to use and more fun!
 You join the startup as a developer and your task is to build a nice prototype of the product while the rest of the product team works to define what the final version will be.
 
+> [!NOTE]
+> Take some time to research online for similar apps and how they look and work to gain inspiration. This is an important skill to practice as a developer because you won't always know (or be told) how to approach the design.
+
 ## Weekly specs:
 
 ### `JS2 week1` - Browser environment, DOM manipulation, DOM event listeners
