@@ -23,7 +23,8 @@ We're doing this for four main reasons:
 The projects will either be worked on individually, in a pair or as a group. You may also be set up to peer review another's project. This is up to the staff and mentors running the module.
 
 <br/>
-First, you will pick a project idea (see the "[projects](url)" folder). Each week, you will have specific tasks that you have to deliver. Those tasks are provided in your chosen project description. The tasks are designed to help you practice the main learning points throughout the JS2 and JS3 modules:
+
+First, you will pick a project idea from the [projects](projects/) folder. Each week, you will have specific tasks that you have to deliver. Those tasks are provided in your chosen project description. The tasks are designed to help you practice the main learning points throughout the JS2 and JS3 modules:
 
 <br/>
 <br/>
