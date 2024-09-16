@@ -21,7 +21,7 @@ We're doing this for four main reasons:
 # HOW
 
 <br/>
-First, you will pick a project idea (see the "[projects](url)" folder). Each week, you will have specific tasks that you have to deliver. Those tasks are provided in your chosen project description. The tasks are designed to help you practice the main learning points throughout the JS2 and JS3 modules:
+First, you will pick a project idea (see the "[projects](/projects)" folder). Each week, you will have specific tasks that you have to deliver. Those tasks are provided in your chosen project description. The tasks are designed to help you practice the main learning points throughout the JS2 and JS3 modules:
 
 <br/>
 <br/>
