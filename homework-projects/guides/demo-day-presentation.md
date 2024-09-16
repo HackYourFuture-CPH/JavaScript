@@ -22,7 +22,7 @@ Summarize what you learned from this project and how it ties together the concep
 After your presentation, there will be an open session for feedback and discussion. This is a valuable time to gain insights from your mentors and peers.
 
 Tips for a Successful Presentation:
-- Be Clear and Concise: Focus on the key points and challenges of your project.
+- Be Clear and Concise: Focus on the key points and challenges of your project while being mindful of time.
 - Reflect on Your Learning Journey: Share how your understanding evolved over the weeks.
 - Be Open to Feedback: This is a learning opportunity – embrace the insights and suggestions from mentors and peers.
 
