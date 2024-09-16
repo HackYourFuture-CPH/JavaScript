@@ -24,22 +24,7 @@ The projects will either be worked on individually, in a pair or as a group. You
 
 <br/>
 
-First, you will pick a project idea from the [projects](projects/) folder. Each week, you will have specific tasks that you have to deliver. Those tasks are provided in your chosen project description. The tasks are designed to help you practice the main learning points throughout the JS2 and JS3 modules:
-
-<br/>
-<br/>
-
-`JS2 week1` - Browser environment, DOM manipulation, DOM event listeners
-
-`JS2 week2` - Array functions, Arrow function
-
-`JS2 week3` - Callback function, Asynchronicity, Scope
-
-`JS3 week1` - Json, Apis, Fetch
-
-`JS3 week2` - Promises, Async/Await
-
-`JS3 week3` - Classes, Revision and Presentation of projects
+First, you will pick a project idea from the [projects](projects/) folder. Each week, you will have specific tasks that you have to deliver. Those tasks are provided in your chosen project description. The tasks are designed to help you practice the main learning points throughout the JS2 and JS3 modules.
 
 <br/>
 
