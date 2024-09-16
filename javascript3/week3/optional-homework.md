@@ -1,5 +1,5 @@
 > [!WARNING]
-> These are optional homework exercises that you can complete on top of your [homework project](/homework-projects/readme.md), if you wish. These will not be reviewed.
+> These are optional homework exercises that you can complete on top of your [homework project](/homework-projects/readme.md), if you wish. There is no requirement for these to be reviewed, but feel free to ask a mentor if you wish for some feedback.
 
 # Optional Homework
 
