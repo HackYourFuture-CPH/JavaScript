@@ -69,7 +69,7 @@ b. add number inputs for the player points and use the browser's arrow buttons o
 
 ### `JS3 week1` - Json, Apis, Fetch
 
-- [ ] follow the [API creation guide](/guides/making-your-API-guide.md) to make your own API that you will use from now on.
+- [ ] follow the [API creation guide](/homework-projects/guides/making-your-API-guide.md) to make your own API that you will use from now on.
 
 - [ ] refactor your code so that you ditch the static array of objects and instead fetch the initial questions data from your API.
 
