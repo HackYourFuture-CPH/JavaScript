@@ -14,7 +14,7 @@ Head on over to your GitHub account and create a repository called *`username`*
 
 If you already have such a repository, just go on to the next step.
 
-![Create the repo](/assets/API-guide-1.png)
+![Create the repo](/homework-projects/assets/API-guide-1.png)
 
 ❗Make sure that it matches your username or it won’t work!
 
@@ -28,7 +28,7 @@ If you already have such a repository, just go on to the next step.
 4. Once you are ready with your JSON file, add, commit and push the changes to `main` so that you have the file on your repository.
 5. Head over to the repo on GitHub and verify that your file is there and that all is good.
 
-![See the JSON file](/assets/API-guide-2.png)
+![See the JSON file](/homework-projects/assets/API-guide-2.png)
 
 ❗Be mindful about your data format. Note wether you should use an object or an array of objects and form your file accordingly.
 
@@ -38,11 +38,11 @@ Now comes the fun part! You can use the JSON file in a FETCH to get and use the 
 
 Your URL for FETCH will be the raw content of the JSON file that you added. Head on to the `raw` version of your file:
 
-![Access the raw content](/assets/API-guide-3.png)
+![Access the raw content](/homework-projects/assets/API-guide-3.png)
 
 Copy the URL and use it for fetching the data.
 
-![Copy the URl](/assets/API-guide-4.png)
+![Copy the URl](/homework-projects/assets/API-guide-4.png)
 
 Now you have a publicly hosted API! To access this information, all you need to do is make an API call like you normally would (FETCH), parse that data (iterate through an array of objects), and then use the data in whatever way you need for your project!
 
