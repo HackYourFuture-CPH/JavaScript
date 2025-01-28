@@ -8,7 +8,7 @@
 
 ### Get git ready to work on homework
 
-Using the `hyf-homework` repo. In the terminal run `git status`
+Using the ` your hyf-homework` repo. In the terminal run `git status`
 
 If there are changes that have not been committed, figure out what to do with those changes
 
@@ -20,7 +20,7 @@ When you have figured out what to do with the changes and fixed those. Write `gi
 
 #### Creating the branch
 
-Using the `hyf-homework` repo write this command
+Using the `your hyf-homework` repo write this command
 
 `git checkout main` - You are now on the `main` branch
 
@@ -150,7 +150,7 @@ git push origin javascript-javascript1-week1
 
 ---
 
-Go into the `hyf-homework` repo on https://github.com/ click on the `Pull requests` tab and then click the `New pull request` button
+Go into the ` your hyf-homework` repo on https://github.com/ click on the `Pull requests` tab and then click the `New pull request` button
 
 ![Create new pull request](assets/create-new-pull-request.png)
 
