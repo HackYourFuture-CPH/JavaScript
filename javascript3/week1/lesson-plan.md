@@ -1,4 +1,11 @@
 # Lesson plan
+
+## Lesson materials
+These are some examples of previously created materials by mentors that you can use yourself, or for inspiration.
+- [Notion Page Handout](https://dandy-birth-1b2.notion.site/HYF-Aarhus-JS-3-Week-1-c6fd6d7243454ac0b519c17829bf8761?pvs=4) (by @te-online)
+
+---
+
 ```
 > Focus on having lots of in class exercises.
 
