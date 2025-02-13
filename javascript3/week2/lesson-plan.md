@@ -2,7 +2,7 @@
 
 ## Lesson materials
 These are some examples of previously created materials by mentors that you can use yourself, or for inspiration.
-- [Notion Page Handout](https://dandy-birth-1b2.notion.site/HYF-Aarhus-JS-2-Week-2-cd0c1163d0264215824dc17580c97825?pvs=4) (by [Thomas](https://github.com/te-online))
+- [Notion Page Handout](https://dandy-birth-1b2.notion.site/HYF-Aarhus-JS-3-Week-2-0287dd1293df4a0a92171e62ce12f5c8?pvs=4) (by [Thomas](https://github.com/te-online))
 
 ---
 
