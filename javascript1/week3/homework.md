@@ -210,12 +210,12 @@ Create a function called `addActivity`. It should have three parameters: `date`,
 Now a user can add an activity by writing:
 
 ```js
-addActivity("23/7-18", "Youtube", 30);
+addActivity("23/7/18", "Youtube", 30);
 
 /*
 activities should now look like this
 [{
-    date: '23/7-18',
+    date: '23/7/18',
     activity: 'Youtube',
     duration: 30,
 }]
