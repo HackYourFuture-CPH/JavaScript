@@ -25,7 +25,7 @@ There are two main ways of running Javascript: Via the Browser or through the te
     * Run the javascript file using the command `node <path to your file>`. <br>
     For instance `node ./script.js`
 
-## 🧱🔥 0.2 Variables & Scope
+## 🧱🔎 0.2 Variables & Scope
 1. Declare three variables: `name`, `age`, and `isStudent`. Assign appropriate values to them.
 2. Can you help me fix my code?
     ``` js

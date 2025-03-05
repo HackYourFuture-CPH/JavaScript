@@ -11,63 +11,25 @@
 > Alternate between teaching and exercises. Avoid long lectures; most people can't focus for more than 45 minutes.
 ```
 
-Remember to add the code you wrote in the class to the relevant class branch's class work folder. If the branch has not been created just create and push it :) If you dont have access, write to one from the core team. You can see an example below!
+This class is about getting the basics hammered down. We have had a lot of students who think the js module is too difficult. That is why this class is here, too ease the steepness of the js learning curve. 
 
-To find examples of what teachers have taught before go to the class branches in the classwork folder, Fx [class 07](https://github.com/HackYourFuture-CPH/JavaScript/tree/class07/JavaScript1/Week1/classwork)
+```
+Focus on 
+> Recapping what the students struggle with
+> Letting the students learn a framework for solving problems
+> Lots and lost of exercises 💪
+```
 
 > [!IMPORTANT]
 > If you find anything that could be improved then please create a pull request! We welcome changes, so please get involved if you have any ideas!
 
-# Suggested Lesson Plan
+## Suggested Lesson Plan
 
-> [!TIP]
-> Below is a suggestion for a lesson plan you can use. Feel free to use your own if it suits your better. Just make sure to cover [the learning goals](./readme.md). 
+You can find a suggested lesson plan [here](./lesson.md). 
 
----
-- Recap of js basics
-  - Variables
-  - Types
-  - Conditionals
-  - Functions
-  - For loop
-  - scope
-  - Arrays
-  - Objects
-  - Ask the students what they need to get repeated. Or figure it out by doing some code example. 
-- Solving problems
-  - https://dev.to/aprietof/5-steps-to-solving-programming-problems--502d
-- [Code inspiration](#fibonacci-sequence)
-- [Exercises](#exercises)
+Feel free to use your own lesson plan if it works better for your teaching style. Just ensure that you cover [the learning goals](./readme.md). 
 
-This class is about getting the basics hammered down. We have had a lot of students who think the js module is too difficult. That is why this class is here, too ease the steepness of the js learning curve. 
-
-Focus on 
-- Recapping what the students struggle with
-- Letting the students learn a framework for solving problems
-- Lots and lost of exercises 💪
-
-## Typical misconceptions
-
-- Difference between return and console.log
-- What console.log does and what it is made for
-
-## Code inspiration
-
-### Fibonacci Sequence
-Given a specific number in the fibonacci sequence return the fibonachi number. 
-
-```js
-// 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
-
-fib(5) // 3
-fib(10) // 34
-```
-
-Try not to just solve the problem, but explain what you are doing and thinking! 
-
-Try using this as a framework for solving the problem: https://dev.to/aprietof/5-steps-to-solving-programming-problems--502d
-
-## Exercises
+# Old material
 
 ### Fizz buzz
 
@@ -79,29 +41,6 @@ When that works. Make the two number for multiples into parameters. So it can be
 
 `fizzBuzz(4, 12);`
 
-### Build a sentiment analyzer
-
-A sentiment analyzer is some functionality that figures out how positive/negative a sentence is. 
-
-Fx the sentence `I am mega super awesome happy" Should have a high score
-The sentence "I hate doing boring stuff" should have a low score.
-
-Create a function that takes a string as a parameter. calling the function will return an object with `score`, `positiveWords` and `negativeWords`. You decide how the score should be implemented and what words are negative and positive.
-
-Here is an example of using the function:
-
-```js
-const sentimentScoreObject = getSentimentScore('I am mega super awesome happy');
-
-console.log(sentimentScoreObject); 
-/*
-{
-  score: 3,
-  positiveWords: ['happy', 'awesome', 'super'],
-  negativeWords: [],
-}
-*/
-```
 
 ### Credit card number formatter
 

@@ -122,7 +122,7 @@ console.log("#10", a + h);
 
 
 
-## 🔥 1.4 Troubleshoot issue with grades
+## 🔎 1.4 Troubleshoot issue with grades
 > [!TIP]
 > Effective troubleshooting involves a systematic approach:
 > 1. **🔍 Understand the Problem**: Gather all relevant information and understand how to reproduce the issue.

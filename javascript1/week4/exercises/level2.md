@@ -112,7 +112,7 @@ printPassengerInfo("Robert", 21, 190, false);
 
 
 
-## 🔥🧱 2.3 Implement a Almost-Math tool
+## 🔎🧱 2.3 Implement a Almost-Math tool
 1. Write a function called `sumEvenNumbers` that takes an array of numbers and returns the sum of only the even numbers in the array.
     ```js
     sumEvenNumbers([1, 2, 3, 4, 5, 6]); 
