@@ -6,9 +6,6 @@
 > [!IMPORTANT]
 > These warm-up exercises are designed to ease you into the material. You don't need to complete all of them; instead, choose 1-2 sections that interest you and work on those. When you're ready for more challenging tasks, proceed to the [Level 1 exercises](./level1.md).
 
-[!TIP]
-> **Divide and Conquer** is a programming technique that breaks a problem into smaller, more manageable subproblems, solves them individually, and then combines their solutions to solve the original problem. It is used to reduce problem complexity and making it easier to implement a solution and estimate the effort required.
-
 ## 🎓 0.1 Running your Javascript
 There are two main ways of running Javascript: Via the Browser or through the terminal using `node`
 1. Create a `.js` file which logs:

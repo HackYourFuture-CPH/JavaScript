@@ -48,14 +48,6 @@ Now help us answer these questions for the below students:
 
 
 ## ✨ 1.2 Review IMDB's code
-> [!TIP]
-> When refactoring existing code there is always a risk that we introduce bugs, so it is crucial that you take precautions to reduce the risk of introducing bugs. Here are some good steps to follow which limits these risks:
-> 1. **🔍 Understand the Code**: Thoroughly read and understand the existing code.
-> 2. **📝 Plan Changes**: Outline the changes you intend to make and weigh the effort required against the benefits.
-> 3. **🧪 Create Test Scenarios**: Develop test scenarios and document their expected outcomes.
-> 4. **💻 Implement Changes**: Make the necessary code changes.
-> 5. **✅ Verify Functionality**: Ensure that your test scenarios still pass after the changes.
-
 1. Describe in your own words to a team mate or mentor what this code does
 2. The code is hard to read due to poor naming. Can you improve it? (there might be more than just the names to improve) 
 
@@ -86,13 +78,6 @@ console.log(f(d));
 
 
 ## ✨ 1.3 Review the behaviour of JS
-> [!TIP]
-> When **reviewing** code now you want to watch out for:
-> * Is all code required or can some be removed?
-> * Are the naming of variables and functions good?
-> * Is some code repeated which could be done with a function or a loop instead?
-> * Are each function doing one thing really well?
-
 Your niece found this script on the internet and is asking how it works.
 1. Guess the output
 2. Now run the code, did you guess correctly?
@@ -123,13 +108,6 @@ console.log("#10", a + h);
 
 
 ## 🔎 1.4 Troubleshoot issue with grades
-> [!TIP]
-> Effective troubleshooting involves a systematic approach:
-> 1. **🔍 Understand the Problem**: Gather all relevant information and understand how to reproduce the issue.
-> 2. **🕵️ Identify the Issue**: Locate where in the code the problem occurs and determine its cause.
-> 3. **🔧 Develop a Solution**: Implement a fix for the issue.
-> 4. **✅ Test the Solution**: Ensure the problem is resolved and no new issues have been introduced.
-
 Below is a piece of code that is supposed to process a list of students and their grades, and return the average grade for the class. The calculation should ignore any invalid grades (negative numbers or non-numeric grades). However, the code has some bugs. Your task is to identify and fix the issues.
 
 
