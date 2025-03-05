@@ -9,13 +9,7 @@ If you struggle to do this weeks homework there are a couple of things to do:
 - Watch the class recording. If it for some reason is missing. Then watch these: [part 1](https://www.youtube.com/watch?v=Mo54btMPN7Q), [part 2](https://www.youtube.com/watch?v=mSUAoual5sE), [part 3](https://www.youtube.com/watch?v=uq3NnTtXqsU)
 - Go through the last 3 weeks readme files. [Week 1](../week1/readme.md#variables), [week 2](../week2/readme.md#recap-logical-operators), [week 3](../week3/readme.md#objects)
 
-## Finishing class exercises
-
-Finish the exercises from the class!
-
 ## Codewars
-
-
 Complete these Katas in codewars: <br/>
 - [7kyu Vowel Count](https://www.codewars.com/kata/54ff3102c1bad923760001f3) <br/>
 - [7kyu Digit*Digit](https://www.codewars.com/kata/546e2562b03326a88e000020) <br/>

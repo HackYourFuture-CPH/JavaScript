@@ -1,19 +1,27 @@
 # Lesson plan
 ```
-> Focus on having lots of in class exercises.
+> Focus on having lots of in-class exercises. Ideally, half the time should be used on exercises.
 
-> DONT teach everything, let the students investigate topics on their own aswell!
+> DON'T teach everything; let the trainees investigate topics on their own as well!
 
-> Focus on how to read documentation, google answers and google errors!!
+> Emphasize how to read documentation, search for answers, and debug errors!
 
-> Teach towards the students being able to solve the homework
+> Teach towards enabling trainees to solve the homework assignments.
+
+> Alternate between teaching and exercises. Avoid long lectures; most people can't focus for more than 45 minutes.
 ```
 
 Remember to add the code you wrote in the class to the relevant class branch's class work folder. If the branch has not been created just create and push it :) If you dont have access, write to one from the core team. You can see an example below!
 
 To find examples of what teachers have taught before go to the class branches in the classwork folder, Fx [class 07](https://github.com/HackYourFuture-CPH/JavaScript/tree/class07/JavaScript1/Week1/classwork)
 
-If you find anything that could be improved then please create a pull request! We welcome changes, so please get involved if you have any ideas!!!
+> [!IMPORTANT]
+> If you find anything that could be improved then please create a pull request! We welcome changes, so please get involved if you have any ideas!
+
+# Suggested Lesson Plan
+
+> [!TIP]
+> Below is a suggestion for a lesson plan you can use. Feel free to use your own if it suits your better. Just make sure to cover [the learning goals](./readme.md). 
 
 ---
 - Recap of js basics
