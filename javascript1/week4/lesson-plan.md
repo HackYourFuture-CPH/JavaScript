@@ -17,7 +17,7 @@ This class is about getting the basics hammered down. We have had a lot of stude
 Focus on 
 > Recapping what the students struggle with
 > Letting the students learn a framework for solving problems
-> Lots and lost of exercises 💪
+> Lots and lots of exercises 💪
 ```
 
 > [!IMPORTANT]
