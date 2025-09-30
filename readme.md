@@ -1,3 +1,6 @@
+> [!WARNING]  
+> This repo has been archived and is no longer in use. Please check out the new [Program](https://github.com/HackYourFuture-CPH/program) for up-to-date material.
+
 > Please help us improve and share your feedback! If you find better tutorials or links, please share them by opening a [Pull Request](https://github.com/HackYourFuture-CPH/JavaScript/pulls).   
 > 
 
