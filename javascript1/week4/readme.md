@@ -1,17 +1,23 @@
 ## Learning goals
-- [ ] Recap of js basics
-  - [ ] Variables
-  - [ ] Types
-  - [ ] Conditionals
-  - [ ] Functions
-  - [ ] For loop
-  - [ ] scope
-  - [ ] Arrays
-  - [ ] Objects
-- [ ] Solving problems
+For this session, we will reinforce the fundamental concepts of JavaScript covered in the past three weeks. You will gain extensive hands-on experience through various exercises.
 
+#### JavaScript Basics
+- [ ] Variables
+- [ ] Types
+- [ ] Operators
+- [ ] Conditionals
+- [ ] Functions
+- [ ] Scopes 
+- [ ] For loops
+- [ ] Arrays
+- [ ] Objects
 
-## Relevant links
+#### Essential Soft Skills for Junior Developers
+- [ ] Problem-Solving
+- [ ] Communication & Collaboration
+- [ ] Continuous Learning & Adaptability
+
+## Relevant Links
 * [Preparation](preparation.md)
 * [Homework](homework.md)
-* [Lesson plan](lesson-plan.md)
+* [Lesson Plan](lesson-plan.md)
